@@ -1,0 +1,1119 @@
+Page 1
+
+1
+Putting things into perspective
+
+1.1 Why study bridge hydraulics?
+
+Many people, indeed many engineers, who are not familiar with the subject imagine that
+constructing a bridge across a river is entirely a problem in structural engineering. They
+assume that the bridge opening can be made so large that it will completely span the river at
+such a height that floodwater will never rise anywhere near the deck. If this was always true
+there would be little need to study bridge hydraulics, but in reality things are rarely this simple.
+Economics often dictate the length of span and therefore how many piers have to be located in
+the river. Similarly economics, the geography of the site or the nature of the crossing (such as
+a railway line with a fixed vertical profile as in Fig. 1.1) may impose some restriction on the
+maximum permissible elevation of the deck. Consequently flood levels may rise to deck
+height or above. What initially appeared to be an elementary problem turns out to be quite
+complicated.
+So why study bridge hydraulics? Four answers quickly spring to mind.
+• Nobody can be allowed to build a new bridge that has piers and /or abutments in a river
+without first being able to prove by calculation or modelling that the resulting backwater
+will not cause, or significantly exacerbate, flooding of land and property upstream. This is
+becoming increasingly important as the demand f or building land leads to construction on
+river floodplains that, by definition, are already prone to flooding.
+• At locations where there is an existing bridge and significant flooding, an analysis may be
+required to determine how much of the flooding is caused by the bridge and how much by
+other factors—such as simply too much floodwater to be carried within the river channel. If
+the analysis shows the bridge to be at fault, then this may be sufficient justification to
+construct a new structure.
+• If it is known that a bridge provides a significant obstacle to flow and is responsible for
+much of the flooding that occurs, with a knowledge of bridge hydraulics it may be possible
+to design improvement works that will help to alleviate the problem.
+
+Page 2
+
+Fig. 1.1 Exwick rail bridge; part of the flood relief channel at Exeter, Devon. Note the rounded soffit
+and abutments, and elongated piers. A physical hydraulic model study of the scheme was
+undertaken, and this is to be recommended whenever novel designs or complex flows are
+involved.
+
+• In addition to the nature and geometry of the river channel, the shape, spacing and
+orientation of the bridge piers and abutments will affect the flow through a bridge and the
+likelihood of scouring of the bed. Well designed bridges are not immune to this problem,
+while bridges that are badly designed hydraulically are even more likely to fail and collapse.
+Section 1.3 illustrates that this can have tragic consequences. How can a good design be
+obtained without a knowledge of bridge hydraulics?
+This book is concerned with the hydraulic analysis and design of bridge waterway openings.
+It covers both single and multispan bridges with either rectangular or arched waterways. It is
+based on a century or more of study and research by investigators all over the world, most
+notably in North America. It can be used to estimate how a bridge, existing or proposed, will
+alter water levels at a site at any particular discharge. Conversely, it can be used to calculate
+the discharge from the obs erved water levels. It can be employed to analyse and design
+modern bridges with relatively long rectangular spans, or to investigate the hydraulic
+performance of the old masonry arch structures that are still numerous in many parts of the
+world. Other top ics covered include how to improve the flow through a bridge, and how to
+evaluate and alleviate the problem of scouring of the foundations.
+
+Page 3
+
+It is a tribute to past generations of engineers that bridges that were built for horses and
+carts, sometimes many centuries ago, are still standing and able to carry modern traffic.
+However, although the mode of transport may have changed, some of the problems faced by
+bridge engineers are timeless.
+
+1.2 Early developments in bri dge hydraulics
+
+Possibly the earliest permanent river bridge of any significance was built somewhere between
+810 and 700 BC across the River Euphrates at Babylon (Overman, 1975). The bridge was
+around 120 m long with stone piers 10m wide and 22m in length. A timber deck spanned
+between the piers, although parts of this were removed at night to stop thieves crossing from
+one side of the city to the other! The piers were built in the shape of boats, pointing upstream
+to reduce the resistance to flow. This ear ly example of applied bridge hydraulics was probably
+a logical extension of the practice of using boats lashed together to form floating bridges.
+A form of floating bridge was used by Xerxes in 480 BC to span the 1400m wide
+Hellespont, which joins the Black and Aegean Seas, so that his army could invade Greece.
+When a violent storm destroyed one of the two bridges, Xerxes ordered that the Hellespont
+should receive 300 lashes and have a pair of fetters thrown into it. He also ordered that the
+men responsible for building it should have their heads cut off, which is a rather severe form
+of professional liability by modern standards!
+The Romans probably represent the finest early bridge engineers, the quality of their road
+network being apparent even today. They recognised that beam bridges had a limited span,
+and so employed semicircular arches of up to 30m. They knew how to build cofferdams and
+drive piles. A good example of their work is the bridge in Rome now called the Ponte Molle,
+which was built in 109 BC. Although the bridge was restored in 1808, four of its original
+arches, the largest spanning 25.7m, are still standing. The bridge was used during the Second
+World War to carry tanks across the Tiber.
+The Romans did not develop the segmental or elliptical arch, which makes larger spans
+practical. These came much later. They were restricted to the semicircular arch, which has the
+advantage that there is no lateral thrust to the piers. They did, however, realise that if the piers
+had cutwaters or starling s that were pointed at both ends (instead of boat shape) then there
+were fewer eddies downstream of the structure so its hydraulic efficiency was improved.
+Roman engineering was so good it is something of a surprise to see engravings of the first
+stone br idge to be built over the Thames at London between 1176 and 1209. The most striking
+features are the houses, shops and chapel built on the bridge, combined with the narrowness
+of the openings (Fig. 1.2). The bridge had 20 arches with spans that varied between 3.0m and
+9.6m. Most of the piers were about 5.5m wide and were surrounded by starlings to a little
+above low water level, so that the total width
+
+Page 4
+
+of the openings was only about 59.7m between the starlings and 137.2m above them, while
+the river was 282.2m wide (Ruddock, 1979). This is an opening ratio of 0.21 and 0.49
+between and above the starlings respectively. Typically, the piers of Roman bridges were on ly
+a quarter of the width of the river, giving an opening ratio of 0.75. A ratio of 1.0, of course,
+represents an unconstricted channel. Thus London Bridge represented quite an obstacle to the
+flow of the river, and this gave rise to the famous ‘fall’ or difference in water level across the
+structure. The fall terrified the London boatmen, understandably so since it was measured at
+up to 1.45m around the year 1736. However, the fall had its uses. In the eighteenth century
+water -wheels were placed in four of the openings and used to drive pumps that supplied the
+city with water. For this reason an Act of Parliament forbade anyone to reduce the fall, even
+though the rush of water through the openings was so great that there was a constant danger of
+the piers being damaged or undermined and the bridge collapsing. By 1800 this problem had
+become so acute that a Select Committee of the House of Commons recommended
+replacement, and this new bridge was officially opened in 1831. Despite its many faults, the
+old bridge had lasted over 600 years.
+Notwithstanding its longevity, old London Bridge illustrates nicely that narrow openings
+and wide piers result in high waterway velocities, a large fall across the structure, scour, and
+damage. It also shows that British bridge building had progressed little over the centuries. On
+the other hand, the French had established the Corps des Ingénieurs des Ponts et Chaussées
+
+Fig. 1.2 London Bridge was built between 1176 and 1209. The openings are only about half the width
+of the river, and vary in shape and size. Houses and shops line the bridge. (Copyright ©
+The Musuem of London)
+
+Page 5
+
+by 1720 and the Ecole des Ponts et Chaussées by 1747. When it was proposed in 1734 that a
+new bridge should be built across the Thames at Westminster, there were few engineers in
+Britain that were qualified for such a task. Therefore it i s no great surprise that it was a
+Frenchman who calculated the fall through both old London Bridge and the proposed
+Westminster Bridge. This was probably one of the first times that such a calculation had been
+made but, although apparently accurate, it was of limited value because few laymen or
+engineers of the day could understand it. In his excellent book, Ruddock (1979) suggested
+that the method used must have been similar to that described by Robertson in 1758.
+Adopting modern notation and terminology, this was as follows.
+If the depth is constant, the continuity equation becomes
+
+where B is the width of the river channel, b is the total width of the bridge openings, and V1
+and V2 are the corresponding flow velocities. Recognising that the live stream will contract
+between the piers, a coefficient of contraction with a value of 0.84 was introduced (based on
+observations by Isaac Newton of flow through sharp-edged orifices). Thus
+
+(1.1)
+
+Page 6
+
+was so little advance, o r even a regression, from Roman times. The situation was better in
+France, where the Frères du Pont (Brotherhood of the Bridge) were at least as good as the
+Romans. Between 1178 and 1188 they constructed what was at the time the longest stone arch
+river br idge, the Pont d’Avignon across the Rhone. The largest of the 21 spans was 32.5 m.
+However, the arches were pointed like church windows, so they were wasteful and expensive.
+This style is typical of the period, and can be seen in Bishop Skirlaw’s fifteenth -century
+bridge across the Tees at Yarm (Fig. 1.3).
+To be economical and efficient the arches of a bridge should be as long and as flat as
+possible. Consequently the use of segmental arches by Taddeo Gaddi in 1345 for the Ponte
+Vecchio in Florence, Italy, was a major step forward. With segmental arches the abutments
+have to withstand a lateral thrust, the thrust being balanced at the piers. In 1371 a single
+segmental arch with a span of 71 m was built over the Trezzo River near Milan. This span
+was the longest ever built, a record that was to stand for 400 years. The ability to bridge large
+distances with a single span, or a few large spans, made things much easier from the point of
+view of bridge hydraulics, although the structural problems increased and many bridges
+collapsed.
+
+Fig. 1.3 The original fifteen th century part of this bridge across the tidal River Tees at Yarm has
+characteristic pointed arches (nearest the camera). It was constructed with a road width of
+about 3.7 m, but this was increased in 1806, the ‘join’ just being visible. The combination
+of a spate in the river with a high tide has frequently resulted in the town being flooded to a
+depth of several metres, notably in 1771 and 1881.
+
+Page 7
+
+Advances in bridge hydraulics came rather slowly, and it was not until the completion of
+the Pont No tre Dame in 1507 that a new feature was introduced. This was due to the ingenuity
+of a French priest, Giovanni Giocondo, who by increasing the span of an arch towards its
+edges was able to spring the arch from nearer the pointed ends of the piers. This resulted in a
+wider bridge for a given pier size. The same technique has also been used to widen existing
+bridges. However, the ‘rounding’ of the edge of the arch also gave better hydraulic
+characteristics. This feature became known as cornes de vâche because it looks as though the
+central piers have cow’s horns. Chamfers on the voussoirs were used by Thomas Telford on
+the Over Bridge at Gloucester (1826–1830) and at Morpeth to bridge the River Wansbeck
+(1831). In the former case it was to help pass the frequent large floods that occur in the Severn,
+while at Morpeth the low street levels and restricted width between the existing river walls
+made a hydraulically efficient bridge desirable (Fig. 1.4). Possibly Telford also liked the
+architectural effect of this feature.
+In 1720 the Corps des Ingénieurs des Ponts et Chaussées was given the responsibility of
+developing France’s roads, which led to the creation of a special college, the Ecole des Ponts
+et Chaussées, in 1747. This effectively created the first civilian civil engineers and established
+France as a leader in the field of bridge building. Chief Engineer of the Corps was Jean
+Rodolphe Perronet, who in 1774 used five elliptical arches of 36 m span for the Pont de
+Neuilly over the Seine in Paris. This enabled even longer flatter spans to be constructed, and
+with this bridge the piers were only one -ninth of the arch width, so the opening ratio must
+have been about 0.89.
+The next significant hydraulic development appears to have been on the Sarsfield Bridge
+(formerly Wellesley Bridge) built by Alexander Nimmo
+
+Fig. 1.4 Thomas Telford’s 1831 bridge over the River Wansbeck at Morpeth, Northumberland. Note
+the cornes de vâche at the arch springings.
+
+Page 8
+
+between 1824 and 1835 at Limerick in Ireland. Nimmo curved the whole soffit of the arch,
+making the opening higher on the outside edges than in the centre. This made it more
+streamlined and enabled it to pass more easily the spring tides that rise part of the way up the
+arch. Modern equivalents are shown in Figs 1.1 and 7.1.
+In 1826 Thomas Telford’s Menai Strait Bridge was opened. This was the world’s first great
+suspension bridge, having a span of 174m. In a way it marks a turning point, because after
+this civil engineering had advanced sufficiently to provide an effective alternative to
+multispan masonry bridges with their attendant hydraulic problems, although it could be
+argued that this distinction goes to the world’s first cast iron bridge built by Abraham Darby
+in 1777. This spanned 30m across the Severn at Coalbrookdale in England. Of course stone
+bridges continued to be built until perhaps the 1930s in Britain. Today over 1000 ma sonry
+arch bridges remain in the county of Devon (George, 1982) with a further 400 or so in
+Cornwall. Many of these are quite old, with around 310 bridges in the two counties being
+either scheduled as ancient monuments or listed as buildings of architectural or historical
+importance. These bridges are protected and have to be looked after. The total number of
+preserved arch bridges in Britain must be quite large.
+When the first major reinforced concrete bridge with two 69m spans was built in 1904 in
+Germany, the days of masonry arch bridges became numbered. Reinforced concrete or
+prestressed concrete river bridges with rectangular openings have become the norm, although
+to most people they lack the charm and individuality of the old arch bridges—so much so that
+in the more environmentally aware Britain of the 1990s public opinion has resulted in the
+construction of one or two new masonry arch bridges (Fig. 1.5), even though this was not
+necessarily the cheapest option. However, the twentieth century remains dominated by
+reinforced concrete.
+The end of the era in which the construction of arch bridges was common more or less
+coincided with the start of serious research into bridge hydraulics. In 1840, d’Aubuisson
+published a work in Paris containing an equation for flow through a bridge. In America,
+Nagler (1918) and Lane (1921) published significant contributions to the subject, to be
+followed by Yarnell (1934) and many others. They established the subject that is developed in
+this book, and it is easy to forget the difficulties that they faced. At the start of the twentieth
+century the subject of fluid mechanics or hydraulics was not as advanced as it is now.
+Additionally, the instruments available were simple and, by modern standards, crude.
+However, many of the principles of applied bridge hydraulics that they pioneered are equally
+valid today and can still be found in modern practice.
+While many old bridges are still in regular use, it is wrong to think that all bridges built by
+our recent ancestors stood for centuries. For instance, the iron bridge constructed at Yarm in
+1805 to replace Bishop Skirlaw’s crashed into the river in 1806 before it had even been
+opened to tr affic.
+
+Page 9
+
+Fig. 1.5 This new three -span masonry bridge across the River Esk at Egton Bridge, North Yorkshire,
+was opened in 1994, replacing an unattractive 1930s steel structure. The bridge is an exact
+replica of the original 1758 structure, two spans of which were destroyed by flood in 1930.
+
+Consequently the old stone bridge was widened, and is still in use (Fig. 1.3). Some were
+washed away during construction; others collapsed. Only the best examples of the bridge
+builders’ work usually survives but, regardless of age, the possibility of failure is ever present.
+
+1.3 Hydraulic causes of bridge failure
+
+Smith (1976, 1977) studied 143 bridge failures that occurred throughout the world between
+1847 and 1975. He grouped the causes of failure into nine categories, as shown in Table 1.1.
+Almost half of the failures were due to floods. One flood can wash away the foundations of a
+large number of bridges at the same time, particularly small structures. Perhaps the table also
+shows that engineers pay more attention to structural design than they do to hydraulic
+considerations? Or perhaps, since the excess flow may bypass the bridge as discussed in
+Chapters 6 and 8, the most severe consequences of the design flood being exceeded are scour
+and foundation failure? Either way the table illustrates the importance of appropriate
+hydraulic design if a bridge is to stand for centuries. The design process is considered in
+Section 1.4.
+White et al. (1992) commented on bridge failures in the USA and observed that the most
+common cause was floods and the other actions of water. More specif ically, two factors were
+identified: one was scour, and the second was debris piled against the structure. Sometimes
+these two factors can
+
+Table 1.1 Causes of bridge failure, 1847–1975 (after Smith, 1976, 1977). Except in the remarks
+column, secondary causes are omitted: each failure is listed once
+
+Page 10
+
+Cause of failure
+
+Flood and foundation movement
+
+Unsuitable or defective permanent
+material or workmanship
+Overload or accident
+Inadequate or unsuitable temporary
+works or erection procedure
+Earthquake
+Inadequate design in permanent
+material
+Wind
+Fatigue
+Corrosion
+Total number of failures
+
+Number of
+failures
+
+Comments
+
+70 66 scour; two earth slips; one floating debris;
+one foundation movement
+22 19 by brittle fracture of plates or anchor bars
+
+14 10 ship or barge impact
+12 Inadequacy in permanent design a
+supplementary cause in one instance
+
+11
+5
+
+4
+4 Three cast iron; one hastened by corrosion
+1
+143
+
+Reproduced with permission, Institution of Civil Engineers
+
+be interrelated. Of the two, damage caused by scouring of the bottom material around the
+foundations tends to be the most prevalent. A study conducted in 1973 showed that of 383
+bridge failures caused by catastrophic floods, 25% involved pier damage and 72% involved
+abutment damage. A more extensive study in 1978 showed that scour at bridge piers was just
+as significant as scour at the abutments. In 1985, in Pennsylvania, Virginia and West Virginia,
+73 bridges were destroyed by flooding, including scour. During the floods in spring 1987, 17
+bridges in New York and New England were damaged or destroyed by scour.
+Scour in its widest sense may also include lateral erosion of the riverbanks in the vicinity of
+a bridge (Fig. 1.6). This may result in the flow approaching the bridge at a skewed angle
+instead of perpendicularly, greatly increasing the potential for failure of the piers, abutments
+and highway embankments. In one survey of 224 bridges in the USA it was discovered that
+106 sites (47%) had hydraulic problems as a result of lateral stream erosion (Brice, 1984).
+Accumulation of debris was a problem at 26 sites (12%), with many more experiencing some
+form of scour.
+Between 1964 and 1984 around 46 bridges were seriously damaged by
+
+Page 11
+
+Fig. 1.6 Lateral erosion downstream of the railway viaduct at Fenny Bridges, Devon, in July 1968.
+The line of the original river bank is shown by the dashes. Changes of this type can
+significantly alter the angle at which the flow hits the piers and thus affect scour depths.
+(Reproduced by permission of the Environment Agency)
+
+flood action in Devon and Cornwall, and a further 13 were actually destroyed (Hamill and
+O’Leary, 1985). This is a significant number, but with over 5000 bridges in the two counties it
+represents a relatively small proportion of the total. Thus bridge failures are thankfully rare,
+but not uncommon. There are around 60 counties in Britain, so the figures for Devon and
+Cornwall can be used to gain some idea of the national picture. It should also be remembered
+that Britain’s climate is relatively moderate compared with some parts of the world. When
+typhoon Fran hit Kyushu in Japan in 1976, giving 1.95m of rainfall, a record at that time, the
+result was 233 bridges washed away, 133 fatalities and 337 injured (Holford, 1977).
+It is instructive to see what lessons can be learnt from these failures. The evidence suggests
+that there were three principal factors involved, either singly or in combination: an
+inadequately sized opening, scour, and the accumulation of flood debris.
+
+1.3.1 Inadequate waterway openings
+
+There is no universally applicable definition of what constitutes an inadequate opening, but if
+a bridge is seriously damaged or destroyed by flood
+
+Page 12
+
+then possibly the bridge waterway was not large enough. Regular flooding upstream may also
+indicate that the opening should be larger.
+Most of the damage and destruction experienced i n Devon and Cornwall has been the result
+of a small number of extreme storms. For instance, in July 1968 10 bridges were destroyed
+and a further 19 damaged (Criswell, 1968; George, 1982). The waterway openings of the
+bridges were too narrow so that the res ulting water velocities could easily remove the
+sedimentary bed materials and erode the foundations. In general, the smaller and older bridges
+were the worst affected. In August 1952 the catastrophic flood at Lynmouth damaged or
+destroyed 28 bridges, the openings being too small for the flood flows (Fig. 1.7). The two
+rivers, the East and West Lyn, that flow into Lynmouth have gradients of 1 in 25 and 1 in 8 as
+they approach the town. With an estimated combined flow of 700m 3/s from a catchment of
+only 101 km 2, what were normally small streams turned into raging torrents carrying large
+boulders and other flood debris. No wonder the bridge openings were insufficient. The force
+of the floodwater must have been enormous. A 7.5 tonne boulder was found in the basement
+of a hotel. The tremendous battering received by the bridges combined with water levels that
+rose above the top of the waterways not surprisingly led to damage and destruction. When
+five of the larger waterways were replaced,
+
+Fig. 1.7 Lynmouth, Devon, after the flood of August 1952. A reminder never t o underestimate the
+power of water. Note the boulders piled against the Lyndale Hotel to a depth of around 9 m,
+and the water staining on the walls. Midway between the camera and the hotel are many
+human figures and a bulldozer, which gives some sense of scale. (Reproduced by
+permission of the Western Morning News, Plymouth)
+
+Page 13
+
+each had the width and height of span increased by a factor of 2 or 3 (George, 1982).
+The magnitude of the Lynmouth flood was something of a shock for British hydrologists.
+With 34 lives lost, 93 houses destroyed or later demolished as unsafe and 300–400 people
+rendered homeless, the event illustrated the unpredictability and power of nature. For bridge
+engineers it raised the question as to what magnitude and frequency of flood event a waterway
+should be designed for. This was not a new question. In 1811 Telford confessed that he could
+not ensure the safety of bridges in the Highlands of Scotland from the maximum spates he
+was beginning to think were possible (Ruddock, 1979). If he did it would be uneconomic. In
+1812 he observed that ‘…it is only by degrees that the proper dimensions for a bridge can be
+ascertained’, and ‘The bridges now built will serve for a scale of measurement, each for its
+own river.’
+These words are still true almost 200 years later. With climatic change possibly occurring,
+the prediction of floods is a risky business. It appears that large floods may happen more
+frequently than first thought. In 1982 George considered Devon floods and the waterways of
+bridges, and suggested the guidelines in Table 1.2. In the discussion arising from this paper,
+Canadian guidelines were quoted as ranging between 1 in 200 years for long freeway bridges
+to 1 in 25 years for short local bridges. George also recommended that due consideration
+should be given to the maximum historical flood, and to the possibility of unusual types of
+flood occurring. For the purpose of assessing the waterway area required to cope with the
+design flood, the Lacey relationship for alluvial channels (equation 1.5) was said to be
+surprisingly good as a check on opening width (Neill, 1973), although local factors must also
+be considered.
+As far as the height of the opening is concerned, it has been suggested that the soffit should
+be 0.6 –1.0m above the design flood level, or on minor watercourses 600mm above the highest
+known stage (Brandon, 1989; Richardson et al., 1993; Highways Agency, 1994). This is
+easier than it sounds given the difficulty of calculating the design water level and the fact that
+the water surface may not be flat but consist of waves superimposed on a transverse slope,
+particularly if the bridge and approach embankments are skewed (Fig. 2.7 and Section 3.7). If
+there is no restriction on height
+
+Table 1.2 Suggested return intervals for bridge waterways based on Devon floods
+
+Category
+
+Immediately downstream of a community
+Motorways and trunk roads
+Other roads in rural areas
+Submersible bridges (pipe bridges)
+
+After George (1982)
+
+Flood interval (years)
+
+1 in 1000 years
+1 in 150 years
+1 in 30 years
+1 in 5 years
+
+Page 14
+
+then, given that the frequency of major floods may be underestimated, the higher the better.
+There is then less risk of debris becoming stuck, flooding upstream and damage to the bridge
+(see Appendix A).
+Of course, a bridge does not have to be damaged or destroyed before it is considered to
+have an inadequate waterway opening. If the opening is so small that it acts like a retarding
+dam and causes the inundation of a large residential or commercial area upstream then the
+bridge can hardly be considered to be adequate, even if it survives the flood unscathed (Fig.
+1.8). Additionally, if the quantity of water stored by a bridge and embankment exceeds
+25000m 3 above the natural level of any part of the adjacent land, then in Britain reservoir
+safety legislation applies (HMSO, 1975), and the bridge and embankment have to be designed
+as a dam and inspected by suitably qualified engineers throughout their life, increasing costs
+significantly. Although 2500 0m3 sounds like a large volume, it is only a depth of 2.0m on
+floodplains 60m wide and 209m long, which can be achieved easily. To avoid this the
+waterway must be made large enough to pass the design discharge with floodplain storage
+kept below the critica l value or, alternatively, the approach embankments should be designed
+to allow excess flow to pass over them (see Chapter 6).
+Just how much backwater can be tolerated from a bridge depends upon factors such as the
+frequency of flooding and the local land use: different values will be adopted for city centres
+and open farmland. However, there is another consideration, which is the relationship
+between the backwater an d the velocity of flow through the waterway opening. Simple
+hydraulics
+
+Fig. 1.8 This 2.06 m span bridge at Polgooth, Cornwall, is reported to have severely obstructed the
+stream and thus contributed to severe flooding in the village in November 1997. The bridge
+itself exhibits separation of the upstream arch ring; undermining of the foundations was
+suspected. It also suffered a partial collapse downstream, and is to be replaced by a
+reinforced concrete deck-type bridge. This example serves as a reminder that small bridges
+must also be designed with care. (Reproduced by permission of Cornwall County Council)
+
+Page 15
+
+dictates that the larger the head difference across the bridge the greater the waterway velocity.
+At sites where scour cannot be tolerated then a backwater of only 0.3m may represent an
+upper limit (Bradley, 1978). If the riverbed is s table or consists of rock then a larger value
+may be permissible.
+
+1.3.2 Scour effects
+
+Because the openings of a bridge are usually less than the full width of the river, the water
+accelerates as it approaches and passes through the waterways. Consequently the velocity is
+higher than it would otherwise be, and this can cause scour and undermining of the
+foundations of the bridge. The narrower the openings the larger the velocity, and the finer the
+material the more easily it can be transported ( Fig. 1.14 and Table 1.3).
+Scour can be very destructive. As mentioned earlier it was a problem with old London
+Bridge. In 1763 John Smeaton was engaged to stop the bridge being undermined while
+alterations were being undertaken (Ruddock, 1979). His favourite solution was to use rock or
+rubble bed armouring. He held a low opinion of the comm on alternative of ‘paving’ the bed
+between the piers or abutments. Although Smeaton was perhaps the best river engineer of his
+time, he too had problems with scour. In 1777 Smeaton designed Hexham Bridge, and while
+it was being constructed a flood scoured the gravel from under the upstream ends of all four
+piers. Smeaton revised his design to include sheet piling protection and completed the bridge.
+Then in March 1782 a combination of rain and snow-melt sent a large flood down the River
+Tyne, and this undermined one pier and brought down six arches within 30 minutes. Thus the
+man who had successfully built a lighthouse on the notorious Eddy stone Reef 23km (14
+miles) off Plymouth had great difficulty in building a bridge across a river! Nor was Smeaton
+alone; many engineers before and after have had the same problem. Of course, the materials
+and plant available then were very limited by today’s standards, so constructing bridge
+foundations in loose sediments where there was deep or fast -flowing water was no easy
+matter. Consequently the potential vulnerability of old bridges, many of which survive, should
+be remembered. It was mainly the older, smaller bridges that were destroyed in the East
+Devon Flood of 1968 described above. Many railway bridges are vulnerable, having been
+built during the railway boom of the nineteeenth century. Modern construction techniques
+make serious problems with scour less likely, but it should never be forgotten. Indeed, it has a
+rude method of reminding us of its existence.
+In Oct ober 1988 severe flooding of the River Towy near Llandeilo in Wales caused one of
+the piers of Glanrhyd railway bridge to be undermined as a result of scour (Fowler, 1990).
+The pier collapsed, and subsequently the whole bridge failed. An early morning pass enger
+train drove off the abutment. Four people were killed. In February 1989 scour caused part of
+the 127 year old viaduct over the River Ness in Scotland to collapse only half an hour
+
+Page 16
+
+after a train had passed over it (Fig. 1.9). Only a few months earlier the viaduct had passed a
+routine maintenance check. It was due for a more comprehensive examination later in the year,
+including an underwater inspection (Montague and Fowler, 1989). However, such inspections
+are not foolproof. Scour can occur quickly, and scour holes created during a flood can be
+refilled as the spate recedes. By the time an inspection can take place the bed may not be
+obviously different from that which existed prior to the event, so a fterwards it is easy to
+underestimate the depth of scour that has occurred.
+In the USA, a failure that caused loss of life was the collapse of the New York State
+Thruway Bridge over Schoharie Creek in April 1987; ten persons died. In Tennessee, in April
+1989, the route 51 road bridge over the Hatchie River collapsed. This structure fell as a result
+of a series of floods in January, February and April, which is thought to have caused scouring
+around two of the piers, initiating the failure. Five vehicles drove off the bridge into 10m of
+water, killing eight people (Fowler and Russell, 1989; White et al., 1992). The bridge was
+1280m long with 143 spans, three of which were the main river spans. The river normally has
+a width of 30–50m, but when flowing overbank the floodplain is as wide as the bridge.
+Factors that may have contributed to the disaster include the river changing course and/or the
+collection of debris on the piers (see Section 1.3.3). It was recognised that because of the fine
+riverbed material scour
+
+Fig. 1.9 Part of the viaduct over the River Ness, which collapsed in February 1989. Scour was
+suspected to be the cause. (Reproduced by permission of John Paul Photography,
+Inverness)
+
+Page 17
+
+could be a problem, and it is reported that the bridge had been inspected from above during
+the February floods with no settlement or misalignment being recorded. Paradoxically, the
+critical April flood was apparently the smallest of the three.
+Scour is a potential problem with all river crossings, but sometimes it may occur where it is
+not expected. A change in the thalweg or main river course contributed to both the Glanrhyd
+and Hatchie bridge disasters. When there is a shift of course the stream will not hit the piers
+head on but from the side, greatly increasing the obstacle to flow and the potential scour depth
+(Figs 1.6 and 1.15b). Thus the bridge engineer must assess the likelihood of a change of
+course and the possible consequences. Another duty is to ensure that regular and
+comprehensive inspections are conducted, both above and below water (Richardson et al.,
+1993). Of course, even if it is known that there is a high risk of scour, it is not possible to
+undertake an underwater inspection during a flood. Until recently, the only clue to impending
+foundation failure might be defects in the superstructure, such as a dip in the parapet. Now
+various sensors are available that are capable of monitoring scour as it happens and, if
+necessary, of initiating an alarm (Table 8.1 and Fig. 8.3).
+The magnitude of the threat posed by scour is illustrated by a study conducted after the
+Glanrhyd and Inverness failures. This suggested that over 1000 rail bridges in the UK could
+be at serious risk and in need of urgent investigation and foundation work (Watson, 1990).
+The true number was subsequently found to be smaller, but this illustrates nicely the scale of
+the problem and the degree of uncertainty involved. Virtually every river bridge in the UK has
+been under scrutiny, and new guides have been developed (Highways Agency, 1994;
+Railtrack, 1995). Bridges in the USA have also been under scrutiny (e.g. Richardson et al.,
+1993; Bryan et al., 1995)
+So why does a bridge stand for 127 years before failing? Why does a bridge fail during a
+flood smaller than experienced only a few months earlier? Luck may determine when a bridge
+first encounters an extreme event, the collection of debris is unpredictable, while some effects
+(e.g. scour and ageing) can be cumulative. There is also a philosophical answer in the form of
+an old saying that no one sets foot in the same river twice. In other words, no two floods are
+the same.
+
+1.3.3 Debris
+
+The accumulation of flood debris is one of the more unpredictable problems (Figs 1.10 and
+1.11). Anything from leaves to whole trees, and garden sheds (Fig. 6.1) to Dutch barns have
+been seen floating downriver during flood. When debris becomes wedged across the
+waterway opening or caught on a pier it reduces the flow area and increases the water velocity,
+which in turn can increase scour. When combined with the increased
+
+Page 18
+
+Fig. 1.10 Even the performance of a well-designed bridge can be adversely affected by unexpected
+flood debris; Ham Footbridge, River Sid, Sidmouth in July 1968. (Reproduced by
+permission of Hayes Studio, Sidmouth)
+
+Fig. 1.11 Debris can be a particular problem in forested areas, as illustrated here by Whetcombe
+Barton Bridge on the River Teign, Devon, in 1960. The approximate flood level was at the
+bottom rail of the parapet. (Reproduced by permission of the Environment Agency)
+
+Page 19
+
+backwater that inevitably occurs, it can also create a horizontal pressure that may lead to
+failure of the superstructure (see Appendix A ).
+Bridge piers, particularly those in the centre of the main channel, can collect large
+quantities of debris, which significantly reduces the hydraulic performance. This should be
+taken into consideration at the design stage. Single -span bridges with large central waterways
+may be trouble free provided nothing jams across the entire opening. For small single -span
+bridges the blockage can be as much as 90% of the opening (Highways Agency, 1994). The
+hazard is largest where the catchment above the bridge contains a large forested area with
+shallow roots on steep slopes. In the analysis and design of bridge waterways, debris is always
+one of the unquantifiable complications. Even if the hydraulic analysis is carried out
+diligently, flooding may be much worse than predicted as a result of debris.
+The debris does not always have to be caught on the bridge to cause problems: debris that
+obstructs the river channel either upstream or downstream of the structure may be sufficient to
+change the water levels at the site significantly and thus change the hydraulic performance of
+the bridge. Alternatively, the blockage may cause the river to change course.
+When analysing the damage that occurred to bridges in Devon and Cornwall between 1964
+and 1984 it was apparent that the accumulatio n of debris was either a contributory factor or
+suspected of being so in most cases. In September 1989 a fisherman warned police ‘of a
+gaping hole’ beneath the main river pier of the Girvan viaduct in Scotland (Pease, 1989).
+Nearly one-fifth of the bridge pier had disappeared. One possibility is that debris trapped on
+the pier altered the flow of the river, causing the scour. A void 2 m deep by 4 m long was
+reported at the upstream end of the pier. The structure was built in the 1880s.
+
+1.4 The hydraulic design of bridges
+
+A good hydraulic analysis is an essential part of designing a successful bridge, as illustrated
+by Table 1.1 . Some general guidelines and suggestions are given below, but these are not
+exhaustive, and must be modified to suit a particular project: the design of a crossing of
+national importance over one of the world’s great rivers is not the same as constructing an
+access road to a few isolated properties. Nevertheless, a generalised design process is shown
+in Fig. 1.12, which may be a useful reminder of some of the steps involved.
+One of the principal features of a successful bridge is an adequately sized opening, which
+necessitates the determination of a suitable design flood. Table 1.2 may be of use in selecting
+a suitable flood frequency, but the calculation of the flood magnitude is covered in great detail
+elsewhere and will not be repeated here (NERC, 1975).
+
+Page 20
+
+Fig. 1.12 Summary of some of the steps involved in the hydraulic design of bridge.
+
+Page 21
+
+1.4.1 Location
+
+Usually the alignment of a highway or railway will be selected so as to minimise the overall
+cost, a large part of which may arise from the construction of the river crossings. Therefore it
+is sensible to seek an alignment that will minimise the cost of the bridges without significantly
+adding to the total length of the road. The optimum location and type of crossing is often the
+one that is most economical in terms of both initial construction and long -term maintainance
+(a cheap bridge that regularly suffers expensive flood damage is not the best option). It is
+normally cheapest and easiest to construct a crossing where the river channel is well defined
+and stable, such as where rock outcrops at or near the surface or there are deposits of stiff clay.
+In such conditions expensive river training works will probably not be needed (see Chapters 7
+and 8). Therefore the alignment of the road and the location of the crossing should be decided
+with one eye on the local geology.
+Usually it is cheaper to construct an embankment than a bridge or viaduct, so the approach
+road embankments should be as long as possible without making the bridge wat erway so
+narrow that backwater or scour becomes a significant problem. Of course, if the waterway is
+made too narrow any economic advantage is lost because expensive river training works will
+be needed to compensate. The same concept, of an optimum opening width, applies to semi-
+stable or unstable channels that either migrate slowly or which are capable of a sudden and
+permanent change of course during a single flood. If such channels cannot be avoided then the
+best available site has to be found. The significant problem of lateral erosion and channel
+migration must always be remembered (Figs 1.6 and 1.13).
+
+Stable river channels
+Generally a bridge will not span the entire floodplain width, so the best site may be the one
+that offers the highest bridge opening ratio (Section 3.2): that is, where the flow in the main
+channel is largest compared with that over the floodplains. This helps to optimise the
+hydraulic efficiency and minimise the backwater. One of the key design decisions may be
+deciding the width of the waterway opening relative to the length of the highway
+embankments.
+
+Semi-stable and unstable river channels
+If the river channel is gradually moving, frequently shifts co urse or meanders periodically
+then site selection is more complex (Fig. 1.13). Assuming that the bridge will not span the
+entire floodplain width, some form of river t raining works may be needed to stabilise the
+channel and ensure that the flow approaches the bridge as planned, or does not miss the
+waterway opening altogether during flood. Training works are usually expensive to
+
+Page 22
+
+Fig. 1.13 Axe Bridge, Colyford, Devon, illustrating the problem of lateral shifting of the channel and
+route selection. The meander (bottom centre) looks as though it will be cut off at some time,
+possibly within the life of the bridge. When this happens the reduced channel length could
+increase velocities and cause degradation (see Fig. 8.8). An old ox -bow can be seen on the
+left. (Reproduced by permission of Devon Library Service)
+
+construct and maintain, so the aim should be to minimise such works by using any natural
+rock outcrops or other permanent controls, locating the crossing at a node that forms the
+crossover point in a sinusoidal meander, or possibly constructing the crossing at a bend if this
+is the only relatively stable feature. At a bend the channel may be typically about 1.5–2.0
+times the average depth and less likely to shift (Neill, 1973; Farraday and Charlton, 1983).
+Sharp bends can be indicative of the presence of relatively resistant local bed material, which
+is why the bend is there.
+Farraday and Charlton (1983) suggested that with wide floodplains it is generally cheaper
+to confine meandering rivers with training works and construct road embankments
+approaching the bridge than to bridge the entire inundated width. They quoted examples of
+the latter option being 1.12–2.94 times more expensive for floodplains between 1463m and
+3658m wide respectively. As described above, theoretically there is an optimum waterway
+opening width that will minimise the cost of both
+
+Page 23
+
+the bridge and the river training works. It was also suggested that it may be better to consider
+going around very unstable alluvial fans, but if they cannot be avoided then one should at
+least try to select an alignment near the inlet.
+
+1.4.2 Examination of existing data
+
+Existing data that are already a vailable or easy to obtain should be examined before
+embarking on an expensive field investigation. Some typical data and sources were given by
+Richardson et al. (1990) and the Highways Agency (1994) for the USA and UK respectively.
+The sort of data requir ed are as follows.
+
+TOPOGRAPHIC MAPS
+To determine channel and floodplain width, to help identify possible crossing sites, to obtain
+the channel gradient, and to indicate floodplain use. Forested areas upstream may suggest
+debris problems. Old editions of the maps may assist in identifying changes in channel
+alignment and land use, and hence problems with channel shifting and long-term degradation
+or aggradation (see Section 8.2.2). The land use may help decide the maximum permissible
+backwater.
+
+AIRPHOTOS AND SATELLITE PHOTOS
+Largely as for topographic maps.
+
+CHARTS AND TIDE TABLES
+For navigable waters charts may be available showing widths and depths, while tide tables
+will help determine the range of depths in estuaries. Any information regarding wave heights
+should also be obtained.
+
+GEOLOGICAL MAPS, SOIL MAPS AND GEOLOGICAL MEMOIRS
+May provide some details about the local geology and the likelihood of the channel migrating
+or of scour being a problem.
+
+CONSTRUCTION DETAILS OF EXISTING BRIDGES
+May yield some data regarding the geology, depth of foundations required, the design flood
+and the waterway dimensions. Have these bridges been successful? Are all of their spans
+used? Are the bridges bypassed during flood? Are their decks high enough? Has serious scour
+occurred? Have river training works been added subsequently? Is there another bridge or
+structure
+
+Page 24
+
+(see Section 4.3.4) that will interfere hydraulically with the proposed crossing or vice versa?
+
+HYDROLOGICAL DATA
+Such as gauging station records, annual maxima, stage—discharge relationship, and flow—
+duration curve. These are needed to help identify the design flood and the maximum likely
+water level, and to plan construction work.
+
+METEOROLOGICAL DATA
+Rainfall depths and intensities, snowfall and snow-melt, temperatur e range and wind speed.
+These data may help in assessing the possibility of flash flood, and of ice formation and ice
+loading on the superstructure. If appropriate, the wind speed can be used to assess potential
+wave heights. Both ice and waves may have to be allowed for when determining the height of
+the deck.
+
+RIVER CHANNEL DATA
+Things such as the roughness of the channel and floodplains (say for use in the Manning
+equation) are never easy to determine at the best of times and may have to be inferred initially
+from photographs or from preliminary visits to the site.
+In hydraulic calculations it is really the slope of the water surface or energy line over a
+distance of around 10–20 channel widths that is required, not the physical slope of the bed.
+However, this can often be obtained only from observations of floods, not from maps.
+Similarly it may be difficult to determine the width and depth of the river channel from maps.
+There are equations and diagrams that can be used to obtain typical dimensions (see Section
+8.6) but it is much better to base even preliminary calculations on real observations.
+
+SPECIAL CONSIDERATIONS
+Such as river regulation, ice flows, logging , or navigation that will require additional
+clearance between the flood level and the bridge superstructure. Environmental considerations
+are rightly becoming increasingly important and may determine whether or not river training
+works, spur dykes (see Section 7.4) or bypass channels can be constructed, and may also
+influence the appearance and design of the bridge and its highway embankments. Any
+environmental restraints should be fully explored at the outset, particularly in sensitive areas.
+
+Page 25
+
+1.4.3 Field investigations
+
+These are typically used to confirm the accuracy of the data above and to provide missing
+information: for example, the location of rock outcrops and hydraulic control points within
+the river, such as rapids. Samples of bed and bank material can be obtained for analysis to
+determine composition, grading and D50 value, and to assess scour and erosion potential
+(Table 1.3 ). In this respect it is worth looking for evidence of scour, especially at bends where
+the maximum flow velocity may be around 1.5 times the mean velocity of the river (in a
+straight channel the maximum is around 1.25 times the mean). If appropriate and possible,
+measure the actual velocity at the bends and relate this to the depth of the bed; this may give a
+guide as to what will
+
+Table 1.3 (a) Approximate erosion threshold velocities, VE. If water velocities exceed VE then erosion
+is predicted
+
+Bank material
+
+Clay
+Silt
+Fine sand
+Medium sand
+Coarse sand
+Sandy loam
+Loam
+Gravel
+Pebbles/stones
+
+After Netlon Ltd
+
+Approximate diameter, D (mm)
+
+VE (m/s)
+
+< 0.002
+0.002–0.06
+0.06–0.2
+0.2–0.6
+0.6–2
+
+2–60
+>60
+
+> 1.2
+0.2
+0.3
+0.5
+0.6
+0.6
+0.9
+1.0
+3.0
+
+(b) Tentative guide to competent mean velocities for the erosion of cohesive materials. The
+competent mean velocity (Vsc) is the velocity at which the flow is just competent to move the
+exposed bed material
+Depth of flow Low values: easily erodible
+material
+(m/s)
+
+Average values High values: resistant
+material
+(m/s)
+
+(m)
+
+(m/s)
+
+1.5
+3
+6
+15
+
+0.6
+0.65
+0.7
+0.8
+
+1.0
+1.2
+1.3
+1.5
+
+1.8
+2.0
+2.3
+2.6
+
+After Neill, 1973; reproduced with permission, University of Toronto Press
+Notes:
+1. This table is to be regarded as a rough guide only, in the absence of data based on local experience. Account
+must be taken of the expected condition of the material after exposure to weathering and saturation.
+2. It is not considered advisable to rela te the suggested low, average and high values to soil shear strength or
+other conventional indices because of the predominating effects of weathering and saturation on the erodibility
+of many cohesive soils.
+
+Page 26
+
+happen in the opening. The same argument applies to the noses of groynes and spur dykes,
+where the maximum velocity may be around 2.0 times the average.
+Evidence of flood levels may be apparent from trash deposits, ice scars or stains on existing
+structures. If the available hydrological data are limited, interviews with local residents can
+often provide rudimentary information regarding the frequency and height of floods. The
+opportunity should also be used to visualise flood flows both before and after the construction
+of the proposed crossing (Figs 8.8 and 8.16). How will the flow pattern be affected? Is bypass
+flow around the bridge possible? Should relief openings be provided on the floodplain(s), or
+would they be an unnecessary expense? Are flood flows spread evenly across the full width of
+the floodplain? Or are parts of t he floodplain used for flood storage with zero conveyance?
+This will affect the calculation of the bridge opening ratio and the estimation of the backwater.
+In the bridge approach, is the direction of flow on the floodplain the same as in the main
+channel, or different? What is the optimum orientation for the piers and abutments?
+
+1.4.4 General hydraulic design philosophy
+
+In addition to deciding the relative length of the bridge opening and any highway
+embankments, the designer will often have some idea as to whether the bridge will be a single
+or multispan structure from the channel and floodplain width and a knowledge of the
+economic importance of the crossing. What may be less obvious is whether or not a
+‘conventional’ design with the approach embankment s above the highest expected flood level
+(so traffic is not disrupted) is better than the alternative of keeping the approaches low so that
+anything larger than the design flood spills over them with relatively little damage (Chapter 6).
+It is highly unlikely that one of the minimum-energy waterways described in Section 7.5
+would be adopted, but at problem sites with certain characteristics this may be an option.
+
+1.4.5 Preliminary design of the bridge waterway
+
+From the above it should be possible to identify one preferred location for the waterway. The
+design procedure can be shortened if it is already known what the pier arrangement will be,
+otherwise an educated guess is needed. Pier spacing depends upon economics, ground
+conditions, navigation requirements, backwater restrictions, potential scour, and aesthetics. Of
+course, from the hydraulic perspective a single-span opening is preferable, but if piers are
+unavoidable then use as few as possible. Spillthrough abutments are better than vertical -wall
+types and will help to reduce afflux and scour (see Chapters 4 and 8).
+As a starting point it can be assumed that the width of the opening (b) is either equal to the
+width between the river banks (B) or is between the
+
+values obtained from the two equations below, according to the importance of the crossing.
+
+Page 27
+
+Page 28
+
+Fig 1.14 Variation of competent mean velocity (VSC) with the median diameter by weight (D50) and
+depth of flow. The competent mean velocity is that at which the flow is just competent to
+move the exposed bed material at the scoured depth. (After Neill, 1973. Reproduced by
+permission of University of Toronto Press)
+
+the original dimensions may require modification, which affects the afflux. However, at some
+point an acceptable waterway should be obtained. The process is quicker if any bridge piers
+have been included, otherwise they may have to be added during the next stage and some of
+the calculations repeated.
+Once the size of the bridge openings is known, the design should be reviewed. Have all of
+the factors listed earlier been considered? Has the correct balance been obtained between the
+length of the approach embankments and the span of the bridge? Has the correct balance been
+struck between minimising the waterway cost and the use of river training works to offset any
+undesirable consequences? Consult the checklist in Section 8.5.2. If the design passes this
+rev iew then the next stage, the preliminary design of the structure itself, can be started. If not,
+some redesign is necessary.
+Subsequently additional data and calculation will be needed to complete the hydraulic
+design: for example, some techniques for calculating back-water have their own specific
+requirements, which may necessitate additional
+
+Fig. 1.15 (a) Approximate pier scour depth, dSP , for various pier shapes aligned to the approach flow,
+where bp is the pier width perpendicular to the flow. If the depth of flow exceeds 5bp then
+dSP should be increased by 50%. (b) If the approach flow is at an angle to the pier then
+multiply dSP from part (a) by the factor shown in the table. (After Neill, 1973. Reproduced
+by permission of University of Toronto Press)
+
+Page 29
+
+b Multiplying factors for local scour at skewed piers* (to be applied to local scour
+allowances of part a).
+Angle of attack
+
+Length-to -width ratio of pier in plan
+4
+8
+12
+
+0°
+15°
+30°
+45°
+
+1.0
+1.5
+2.0
+2.5
+
+1.0
+2.0
+2.5
+3.5
+
+1.0
+2.5
+3.5
+4.5
+
+*The table is intended to indicate the approximate range only. Design depths for severely skewed piers, where
+the use of these is unavoidable, should preferably be determined by means of special model tests. The values
+quoted are based approximately on graphs by Laursen (1962).
+
+Page 30
+
+survey work and computation. Similarly, more detailed information may be needed to assess
+contraction and local scour (i.e. at piers and abutments), plus any long -term changes in bed
+elevation, as described in Sections 3.11 and 8.2.2.
+
+1.4.6 Preliminary structural design of the bridge
+
+This includes deciding the level of the deck and the foundation details, which may be related
+to the maximum scour depth (see Section 8.5.3 and Table 8.9 ). If the bridge deck will be
+submerged during flood, buoyancy and hydrodynamic forces must be allowed for when
+designing the superstructure (Appendix A), and the afflux calculated accordingly. The
+possibility of additional loading due to debris and ice jams should be assessed. In some
+circumstances ship collision should be included.
+Submergence of the opening may cause a very large vertical contraction from the soffit of
+the deck so that the cross -sectional area of flow is considerably reduced and waterway
+velocities significantly increased (Sections 2.4 and 7.2). The feasibility of using entrance
+rounding to improve flow efficiency and reduce scour should be considered ( Fig. 1.1).
+Having established the basic structural form of the bridge, ensure that any river training
+works considered necessary during the hydraulic design are still appropriate and effective. If
+the structural requirements are such that the integrity of the hydraulic design has been
+compromised, then it is necessary to loop back to an earlier stage (Fig. 1.12). If everything is
+satisfactory, a costing of the bridge, approaches and training works can be obtained.
+
+1.4.7 Consider alternatives
+
+Having found one acceptable design, the opportunity should be taken to revisit the original
+data and to evaluate whether or not an alternative location or different design approach would
+yield a cheaper and/or more effective alternative. If the existing design proves to be superior,
+the design can be finalised. Alternatively, with complex sites or prestigious projects it may be
+decided to undertake physical or computer modelling to confirm the detailed and long -term
+flow behaviour before committing to the final design stage.
+
+Example 1.1
+
+A preliminary hydraulic design is required for a bridge to cross a 60m wide main channel
+with floodplains 150m wide on each side when the discharge is 490m 3/s. The corresponding
+flow depth is 2.6m in the main channel and, since the river has banks 1.0m high, 1.6m on the
+immediately adjoining floodplain. The diameter of the sand bed material is D50=1.0 mm.
+
+Lacey (maximum waterway) width=4.75Q½=4.75×490 =105m
+
+approximate minimum waterway width=3.20Q½=3.20×490½ =71m
+
+Page 31
+
+(1.5)
+
+(1.6)
+
+Try an opening 80m wide between abutments with three piers each 1.2m wide at 20 m
+centres. This gives a net opening width b=76.4 m, which allows for some contraction of the
+flow. If the depth (Y) is approximately 2.6 m and b=76.4 m then the net cross-sect ional area of
+flow in the opening, a=2.6×76.4=199m2. Thus the opening velocity V=490/199 =2.5 m/s.
+Now consider the potential contraction scour depth, dSC.
+As a first iteration, with D50=1 mm and Y=2.6m from Fig. 1.14 the competent mean
+velocity (VSC) is about 1.0 m/s, suggesting that the opening area will increase until V=VSC
+when a=Q/V SC=490/1.0=490m 2
+and the average depth of flow Y=a/b=490/76.4=6.4 m. With
+Y=6.4 m the competent mean velocity increases to about 1.6 m/s.
+Second iteration: say V=1.35 m/s when a=490/1.35=363 m 2 giving Y=363/76.4=4.8 m.
+With D50=1 mm both VSC=1.35 m/s and Y=4.8 m are broadly consistent with Fig. 1.14 so
+assume the average contraction scour depth in the opening is about dSC=(4.8−2.6)=2.2 m. At
+the piers the scour depth will be larger as a result of the locally increased velocity and
+vortices. Say the piers have a width bP=1.2 m, have round noses, and are aligned to the
+approach flow (therefore no correction for the angle of attack is needed). From Fig. 1.15 the
+local pier scour depth dsp=1.5 bP= 1.5×1.2=1.8 m. Adding this to the contraction scour depth
+gives a combined depth dS=4.0 m.
+These very approximate scour depths can be compared with the results of the more detailed
+calculations shown in Example 8.5 and Fig. 8.24.
+
+References
+
+Ackers, P. (1992) Gerald Lacey Memorial Lecture, Canal and river regime in theory and practice:
+1929–92. Proceedings of the Institution of Civil Engineers, Water Maritime and Energy, 96,
+September, 167–178.
+d’Aubuisson de Voisins, J.F. (1840) Traité de hydraulique (Treatise on Hydraulics), 2nd edn, Piois,
+Levraut et Cie, Paris.
+Blench, T. (1939) A new theory of turbulent flow of liquids of small viscosity. Journal of the
+Institution of Civil Engineers, Paper 5185.
+Bradley, J.N. (1978) Hydraulics of Bridge Waterways, 2nd edn, US Department of
+Transportation/Federal Highways Administration, Washington DC.
+Brandon, T.W. (ed.) (1987) Water Practice Manuals, 8, River Engineering—Part I, Design Principles,
+The Institution of Water and Environmental Managemen t, London.
+Brandon, T.W. (ed.) (1989). Water Practice Manuals, 8, River Engineering—Part II, Structures and
+Coastal Defence Works, The Institution of Water and Environmental Management, London.
+
+Page 32
+
+Brice, J.C. (1984) Assessment of channel stability at bridge sites, in Transportation Research Record
+950 , Second Bridge Engineering Conference, Vol. 2, Transportation Research Board/National
+Research Council, Washington DC, pp. 163 –171 .
+Bryan, B.A., Simon, A., Outlaw, G.S. and Thomas, R. (1995) Methods for assessing the channel
+conditions related to scour -critical conditions at bridges in Tennessee. Final report project no. TN -
+RES1012, United States Geological Survey, Nashville.
+Criswell , H. (1968) East Devon Floods 10th-11th July, 1968. Report to Roads Committee, Devon
+County Council, Exeter.
+Farraday, R.V. and Charlton, F.G. (1983) Hydraulic Factors in Bridge Design, Hydraulics Research
+Station, Wallingford, England.
+Fowler, D. (1990) Glanrhyd report says BR had no warning. New Civil Engineer, 3 May, 5.
+Fowler, D. and Russell, L. (1989) Seven die as scour undermines US bridge. New Civil Engineer, 6
+April, 7 –8.
+George, A.B. (1982) Devon floods and the waterways of bridges. Proceedings of the Institution of
+Civil Engineers, Part 2, 73, 125–134; discussion, 73, 687–692.
+Hamill, L. and O’Leary, A.M. (1985) The hydraulic performance and failure of bridges in Devon and
+Cornwall . Municipal Engineer, 2, August, 213–221.
+Highways Agency (1994) Design Manual for Roads Bridges, Vol. 1, Section 3, Part 6, BA59/94, The
+Design of Highway Bridges for Hydraulic Action, HMSO, London.
+HMSO (1975) The Reservoirs Act, Her Majesty’s Stationery Office, London.
+Holford, I. (1977) The Guinness Book of Weather Facts and Feats, Guinness Superlatives, Enfield,
+Middlesex.
+Inglis, C. (1949) The behaviour and control of rivers and canals. Research Publication
+No. 13, Central Water Power Irrigation and Navigation Report, Poona Research Station, Indi a.
+Kennedy, R.G. (1895) The prevention of silting in irrigation canals. Proceedings of the Institution of
+Civil Engineers, 119, 281–290.
+Lacey, G. (1929–30) Stable channels in alluvium. Proceedings of the Institution of Civil Engineers,
+229 , 258–384.
+Lacey, G. (1933–34) Uniform flow in alluvial rivers and canals. Proceedings of the Institution of Civil
+Engineers, 237 , 421–453.
+Lacey, G. (1939) Regime flow in incoherent alluvium. Publication 20, Central Board of Irrigation and
+Power , India.
+Lane, E.W. (1921) Experiments on the flow of water through contractions in an open channel.
+Transactions of the American Society of Civil Engineers, 83, 1149–1219.
+Laursen, E.M. (1962) Scour at bridge crossings. Transactions of the American Society of Civil
+Engineer s, 127 , part 1, 166–180.
+Montague, S. and Fowler, D. (1989) Rains wash away Inverness rail bridge. New Civil Engineer, 9
+February, 5.
+Nagler, F.A. (1918) Obstruction of bridge piers to the flow of water. Transactions of the American
+Society of Civil Engineers, 82, 334 –395.
+Natural Environment Research Council (NERC) (1975) Flood Studies Report. Vol I: Hydrological
+Studies. Vol II: Meteorological Studies. Vol III: Flood Routing Studies. Vol IV: Hydrological Data.
+Vol V: Maps. NERC, London.
+
+Page 33
+
+Neill, C.R. (ed.) (1973) Guide to Bridge Hydraulics, Roads and Transportation Association of
+Canada/University of Toronto Press, Toronto.
+Netlon Ltd. Maritime and Waterway Engineering with Tensar and Netlon Geogrids, Blackburn,
+England.
+Novak, P., Moffat, A.I.B., Nalluri, C. and Narayanan, R. (1996) Hydraulic Structures, 2nd edn, Unwin
+Hyman, London.
+Overman, M. (1975) Man, The Bridge Builder, Priory Press, Hove, England.
+Pease, J. (1989) BR fails to notice rail bridge scour. New Civil Engineer, 21 September, 7.
+Railtrack (1995) Scour and flooding—managing the risk. Railway group standard, GC/RT 5143,
+Railtrack, London.
+Richardson, E.V., Simons, D.B. and Julien, P.Y. (1990) Highways in the river environment. Report no.
+FHWA -HI-90–016, National Highways Institute/Federal Highways Administration, McLean, VA.
+Richardson, E.V., Harrison, L.J., Richardson J.R. and Davis S.R. (1993) Evaluating Scour at Bridges,
+2nd edn. Publication no. FHWA -IP-90–017, Hydraulic Engineering Circular No. 18, National
+Highways Institute/Federal Highways Administration, McLean, VA.
+Ruddock, E. (1979) Arch Bridges and Their Builders 1735–1835, Cambridge University Press,
+Cambridge.
+Smith, D.W. (1976) Bridge failures. Proceedings of the Institution of Civil Engineers, Part 1, 60,
+August, 367–382.
+Smith, D.W. (1977) Why do bridges fail? Civil Engineering, American Society of Civil Engineers,
+November, 58–62.
+Watson, R. (1990) Hundreds of bridges to undergo scour tests. New Civil Engineer, 9 August, 5.
+White, K.R., Minor, J. and Derucher, K.N. (1992) Bridge Maintenance, Inspection and Evaluation,
+2nd edn, Marcel Dekker Inc., New York.
+Yarnell, D.L. (1934) Bridge piers as channel obstructions. Technical Bulletin no. 442, November, US
+Dept. of Agriculture , Washington DC.
+

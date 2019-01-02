@@ -1,0 +1,1487 @@
+Page 103
+
+4
+How to calculate discharge and afflux
+
+4.1 Introduction
+
+Usually bridge hydraulics is concerned with determining either the stage-discharge
+relationship of a structure or the afflux, or possibly both. This chapter shows how to analyse
+the flow through rectangular and arched bridge waterway openings with either single or
+multispans, before and af ter the waterway becomes drowned. The abutments provide the
+primary contraction, with the piers being a secondary influence: often the gross area of the
+waterway opening (A N2, which includes the area occupied by any piers) is employed initially
+in the calc ulations, and then a correction factor (J) is introduced to allow for the secondary
+obstruction of the piers. Typically J =A P/A N2 where AP is the cross-sectional area of the
+submerged parts of the piers projected onto section 1. On the other hand, Chapter 5 considers
+long crossings where it is the piers that control the flow while the effect of the abutments is
+negligible.
+The methods described below are relatively simple, most being devised before the
+computer era. Thus they provide a method of analysis for engineers without access to today’s
+specialist computer software and, for those who do, a means of quickly checking the results.
+Since there have been relatively f ew major investigations of bridge hydraulics, some of the
+principles and equations described in Chapters 4–6 will be included in the software.
+Four methods of analysis are considered below; each is introduced, described in more detail,
+and then its advantages and disadvantages summarised. Only a condensed version of the
+original publications can be reproduced, so whenever possible readers should refer to the
+source material. These methods are attributable to:
+• US Geological Survey (USGS);
+• US Bureau of Public Roads (USBPR);
+• Biery and Delleur;
+• Hydraulics Research (HR).
+The first two listed were developed almost entirely for rectangular openings and ‘deck type’
+bridges, while the last two were mainly con cerned with arch
+
+Page 104
+
+bridges. However, all four methods can sometimes be applied to arches, as shown in Section
+4.6 (Matthai, 1967; Hamill, 1993). Which method is adopted depends to some extent upon the
+data available, the ease of application, the type of flow experienced (e.g. subcritical,
+supercritical, abnormal stage), the waterway geometry (e.g. rectangular, arched, single or
+multispan), and the purpose of the investigation. The USGS and the USBPR methods are the
+most frequently employed. Both have some restrictions on their use (Sections 4.2.3 and 4.3.7),
+which should be understood before undertaking an analysis. With any of the methods large
+errors may be incurred under adverse conditions or when conditions differ significantly from
+those of the original research (Skogerboe et al., 1973; Barret and Skogerboe, 1973; Fiuzat and
+Skogerboe, 1983; Kaatz and James, 1997). Adverse conditions include the following.
+• Sites where the flow is non -uniform and abnormal stages exist. Paradoxically, Barret and
+Skogerboe (1973) found that the USBPR method was more accurate with an abnormal
+stage, but conjectured that a greater range of data would reveal greater errors. However, it
+is certainly true that an abnormal profile complicates the calculations, which are much
+simpler when uniform flow exists and normal depth provides a convenient datum (Figs. 2.3
+and 2.4). Generally, with an abnormal stage the bridge exerts a relatively weak control on
+the flow, reducing the accuracy of an analysis.
+• Crossings where the opening ratio is large (e.g. M=0.8) so that the bridge does not exert a
+strong control on the flow. Under these conditions Fiuzat and Skogerboe (1983) claimed
+that the USGS method may underestimate the discharge (see Section 4.2.3, items 2 and 3).
+• Sites with wide, heavily vegetated floodplains. With wide valleys the flow approaching a
+bridge has to move from the floodplain into the main channel in order to pass through the
+constriction. Laursen (1970) termed this a zone of accretion. Similarly, having passed
+through the opening, the flow expands from the main channel back onto the floodplain.
+This was termed a zone of abstraction. For flow to expand laterally in the zone of
+abstraction it follows that the wate r surface must slope away from the main channel (this is
+the reverse of the normal situation). If the floodplain is heavily covered with trees and
+brush, a large transverse gradient is required to overcome the resistance to lateral flow, so
+backwater can occur downstream of a bridge as well as upstream. Consequently Laursen
+concluded that in wide valleys the upstream backwater can be much greater than that
+predicted by either the USGS or USBPR method, so it is not surprising that under these
+conditions the backwater measured by Kaatz and James (1997) was roughly double that
+expected (computer models also had significant errors; see Section 4.6). Laursen presented
+a numerical approach to this problem, but a drawback was that the accretion and abstraction
+rates had to be assumed.
+
+Page 105
+
+• Locations where two or more bridges affect each other hydraulically (Figs 4.27 and 4.28).
+The comments above regarding inaccuracies arising from the application of the USGS and
+USBPR techniques do not mean that they should not be used, rather that these are the most
+commonly employed methods and thus the most critically appraised. The others are used less
+so there is little or no evidence available from third parties regarding their accuracy. Care
+needs to be exercised when interpreting articles discussing the (lack of) accuracy of the
+various methods: sometimes ‘errors’ arise because the equations are used outside their
+recommended range or under conditions not included in the original study. As always, it is
+difficult to obtain accurate field data with which to form an assessment. Generally, models
+verified using a large body of accurate field data should be the most reliable.
+
+4.2 US Geological Survey (USGS) method
+
+This was one of the largest and most comp rehensive investigations of flow through
+rectangular openings (Kindsvater et al., 1953; Tracy and Carter, 1954; Matthai, 1967). It is
+based on an extensive laboratory study, which was verified at 30 field sites. It included four
+different types of opening, eccentricity, skew, entrance rounding, piers, wingwalls and
+submergence of the opening (but not abnormal stage or supercritical flow). The procedure has
+been well documented in hydraulics textbooks (Chow, 1981; French, 1986) and is widely
+used, so it may be the method most familiar to some engineers and hydrologists. The original
+work was extended by Matthai (1967), who suggested that the Type I opening with vertical
+abutments and vertical embankments often approximates an arched waterway, but if much of
+t he arch is submerged a reliable answer cannot be obtained. Nevertheless, there is some
+justification for cautiously applying the technique to arch bridges.
+Essentially the bridge was regarded as a form of gauging device, and a procedure was
+devised for ca lculating the peak discharge at the contraction from the observed water levels at
+sections 1 and 3 (in practice this often means using trash marks). The theoretical basis is the
+energy and continuity equations, which are combined to give a discharge equation (equation
+4.5) that can be applied to openings operating in either the channel flow or submerged
+condition. A method of calculating the afflux was added, but this is not exactly
+straightforward.
+This method needs the water levels at sections 1 and 3. S ection 1 is generally located one
+span (b) upstream. Section 3 is located at the minimum cross -sectional area of flow on a line
+parallel to the bridge face, generally between the abutments and not necessarily at the
+downstream face of the opening. Unfortunately during a flood it is not always easy to observe
+or measure accurately the stage at section 3 since it may be located inside a
+
+Page 106
+
+waterway opening that is flowing almost full. Nor is this stage easy to calculate. There are
+ways to get around this, which are described in Section 4.2.2, but they tend to be relatively
+convoluted and tedious. Another difficulty associated with the technique is that it uses the
+Froude number at section 3, which, as explained in Section 3.3, becomes meaningless as an
+arched opening closes and the waterway becomes submerged.
+
+4.2.1 Calculation of discharge (stage -discharge analysis)
+
+The USGS method assumes that the contracted section formed by the bridge abutments and
+the channel bed is effectively a discharge meter that can be utilised to calculate flood flows.
+This is achieved by substituting into the discharge equation the values of a series of
+experimental coefficients that relate to standard types of opening (see below) and the
+measured difference in water level between sections 1 and 3.
+The discharge equation is derived from the continuity and energy equations. For
+convenience it has been assumed that the bed is horizontal in Fig. 4.1, and that the vena
+contracta occurs at section 3. Thus the energy equation can be written as
+
+(4.1)
+
+where hE is the head loss (m) due to eddying and turbulence between sections 1 and 3, and hF
+represents the head loss (m) due to boundary friction between sections 1 and 3. If (Y1−Y3)=∆h,
+then
+
+(4.2)
+
+Fig. 4.1 Diagrammatic representation of flow through a bridge opening for the derivation of the USGS
+discharge equation.
+
+Now from the continuity equation:
+
+Q=CC b Y 3 V3
+
+Page 107
+
+(4.3)
+
+(4.4)
+
+For a rectangular opening A3=bY3 and for an arched waterway A3 can be taken as the cross -
+sectional area of the waterway at depth Y3 so:
+
+(4.5)
+
+where C is a dimensionless coefficient of discharge that is a function of CC , a3 and hE; Q is the
+discharge (m3 /s); A3 (m 2) is the gross cross-sectional area of flow (including the area occupied
+by any piers) at section 3 at the minimum contracted section measured parallel to the bridge
+face; ∆h is the difference in elevation (m) of the water surface between sections 1 and 3; and
+
+Assuming that in the opening K2=K3 and that K1−2=K1−3=(K1K3)1/2, then
+
+Page 108
+
+Page 109
+
+where all the terms are in metric units. If working in feet the 4.43 should be replaced by the
+value of (2g)1/2 , which is 8.02. This equation has the advantage that it can be solved directly
+for Q without having to iterate. However, if C is a function of the Froude number, as with
+type I openings, then an iterative solution is still required.
+
+The standard opening types
+There are four types of opening (Kindsvater et al., 1953; Matthai, 1967). When slopes are
+quoted below they are in the form 1 vertical to x horizontal.
+
+TYPE I
+Vertical embankments and vertical abutments, with or without wingwalls (Fig. 4.2). In
+addition to the opening ratio (M) and length ratio (L/b), the Froude number, the degree of
+entrance rounding or the wingwall angle, and the skew of the contraction with respect to the
+direction of flow affect the coefficient of discharge (Fig. 4.3). Matthai suggested that this type
+of open ing often approximates an arched waterway, but if much of the arch is submerged a
+reliable answer cannot be obtained.
+
+TYPE II
+Sloping embankments and vertical abutments (Fig. 4.4). In addition to the opening ratio (M)
+and length ratio (L/b), the depth of water at the abutments, the skew angle and the
+embankment slope affect the coefficient of discharge. Charts are presented for embankment
+slopes of 1 to 1 and 1 to 2 (Figs 4.5 and 4.6).
+
+TYPE III
+Sloping embankments and sloping spillthrough abutments (Fig. 4.7). In addition to the
+opening ratio (M) and the length ratio (L/b), the skew angle and the slope of the embankment
+and abutments affect the coefficient of discharge. The effect of the slope of the type III
+abutments is represented by x/b, where x is the horizontal thickness of the upstream side slope
+measured longitudinally at the projected level of the water surface at section 1, and b is the
+average width of the opening. Note that with all sloping embankments x is included in the
+waterway length, L . Three embankment slopes were investigated: 1 to 1, 1 to 1.5, and 1 to 2,
+each of which must be evaluated using its own charts (Figs 4.8–4.10).
+
+TYPE IV
+Sloping embankments, vertical abutments with wingwalls (Fig. 4.11). In addition to the
+opening ratio (M) and length ratio (L/b), the wingwall
+
+Page 110
+
+Fig. 4.2 Diagram defining a USGS type I opening with vertical embankments and vertical abutments,
+with or without wingwalls. (After Matthai, 1967. Reproduced by permission of US
+Geological Survey, US Dept of the Interior)
+
+Page 111
+
+Fig. 4.3 USGS coefficients for type I openings with vertical embankments and vertical abutments.
+Diagram (a) gives the base coefficient of discharge, C' , which is then multiplied by the
+adjustment factors in diagrams (b)–(g) as appropriate: adjustment factor variation with (b)
+Froude number; (c) entrance rounding. (After Matthai, 1967). Reproduced by permission of
+US Geological Survey, US Dept of the Interior)
+
+Page 112
+
+Fig. 4.3 USGS coefficients for type I openings with vertical embankments and vertical abutments
+(cont.). Diagram (d) length of 45° wingwalls or chamfers; (e) length of 30° wingwalls; (f)
+length of 60° wingwalls; (g) skew, ø. (After Matthai, 1967. Reproduced by permission of
+US Geological Survey, US Dept of the Interior)
+
+angle, skew, embankment slope, and sometimes the Froude number affect the coefficient of
+discharge. Charts are presented for embankment slopes of 1 to 1 and 1 to 2 (Figs 4.12 and
+4.13). Note that the existence of wingwalls does not automatically make a type IV opening,
+since a type I may also have wingwalls. If the flow passes around a vertical edge at the
+upstream extremity of the wingwall it is a type I opening, but if the flow passes around a
+sloping edge it is a type IV .
+
+The coefficient of discharge, C, and the adjustment factors
+For any opening type the value of the coefficient of discharge, C, is obtained by means of a
+‘standard’ base coefficient, C', and a series of numerical adjustment factors, k. First, the type
+of opening is identified (e.g. type I). Next, M and L/b are calculated and used to obtain C'
+from the appropriate chart (e.g. Fig. 4.3a ). This value assumes the standard
+
+Page 113
+
+Fig. 4.4 Diagram defining a USGS type II opening with sloping embankments and vertical abutments.
+(After Matthai, 1967. Reproduced by permission of US Geological Survey, US Dept of the
+Interior)
+
+Page 114
+
+Fig. 4.5 USGS coefficients for type II openings with an embankment slope of 1 to 1 and vertical
+abutments. Diagram (a) gives the base coefficient of discharge, C ', which is then multiplied
+by the adjustment factors in diagrams (b) and (c) as appropriate: adjustment factor variation
+with (b) (Y a+Yb)/2 b ratio; (c) skew. (After Matthai, 1967. Reproduced by permission of US
+Geological Survey, US Dept of the Interior)
+
+Page 115
+
+Fig. 4.6 USGS coefficients for type II openings with an embankment slope of 1 to 2 and vertical
+abutments. Diagram (a) gives the base coefficient of discharge, C ', which is then multiplied
+by the adjustment factors in diagrams (b) and (c) as appropriate: adjustment factor variation
+with (b) (Y a+Yb)/2 b ratio; (c) skew. (After Matthai, 1967. Reproduced by permission of US
+Geological Survey, US Dept of the Interior)
+
+Page 116
+
+Fig. 4.7 Diagram defining a USGS type III opening with sloping embankments and sloping abutments.
+(After Matthai, 1967. Reproduced by permission of US Geological Survey, US Dept of the
+Interior)
+
+Page 117
+
+Fig. 4.8 USGS coefficients for type III openings with both embankment and abutment slopes of 1 to 1.
+Diagram (a) gives the base coefficient of discharge, C' , which is then multiplied by the
+adjustment factors in diagrams (b) and (c) as appropriate: adjustment factor variation with
+(b) skew; (c) x/b ratio. (After Matthai, 1967. Reproduced by permission of US Geological
+Survey, US Dept of the Interior)
+
+Page 118
+
+Fig. 4.9 USGS coefficients for type III openings with both embankment and abutment slopes of 1 to
+1.5. Diagram (a) gives the base coefficient of discharge, C' , which is then mult iplied by the
+adjustment factors in diagrams (b) and (c) as appropriate: adjustment factor variation with
+(b) skew; (c) x/b ratio. (After Matthai, 1967. Reproduced by permission of US Geological
+Survey, US Dept of the Interior)
+
+Page 119
+
+Fig. 4.10 USGS coefficients for type III openings with both embankment and abutment slopes of 1 to
+2. Diagram (a) gives the base coefficient of discharge, C', which is then multiplied by the
+adjustment factors in diagrams (b) and (c) as appropriate: adjustment factor variation with
+(b) skew; (c) x/b ratio. (After Matthai, 1967. Reproduced by permission of US Geological
+Survey, US Dept of the Interior)
+
+Page 120
+
+Fig. 4.11 Diagram defining a USGS type IV opening with sloping embankments and vertical
+abutments with wingwalls. (After Matthai, 1967. Reproduced by permission of US
+Geological Survey, US Dept of the Interior)
+
+conditions of no entrance rounding (r/b=0), no chamfer (w/b=0), F=0.5, no eccentricity
+(e=1.0), no skew (ø=0), no obstruction caused by piers (J= 0), and no submergence (k T=1.0).
+Then the values of the adjustment factors are obtained from the relevant chart and used to
+modify C' to allow for
+
+Page 121
+
+Fig. 4.12 USGS coefficients for type IV openings with an embankment slope of 1 to 1 and vertical
+abutments with wingwalls. Diagram (a) gives the base coefficient of discharge, C' , which is
+then multiplied by the adjustment factors in diagrams (b) and (c) as appropriate: adjustment
+factor variation with (b) skew; (c) wingwall angle. (After Matthai, 1967. Reproduced by
+permission of US Geological Survey, US Dept of the Interior)
+
+Page 122
+
+Fig. 4.13 USGS coefficients for type IV openings with an embankment slope of 1 to 2 and vertical
+abutments with wingwalls. Diagram (a) gives the base coefficient of d ischarge, C' , which is
+then multiplied by the adjustment factors in diagrams (b)– (d) as appropriate: adjustment
+factor variation with (b) skew; (c) Froude number; (d) wingwall angle. (After Matthai,
+1967. Reproduced by permission of US Geological Survey, US Dept of the Interior)
+
+the deviation from the standard conditions. Thus the coefficient of discharge, C, which takes
+into account all of the pertinent variables for the opening type, is given by:
+
+Page 123
+
+(4.10)
+
+Of course, not all of the adjustment factors are required and only the relevant ones are used.
+For instance, the effect of eccentricity is usually small (Table 4.1) so ke is often omitted, while
+only one of k r , kw and kθwould be needed to describe the geometry of the waterway. The use
+of k p and kT is described later when piers and submerged openings are considered. Note that
+the Froude number used is that relating to the contracted section so F3 =V 3/(gY3)½ where
+Y3=A3/ bT is the mean depth at section 3. As explained in Section 3.3, this causes problems
+with arches.
+Under no circumstances should a value of C greater than 1.0 ever be adopted. Additionally,
+some adjustment factors are insignificant with cer tain types of waterway, so only the
+diagrams associated with a particular type of opening should be used. For embankments of
+different slope from those shown in the diagrams it is necessary to interpolate, although with
+type IV openings the coefficients fo r a 1 in 2 slope can also be used for flatter slopes (i.e. 1 in
+3, 1 in 4 etc). If the abutment slope is not equal to the embankment slope, an average value
+should be used.
+If the two abutments are of different type, a value of C should be calculated for each side
+and a weighted average obtained using the conveyance (K) of the two sides. Using subscripts
+L and R to denote the left and right sides:
+
+Page 124
+
+Figure 4.14a illustrates how the USGS method treats skew. Unusually the projected width
+of the opening at section 1 is b, while the distance between the abutments measured along the
+centreline of the embankment is also b. Thus b=bS ; this is not the case in Fig. 3.7 nor in the
+USBPR method.
+
+Eccentricity, ke
+Originally Kindsvater et al. (1953) used the ratio of the length of the two abutments to define
+eccentricity and the adjustment factor (Fig. 3.1e). Matthai (1967) changed this to the ratio of
+the conveyances of the floodplains or approach sections (Ka and Kc in Fig. 4.14b) on each
+side of the projected opening width (b) thus:
+
+Page 125
+
+Fig 4.14 Diagram comparing (a) a skewed crossing with (b) a normal crossing on a bend. In (a) the
+longitudinal centreline of the highway embankments is not perpendicular to either the
+approaching flow or the river banks indicating skew. In (b) the highway embankments are
+perpendicular to the approaching flow and the river banks. Note that with the USGS
+method the full skewed length of the opening, b, is superimposed on the main river channel
+at section 1, as indicated, with Ka, Kb and Kc being the conveyances of the three channel
+subsections. (After Matthai, 1967. Reproduced by permission of US Geological Survey, US
+Dept of the Interior)
+
+Page 126
+
+perpendicular to the approach flow or the high-water line (Fig. 4.14a), but with a curved
+approach this is the case (Fig. 4.14b). For a bend where sections 1, 2 and 3 are not parallel,
+the distance between sections 1 and 2 should be measured from the centroid of section 1 to the
+centre of section 2. Note that when projecting the bridge opening upstream to section 1 this
+method uses the full width b, which is centred on the main river channel at section 1.
+
+Piers or piles and multiple openings
+The procedure for a bridge with piers or piles is as before, with the exception that another
+adjustment factor is needed to deal with this new condition. The proportion of the waterway
+blocked by the piles is
+
+where AP is the submerged area of the piers or piles projected onto the plane of section 3,
+which is the minimum contracted section parallel to the line of the bridge face and approach
+embankments, and A 3 is the gross area of section 3. The adjustment factor, kp , is found from
+Fig. 4.15. Diagram a relates to piers, and its use is quite straightforward. Diagram b is
+employed for piles: for example, suppose M=0.59, L/b=0.69 and J=0.04. The pro
+
+(4.13)
+
+Fig. 4.15 USGS adjustment factors for (a) piers and (b) piles. With (b), the dashed lines illustrate the
+procedure for M=0.59, L/b=0.69 and J=0.04. Start with the value of M (i.e. 0.59) in the
+right-hand diagram, move vertically up to the L/b value (0.69), continue across horizontally
+into the left diagram to the 0.10 diagonal reference line, move up to the J=0.04 line and
+then horizontally across to obtain kp=0.965. (After Matthai, 1967. R eproduced by
+permission of US Geological Survey, US Dept of the Interior)
+
+Page 127
+
+cedure is to enter the right-hand diagram at the appropriate M (=0.59 as indicated by the
+dashed line), move vertically up to the L/b value (0.69), move horizontally to the diagonal line
+marked J=0.10 on the diagram on the left, move vertically up to the J=0.04 line, move
+horizontally across to the left-hand axis and read off the value of kp , which is 0.965 in this
+particular example. Note that the diagonal J=0.10 line is the reference line from which to
+move either vertically up or down depending upon whether J <0.10 or J>0.10. The original
+diagrams presented by Matthai (1967) have the J values above the diagonal 0.10 line shown
+as 0.8, 0.6, 0.4 and 0.2 when presumably these should be 0.08, 0.06, 0.04 and 0.02.
+If a bridge has piles or piers and the openings submerge so that the flow is in contact with
+the deck then the obstructive effects of the piers and deck are considered separately, the latter
+being cons idered under the submergence heading below. How the piers are treated when there
+is submergence depends upon whether sluice gate or drowned orifice flow is experienced (Fig.
+2.6 and Section 2.4). If only the upstream face of the openings is submerged (type 3 sluice
+gate flow) then again J=AP /A 3 where AP is only the submerged area of the piers or piles
+projected on the plane of section 3 (the area of the deck is not included) while A3 is the gross
+area of section 3. If the upstream and downstream faces of the openings are submerged (type
+1 drowned orifice flow) then
+
+(4.14)
+
+where AP is only the area of piers or piles projected onto section 3 (the area of the deck is not
+included), and aW3 is the gross area below the soffit of the deck, i.e. the gross area of the
+openings at section 3.
+The USGS method assumes a single opening; it may have several spans supported by piers
+or piles, but it is one opening nevertheless with only one pair of abutments. In contrast, a
+multiple-opening contraction (Fig. 4.16) typically has more than one pair of abutments, which
+are connected by an embankment within the river channel (an ‘interior’ embankment). Thus a
+multiple-opening embankment was defined by Matthai (1967) as ‘a series of independent
+single-opening contractions, all of which freely conduct water from a common approach
+channel ’.
+The procedure for determining the discharge through a multiple-opening contraction is
+basically to split the channel into separate subchannels or subsections (each with its own
+single-opening contraction), calculate the discharge through each opening using the
+techniques already described, and then add the discharges to obtain the total. When splitting
+the channel, the larger openings are assigned a longer length of embankment in direct
+proportion to the gross area (A 3) of their waterway openings. The dividing lines are then
+projected upstream. As usual section 1 is located one opening width upstream but, if the
+multiple openings have different spans, this means that each subchannel has section 1 in a
+different place so the
+
+Page 128
+
+Fig. 4.16 Diagram illustrating a multiple-opening constriction. The length of interior embankment
+within the subchannels is in proportion to the gross area of the openings. (After Matthai,
+1967. Reproduced by permission of US Geological Survey, US Dept of the Interior)
+
+upstream water level (H1) has to be obtained at several locations within the channel. On the
+out side of the channel this often means using observed or high-water (trash) marks. Interior
+values have to be estimated from the corresponding observed or high-water marks on the
+upstream face of the interior embankments (HS ) as follows:
+
+(4.15)
+
+where all the quantities are for a psuedo single -opening channel at section 1: a1 is the
+dimensionless velocity coefficient; Q1, A 1 and K1 are the discharge (m3 /s), cross-sectional area
+of flow (m 2) and conveyance (m3/s); g is the acceleration due to gravity (9.81 m/s); and L1−2 is
+the distance (m) between sections 1 and 2. Unfortunately the discharge has to be assumed and
+verified by later calculations. The downstream level (H3) has to be measured at each opening
+to determine ∆h for that particular waterway.
+
+Submergence
+This condition occurs when the water level rises above the top of the opening(s) and the
+bridge deck causes an obstruction to the flow. It is assumed that there is no flow over the deck,
+approach embankments or around the bridge. The vertical distance between the water level at
+sect ion 1 and the lowest horizontal member of the submerged part of the bridge deck is the
+distance T in Fig. 4.17. The degree, of submergence is defined by
+
+Page 129
+
+(4.16)
+
+This ratio is used to obtain the value of the submergence adjustment factor, k T, from Fig. 4.17,
+which is then used with equations 4.10 and 4.5 to calculate Q . Note that submergence usually
+does not occur until Yu/Z>1.1 or, more specifically here, when the bridge submergence
+ratio>0.08. If kT< 1.00 then submergence is assumed; when estimating the friction losses in
+the approach reach and through the bridge add the full length of the deck to the wetted
+perimeter, even with type 3 sluice gate flow (Fig. 2.6) where only part of the opening is
+running full. This is said to give a better estimate of the friction losses that occur at high
+discharges.
+With type 2 flow where all of the deck beams are in contact with the water, the discharge
+coefficient (C) obtained from equation 4.10 using all of the adjustment factors (including kT)
+may be nearly 1.00. Matthai (1967) advised that after all adjustment factors have been applied
+the maximum value of C should be restricted to the value of kT obtained from Fig. 4.17.
+
+Fig. 4.17 USGS adjustment factor, kT, for the bridge submergence ratio. (After Matthai, 1967.
+Reproduced by permission of US Geological Survey, US Dept of the Interior)
+
+Page 130
+
+Additionally with drowned orifice flow where both the upstream and downstream faces of the
+opening are submerged and the deck is fully in contact with the water use the following:
+k T=1.0 and A3=(bY3−A D) where AD is the cross-sectional area of the submerged deck.
+It appears that the USGS technique struggles to find a consistent procedure for dealing with
+submerged flows, necessitating several minor adjustments according to circumstance. The
+USBPR technique is simpler in this respect and uses equations 2.8 and 2.9.
+
+Spur dykes, ka, k b, kd
+Spur dykes (guide walls) are rare in Britain but frequently used elsewhere with large rivers.
+When dealing with wide floodplains they can help to funnel the flow through the opening.
+Although not included in the original study, Matthai presented adjustment factors for use with
+the USGS method. These are included in Section 7.4 and Figs 7.13 and 7.14.
+
+Summary and example
+Table 4.2 provides a summary of the steps involved when applying the USGS method to
+calculate the discharge at a contraction. Example 4.1 is a numerical application of the
+technique.
+
+4.2.2 Backwater analysis
+
+This approach to the estimation of backwater was described by Tracy and Carter (1955). The
+difference in water level between sections 1 and 3 is given by
+
+Page 131
+
+Table 4.2 Summary of the steps in the application of the USGS method to calculate peak discharge
+
+This is an iterative procedure since (for some types of opening) the Froude number has to be estimated
+in step 7 and the velocity head evaluated before the discharge can be calculated.
+1. For the stage under consideration, draw a plan of the site showing water levels, including a
+longitudinal section along each bank and across the upstream and downstream faces of the
+constriction. Draw cross-sections of the abutments and sections 1 and 3.
+2. Determine the average water surface elevations at sections 1 and 3 and determine the fall, ∆h .
+3. For short bridges, measure the span (b) in the field; otherwise measure from the plan. Superimpose
+b on section 1, generally keeping the centre of the low water channel in the same relative position
+but incorporating the thalweg within b . The full width, b, is used regardless of skew. Measure the
+length of the waterway (L) and calculate the value of L/b .
+4. Split section 1 into subsections using vertical dividing lines at the edges of the opening and where
+abrupt changes in hydraulic radius occur. Calculate the areas and wetted perimeters of the
+subsections, plus the total area.
+5. For section 1, calculate the conveyances of the sections corresponding to b (i.e. Kb ) and to either
+side (Ka and Kc). For the calculation of eccentricity, Ka should be the smaller. Calculate M=Kb /K.
+6. Determine the type of abutments (I–IV) and their dimensions and slope.
+7. For section 3, calculate the areas and wetted perimeters, if necessary splitting the channel at the
+edge of each pier or pile bent or at abrupt changes of hydraulic radius. Compute the conveyance of
+each subsection. Assuming a3 = 1.0, calculate the Froude number, F3=Q/A3 (gY3 )1/2.
+8. From the M and L/b values obtain C ' from the base curve appropriate to the type of opening.
+9. Calculate the values of the appropriate adjustment factors from the secondary curves.
+10. Obtain the value of C from steps 8 and 9 and equation 4.10.
+11. Calculate Q from equation 4.5.
+12. Calculate the mean velocities at sections 1 and 3; check they are reasonable. Calculate the Froude
+numbers, F1 and F3 ; they must be less than 0.8 for a valid analysis.
+13. Compare Q and F3 from steps 11 and 12 with the values in step 7: perform additional iterations as
+necessary.
+
+sent the average value in the channel reaches both upstream and downstream of the
+constriction.
+3. Obtain the value of the backwater ratio
+from Fig. 4.18.
+4. Obtain the value of the coefficient of discharge of the opening (i.e. C for types I –IV) and
+also the equivalent value (Cbasic ) for the basic condition of an opening with a vertical face
+and squar e-edged abutments (i.e. type I with no rounding or wingwalls). Calculate C/Cbasic
+and obtain the value of k c from Fig. 4.19.
+5. Adjust the value of
+(from step 3) for constriction geometry by multiplying
+it by the value of kc.
+
+6. Calculate the value of ∆h corresponding to Q from equation 4.5 or 4.9.
+7. Multiply the adjusted backwater ratio
+
+Page 132
+
+Page 133
+
+Fig. 4.19 USGS backwater ratio adjustment factor, kc , which allows for any deviation from the basic
+constriction geometry of Fig. 4.18. Here C is the coefficient of discharge of the opening
+type under investigation and C basic is the coefficient of a type I opening with a vertical face,
+square-edged abutments, and the same opening ratio, M. If the ratio C/C basic is known, kc
+can be obtained from the diagram. The adjusted backwater ratio is
+
+Page 134
+
+may determine the stage-discharge relationship. The coefficients and adjustments factors
+then cannot be applied (see also Section 3.11).
+2. The method should not be applied where the difference in the elevation of the water surface
+betw een sections 1 and 3 (i.e. ∆h) is less than 150mm.
+3. As mentioned earlier, ∆h should be greater than 4 hF. Problems are encountered with
+heavily vegetated floodplains, which give rise to large values of hF.
+4. The bridge geometry should be close to the s tandard types, and the flow conditions should
+be similar. The flow must be subcritical throughout.
+5. In many situations, such as when designing a new bridge, the water levels at sections 1 and
+3 (i.e. H1 and H3), and hence ∆h, are all initially unknown (Fig. 2.3). One approach is to
+assume a value for Q, calculate ∆h from equation 4.5 or 4.9, obtain
+using the procedure
+in Section 4.2.2, evaluate SOL1−3 and then use equation 4.17 to obtain
+.
+6. It is apparent from Section 4.2.2 and the above that the USGS method is rather clumsy
+when it is used to evaluate afflux or when the water levels at sections 1 and 3 are unknown.
+The fact that the calculations do not easily relate to normal depth conditions can be a
+disadvantage.
+The USGS method is best at what it was designed for, estimating the flow from observations
+of the water level at sections 1 and 3 (the USBPR method provides a more direct means of
+calculating afflux). Despite the limitations above, this is one of the most reliable and
+comprehensive investigations of flow through a contraction (see also Section 4.6).
+
+4.3 US Bureau of Public Roads (USBPR) method
+
+This may also be known as either the BPR or DT (Department of Transport) method. It was
+principally concerned with the evaluation of bridge backwater, and is based on a
+comprehensive laboratory study (Liu, et al., 1957), which was verified by field measurements.
+Bradley (1978) produced a detailed report that described how to calculate the afflux
+(backwater) under normal depth conditions. The report included many useful examples. It
+also considered skew, eccentricity, the abnormal stage condition, dual bridges, situations
+where the flow passes through critical depth, the difference in water level across the
+embankments, and submergence of the opening. Consequently it can be applied to a wide
+range of problems. Importa nt limitations are that it is not very suitable for irregular channels,
+there is no discharge equation for a bridge experiencing channel flow (but there is for the
+submerged condition), and arch bridges were not considered.
+Essentially the USBPR method as sumes normal depth in a uniform channel so the water
+surface is parallel to the bed, and then calculates the additional afflux caused by introducing a
+bridge into the flow (in the laboratory the afflux was measured). Basically all that is required
+to calcu late the afflux is
+
+the bridge opening ratio (M), the normal depth velocity head at section 2 (i.e.
+
+Page 135
+
+datum level, so SOL1−4=hL and cancels. However, the introduction of a bridge into the uniform
+flow creates an additional energy loss, hb, thus:
+
+Page 136
+
+(4.20)
+
+The energy loss due to the bridge can be expressed in terms of a coefficient and the reference
+velocity head:
+
+Page 137
+
+Fig. 4.20 USBPR nomogram for estimating the value of the velocity distribution coefficient at section
+2 (i.e. a 2) from a 1 and M (after Bradley, 1978). For example, if a 1=2.6 and M =0.7, then a2
+has a value of about 2.1. The diagram is only a rough guide and large variations are
+possible.
+
+abutments ( Fig. 4.21). Incremental coefficients are then added to allow for eccentricity
+skew
+, and bridge piers
+. Thus
+
+,
+
+Page 138
+
+Fig 4.21 Variation of the USBPR base coefficient,
+, with opening ratio, M, and abutment geometry
+(after Bradley, 1978). The curve appropriate to the abutment type and span, b, should be
+used as follows:
+
+top curve
+middle curve
+lower curve
+
+90° wingwall abutments with b<60 m (i.e. high energy loss)
+30° wingwall abutments with b<60 m
+all 45° and 60° wingwall abutments (i.e. low energy loss)
+all spillthrough abutments
+all bridges with b>60 m.
+
+Fig. 4.22 USBPR variation of the incremental backwater coefficient for eccentricity,
+(after Bradley, 1978). The coefficient should be added to the base coefficient,
+
+, with M
+.
+
+where Qa and Qc represent the discharge obstructed by the bridge outside the projected width
+b, the smaller of the two values always being the numerator (e.g. Fig. 3.1e). If e>0.20 no
+correction is required, but if e< 0.20 then the incremental coefficient,
+, can be obtained
+from Fig. 4.22, which shows the variation of
+with M. The greatest energy loss, and hence
+largest
+value, is experienced where the contraction occurs only on one side of the
+channel: that is, with the fully eccentric condition where X a=0 in Fig. 3.1e , Qa=0 and e=0.
+
+Page 139
+
+Skew (angularity),
+
+Page 140
+
+Fig. 4.23 USBPR variation of the incremental backwater coefficient for skew (angularity),
+M (after Bradley, 1978): (a) for abutments parallel to the flow; (b) for abutments
+perpendicular to the embankment.
+
+, with
+
+Page 141
+
+Fig. 4.24 USBPR diagram to determine the skewed span (bs) required to give the same backwater as
+an opening of width b perpendicular to the direction of the approaching flow (after Bradley,
+1978). The graph is applicable only to openings with abutments parallel to the flow as in
+Fig. 4.23a.
+
+Second, correct for the fact that M≠1.0 by entering part (b) with the correct M value, moving
+down to the line representing the pier type, then across to obtain the correction factor, σ. Then
+
+(4.27)
+
+Bradley advised that the backwater coefficients for pile bents could effectively be considered
+independent of the diameter, width or spacing of the piles but should be increased when a bent
+has more than five piles. A ten-pile bent should have a value of
+about 20% higher than
+the standard five-pile bent in the diagrams. Any sway bracing should be included in the width
+of pile bents. To allow for trash collecting on the piers use a larger value of J.
+W ith skewed crossings the procedure is basically the same as above but the width of the
+piers and piles is calculated on a plane that is perpendicular to the general flow direction (Fig
+4.25). The total area of the piers (AP ) is the sum of the individual areas.
+
+Spur dykes
+These are considered in detail in Section 7.4.
+
+Page 142
+
+Fig. 4.25 USBPR incremental backwater coefficient for piers,
+(after Bradley, 1978). First, the
+value of ∆k. for the appropriate pier type is found from the main diagram (a), which
+assumes M =1.0. Second, the value of σis obtained from inset diagram (b) using the true
+value of M and the pier type. Third, the value of
+is obtained from
+
+Page 143
+
+Table 4.3 Summary of the USBPR procedure for estimating the maximum bridge afflux with normal
+depth
+
+The last steps are iterative because the full solution requires in step 13 the value of A 1 (which
+includes
+) before the afflux,
+, is known.
+
+1. Determine the magnitude of the flood for which the bridge is being designed, Q.
+2. Determine the river stage at the design discharge. This would be the normal depth, YN, unless an
+abnormal stage is experienced.
+3. Plot the natural channel cross-section under the proposed bridge and superimpose the design river
+stage from step 2. At section 2, perpendicular to the flow direction, calculate the gross area of the
+opening (including any piers) between the normal water surface and the river bed, AN2. Thus
+.
+4. Project the opening area (AN2 ) upstream to section 1, which must be perpendicular to the general
+flow direction; centre AN2 on the main channel if necessary. Check that skew is dealt with
+correctly.
+5. At section 1, plot a representative cross-section and subdivide it where there is a marked change in
+depth of flow and/or roughness and at the edges of the projected opening. Calculate the
+conveyance and discharge in each subsection, and the total conveyance and discharge.
+6. Calculate the bridge opening ratio, M, from equation 3 .1 or 3.5.
+7. Determine the value of a 1 (equations 3.17–3.19). Estimate a 2 from Fig. 4.20 and allow for
+anything that may alter the value, such as vegetation.
+8. Obtain the value of the base coefficient,
+, for normal symmetrical crossings from Fig. 4.21.
+9.
+If the bridge is eccentric, calculate the value of e from equation 4.25 and determine the value of
+the incremental coefficient
+
+If the stage is abnormal then the asumptions inherent in the USBPR method (e.g. uniform
+flow, constant cross -section) are no longer valid, so
+
+Page 144
+
+theoretically the procedure above is no longer applicable. Therefore, Bradley (1978) presented
+the results of a limited model study (scale 1:40, SO=0.0012, n=0.024), which allowed an
+approximate solution for afflux with abnormal flow. In fact, th is study suggested that the
+procedure adopted for normal depth flow could also be applied to abnormal flow, with two
+modifications. One is that the reference velocity head used in the afflux equation must relate
+to the abnormal stage condition (subscript A ). The second is that the last term of equation
+4.23 is no longer appropriate, so the new equation for the maximum backwater is
+
+downstream side of a proposed structure ( Y3). To facilitate this a model study was undertaken
+of bridges that were perpendicular to the flow and without piers, eccentricity or skew so
+can be represented by
+, which is evaluated from
+
+Page 145
+
+Page 146
+
+(4.31)
+
+normal crossing for any given value of M (remember that the projected width is used to
+calculate M). This means that Fig. 4.26 can be used as
+
+before with the normal bridge afflux
+
+, so for bridges with or without piers:
+
+Page 147
+
+Page 148
+
+conducting a hydraulic analysis, and requires the exercise of judgement. The USBPR study
+considered only identical parallel crossings arranged perpendicular to the flow, there being
+too many possible combinations to do otherwise. Most of the tests were conducted on 45°
+wingwall abutments with a few spillthrough types being included, all with embankment
+slopes of 1 vertical to 1.5 horizontal. However, there are some limited guidelines, which are
+described below.
+
+Backwater
+With dual carriageways it is quite common to have virtually identical bridges a short distance
+apart (Fig. 4.28). This results in a larger afflux than for a single bridge, but less than that
+obtained by considering the two bridges separately. This rule of thumb should be remembered
+when dealing with bridges that are not identical.
+When the two bridges are near together the flow pattern is similar to that for a single
+opening, but slightly elongated. However, as the distance between the bridges increases the
+expanding jet from the first opening encounters the embankment of the second bridge and has
+to contract and then expand again. This results in additional turbulence and loss of energy, so
+the afflux upstream of the two bridges is larger than for a single structure. The water level
+between the two bridges is usually above the normal stage, and is higher than it would be with
+just the upstream bridge. The water level downstream of the second bridge is lower than it
+would be if only the upstream bridge existed.
+
+Fig. 4.28 Longitudinal section through a site with dual bridges (after Bradley, 1978). If normal depth
+conditions existed initially, the water surface profile resulting from a single bridge (the one
+furthest upstream) is shown by the dashed line and dual bridges by the solid line. Note that
+the second (downstream) bridge increases the water level everywhere upstream of it, but
+lowers the level immediately downstream.
+
+The maximum afflux due to the upstream bridge by itself is
+, and is defined as before.
+is the maximum combined afflux due to the dual bridges, also measured upstream of the
+first bridge. Having established
+using the method described previously, the combined
+afflux for the dual crossing, measured upstream of the first bridge, is
+
+Page 149
+
+second opening (Fig. 4.28). The difference in the water level between the upstream side of the
+first bridge and the downstream side of the second is
+
+Page 150
+
+can be calculated, if desired.
+
+4.3.5 Flow passes through critical depth
+
+Bradley (1978) pointed out that if the backwater calculated for a bridge on a river with a fairly
+steep gradient appears to be unrealistic, then this may indicate that the flow has passed
+through critical depth and is of either type type 5 or type 6 (Fig. 2.6). In this case an
+alternative method of analysis to that described above has to be adopted. Bradley outlined
+such a method based on a laboratory study that covered only a limited range of M and which
+did not take into acco unt the effect of piers, eccentricity or skew. The tentative result of this
+simplified analysis is summarised in Fig. 4.31, which shows the variation of the total critical
+depth backwater coefficient,
+, with M. There are no incremental coefficients. Thus the
+a fflux for type 5 or 6 flow is
+
+Fig. 4.30 Variation of the USBPR differential level multiplication factor for dual bridges with the
+distance between the bridges expressed as L D/L (after Bradley, 1978). The dashed part of
+the curve denotes uncertainty. The factor is used with equation 4.40 to calculate the water
+level downstream of the second bridge.
+
+Page 151
+
+Fig. 4.31 Tentative USBPR curve for the variation of the total critical depth backwater coefficient
+with M. (After Bradley, 1978)
+
+(4.41)
+
+where V2C is the critical velocity (m/s) in the constriction=Q/A2C; A2C is the net area of flow
+(m) between the bed and the water surface with critical flow (=bY2C for a rectangular
+waterway of width b); Y2C is the critical depth (m) in the constriction, i.e. (Q2/gb2)1/3 for a
+rectangular waterway; YN2 is the depth (m) in the waterway assuming normal depth at section
+2 (=A N2/ b for a rectangular waterway); α2 and a1 are the velocity distribution coefficients
+(dimensionless) for the constriction and the approach section; and the other variables are as
+before. Note that in the absence of an incremental coefficient for bridge piers, the net cross-
+sectional area at section 2 should be used instead of the gross area.
+Equation 4.41 is derived by equating the energy at section 1 to the energy at the section in
+the constriction at which the water surface passes through the critical depth, Y2C. This
+recognises that the backwater is no longer influenced by the conditions downstream (see
+Section 3.3).
+With type 7 flow (Fig. 2.6) there is no backwater in theory. Additionally, it is questionable
+whether any obstruction should be placed in a channel where the flow is supercritical
+throughout. This condition is rarely met in practice.
+
+4.3.6 Calculation of discharge (stage -discharge analysis)
+
+The USBPR method does not include a discharge equation as such for open channel flow
+(although equations are given for submerged openings: see equations 2.8–2.10). However, the
+relationship between the upstream stage (Y1) and discharge can be obtained easily because the
+afflux
+is calculated above normal depth (YN) and
+. The procedure is to
+
+Page 152
+
+assume a discharge, Q, and then calculate the corresponding YN using the Manning equation;
+calculate the afflux,
+. This can be repeated
+for other discharges to obtain the stage-discharge relationship.
+A similar procedure can be devised for the abnormal stage condition, but at any discharge it
+would be necessary to use the abnormal profile without the bridge instead of normal depth.
+
+4.3.7 Limitations on the use of the USBPR method
+
+One of the strengths of this method is that it uses normal depth, which is often the only thing
+that can be calculated easily (although not necessarily accurately) at the start of an analysis.
+Consequently the absence of a discharge equation for the channel flow condition is not a
+problem, since it is easy to calculate the stage-discharge relationship upstream of the bridge,
+afflux included. However, for a valid analysis the conditions on site must resemble those in
+the laboratory, where there was a straight, uniform channel between sections 1 and 4. Most
+natural channels do not meet these cri -teria, and at some site s the bed level can be so variable
+that depth becomes meaningless. Under these conditions it may be difficult to apply the
+USBPR method, and if it is used there must be some question as to the accuracy and veracity
+of the result. Similarly, with overbank flow on wide heavily vegetated floodplains the
+calculated backwater may have to be multiplied by about 2 to obtain the true value (Kaatz and
+James, 1997). This was one of the adverse conditions described at the start of the chapter.
+Despite its limitations the USBPR method provides a relatively quick and easy way to
+calculate the afflux due to a bridge, which is exactly what it was designed for. The fact that
+dual bridges, abnormal stages and flows that pass through critical depth are considered is an
+advan tage, although these aspects of the study were very limited so the results have to be used
+cautiously. On the other hand, the USGS method was intended mainly to calculate discharges
+from observed water levels, and the process for estimating afflux was rath er laborious. Thus
+the two methods complement each other. The accuracy that can be achieved is discussed
+further in Section 4.6.
+
+4.4 Biery and Delleur
+
+This study by Biery and Delleur (1962) is one of the few specifically concerned with the
+hydraulics of arch bridges, and consequently provides some useful but limited information
+about their hydraulic performance. Unfortunately skew, eccentricity, entrance rounding, piers
+and abnormal stages were not considered. The effect of skew on the flow through arch bridges
+was subsequently investigated by Husain and Rao (1966), but they did not produce any usable
+results.
+
+Page 153
+
+Fig. 4.32 Biery and Delleur’s (1962) curves showing the variation of the backwater ratio (Y 1/YN) with
+M and normal depth Froude number (FN). Use diagram (a) with Y 1/YN <1.50 and diagram
+(b) with Y1/Y N=1.50−2.50. (From Hydraulics of single span arch bridge constrictions,
+Proceedings of the ASCE. Reproduced by permission of ASCE)
+
+Page 154
+
+The research paper by Biery and Delleur is confusing at times and lacks clear examples, so
+the method is not easy to apply. The laboratory study is not supported by much in the way of
+comparison with prototype data. Another disadvantage is that the calculations use the normal
+depth Froude number (F N or F4) so that all the reservations expressed previously about the
+validity of Froude numbers in complex channels apply here.
+Biery and Delleur presented equations for the calculation of the backwater ratio [Y1/YN], but
+the graphs in Fig. 4.32 appear to be a better alternative. Thus if YN, M and F N have been
+calculated and [Y1/YN] is evaluated from the graphs then Y1 can be obtained:
+
+Page 155
+
+Fig. 4.34 Distance between the sections of maximum (1) and minimum (3) water level (L 1−3/ b) as a
+function of M and waterway length (L/b). (After Biery and Delleur, 1962 ; Hydraulics of
+single span arch bridge constrictions, Proceedings of the ASCE . Reproduced by permission
+of ASCE)
+
+where Y1A is the abnormal stage without the bridge and Y1 is the depth including the afflux.
+Figure 4.33 shows the distance from the section of maximum afflux to the bridge face
+(L1−2), while Fig. 4.34 indicates the distance between the section of maximum afflux and the
+section with the minimum water surface elevation (L1−3). In the former case similar graphs are
+available from other publications (e.g. Bradley, 1978), but not from measurements involving
+arched waterways, although there is no obvious reason why the waterway shape should be
+significant.
+The discharge (Q m 3/s) through a two -dimensional semicircular arch in a rectangular
+channel can be calculated from the upstream depth, thus:
+
+(4.45)
+
+where C D is the Biery and Delleur coefficient of discharge (dimensionless), g is the
+acceleration due to gravity (9.81m/s), Y1 is the depth of flow (m) including the afflux at the
+section of maximum afflux, b is opening width (m) at the springline of the arch, and r is the
+radius of curvature (m) of the arch. The value of CD can be obtained from Fig. 4.35, where FN
+is the normal depth Froude number in the rough rectangular channel calculated from equation
+3.10 and M is the bridge opening ratio. When applied to Canns Mill, where there was an
+abnormal stage, Hamill (1993) obtained more accurate results using Y1A instead of Y1 in
+equation 4.45, although this may not always be the case (see Section 4.6 and Example 4.3).
+
+Page 156
+
+Fig. 4.35 Variation of the Biery and Delleur (1962) coefficient of discharge (CD) for two -dimensional
+semicircular arch models with M and normal depth Froude number (FN). (From Hydraulics
+of single span arch bridge constrictions, Proceedings of the ASCE . Reproduced by
+permission of ASCE)
+
+Limitations of this method include the ones mentioned earlier: it is applicable only to normal,
+centrally located, square -edged single-span openings in a channel flowing at the normal depth.
+The values of both M and F N must be calculated under all conditions, which is a disadvantage
+since these variables can be difficult to estimate accurately. The method is not very user
+friendly, since the original research paper is relatively long at 34 pages and can be confusing.
+However, the discharge equation and graphs for the backwater ratio have been applied to
+Canns Mill with some success, and despite the numerous limitations under some
+circumst ances this method appears to work quite well.
+
+4.5 Hydraulics Research (HR) method
+
+This investigation by Hydraulics Research, Wallingford, England, included a laboratory study
+of single and multispan arched openings with the objective of evaluating the af flux (Brown,
+1985, 1989). The theoretical background stems from an analogy between the blockage effect
+of channel flow past smooth circular cylinders and afflux at bridge obstructions (Ranga Raju
+et al., 1983; Brown, 1989). A laboratory investigation was undertaken that included the
+performance of single semicircular arches, single elliptical
+
+Page 157
+
+arches, multiple semicircular arches and multiple semicircular arches with different soffit
+levels. These structures were tested either at normal depth or by introducing a low flow down
+the channel and then (at the same discharge) incrementally increasing the height of the
+tailgate to vary the depth of flow. The laboratory results were compared with field
+measurements from selected bridges, but the accuracy of some of this data is perhaps
+questionable.
+Details of the investigation and its application are not as comprehensive or helpful as those
+relating to the USBPR or USGS methods. In the 1985 report afflux is defined rather vaguely
+as ‘the difference in river level either side of the bridge’ and as ‘the difference between the
+upstream and gauged heads measured furthest from the bridge’. Adopting the notation of
+prevous chapters, the investigation produced charts showing the relationship between
+
+Page 158
+
+Fig. 4.36 HR method afflux ratio curves applicable to all bridges, showing the variation of
+with
+F4 and downstream blockage ratio, J4 . (After Brown, 1989. Reproduced by permission of
+the Ministry of Agriculture Fisheries and Food)
+
+means of calculating the discharge from observed water levels, unlike most of the other
+methods, and the arches o f a multispan bridge must be ‘separated only by typical pier widths’.
+It is not clear how this method should be applied to sites with compound channels and
+extensive floodplains, since the laboratory investigation and the worked examples relate to a
+rectan gular section. At Canns Mill the values obtained for the blockage ratio during flood
+were unreasonable and off the scale of the charts, basically for the
+
+Page 159
+
+Fig. 4.37 HR curves applicable to all single arches, showing the variation of
+with F4 and
+upstream blockage ratio, J1. (After Brown, 1989. Reproduced by permission of the Ministry
+of Agriculture Fisheries and Food)
+
+reasons described in Section 3.2 regarding the calculation of M values. To obtain an accurate
+solution, a rectangular main channel without the floodplains was assumed, while retaining the
+stage -discharge relationship recorded in the field. Thus the compound channel was effectively
+turned into a stylized laboratory channel (see Example 4.4). This must be regarded as a
+dubious practice, particularly if there is a large flow over the floodplains, which may not work
+everywhere. At Canns Mill the answers were already known, of course, a luxury not usually
+a vailable. Consequently
+
+Page 160
+
+Fig. 4.38 HR curves applicable to all multiple arches, showing the variation of
+
+Page 161
+
+may be unreliable over part of the range of flow, when averaged a reasonably accurate result
+may be obtained.
+Regardless of how the hydraulic analysis of a bridge is undertaken, it is important that the
+input data are accurate and that the flow characteristics of th e site during flood are closely
+observed. Without well -positioned water level recording equipment backed up by personal
+observation during flood, it may be the input data rather than the analytical method itself that
+causes inaccurate results.
+When considering the accuracy of the various methods, the potential sources of error in any
+analysis should be remembered.
+• Errors in the field data. An inspection of the discharge equations shows that Q is directly
+proportional to the cross-sectional area of flow, A. Hence a 5% error in A results in a 5%
+error in discharge. Scouring of the bed during flood could change the area. Although the
+error depends upon the equation used and the flow condition, typically a 5% error in
+measuring the difference in water level across the bridge results in a 2% error in the
+calculated discharge and a 5% error in afflux.
+• Errors in calculated variables such as F and M. These have a less direct effect on accuracy
+than some of the field data. The error again depends upon the equat ion used and the flow
+condition, but typically a 5% error in F produces an error of 1% in Q. At the maximum
+discharge a 5% error in M can result in a 1% error in the calculated Q and a 4% error in
+afflux (sometimes much more).
+• Errors inherent in the theoretical equations. The equations only approximate the flow
+phenomena concerned, and are unlikely to reflect accurately the prototype performance
+over the whole range of flow. In other words, even if the field data are totally accurate an
+error may still be incurred. This will be most significant when an equation or model is used
+outside its recommended range, or under conditions for which the model has not been
+verified using field data.
+• Errors in the empirical coefficients (used with the equations) and charts, and the difficulty of
+drawing, printing and reading such charts precisely.
+• Differences between the laboratory and prototype conditions, and scale effects. All the
+methods of analysis are based on laboratory studies, which may not truly reflect the site or
+conditions being analysed. All hydraulic models are compromises, so scale effects are
+inherent.
+It is difficult to obtain reliable field data, as opposed to laboratory data, against which to test
+various methods of hydraulic analysis. In this respect Canns Mill Bridge is relatively unique
+since its hydraulic performance has been closely observed and recorded for many years,
+providing an ideal opportunity to test some of the standard methods (Hamill, 1993). The
+results indicated that it is possible to undertake a reasonably successful analysis using only
+relatively limited survey data and simple calculations,
+
+Page 162
+
+without having to rely on sophisticated computer programs (see Examples 4.1–4.4). Indeed,
+some of these calculations can be used to provide a quick check on the output from such
+programs.
+When applying the methods of analysis described above to Canns Mill, all had to be
+modified to some extent, to make them applicable either to arched openings or to abnormal
+flow conditions, or both. In general, these modifications appear to have been successful, but it
+should be remembered that Canns Mill is a segmental arch bridge which experiences an
+abnormal stage and relatively low Froude numbers (in the region of 0.3 or less). If the same
+techniques are applied to a bridge or site that is significantly different, the same accuracy may
+not be obtained.
+It is not easy to define what constitutes a successf ul or accurate hydraulic analysis of a
+bridge during flood. Arguably, anything that estimates the discharge to within about 10%
+could be considered very good. Gauging a flood from a bridge with a velocity meter is
+unlikely to be more accurate (if this is a ttempted a careful study of the isovels must be
+undertaken first, particularly with arch bridges; such a study was conducted for Canns Mill).
+Similarly, any method that can estimate the afflux during flood to within 25mm is probably
+performing better than could reasonably be expected. After all, the water surface is likely to
+be fluctuating by much more than this anyway (see Fig. 2.7 ). Of course, because Canns Mill
+Brid ge has been so closely observed it is much easier to conduct an accurate analysis of this
+structure than of any other. Frequently sites have to be analysed without the benefit of a
+detailed knowledge of their hydraulic performance, so less accurate answers than those
+described below should be expected.
+The results from all the methods of analysis are shown in Table 4.5. As an indication of the
+relative accuracy achieved, the root mean squared (rms) deviations of the calculated results
+from the values in Table 4.5 are shown in Tables 4.6a (afflux) and 4.6b (discharge) for the
+three flow conditions: channel flow, sluice gate flow, and orifice flow. It should be noted that
+these figures are not always based on the same number of results, and that the rms deviation
+obtained is always positive regardless of whether the results are larger or smaller than the true
+values. The rms deviation for the whole range of flow has also been calculated, as has the
+average value for all of the methods.
+Considering first the calculated discharges, it is apparent from Tables 4.5 and 4.6b that all
+of the methods produced answers within 10% over at least part of the range of flows. The
+worst results were obtained from the USBPR drowned orifice equation, but this is often the
+case since it is difficult to obtain accurate values of the coefficient of discharge (see Fig. 2.12)
+because small differences in fluctuating wa ter levels have to be measured. The best results
+were obtained from the USGS technique. This is not too surprising, since the principal
+purpose of this investigation was to enable the peak discharge to be obtained by using the
+bridge constriction as a discharge meter.
+
+Page 163
+
+Table 4.5 Comparison of observed and calculated results
+
+Observed values
+
+USBPR
+
+USGS
+
+Biery and Delleur
+
+HR
+
+Discharge
+(m3/s)
+
+Afflux
+(mm)
+
+Afflux
+eqn
+4.23
+(mm)
+
+Discharge
+eqn 2.8
+(m3/s)
+
+Discharge
+eqn 2.9
+(m3/s)
+
+Afflux
+eqn
+4.18
+(mm)
+
+Discharge
+eqn 4.5
+(m3/s)
+
+Afflux
+(graph)
+(mm)
+
+Discharge
+eqn 4.45
+(m3/s)
+
+Afflux
+upstream
+ratio
+(mm)
+
+Afflux
+downstream
+ratio (mm)
+
+2.4
+4.5
+5.8
+7.0
+8.3
+9.5
+10.8
+12.5
+13.8
+15
+
+3
+5
+11
+17
+45
+72
+115
+175
+220
+270
+
+4
+7
+11
+17
+27
+40
+64
+119
+195
+269
+
+−
+–
+–
+–
+−
+8.21
+11.37
+13.50s
+14.833
+16.023
+
+− 1 a
+2 a
+–
+–
+3 a
+–
+8 a
+6.15 a
+17a
+7.67 a
+34a
+9.26 a
+68
+10.85
+137
+12.45
+211
+14.01
+288
+
+1.84a
+3.88a
+4.82a
+6.29a
+8.02a
+10.01a
+11.44
+12.71
+13.7
+14.7
+
+28
+31
+27
+42
+100
+114
+130
+183
+220
+282
+
+2.07
+3.81
+5.11
+6.08
+10.54
+11.48
+12.22
+13.09
+13.82
+14.41
+
+−
+–
+–
+30
+51
+83
+112
+164
+209
+255
+
+−
+–
+14
+19
+52
+77
+107
+160
+202
+260
+
+a Equation used outside recommended range of application
+Hamill (1993); reproduced with permission, Institution of Civil Engineers
+
+Table 4.6 Root mean square (rms) deviations of the results in Table 4.5
+
+Root mean square deviation
+
+Page 164
+
+Page 165
+
+This being so, the USBPR technique has the merit of being relatively simple and easy to apply.
+Whether or not to apply the USGS technique may depend upon the availability of accurate
+values for the Froude number and the difference in water level between sections 1 and 3. The
+Biery and Delleur method was not easy to apply because of the use of the Froude number and
+the fact that by using slightly different approaches within the same general guidelines it was
+possible to obtain a range of results. As for the HR method, this technique was applied in such
+a way as to obtain results in agreement with the field data. The first attempts at using the
+method were totally unsuccessful due to the difficulty of defining the blockage ratio; the wide
+compound channel had to be treated like a simple channel equal in width to the bridge
+structure without its approach embankments (see Example 4.4). However, at Canns Mill it did
+reproduce the afflux very well, so if experience can be built up regarding how to apply the
+technique to complex sites and confidence in the method established, then it could provide a
+very quick and easy method of calculating afflux.
+Kaatz and James (1997) analysed the backwater at nine different bridge sites during 13
+flood events using four one -dimensional flow models: the modified Bradley method and three
+computer models (the HEC-2 normal bridge method, the HEC-2 special bridge method, and
+WSPRO). All of the sites had wide, flat heavily vegetated floodplains, where subcritical
+channel flow occurred. These are the adverse conditions described at the start of the chapter
+that are outside the range of the Bradley (USBPR) method, so it is not surprising that this
+technique resulted in the average computed backwater for all events being 51% less than the
+measured value. Individual values ranged from about 0.1 to 0.8 of the actual values. However,
+it was observed that the accuracy improved as the velocity in the constriction increased. Of
+course, this raises the question as to whether normal or abnormal stages were experienced at
+the sites and how they were analysed. However, perhaps the tentative conclusion is that under
+the conditions described above the backwater obtained from the USBPR method should be
+doubled, with possibly a larger factor being used if the velocities are very low and the
+conditions extreme. To put this in perspective, WSPRO produced an average backwater 31%
+greater than the true values; the range of individual results was about 0.65–2.65. With the
+HEC-2 special bridge method the average was 26% less with a range of about 0.30–1.25, and
+with the normal method an average 2% less with a range of about 0.40–1.75. In the latter case,
+this would have been 36% higher had the recommended 1:4 downstream expansion been
+adopted (Hydrologic Engineering Center, 1990). Thus all of the methods produced a wide
+range of results, so under these conditions all of the models can be quite inaccurate. It should
+not be assumed that similar accuracy would be obtained at sites with completely different
+characteristics.
+
+Page 166
+
+As stated at the begining of this section, if accuracy is required then use more than one
+method of analysis. Engineering judgement and common sense must also be applied.
+
+4.7 Examples
+
+An example is given below of each of the four methods of analysis described in this chapter.
+For brevity, they build on previous examples and only illustrate the general principle of how
+the calculations proceed; there are too many possible combinations to include every aspect.
+
+Example 4.1: the USGS method
+
+A bridge with an opening 10m wide (=b) spans the main channel analysed in Example 3.2 and
+shown in Fig. 3.12. The bridge has vertical embankments and vertical abutments with no
+entrance rounding or skew. The opening is 5m high. The observed depth at section 1 (10m
+upstream from the face o$f the bridge) is 4.175m while that at section 3 at the waterway exit
+is 3.807 m. The slope of the channel is 1:1000 and the normal depth YN is 4 m. (a) Calculate
+the discharge corresponding to the observed water levels, (b) Check the validity of the
+observed water levels by calculating the afflux
+
+Page 167
+
+Fig. 4.39 Example 4.1: (a) plan of channel and crossing; (b) details of abutments; (c) longitudinal
+section.
+
+5. From Example 3.2, Ka=298m3/s, Kb=2302m3 /s and Kc=500m3 /s. The total conveyance of
+the channel is K=(298+2302+500)=3100 m3/s so from equation 3.5 the opening ratio, M is
+
+Page 168
+
+6. The bridge corresponds to type I abutments and embankments.
+7. In this simple example, section 3 is a rectangle 10.000m wide by 3.807m deep. With
+opening types where the coefficient of discharge is a function of the Froude number (F) the
+calculations below generally have to be repeated several times, since it is necessary to
+guess a discharge in order to calculate the Froude number. Say the discharge (Q) is
+98.030m3/s, then
+
+8. From Fig. 4.3a if M=0.743 and L/b=1.000 then C'=0.950.
+9. With F=0.421, from Fig. 4.3b the adjustment factor for the Froude number is kF=0.982.
+The eccentricity of the opening is e=Ka/ Kc=298/500=0.596. From Table 4.1 it is
+apparent that no adjustment factor is needed. There is no entrance rounding, skew or
+submergence (4.175m<5.000m) so these factors are not needed.
+10. From equation 4.10, C=C'×kF=0.950×0.982=0.933
+11. Assuming that
+
+6. Assuming that
+
+Page 169
+
+98.000=0.933×10.000×3.807 (2×9.81×∆h)
+∆h=0.388m
+
+7. The afflux
+
+Page 170
+
+Fig. 4.40 Example 4.2: (a) plan of channel and crossing; (b) details of channel cross -section; (c)
+details of central pier.
+
+6. From equation 3.1, the opening ratio M=72.800/98.030=0.743.
+7. From Example 3.2, a1 is 1.51. From Fig. 4.20 it is estimated that a2= 1.38.
+8. From the top curve of Fig. 4.21 (wingwall abutments, b<60m) the base coefficient for a
+symmetrical crossing is
+=0.52.
+9. The bridge is eccentric with e=Qa/Qc=9.420/15.810=0.60. This is greater than 0.20 so no
+correction is needed and
+
+10. The correction for skew is obtained from Fig. 4.23a (abutments parallel to flow). If
+M=0.743 and ø=30° then
+
+Page 171
+
+4.40c , most of the calculations are the same as in part (a) up
+
+Page 172
+
+to step 11. The gross area of the opening at section 2 measured below normal depth is still
+A N2=10.000×4.000=40.000m2.
+11. The width of the pier when projected onto section 1 perpendicular to the direction of flow
+is 1.000×cos 30°=0.866m. Thus the area of the pier below normal depth is
+AP=0.866×4.000=3.464m2 . From equation 4.26, J=AP /AN2=3.464/40.000=0.087.
+From Fig. 4.25a, with M =1.0 a rectangular pier with a round nose has ∆k=0.17.
+Correcting for M=0.743 using Fig. 4.25b, a rectangular pier with a round nose has
+σ=0.92.
+Thus from equation 4.27,
+
+Page 173
+
+At this stage the horizontal top width of the water on the right floodplain (Fig. 3.13) is
+9.441m.
+The total top width of the water surface is BT=10.000+5.500+9.441 =24.941 m.
+The cross -sectional areas of flow can be obtained from the simplified cross -section:
+Left floodplain: A 1a=(1.960–1.500)×10.000=4.600m2
+Main channel: A lb=1.960×5.500=10.780m2
+Right floodplain: A1c=½×(1.960–1.500)×9.441=2.171m2
+Total cross-sectional area of flow A1A=4.600+10.780+2.171= 17.551 m 2.
+Thus V 1A=Q /A1A=15.000/17.551=0.855 m/s.
+Usually the normal depth Froude number (FN=F 4) is calculated, but because of the
+abnormal stage F1A is more appropriate. The mean depth of flow
+YM1A=A1A/BT=17.551/24.941=0.704m.
+
+There is no consideration of skew or eccentricity.
+From Fig. 4.32a with M=0.690 and F1A=0.325 the value of [Y1/YN] = 1.144 so for this
+example involving an abnormal stage assume that Y1 1.144Y1A=1.144×1.960=2.242m.
+Thus the afflux
+
+Page 174
+
+Page 175
+
+ratings. American Society of Civil Engineers, Journal of Hydraulic Engineering, 109(12),
+December, 1589–1602.
+French, R.H. (1986) Open-Channel Hydraulics, International Student Edition, McGraw-Hill,
+Singapore.
+Hamill, L. (1993) A guide to the hydraulic analysis of single -span arch bridges. Proceedings of the
+Institution of Civil Engineers, 98, March, 1–11.
+Husain, S.T. and Rao, G.M. (1966) Hydraulics of r iver flow under arch bridges. Irrigation and Power,
+October, 441–454.
+Hydrologic Engineering Center (HEC) (1990) HEC-2 Water Surface Profile User’s Manual, US Army
+Corp of Engineers, Davis, CA.
+Kaatz, K.J. and James, W.P. (1997) Analysis of alternatives for computing backwater at bridges.
+American Society of Civil Engineers, Journal of Hydraulic Engineering, 123(9), September, 784–
+792.
+Kindsvater, C.E. and Carter, R.W. (1955) Tranquil flow through open -channel constrictions.
+Transactions of the American Society of Civil Engineers, 120, 955–992.
+Kindsvater, C.E., Carter, R.W. and Tracy H.J. (1953) Computation of peak discharge at contractions.
+Circular 284, United States Geological Survey, Washington DC.
+Laursen, E.M. (1970) Bridge backwater in wide vall eys. Proceedings of the American Society of Civil
+Engineers, 96 (Hy4), April, 1019 –1038.
+Liu, H.K., Bradley, J.N. and Plate, E.J. (1957) Backwater effects of piers and abutments. Report no.
+CER57HKL10, Colorado State University.
+Matthai, H.F. (1967) Measurement of peak discharge at width contractions by indirect methods.
+Techniques of Water Resource Investigations of the United States Geological Survey, Chapter A4,
+Book 3, Applications of Hydraulics, US Government Printing Office, Washington DC.
+Ranga Raju, K.G., Asawa, G.L., Rana, O.P.S. and Pillai, A.S.N. (1983) Rational assessment of
+blockage effect in channel flow past smooth circular cylinders. Journal of Hydraulics Research,
+21(4), 289–302.
+Skogerboe, G.V., Barrett J.W.H., Walker, W.R. and Austin, L.H. (1973) Comparison of bridge
+backwater relations. Proceedings of the American Society of Civil Engineers, Journal of the
+Hydraulics Division, 99 (Hy6), June, 921–938.
+Tracy, H.J. and Carter, R.W. (1954) Backwater effects of open channel constrictions. Transactions of
+the American Society of Civil Engineers, separate 415.
+Tracy, H.J. and Carter, R.W. (1955) Backwater effects of open channel constrictions. Transactions of
+the American Society of Civil Engineers, 120, 993–1018.
+

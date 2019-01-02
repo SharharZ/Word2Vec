@@ -1,0 +1,742 @@
+Bridge Hydraulics
+
+Page i
+
+Page ii
+
+This page intentionally left blank.
+
+Page iii
+
+Bridge Hydraulics
+
+Les Hamill
+
+School of Civil and Structural Engineering
+University of Plymouth
+
+E & FN SPON
+An Imprint of Routledge
+London and New York
+
+Page iv
+
+First published 1999
+by E & FN Spon, an imprint of Routledge
+11 New Fetter Lane, London EC4P 4EE
+This edition published in the Taylor & Francis e-Library, 2004.
+Simultaneously published in the USA and Canada
+by Routledge
+29 West 35th Street, New York, NY 10001
+© 1999 Les Hamill
+All rights reserved. No part of this book may be reprinted or
+reproduced or utilized in any form or by any electronic, mechanical,
+or other means, now known or hereafter invented, including
+photocopying and recording, or in any information storage or
+retrieval system, without permission in writing from the publishers.
+British Library Cataloguing in Publication Data
+A catalogue record for this book is available from the British Library
+Library of Congress Cataloguing in Publication Data
+A catalog record for this book has been requested
+
+ISBN 0-203 -02841 -4 Master e-book ISBN
+
+ISBN 0-203-23745 -5 (OEB Format)
+ISBN 0 419 20570 5 (Print Edition)
+
+Contents
+
+Preface
+Principal notation
+
+1 Putting things into perspective
+1.1 Why study bridge hydraulics?
+1.2 Early developments in bridge hydraulics
+1.3 Hydraulic causes of bridge failure
+1.4 The hydraulic design of bridges
+2 How a bridge affects river flow
+2.1 Introduction
+2.2 What happens when water flows through a bridge
+2.3 Afflux, piezometric head loss and energy loss
+2.4 Classification of flow types at a bridge
+2.5 Channel control and structure control
+2.6 Case study: Canns Mill Bridge
+3 Factors that affect the hydraulic performance of a bridge
+3.1 Introduction
+3.2 The bridge opening ratio, M
+3.3 Froude number (F), subcritical and supercritical flow
+
+Page v
+
+viii
+xi
+
+1
+1
+3
+9
+19
+34
+34
+36
+41
+44
+51
+56
+61
+61
+61
+68
+
+3.4 Ratio of waterway length to span, L/b
+3.5 Entrance rounding
+3.6 Eccentricity, e
+
+3.7 Skew,
+3.8 Depth of flow, Y
+3.9 Shape of the waterway opening
+3.10 Channel roughness and shape
+3.11 Scour
+3.12 Examples
+4 How to calculate discharge and afflux
+4.1 Introduction
+4.2 US Geological Survey (USGS) method
+4.3 US Bureau of Public Roads (USBPR) method
+4.4 Biery and Delleur
+4.5 Hydraulics Research (HR) method
+4.6 The accuracy of a hydraulic analysis and numerical models
+4.7 Examples
+5 How to analyse flow past piers and trestles
+5.1 Introduction
+5.2 The d’Aubuisson equation
+5.3 The Nagler equation
+5.4 The work of Yarnell
+5.5 Examples
+
+Page vi
+
+77
+78
+79
+80
+
+86
+87
+88
+90
+91
+103
+103
+105
+134
+152
+156
+160
+166
+176
+176
+177
+178
+181
+186
+
+Page vii
+
+6 How to analyse flow over embankments
+6.1 Introduction
+6.2 Road embankments as weirs
+6.3 Example 6.1
+7 How to improve flow through a bridge
+7.1 Introduction
+7.2 E ntrance rounding
+7.3 Abutment type and extended wingwalls
+7.4 Spur dykes (or guidewalls)
+7.5 Minimum energy bridge waterways
+7.6 Channel improvements
+7.7 Examples
+8 How to evaluate and combat scour
+8.1 Introduction
+8.2 Types of scour and its classification
+8.3 Factors affecting scour in cohesionless material and associated
+difficulties
+8.4 E stimation of scour depth in cohesionless material
+8.5 Designing for scour
+8.6 Regime theory
+8.7 Scour in cohesive materials
+8.8 Scour in tidal waterways
+8.9 Combatting scour
+
+Appendix
+A
+Appendix
+B
+
+Hydrodynamic forces on bridges
+
+Some alternative equations for local scour
+
+189
+189
+192
+197
+199
+199
+200
+215
+219
+226
+238
+243
+251
+251
+257
+263
+
+277
+292
+305
+308
+308
+324
+
+344
+
+347
+
+Page viii
+
+Preface
+
+This is intended as a useful handbook on the subject of bridge hydraulics. It includes
+references to articles published in 1997, just prior to its completion, so compared with similar
+books it is relatively up to date. It explores how to undertake the hydraulic analysis or design
+of a bridge, either single or multispan, with either rectangular or arched waterways. It
+describes how to calculate the afflux (backwater), how to improve the hydraulic performance
+of a bridge, and how to evaluate and combat scour. The intention is to provide a good
+introduction to the fundamentals for anyone not familiar with this specalised branch of
+engineering, with enough detailed information to appeal to those who are.
+This book is, in a way, the result of a mistake. Near my home town many years ago a rather
+old, untidy, steel truss bridge was replaced by a very elegant masonry structure. The result
+was that flooding upstream got worse. This raised the question: how is the size of the opening
+in a river bridge determined? Initial enquiries revealed that estimating the magnitude of the
+design flood was relatively straightforward; it was converting this into the dimensions of a
+bridge opening that was difficult. An expert on the subject candidly and charmingly admitted
+that there was much that he (and practically everyone else) did not know or understand, so if
+anyone cared to fill in a few gaps… Hence my research interest and the book. Another reason
+is that bridges are interesting: many people stand on a bridge watching the floodwater pass
+underneath. Hopefully some of this interest is captured in the following pages.
+Some engineers may question why a book on bridge hydraulics is needed when it is
+possible to find computer software that will do all the analysis and design for you. Such
+people frequently believe, because computers are capable of giving answers to 20 decimal
+places, tha t everything that comes out of them is correct and accurate. This is not true.
+Ignoring the fact that the input data may be inaccurate, there may be mistakes in the computer
+program. A sobering thought is that someone once said that if a piece of software is worth
+using then it must have an error in it somewhere!
+Many years ago the author was invited to use the research facilities of a large, prestigious
+company. Part of the work involved digitising some
+
+Page ix
+
+complex shapes to determine their area. To provide a check on the accuracy obtained a
+square was also digitised each time. It was found that the calculated areas of the squares were
+in error by a very considerable margin. When this was pointed out to the company they held a
+hasty conference and came to the conclusion that a square was too simple for the complex
+software to be able to handle! They subsequently modified the software.
+No-one would deny that computers have a fundamental role to play in modern engineering,
+but sometimes the basic science is insufficiently understood or too complex to be represented
+accurately by the software. Sometimes, as in the case of scour, there is not enough reliable
+field data to verify the base equations or computer models under all conditions. Nature does
+not realise that it must always act in strict accordance with human rules! For all of these
+reasons, there are times when physical modelling is strongly recommended, particularly when
+important or unusual projects are involved. Similarly, common sense, experience and
+engineering judgement are needed. The smart engineer will make a few check calculations
+without using the computer, just to ensure that the answer is of the correct order of magnitude
+and makes sense. Similarly, smart engineers will ensure that they understand the basic
+principles involved, because it may not be possible to obtain the optimum design otherwise.
+In this respect little has changed over the years, as the saga of Mr Nagler and Mr Goodrich
+illustrates.
+Following Nagler’s paper of 1918 on the ‘Obstruction of bridge piers to the flow of water’
+there is a nice account of how this article was used by a Mr Goodrich to calculate the
+backwater from a proposed development in the USA. The value turned out to be 3 inches (75
+mm), which was unaccept able, so the city attorneys applied for a restraining order to prevent
+further construction. However, following additional field measurements and a review of the
+computations Mr Goodrich obtained a negative backwater. At the final hearing another, well -
+exp erienced hydraulic engineer showed that about 1 inch (25 mm) of backwater could be
+expected. Mr Goodrich wrote that
+
+The explanation to the Court of the disappearance of the other 2 inches of backwater is not
+anticipated with any great pleasure, but it will be easier than to tell how the water is piled up
+higher below the bridge than above it.
+
+He also considered that he was lucky to have discovered the limitations of the Nagler equation
+before the final hearing so that a much more embarrassing situation ha d been avoided. Later
+in the discussion Nagler pointed out that he had given several cautions regarding the general
+applicability of his work and stated that
+
+Engineers are too prone to select empirical formulas and coefficients from handbooks and
+apply them to entirely irrelevant cases, never
+
+Page x
+
+inquiring as to the natural limitations on the applicability which intelligent use would place on
+them. Intelligent extension of experimental formulas and coefficients to practical problems is
+the highest type of engineering, but the blind application of formulas smacks of student days.
+The modern parallel to the Goodrich and Nagler saga is over-reliance on computers, which
+has resulted in some notable ‘failures’. A multistorey car-park that developed significant
+cracks shortly after opening springs to mind. This type of situation has been termed computer-
+aided disaster (CAD). More than once a design has had to be hastily modified at the last
+minute simply because an updated version of the software arrived and this yielded a
+significantly different answer from the same input data. Engineers have been encountered
+using hydraulic software to analyse and design bridges without having any idea of what it was
+doing or what it was based on.
+Because there have been relatively few in-depth investigations of bridge hydraulics, the
+equations and research referred to in this book will also have been incorporated to a greater or
+lesser extent into the commercially available software. Therefore this book and the software
+m ay be considered complementary, and a possible use for the book may be to help explain the
+fundamentals and to provide a means of checking the output from the software. However,
+bearing in mind Nagler’s comments, it is still up to the engineer to use it wisely.
+Metric units have been used throughout. Where necessary, charts, tables and equations have
+been converted from English units.
+
+Acknowledgements
+
+The author wishes to thank all those who have contributed in any way to the preparation of
+this book. This includes everyone who helped supply information or photographs. Every
+effort has been made to obtain copyright permissions and to include acknowledgements where
+necessary. Any omissions notified will be rectified at the earliest opportunity.
+Thanks are also due to the many people who have contributed to the author’s own research
+over the years, including the staff of the former South West Water such as Bob Hutchings and
+Alan Rafelt, the Coun ty Bridge Engineers of Devon, Cornwall and Somerset, staff at the
+Environment Agency such as Tim Wood, and former colleagues such as Graham McInally .
+
+Page xi
+
+Principal notation
+
+A numerical subscript attached to a symbol usually indicates the location of the cross-section,
+or part of a cross -section, or the reach of a river according to context.
+The bridge waterway opening may be referred to as the opening or the waterway.
+The river is always referred to as the river or the channel.
+
+a
+
+aMT
+
+aW
+
+A
+AC
+
+AMT
+
+AN
+
+AP
+b
+
+b P
+
+b S
+
+b T
+B
+BR
+
+BT
+C, Cd , CD
+
+Cross -sectional area of flow in a (part full) bridge waterway
+opening (m 2)
+Net area of bridge openings between the bed and the midtide
+level in an estuary (m 2).
+Total cross-sectional area of a waterway opening when
+flowing full (m 2).
+Total cross-sectional area of flow in a river channel (m2).
+Net area of flow between the channel bed and the critical
+depth line (m2).
+Gross area of the channel between the bed and the midtide
+level in an estuary (m 2).
+Cross -sectional area of flow between the channel bed and
+normal depth line (m2).
+Cross -sectional area of the submerged part of the piers (m2 ).
+Net width (i.e. excluding pier width) of bridge opening at
+bed level at 90° to flow (m).
+Width of an individual bridge pier measured at 90° to the
+flow direction (m).
+Width between abutments of a skewed bridge, measured
+along the highway centreline (m).
+Top width of free water surface in a bridge opening (m).
+Width of river channel (m).
+Regime (Lacey) width of an alluvial channel measured at 90°
+to the banks (m).
+Top width of water surface between the river banks (m).
+Coefficient of discharge (dimensionless).
+
+C '
+C C
+C F, CS
+
+d S
+
+d SA
+d SC
+d SL
+d SP
+
+D
+
+Db
+
+DM
+
+D50
+
+e
+
+E
+ES
+
+ESC
+
+fS, f
+F
+FM, FA
+
+FN
+
+g
+h
+
+h C
+
+h F
+H
+
+Page xii
+
+USGS method base coefficient of discharge (dimensionless).
+Coefficient of contraction (dimensionless).
+Coefficients for free and submerged flow over a highway
+embankment (dimensionless).
+Total scour depth as a result of contraction, piers, abutments
+and degradation (m).
+Depth of scour at abutment (m).
+Depth of scour in a contraction or bridge opening (m).
+Depth of local scour at piers and abutments (m).
+Depth of scour at a pier (m).
+Diameter of the (uniform) material comprising a river bed,
+riprap etc. (m).
+USBPR method differential ratio to calculate the fall in water
+level across embankments.
+Effective mean diameter (m)=1.25D50 in Chapter 8.
+Median diameter at which 50% of material by weight is
+smaller than the size denoted (m).
+Eccentricity (numerical ratio of abutment lengths, or
+conveyances or discharges).
+Total energy (m).
+Specific energy, i.e. energy calculated above bed
+level=Y+V2/2g (m).
+Critical specific energy (m) i.e. specific energy when the
+flow is at critical depth.
+(Lacey’s) silt factor for a sediment of diameter D.
+Froude number.
+Mean/average Froude number calculated from mean/average
+depth on floodplain (Chapter 8).
+Froude number with normal depth flow (=F4,
+dimensionless).
+The acceleration due to gravity (9.81 m/s 2).
+Height of water surface above the centre of curvature of an
+arch (m).
+Average depth of flow along a constricted tidal estuary at the
+midtide level (m).
+Head loss due to friction (m).
+Elevation of water surface above a datum level (m).
+
+Page xiii
+
+Distance of the water surface below the normal depth line at
+section 3 (m).
+Proportion of bridge waterway blocked by piers or piles, or
+blockage ratio (HR method).
+USGS method adjustment factors (various subscripts) to base
+coefficient of discharge.
+USBPR method total backwater coefficient (dimensionless).
+USBPR method total critical depth backwater coefficient
+(dimensionless).
+Total conveyance of river channel (m 3/s).
+Conveyance of the part of the approach channel equivalent to
+the bridge opening (m 3/s).
+Yarnell, d’Aubuisson and Nagler coefficients for flow past
+piers (Chapter 5).
+Abutment scour adjustment factor for angle of attack
+(equation 8.18).
+Abutment scour adjustment factors for shape and angle of
+attack (equation 8.17).
+Pier scour adjustment factors for nose shape, angle of attack
+and bed form (equation 8.14).
+Scour adjustment factor to allow for grading of bed material.
+Length of bridge waterway in the direction of flow (m), or
+reach length with subscr ipts.
+Length of bridge abutments or embankments normal to the
+flow (m).
+Length of a constricted tidal estuary (m).
+Length of the bridge road embankment when overtopped, as
+for a weir (m).
+Length of spur dyke in the direction of flow (m).
+Bridge opening ratio= q/Q or a/A or b/B or Kb /K
+(dimensionless).
+Limiting opening ratio (dimensionless) at which the flow is
+at critical depth.
+Manning’s roughness coefficient (s/m⅓).
+Wetted perimeter of a channel (m).
+Quantity of flow that can pass through the bridge opening
+unimpeded (m3 /s).
+Discharge per metre width in Chapter 7 (m3 /s per m or m2 /s).
+Discharge per metre width at the critical depth in Chapter 7
+(m2 /s).
+Total discharge (m3 /s).
+Discharge in the part of the approach channel corresponding
+to the bridge opening (m3 /s).
+Nominal discharge capacity of a waterway running full in
+Chapter 7 (m3 /s).
+
+J
+
+k
+
+k*
+
+K
+K b
+
+K , KA, KN
+
+K AΦ
+
+K 1A, K2A
+
+K 1P, K 2P, K3P
+
+Kσ
+L
+
+LA
+
+LC
+LE
+
+LS
+M
+
+M L
+
+n
+P
+q
+
+q
+q C
+
+Q
+Qb
+
+QF
+
+QMT
+
+QMAX
+
+Q100
+
+r
+
+R
+RS
+
+s S
+
+S F
+SO
+S C*
+
+T
+
+T
+
+U*
+
+V
+VC
+VE
+
+VMAX
+
+VMEANMAX
+
+VMT
+
+VN
+
+VOL
+
+VS
+
+VSC
+
+Vu
+
+VV
+
+V2A
+
+w
+w
+W
+
+Page xiv
+
+Maximum tidal discharge in an estuary at midtide level
+(m3 /s).
+Maximum total discharge in a tidal estuary, including any
+river flow (m3/s).
+Discharge corresponding to the 1 in 100 year flood (m3 /s).
+Radius of curvature of an arch, or radius of entrance
+rounding to waterway (m).
+Hydraulic radius of channel (= A/P m).
+Regime scoured depth of flow (m) corresponding to channel
+width BR .
+Specific gravity (relative density) of sediment, bed material,
+stone or riprap (dimensionless).
+Longitudinal slope of total energy line (dimensionless).
+Longitudinal slope of river bed (dimensionless).
+USBPR method afflux scour correction factor
+(dimensionless).
+USGS method, height of water surface above bottom chord
+of bridge deck (m).
+Tidal period between successive high or low water levels
+(hours/seconds).
+Shear velocity=( gYSF)1/2 (m/s).
+Scour-critical shear velocity at which bed movement occurs.
+Mean flow velocity (m/s).
+Critical velocity (m/s), velocity when F=1.0
+Threshold velocity at which erosion of bed material starts
+(m/s).
+Local maximum velocity in the bridge openings at midtide
+level in an estuary (m/s).
+Mean maximum velocity in an estuary or tidal inlet with
+normal spring tides (m/s)
+Average maximum velocity in the bridge openings at
+midtide level in an estuary (m/s).
+Mean velocity when flow in a river channel is at normal
+depth (m).
+Tidal volume of an estuary calculated between low and high
+tidal levels (m3 ).
+Scour-critical velocity needed to move bed material and start
+live -bed scour (m/s).
+Neill’s competent velocity at which the flow can just move
+the bed material (m/s).
+Mean upstream approach velocity at either section 1 or 2
+(m/s).
+Velocity in the voids of riprap (m/s).
+Average velocity at section 2, in the opening, at the abnormal
+stage that would exist without the bridge (m/s).
+Width of a chamfer on the entrance to a waterway (m).
+Median fall velocity of a particle in water in Chapter 8 (m/s).
+Channel width near a minimum energy opening measured
+along a curved orthogonal (m).
+
+WSP
+
+X
+
+Y
+Y *
+
+Y C
+
+Y d
+
+Y M, YA
+
+Y MT
+
+Y N
+
+Y S
+
+Y S
+
+Y SN
+
+Y SMAX
+
+Y u
+
+Y 1
+
+Y 1A
+
+Z
+
+∆AS
+∆d
+∆h
+
+∆H
+
+Page xv
+
+Width of pier scour hole (m).
+Length approach embankment/abutments (m) for calculation
+of eccentricity.
+Depth of flow measured from the bed (m).
+Depth of flow required for a waterway opening to become
+permanently drowned (m).
+Critical depth (m), corresponding to critical flow ( F=1.0) at
+minimum specific energy.
+Downstream depth measured above mean bed level on the
+channel centreline (m).
+Mean depth, average depth (m). Numerical subscript
+indicates location of cross-section.
+Average depth at midtide level in an estuary (m).
+Normal depth (m), e.g. as with uniform flow and predicted
+by the Manning equation.
+Water depth above the springings of an arch (m), i.e. above
+where the arch starts.
+Scoured regime depth of flow (m) in a natural channel
+constriction (Chapter 8).
+Normal regime scoured depth of flow in a bridge opening
+(m).
+Maximum regime scoured depth of flow in a bridge opening
+(m).
+Upstream mean depth, the larger of the depths at sections 1
+and 2 (m).
+Depth at section 1 (including the afflux) upstream of the
+bridge (m).
+Depth at section 1 without the bridge when abnormal stage
+exists (m).
+Vertical height of bridge opening (to the top of an arch) from
+mean bed level (m).
+Increase in cross -sectional area of flow caused by scour (m2 ).
+Degradation depth or long- term reduction in bed level (m).
+Difference in elevation of water surface between sections 1
+and 3 (m).
+Differential head (m) across the bridge
+
+v
+ρ
+
+ø
+
+Φ
+
+Page xvi
+
+Kinematic viscosity (m2/s).
+Mass density (kg/m3). Subscript s indicates bed sediment or
+stone riprap.
+Angle of skew, angle of bridge embankments or piers to the
+approach flow.
+Angle of bridge approach/abutments relative to flow
+(equation 8.17).
+

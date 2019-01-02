@@ -1,0 +1,3173 @@
+Page 251
+
+8
+How to evaluate and combat scour
+
+8.1 Introduction
+
+Scour can be defined simply as the excavation and removal of material from the bed and
+banks of streams as a result of the erosive action of flowing water. In the context of this book,
+it is assumed that this erosive action may potentially expose the foundations of a bridge.
+Scour is usually considered to be a local phenomenon, but includes degradation that can cause
+erosion over a considerable length of a river. Some of the observable effects of scour are
+shown in Figs 8.1 and 8.2.
+It is sometimes assumed that scour will be a problem only when the bed material consists
+of fine cohesionless material. This is not true: ultimately the scour depth in cohesive or
+cemented soils can be just as large, it merely takes longer for the scour hole to develop. For
+example, under constant flow conditions, scour will reach maximum depth in sand and gravel
+in a matter of hours (perhaps during one flood); in cohesive materials it will take days; in
+glacial tills, sandstones and shales it will take months; in limestone years; and in dense granite
+centuries (Richardson et al., 1993). However, the biggest and most frequently encountered
+scour-related problems usually concern loose sediments that are easily eroded.
+Scour is a very serious problem. Floods that result in scour are the principal cause of bridge
+failure (Table 1.1 ). In 1973 in the USA a national study of 383 bridge failures caused by
+catastrophic floods showed that around 25% involved pier damage and 72% abutment damage
+(Chang, 1973). In 1985, some 73 bridges were destroyed by floods in Pennsylvania, Virginia
+and West Virginia, while during the spring floods of 1987 17 bridges in New York and New
+England were damaged or destroyed by scour. With about 485000 bridges spanning rivers in
+the US National Bridge Inventory, it is likely that hundreds of these structures will encounter
+a 1 in 100 year flood during any twelve month period, and that some will be damaged or
+destroyed. On a worldwide scale the problem is even larger. Many countries have
+programmes that are designed to identify the bridges that are at risk from s cour (i.e. scour
+critical) with the dual aim of ensuring the safety of users and preserving the affected
+structures.
+
+Page 252
+
+Fig. 8.1 Some observable effects of scour: (a) pier piles and pile cap exposed; (b) pier and abutment
+riprap moved downstream; (c) downstrean scour hole and bank erosion; (d) downstream
+scour hole arising from submergence of the opening (pressure flow); (e) slumped material
+at the toe arising from failure of the riprap or bank; (f) erosion (mass wasting) and failure
+of the highway embankment with flow on both sides of the abutment.
+
+It is not just old structures, such as nineteenth century rail bridges, that are at risk; new
+structures can also be susceptible if not properly designed with scour in mind. Of course, it is
+easy to say that the foundations of all new structures should be made so deep as to eliminate
+any potent ial problems relating to scour, just as it can be said that the bridge opening should
+be made large enough to pass any flood that occurs, but in reality things are not this simple,
+and economic factors must also be considered. If unnecessary expense is incurred by making
+all of the foundations significantly deeper than the probable scour depth, the cumulative cost
+will be very substantial because a large number of bridges are involved. In the State of
+Washington, for example, environmental regulations designed to preserve the ecology of the
+stream require that any construction activity that disturbs riverbed material must take place
+within a watertight enclosure such
+
+Page 253
+
+Fig. 8.2 Bank erosion at Stoneyford Bridge, Honiton, July 1968. (Reproduced by permission of the
+Environment Agency)
+
+as a cofferdam. The cost of this enclosure varies with the plan area and the depth of
+excavation, so deliberately designing very deep foundations will complicate construction and
+add significantly to the cost (Copp and Johnson, 1987). On the other hand, it should be
+remembered that the total cost of a failure may be of the order of two to ten times that of the
+original structure, allowing for disruption to transport and commerce. Thus it is necessary to
+strike a balance, setting the foundations deep enough to resist the scour that can reasonably be
+expected at the site without going so deep as to incur additional unnecessary expense.
+Unfortunately, when deciding just how deep is deep enough the equations that are available to
+predict the depth of scour are very numerous and contradictory. In 1987, Copp and Johnson
+reported that 35 different formulae for scour estimation at piers had been proposed since 1949,
+almost one per year! Most of these equations were of the form
+
+Page 254
+
+scour hole that develops on the rising stage of a flood, or at the peak, may be filled in again on
+the falling stage so that the maximum depth cannot be assessed easily after the event.
+Measurement or observation during flood using divers is not safe or practical, but it is
+sometimes possible to detect the maximum scour depth afterwards. For instance, if a cohesive
+material is scoured and then subsequently the pit is filled with an incohesive material, by
+probing it should be possible to detect the change in the strata. Similarly, with cohesionless
+material it may be possible to detect changes between the fill and the underlying bed material.
+New instruments are being developed to detect and monitor scour as it occurs (Fig. 8.3 and
+Table 8.1 ), so better information may be available in future (Apt et al., 1992).
+
+Fig. 8.3 The HR Wallingford ‘Tell-Tail’ scour monitoring system. One or more motion sensors are
+buried at different levels within the river bed, adjacent to the structure. Under normal
+conditions a buried sensor does not move, but when exposed by scour it begins to oscillate
+in the flow, triggering an alarm at the surface. The system also allows a real -time
+assessment of scour depth, and indicates whether scour hole refill has occurred.
+(Reproduced by permission of HR Wallingford Ltd)
+
+Table 8.1 Scour detection and monitoring equipment
+
+Device
+
+Brief description and limitation
+
+Ground
+penetrating radar
+(GPR)
+
+Cable and lead
+Essentially for determining the profile of the bed surface in deep water
+weight
+post -flood. Limited, and does not indicate infilling.
+Penetration testing Essentially consists of probing with a rod to find the interface between
+the unsecured bed material and the infill material, which is assumed to
+be of different density or resistance to penetration. Expensive and time
+consuming if a large area has to be assessed.
+Electromagnetic pulses (80–800 MHz) are reflected from the scour
+interface. Not suitable for or limited effectiveness with highly
+conductive materials such as clay, salt water, sediments saturated with
+salt water, and water depths over 7.5 m. Can cover a large area quickly
+with good resolution under favourable circumstances.
+Tuned transducer Uses a reflected low -frequency acoustic wave (20 kHz) to locate the
+scour interface, which gives better penetration but lower resolution than
+high -frequency equivalents. Can cover a large area quickly with
+adequate resolution under favourable circumstances.
+Colour fathometer A variable -frequency acoustic wave is reflected from the scour
+interface, measured in decibels, digitised, and displayed on a colour
+monitor. Similar to the tuned transducer.
+Uses a 200 kHz acoustic wave to obtain a plot of the channel bottom.
+Very limited penetration in most conditions but is relatively simple,
+quick, and can be effective, particularly if used with other methods.
+Essentially as above, but cheaper versions fixed to bridge piers and
+connected to datalogging or telemetry systems. Effectiveness can be
+limited by debris, ice or water with entrained air.
+A rod resting on the bed drops vertically as the scour hole develops,
+allowing depth to be determined manually or electronically. May be
+limited by length of rod and difficulty of avoiding the rod sinking into
+the bed under its own weight.
+Instruments may be buried where scour is expe cted and work by sensing
+the channel bed-water interface by means of electrical conductance,
+sliding collars, piezoelectric strips, tip switch or vibrations. Must be in
+the correct place and robust enough to withstand prolonged
+submergence and subsequent exposure.
+
+Black and white
+fathometer
+
+Fixed sonic
+fathometers
+
+Sounding rods
+
+Buried
+instrumentation
+
+Page 255
+
+RT
+or I
+
+I
+
+I
+
+M
+or
+F
+
+M
+
+M
+
+RT/I M
+
+RT/I M
+
+RT/I M
+
+RT/I M
+
+RT
+
+RT
+
+F
+
+F
+
+RT
+
+F
+
+Note that scour monitoring is the term for the real- time (RT) measurement of scour depth as it occurs. Scour
+inspection (I) is a post-flood activity. Equipment may be mobile (M) or fixed (F). Clearly if a mobile device is
+used for RT monitoring a difficulty may be getting it to the right place at the right time. The technology of these
+devices is advancing rapidly so details above will change.
+Based on Richardson et al. (1993)
+
+Even if the conditions relating to the model tests are known and there are accurate field data
+for comparison, there is still the difficulty of relating small-scale model results to prototype
+conditions (Johnson, 1995). The only way to determine which of t he many alternative
+equations is ‘the best’ is to compare the scour predictions with comprehensive field
+
+measurements. Unfortunately, it is only recently that such data have started to become
+available. In the USA over 20 states have been undertaking scour investigations (e.g. Copp
+and Johnson, 1987; Tyagi, 1989; Miller et al. 1992; Bryan et al. 1995). This has resulted in a
+useful and authoritative guide to evaluating scour at bridges, namely Hydraulic Engineering
+Circular 18
+
+Page 256
+
+(HEC 18) produced by the US Federal Highways Administration/ Department of
+Transportation (Richardson et al. 1993). The first edition was published in 1991; the second
+in 1993 incorporated the results of further research. The UK’s guidelines appear to be largely
+based on th is work (Highways Agency, 1994). Additionally, Jones (1984) and Melville (1988)
+provided a good introduction to the problem of scour and the background to many of the
+equations.
+There are so many equations that it is not possible to present them all with a detailed
+description of where they should be used, and to caution when and where the calculated depth
+is likely to be exceeded. Consequently the equations in this chapter are those recommended
+by Richardson et al. (1993). Some are effectively the enveloping curve to many (not all) of
+the other equations, so in most situations they are conservative and tend to overestimate the
+scour depth, particularly in the UK but also in the USA. Laursen (1984) remarked that if some
+of them predicted the true state of a ffairs, there would be very few bridges still standing in
+Arizona! However, with new bridges and where public safety is involved it can be argued that
+it is preferable to design for something approaching the worst -case scenario and experience
+relatively little, rather than the other way around. When assessing the potential for scour at
+existing bridges the conservative nature of the equations can make it difficult to assess the
+true risk. A few alternative equations are included in Appendix B, but these should be applied
+cautiously with reference to the full literature because the indicated scour depth may be
+exceeded. Johnson and Ayyub (1996) described how fuzzy regres sion can be used to quantify
+the bias that results when laboratory-based scour models are used for field applications. For
+very busy bridges engineers can select a high degree of belief as well as a high degree of
+reliability and thus obtain a suitably con servative estimate of scour depth, whereas for a rural
+bridge a lower reliability requirement would result in a smaller depth.
+Scour can also cause problems with the hydraulic analysis of a bridge. As described in
+Section 3.11, scour may considerably deepen the channel through a bridge and effectively
+reduce or eliminate the backwater. Sometimes a negative backwater can be obtained, which
+may be regarded as desirable, but only if the bridge and its foundations are designed to
+withstand the scour depths involved. This reduction in backwater should not be relied on
+because of the unpredictable nature of the processes involved.
+When considering scour it is normal to distinguish between non- cohesive or cohesionless
+(alluvial) sediments and cohesive material. The former are usually of most interest and will be
+considered in Sections 8.2–8.6, the last describing the regime theory of alluvial channels.
+Cohesive materials will be considered briefly in Section 8.7. In all cases it will be assumed
+that the bridge is located on a non -tidal stream. The special case of scour in tidal areas is
+considered in Section 8.8. Scour prevention measures, notably the use of riprap, are covered
+in Section 8.9. Before applying any of the equa-
+
+Page 257
+
+tions it is essential to have an appreciation of the types of scour and the factors that influence
+scour depth. These are described below.
+
+8.2 Types of scour and its classification
+
+So far, for simplicity, scour has been considered as a single entity. However, from the point of
+view of bridge crossings it is usually classified under the headi ngs shown in Table 8.2.
+
+8.2.1 Clear-water scour and live-bed scour
+
+The first major division is between clear-water scour and live-bed scour. The critical issue
+here is whether or not the mean velocity (V m/s) of the flow upstream of the bridge is less
+than or larger than the scour-critical velocity (Vs m/s) needed to move the bed material. If
+V<V S then the bed material upstream of the bridge is at rest: this is referred to as the
+clearwater condition because the approach flow is clear and does not contain sediment. This
+means that any bed material that is removed from a local scour hole is not replaced by
+sediment being transported by the approach flow. The maximum local scour depth is achieved
+when the size of the scour hole results in a local reduction in velocity and the flow can no
+longer remove bed material from the scoured area.
+Live-bed scour occurs where V>VS and the bed material upstream of the crossing is moving.
+This means that the approach flow continuously transports sediment into a local scour hole.
+By itself, a livebed in a uniform channel will not cause a scour hole; for this to be created
+some additional increase in velocity is needed, such as that caused by a contraction (natural or
+artificial, such as a bridge) or a local obstruction (e.g. a bridge pier). The equilibrium scour
+depth is achieved when material is transported into the scour hole at the same rate at which it
+is transported out.
+The clear-water and live-bed conditions are significant because to some degree the growth
+of the scour hole will depend upon whether or not the bed material is already in motion (Fig.
+8.4). With clear -water scour the growth is slightly slower but more uniform than in live -bed
+scour, which shows fluctuations (dotted line) about the equilibrium depth (solid line). The
+fluctuations are due to the migration downstream of bed features such
+
+Table 8.2 Classification of scour
+
+Type of scour (see eqns 8.2 and 8.3 for Vs) Clear-water scour (V<V s) Live-bed scour (V>Vs)
+
+Degradation or aggradation
+Contraction scour (e.g. bridge opening)
+Local scour
+— piers
+— abutments
+
+Assessed over the life of the bridge—see Section 8.2.2
+Eqns 8.10–8.12
+Eqns 8.13 and 8.11
+Eqn 8.14 and Fig. 1.15
+Eqn 8.14 and Fig. 1.15
+Eqn 8.17 or 8.18
+Eqn 8.17 or 8.18
+
+Page 258
+
+as ripples and dunes (see Fig. 8.9). Note that typically the maximum local clear-water scour is
+about 10% larger than the equilibrium local live -bed scour, clear water having a greater
+sediment-carrying capacity. For this reason the formulae used to estimate scour depth are
+classed as either clearwater or live-bed equations, and generally each group of equations
+should be applied only to their respective condition. Conditions that favour clea rwater scour
+are: channels with flat bed slopes during low flows; a coarse bed material that is too large to
+be transported (riprap is an artificial example); channels with natural vegetation or artificial
+reinforcement where velocities are only high enough to cause scour near piers and abutments;
+and flow over floodplains (assuming they are grassed). To determine whether the flow
+condition is clear -water or live-bed, Neill (1968) suggested that equation 8.2 be applied to the
+unobstructed flow. If the average velocity (V=Q/A m/s) in the unobstructed approach section
+is greater than V S (m/s) the scour will be live bed.
+
+(8.2)
+
+where s s is the (dimensionless) specific gravity or relative density of the sedimen t or bed
+material, g is 9.81 m/s2, D50 is the median diameter (m) at which 50% of the bed material by
+weight is smaller than the size denoted, and Y is the average depth (m) in the upstream
+channel. Usually s s is about 2.65, so that equation 8.2 becomes
+
+Fig. 8.4 Diagrammatic illustration of the increase in local scour depth (d SL) with time for clear -water
+and live-bed conditions. The oscillations for the livebed condition (dotted) are due to
+transient bed features such as ripples. The final clear-water scour depth exceeds the
+equivalent equilibrium livebed depth by about 10%.
+
+Page 259
+
+(8.3)
+
+At any particular location both clear -water and live-bed scour may be experienced. During a
+single flood the mean velocity will increase and decrease as the discharge rises and falls, so it
+is possible to have clear -water conditions initially, then a live bed, then finally clear water
+again (Fig. 8.5). The maximum scour depth may occur under clear-water conditions, not at the
+flood peak when live-bed scour is experienced. Similarly, relatively high velocities can be
+experienced when the flow is just contained within the banks, rather than spread over the
+floodplains at the peak discharge. It is also possible to have the clear-water and live-bed
+conditions occurring at the same time. For example, if the floodplains are grassed or
+composed of material that is larger in diameter than that in the main channel, then clearwater
+conditions may occur on the floodplain with live-bed conditions in the main channel. Thus the
+problem may not always be as simple or as well defined as would be convenient.
+
+8.2.2 Degradation
+
+The next classification in Table 8.2 is degradation, which can only occur with a live bed
+(V>V S). Degradation is not the result of bridge or embankment construction. It is more widely
+defined as an adjustment of the bed elevation over a large area due to changes in hydrology,
+hydraulics or sediment transport. This can be illustrated by the following equation (Lane,
+1955; B ryan et al. 1995):
+
+Page 260
+
+change to one variable on either side of the equation will affect the stability of the channel,
+and can lead to degradation or aggradation (deposition of sediment). While aggradation
+sounds harmless, it should be remembered that this could reduce the size of the bridge
+opening and make it more likely that debris will become trapped (perhaps against the
+upstream soffit), so increasing scour potential.
+Urbanisation has the effec t of increasing flood magnitudes and causing hydrographs to
+peak earlier, resulting in higher stream velocities and degradation. Channel improvements or
+the extraction of gravel (above or below the site in question) can alter water levels, flow
+velocities, bed slopes and sediment transport characteristics and consequently affect scour.
+For instance, if an alluvial channel is straightened, widened or altered in any other way that
+results in an increased flow -energy condition, the channel will tend back towards a lower
+energy state by degrading upstream, widening and aggrading downstream. The construction
+of dams stops sediment transport (QS) and results in an artificial discharge (Q) of clear water
+downstream, which has a greater erosion potential. The Hoover Dam resulted in a 7.1m
+degradation of the sand and gravel bed of the Colorado River, its effect extending for 111km
+(Melville, 1988).
+The significance of degradation scour to bridge design is that the engineer has to decide
+whether the existing channel elevation is likely to be constant over the 100 year life of the
+bridge, or whether it will change. If change is probable then it must be allowed for when
+designing the waterway and foundations.
+The lateral stability of a river channel may also affect scour depths, because movement of
+the channel may result in the bridge being incorrectly positioned or aligned with respect to the
+approach flow (Trent and Brown, 1984). This problem can be significant under any
+circumstances but is potentially very serious in arid or semi-arid regions and with ephemeral
+(intermittent) streams (Richardson et al., 1990). As an illustration, the Cimarron River in
+Kansas, USA, was 15 m wide around the year 1900 but as a result of a series of major floods
+in the 1930s its width increased to around 365 m, essentially occupying the entire valley
+bottom. The Kosi River in India can move laterally by up to 760m per year, while parts of the
+Colorado and Mississippi Rivers in the USA have rates of about 3–46m and 48–192m
+respectively. Lateral migration rates are largely unpredictable: sometimes a channel that has
+been stable for many years may suddenly start to move, but significant influences are floods,
+bank material, vegetation of the banks and floodplains, and land use (see Fig. 1.6). In a survey
+of 224 bridge sites in the USA it was found that hydraulic problems attributable to lateral
+erosion by the stream occurred at 106 of them (Brice, 1984). The next largest problem was
+contraction scour, which was found at 55 sites, followed by local scour, which occurred at 47.
+Channel degradation was found at 34, and the accumulation of debris caused problems at 26.
+
+Page 261
+
+8.2.3 Contraction scour
+
+Contraction scour occurs over a whole cross -section as a result of the increased velocities
+arising from a narrowing of the channel by a constriction such as a bridge. In general, the
+smaller the opening ratio (M=q/Q or b/B) the larger the waterway velocity and the greater the
+potential for scour. If the flow contracts from a wide floodplain, considerable scour and bank
+failure can occur. According to Blodgett (1984), during the first two or three years after the
+construction of a bridge that forms a constriction bed levels may be reduced by around 0.5m
+or more (‘several feet’). Relatively severe constrictions may require regular maintenance for
+decades to combat erosion. Needless to say, one way to reduce contraction scour is to make
+the opening wider.
+
+8.2.4 Local scour
+
+Local scour arises from the increased velocities and associated vortices as water accelerates
+around the corners of abutments, piers and spur dykes.
+The flow pattern around a cylindrical pier is shown in Fig. 8.6. The approaching flow
+decelerates as it nears the cylinder, coming to rest at the centre of the pier. The resulting
+stagnation pressure is highest near the water surface where the approach velocity is greatest,
+and smaller lower down. The d ownward pressure gradient at the pier face directs the flow
+downwards. Local pier scour begins when the downflow velocity near the stagnation point is
+strong enough to overcome the resistance to motion of
+
+Fig. 8.6 The flow pattern and scour hole at a cylindrical pier. The downflow, horseshoe vortex and
+wake vortex are the principal cause of local bed erosion. (After Melville, 1988. Reproduced
+by permission of Technomic Publishing Company Inc., Lancaster, PA, USA)
+
+Page 262
+
+the bed particles. Without a scour hole the maximum downward velocity is about 40% of the
+mean approach velocity (V), the maximum strength of the downflow being recorded just
+below bed level. When scour occurs the maximum downflow velocity is about 80% of V
+(Copp and Johnson, 1987; Melville, 1988). The impact of the downflow on the bed is the
+principal factor leading to the creation of a scour hole. As the hole grows the flow dives down
+and around the pier producing a horseshoe vortex, which carries the scoured bed material
+downstream. The combination of the downflow with the horseshoe vortex is the dominant
+scour mechanism. As the scour hole becomes progressively deeper the downflow near the
+bottom of the scour hole decreases until at some point in time equilibrium is reached and the
+depth remains constant.
+At the sides of the pier flow separation occurs, resulting in a wake vo rtex whose whirlpool
+action sucks up sediment from the bed. As the vortices diminish and velocities reduce, the
+scoured material is deposited some distance downstream of the pier.
+For piers that are essentially rectangular in plan and aligned to the flow the basic scour
+mechanism is similar to that just described, albeit rather more severe because of the square
+corners. However, as the angle of attack to a rectangular pier increases so does its effective
+width, so the scour depth increases and the point of maximum scour moves downstream of the
+nose to a point on the exposed side. With a large degree of skew the maximum scour may
+occur at the downstream end of the pier. If the flow direction is likely to change there is merit
+in using cylindrical piers to avoid these complications.
+The scour mechanism at a bridge abutment is similar to that at a pier, although the
+boundary layer at the abutment or channel wall may result in an additional deceleration of the
+flow compared with a central pier. The approach flow can be considered as separating into an
+upper layer, which forms an upflow surface roller on hitting the abutment, and a lower layer,
+which becomes the bottom or principal vortex ( Fig. 8.7). Viewed in plan, the upper layer
+divides or separates, with part of the flow accelerating around the upstream corner of the
+abutment into the bridge waterway while the remainder slowly rotates in an almost stationary
+pool trapped against the face of the abutment and the river bank. In the bottom layer, the flow
+near the bank forms an almost vertical downflow, while that nearer to the end of the abutment
+accelerates down and into the waterway, forming the principal vortex. Usually scouring starts
+in this region of accelerating flow and grows along the faces of the abutment. Downstream of
+the abutment wake vortices form.
+The basic scouring process is the same for most types of abutment, although with wingwall
+and vertical wall types (as opposed to the spillthrough type in Fig. 8.7) the stagnation region
+is larger, and scour is most severe near the end of the abutment where the principal vortex is
+concentrated. Scour at spur dykes was considered briefly in Section 7.4.
+
+Page 263
+
+Fig. 8.7 The flow pattern at a spillthrough abutment. The downflow and principal vortex are the main
+causes of local bed erosion. (After Melville, 1988. Reproduced by permission of
+Technomic Publishing Company Inc., Lancaster, PA, USA)
+
+8.2.5 Total scour depth, ds
+
+Degradation, contraction and local scour are additive, but only where the scour holes overlap
+(Table 8.2 ). For instance, contraction scour may have to be added to pier or abutment scour to
+get the total scour depth. However, pier scour and abutment scour would not be added unless
+the two scour holes overlap. This usually has to be determined by drawing a cross-section
+through the waterway and superimposing the scour depths. If the holes do overlap (see
+equation 8.16) the resultant scour depth is often larger than the two components, but difficult
+to predict. Nevertheless, as a general reminder:
+
+(8.5)
+
+Some of the causes of degradation and scour are depicted in Fig. 8.8. Before considering how
+to calculate scour depths it is beneficial to consider the factors that influence scour.
+
+8.3 Factors affecting scour in cohesionless material and associated
+difficulties
+
+Table 8.3 shows the scour depths recorded in 1986 during high flows in streams in Oklahoma
+(Tyagi, 1989). The table is included to give a broad indication of the range of scour depth that
+may be encountered, and to indicate that the depth is not just a function of the bed material.
+The large number of variables (listed below) that ideally should be included in the
+
+Page 264
+
+Fig. 8.8 Some typical causes of degradation and scour, (a, b) The removal of the bend (naturally or
+artificially, as a channel improvement measure) leads to an increased hydraulic gradient,
+higher velocities and degradation at the bridge, (c) Bank erosion and migration of the bend
+results in the bridge not being properly aligned to the flow, possibly with the result shown
+in Fig. 8.1f . (d) The bridge is perpendicular to the main river channel but not to the
+overbank flow, resulting in a reduced hydraulic performance during floods, (e) A narrow
+bridge waterway or excessive use of large stones to protect piers and abutments leads to
+high velocities and downstream scour. (f) The construction of a dam retains sediment and
+causes increased clearwater scour and degradation downstream at the bridge.
+
+scour depth equations illustrates the difficulty of deriving simple but accurate formulae.
+However, an understanding of the significance of these interrelated factors will help in
+producing a sound estimate of scour depth.
+1. Hydraulic variables including the stream discharge (Q m3/s), approach depth and mean
+velocity (Ym and Vm/s), the water’s density and viscosity (p kg/m3 and v m2/s), and the
+Froude number (F). These factors (in conj unc-
+
+Table 8.3 Scour depths at some bridge sites in Oklahoma during 1986 and 1988 floods and low flows
+
+Bridge site
+
+River
+
+Flow depth (m)
+
+Scour depth (m) Channel characteristics
+
+Page 265
+
+Cleo Springs
+Cimarron
+0.61
+0.18
+Ringwood
+Cimarron
+0.23
+0.23
+Lacey
+Cimarron
+0.52
+2.71
+Cimarron City Cimarron
+0.61
+0.91
+Guthrie
+Cimarron
+0.31
+2.44
+1–35
+Cimarron
+0.31
+3.96
+Cayle
+Cimarron
+0.31
+4.88
+Perkins
+Cimarron
+0.61
+5.49
+Ripley
+Cimarron
+4.27
+3.35
+Cushing
+Cimarron
+5.18
+2.44
+Oilton
+Cimarron
+4.57
+5.18
+Oilton
+Cimarron
+7.62
+0.91
+Sand Springs Arkansas
+4.57
+2.74
+Tulsa
+Arkansas
+4.27
+0.61
+Ponca City
+Arkansas
+1.22
+0.91
+Bartlesville
+Caney
+1.13
+0.85
+Collinsville
+Caney
+Piers out of water 0.85
+Asher
+South Canadian 0.76
+2.23
+Calvin
+South Canadian 1.16
+2.71
+White Field
+South Canadian 1.31
+2.96
+Pauls Valley Washita
+0.94
+2.47
+Davis
+Washita
+1.01
+2.71
+Gene Autry
+Washita
+1.12
+2.80
+
+After Tyagi (1989)
+
+Boulders and sand
+
+Coarse sand with
+wide floodplain
+
+Mostly fine sand to
+silt
+
+Clay sediment
+
+Medium to fine
+sand
+
+Silt
+
+tion with the characteristics of the bed material) determine whether clearwater or live-bed
+scour will occur. With shallow flows an increase in flow depth can increase the local depth of
+scour in the vicinity of piers by a factor of 2.0 or more, and for abutments by a factor of 1.1–
+2.15 depending upon shape (Richardson et al., 1993). However, as the water depth increases
+the scour depth becomes almost independent of flow depth. Figure 1.14 illustrates the effect
+of depth on the velocity required for bed movement. Scour increases with velocity, and may
+be influenced by whether the flow is subcritical or supercritical. There is relatively little
+research concerning scour in supercritical flow, so this condition is often best avoided (for
+several reasons).
+2. The bed configuration of channels formed from sand influences scour depths.
+Sediments with a diameter D>0.7mm do not form bed ripples, while those with D<0.7mm can
+hav e various bed configurations: ripples, dunes, plane bed or antidunes (see Fig. 8.9). During
+a flood the configuration may change within minutes with changing flow, or as a result of
+
+other factors. Typically ripples may develop at mean flow velocities of 0.3– 0.6 m/s but are
+replaced by dunes at 0.6– 0.9 m/s (Fig. 8.10). As the velocity increases
+
+Page 266
+
+Fig. 8.9 Illustration of different bed configurations in sand channels: (a) typical ripple pattern, F«1;
+(b) dunes with ripples superposed; (c) dunes, F<1; (d) washed-out dunes; (e) plane bed,
+F<1; (f) antidune standing wave, F ≈1; (g) antidune breaking wave, F»1; (h) chutes and
+pools. (After Richardson et al., 1990)
+
+further the dunes change character and offer a decreased resistance to flow (often resulting in
+a stepped or discontinuous stage -discharge curve) before finally tending towards a plane bed
+at velocities of around 0.9–1.5m/s. Richardson et al. (1990) quoted the following comparative
+values of Manning’s n in fine ripple-forming sediments: plane bed 0.010–0.013, antidunes
+with standing waves 0.010–0.015, antidunes with breaking waves 0.012 –0.020, chutes and
+pools 0.018–0.035, ripples 0.018–0.028 and dunes 0.020–0.040.
+3. Bed material characteristics, such as grain size distribution, grain diameter (D m),
+sediment density (pS kg/m) and cohesive properties. Equations often use the median diameter
+at which 50% of the material by weight is smaller than the size de noted (i.e. D50) or
+sometimes the effective mean diameter (DM=1.25D50). It should be appreciated that even
+determining something as simple as the D50 value may not be entirely straightforward. For
+example, how is the sample to be obtained? If the material is stratified, samples of every layer
+may be needed so the equations can be applied to each in turn. Bagging with a shovel is often
+as good as anything,
+
+Page 267
+
+Fig. 8.10 Illustration of the effect of mean flow velocity and bed material particle size on the bed
+configuration. (After Raudkivi, 1997; Ripples on stream bed, Journal of Hydraulic
+Engineering, ASCE. Reproduced by permision of ASCE)
+
+but some form of mechanical grab may be needed if a sample has to be obtained from the
+maximum lik ely scour depth. If overbank flow occurs it may be necessary to sample both the
+main channel and the floodplains. If samples are taken from within the flowing stream, then
+some of the fine material may be lost. A few large boulders can be ignored, but a la rge
+number mixed with mainly fine material may make it difficult to obtain a truly representative
+sample.
+The diameter of the bed material also affects the bed configuration and scour depth (Figs
+8.9 and 8.10). Figure 8.11 shows the variation of the relative scour depth (d SP/ bp) for a
+cyl indrical pier with uniform coarse non-ripple-forming and ripple-forming sediments. Under
+clear -water conditions (V/VS<1) with coarse sediments the local scour depth ratio increases
+rapidly to around 2.3 at the scour-critical velocity, then decreases under live-bed conditions
+(V/VS>1) when there is a flow of sediment into the scour hole from upstream, and then
+increases again. The dashed lines show the fluctuation in relative scour depth due to the
+passage of transient bed features. The live -bed peak may be the most significant for design
+purposes since the clear -water condition may not last long enough for the full scour depth to
+be attained. Of course, for non -cylindrical piers and piers not aligned with the flow relative
+scour depths may be very different from those illustrated.
+With D50>0.7mm there is a fairly clear relationship between the relative maximum clear-
+water local scour depth (dSP/bP ) and the size of the bed material relative to pier width (bP/D50),
+as shown by the line in Fig. 8.12a, but when D50<0.7mm the data are scattered. Figure 8.12b
+shows the data plotted to a log scale and illustrates the following relationships:
+
+Page 268
+
+Fig. 8.11 Diagrammatic illustration of the variation of scour depth (d SP) at a cylindrical pier (of width
+bP) in a uniform sediment with velocity. Note that V/VS=1.0 is the threshold for bed
+movement. (After Melville, 1988. Reproduced by permission of Technomic Publishing
+Company Inc., Lancaster, PA, USA)
+
+One of the limitations of most equations for scour depth is that they make no allowance for
+the self-armouring characteristics of graded material. For instance, if the bed consists of a
+mixture of sand which can be eroded and cobbles which cannot, then it is possible that once
+the top layer of sand has been scoured away the bed will be covered with a layer of cobble
+anchor stones and larger-diameter particles, which will ‘seal’ the bed and reduce or prevent
+further erosion (Chin et al., 1994).
+Figure 8.13 shows results obtained in a recirculating flume with a continual supply of
+material from upstream, as may occur in a river. It appears that pier scour is significantly
+reduced when non-uniform or graded materials are involved (the dashed line is for a zero
+sediment supply from upstream). Thus many of the equations that assume a uniform grain
+diameter overestimate the depth of scour when applied to a graded material. Based on studies
+of clear -water scour depths at cylindrical piers, Ettema (1976, 1980) suggested that under
+some circumstances scour depths in river gravels with σ=(D84/D16)0.5>4.0 may be only about
+20% of the depths found in uniform sediments (Fig. 8.14). The diagram shows the correction
+factor (Kσ) that relates scour depth in a graded material to that in a uniform sediment. This
+factor has not been adequately verified
+
+Page 269
+
+Fig. 8.12 (a) Variation of the local clear-water pier scour depth ( dSP/bP) with the relative median bed
+material diameter (bP/D50); and (b) a logarithmic plot of the data in (a). (After Copp and
+Johnson, 1987. Reproduced by permission of Washington State University and Washington
+State Department of Transportation)
+
+by field measuremen ts and so is not included in the equations quoted below; if it is cautiously
+adopted, it is prudent to adopt a factor of safety (Copp and Johnson, 1987; Richardson et al.,
+1990). Under clear -water conditions sediment grading affects the local scour depth at
+wingwall and spillthrough abutments in the same way as at circular piers.
+4. Channel evolution and secondary flow features. Many alluvial channels in broad
+valleys follow a cycle of degradation (down -cutting, widening, caving of the banks),
+aggradation (widening, becoming shallower, deposition), and restabilisation (Bryan et al.,
+1995). This may result in both
+
+Page 270
+
+Fig 8.13 Variation of the local pier scour depth (dSP/b P) in uniform and non -uniform sediments with
+velocity expressed as a proportion of the scour-critical value (VS). The full lines are for
+recirculating sediment transport; the dashed line shows the armour peak with diminishing
+sediment transport. (After Melville, 1988. Reproduced by permission of Technomic
+Publishing Company Inc., Lancaster, PA, USA)
+
+the thalweg and the channel itself shifting course. In plan, the bends of m eandering ‘S-
+shaped’ channels move laterally and downstream, while some bends may become cut-off.
+Such changes have to be extrapolated over the life of the bridge and are often best determined
+by comparing time sequential maps and aerial photographs (see Fig. 1.13).
+In a braided stream that contains numerous channels the deepest scour occurs where two or
+more channels converge or where the flow comes together downstream of an island or bar.
+Under such circumstances the scour depth has been observed to be 1.0–2.0 times the average
+flow depth (Richardson et al., 1993), or possibly even 4.0 times under some circumstances
+(Melville, 1988). Similarly, at bends the velocity o n the outside of the curve can be 1.5–2.0
+times the mean velocity, which increases the scour potential, as does the secondary
+(transverse) flow that arises from the superelevation of the water surface and the non-uniform
+velocity distribution (e.g. see Chadwick and Morfett, 1993). Brice and Blodgett (1978)
+analysed 224 bridge sites in the USA where scour had occurred and attributed the hydraulic
+problems at 106 of them mainly to lateral bank erosion. They
+
+Page 271
+
+Fig. 8.14 The effect of bed armouring, showing the variation of the coefficient Kσwith grading,
+expressed as σ=(D84/D16)1/2 . Kσrelates the scour depth in a graded sediment to that in
+uniform material. (After Melville, 1988. Reproduced by permission of Technomic
+Publishing Company Inc., Lancaster, PA, USA)
+
+concluded that this was the most common cause of scour. Brice (1984) found a tendency for
+erosion rates to increase with the width of alluvial channels, the problem being greatest with
+braided channels and least with sinuous canal forms. Johnson and Simon (1997) provided an
+interesting case history, which combined modelling the stage of channel evolution with the
+probability of failure of piers set at different levels in a situation where a bridge had
+previously failed.
+5. Changes in hydrology, hydraulics or sediment transport. Changing catchment use may
+alter runoff and flood magnitudes, while channel improvements may alter flow depths and
+velocities, all of which will change the depth of scour experienced at a site. This was
+considered under degradation in Section 8.2.2.
+6. The severity of the constriction and the length of the abutments in the direction of flow.
+This can be crudely summarised as the smaller the span of the bridge (b) relative to the
+channel width (B) the greater the cont raction of the flow and the greater the scour depth,
+which is why many equations incorporate the opening ratio (M=b/B or q/Q). A discrepancy
+arises between model results obtained with relatively uniform flow across a laboratory
+channel and results obtained in the field where the flow is not uniformly distributed but often
+concentrated in a main channel. Thus laboratory-based equations may overestimate scour. If
+the abutment is set back from the river bank by less than 3–5 times the depth of flow through
+
+Page 272
+
+the bridge there is a possibility that the combination of contraction and abutment scour may
+destroy the bank. Consequently the use of guidewalls or riprap protection to the bank and bed
+in the vicinity of the bridge should be considered (Richardson et al., 1993).
+Many laboratory- based equations were derived using a long constriction in which normal
+depth was established in the contracted section (Fig. 8.15), whereas with bridges this is
+usually not the ca se. This creates additional uncertainty when applying these equations.
+However, generally it appears that the assumption of a long constriction produces a
+conservative overestimation of the scour depth, which is usually regarded as desirable.
+7. Abutment geometry. Abutments with vertical walls parallel to the flow will produce
+scour depths approximately double that of spillthrough (sloping) abutments. These types of
+abutment are illustrated in Fig. 4.21.
+8. Pier geometry. Scour depth increases with increasing pier width ( bP). Pier shape affects
+scour, square corners increasing scour depths by 10−30% (see Table 8.6 and Fig. 1.15a ) while
+streamlining reduces it. Pier length may
+
+Fig. 8.15 Definition of scour depth in a long constriction that has uniform flow in the contracted
+section. The contraction scour depth is assumed to be dsc =Y2−Y1.
+
+Page 273
+
+significantly affect scour depths, particularly when the pier is at an angle to the flow. Some
+piers that are inclined outwards towards the top by more than 20° to the vertical may increase
+the scour depth by a factor of two under some conditions (Neill, 1973; Farraday and Charlton,
+1983).
+9. The angle of attack of the approach flow. The scour depth at piers and abutments
+increases as the angle of skew increases, as shown in Figs 1.15b and 8.20. Abutment or
+embankment scour is usually regarded as being reduced when embankments are angled
+downstream and increased when angled upstream ( Fig. 8.21). A 45° angle downstream may
+reduce the maximum scour depth by 20% whereas a 45° angle upstream may increase the
+maximum depth by 10% (Ahmad, 1953). However, this effect may diminish if a flood lasts
+long enough (Melville, 1988). Although it is usual to design piers and abutments so that they
+point directly into the approach flow it should be remembered that the principal flow direction
+during flood may differ from that during low stages, while the thalweg may shift or
+meandering channels may migrate (Figs 8.8 and 8.16). Consequently, scour depths
+
+Fig. 8.16 Halfpenny Bridge on the River Torridge at Weare Gifford, December 1979. The presence of
+levees poses some questions with respect to the hydraulic analysis of the bridge. Is there a
+significant flow between the levees and the outside of the floodplain, or is the water trapped
+and static? What is the principal direction of the flow approaching the bridge? In this case it
+looks as though it is parallel to the levees, but this could change if they were overtopped at
+higher stages. There is some flow over the road embankments, so how much flow bypasses
+the bridge? Note that if the road embankments were made higher to prevent bypass flow or
+to keep the road open, this could make scour in the bridge waterway worse and increase the
+upstream afflux. (Reproduced by permission of the Environment Agency)
+
+Page 274
+
+can be larger than anticipated beca use the angle of attack is greater than planned.
+10. The type of flow encountered at the bridge, namely channel flow, sluice gate flow or
+drowned orifice flow (see Figs 2.6 and 7.2). The last two types occur when the waterway
+opening is submerged so that a pressurised flow is obtained through the bridge. Often the
+vertical contraction from the soffit deflects the jet down towards the bed, increasing scour
+potential. Little research has been conducted regarding scour depths under these conditions,
+but it has been suggested that the calculated pier scour depth may have to be multiplied by a
+coefficient ranging from 1.0 for low approach Froude numbers (F= 0.1) to 1.6 for high
+approach Froude numbers (F= 0.6). If the bridge is overtopped the depth used to calculate F
+should be that to the top of the bridge deck or guard rail, depending upon what causes an
+obstruction to the flow (Richardson et al., 1993).
+11. Ice jams may have the effect of changing abutment and pier geometry, reducing the
+effective area of the waterway, and deflecting the flow downwards. This may be most
+dangerous when the ice accumulation is near to the bed. Limited field measurements of scour
+at ice jams have shown that scour depths of 3–6m are possible. Neill (1973) suggested that a
+round-nosed, vertical or slightly raked pier is best for discouraging accumulations of drifting
+ice. This is largely unpredictable and unresearched, but if ice is likely to be a problem then the
+pier should be assumed to be wider than it really is at the design stage.
+12. Debris trapped on the abutments and piers (Figs 1.10 and 1.11). The effect is very
+similar to ice jams. To a limited extent this can be allowed for in calculations by adjusting the
+shape and effective width of piers and the effective length of abutments, and by estimating the
+likely decrease in waterway area (Melville and Dongol, 1992). However, this is difficult to do
+with confidence.
+Table 8.4 illustrates the use of some of the factors listed above, and their relative
+importance, in assessing the scour potential of bridges in Tennessee (for the full methodology
+and explanation see Bryan et al., 1995). Given the large number of factors that can contribute
+to scour potential, it is extremely difficult to include all of them adequately in an equation to
+predict the maximum scour depth. Consequently the investigation of scour has often
+proceeded using dimensional analysis and simple laboratory tests that involve uniformly
+graded material and known conditions. Dimensional analysis leads to a very general
+functional relationship that summarises some of the factors influencing scour depth, ds:
+
+dS=f (p, v, g, D, pS, Y, V, bP )
+
+(8.6)
+
+where the notation is as before; g is the acceleration due to gravity (m/s ) and ps is the density
+of the sediment forming the bed (kg/m ).
+With all studies of scour it is difficult to define or to observe just when incipient motion
+occurs (i.e. the bed material first moves) and to relate this
+
+Table 8.4 Mean values for the contribution of various factors to scour potential in Tennessee rivers
+
+Page 275
+
+Variable
+
+Bed material
+Stage of evolution of channel
+Presence of bank erosion
+Meander impact (on pier or
+abutment, channel shifting)
+High flow angle (high angle of
+attack)
+Bed protection (reinforcement
+to bed/banks, or lack of)
+Severity of channel
+constriction
+Channel piers (number of piers
+in main channel)
+Presence of skewed piers
+Debris blockage
+Mass wasting with pier
+(erosion of banks near a pier)
+Totals
+
+Maximum
+permissable
+contribution
+
+Mean value for
+contribution
+
+Mean percentage
+contribution
+
+4
+4
+4
+3
+
+3
+
+3
+
+4
+
+2
+
+9
+4
+6
+
+1.94
+1.50
+1.97
+0.97
+
+0.43
+
+1.62
+
+0.33
+
+0.86
+
+0.46
+0.25
+0.29
+
+18.3
+14.1
+18.6
+9.1
+
+4.0
+
+15.3
+
+3.1
+
+8.1
+
+4.3
+2.4
+2.7
+
+46
+
+10.62
+
+100.0
+
+To assess scour potential at a br idge the site is marked against the maximum permissible contribution (e.g. 1.94
+out of 4 for bed material). The mean percentage contribution is the mean individual value divided by the total
+score (e.g. 1.94/10.62=18.3%). The figures above are the average of the four regions used in the original study.
+Obviously the percentage contribution will change from river to river and from region to region depending upon
+the nature of the bed material and channel. The table is intended to show only that there are man y important
+factors that must be considered when assessing scour.
+After Bryan et al. (1995)
+
+to the mean velocity (V), the significant bed velocity (U) adjacent to the material that is
+available to be transported or eroded, or the shear velocity ( U*, see below). The bed velocity
+is less than the mean velocity (V=Q/A ) and the surface velocity (e.g. see Fig. 2.9a). Often the
+bed velocity is unknown, but it is this value that should be compared with the values in Table
+1.3a , for example. Recognising this difficulty, Hjulström (1935) felt compelled to use V
+(which was assumed to be about 40% greater than the bottom velocity when the depth of flow
+exceeded 1 m) when he investigated the erosion, transportation and sedimentation
+characteristics of uniformly graded loose particles on a smooth bed (Fig. 8.17). The diagram
+shows a partial line separating sedimentation from transportation, and a broad zone in which
+transportation changes to erosion. With transportation, material is moved downstream in
+traction, saltation and suspension, but is generally replaced by material carried from upstream
+so that the bed elevation remains constant, whereas with erosion it is assum ed that there is a
+net loss of material and a reduction in bed level.
+Hjulström found that 0.25mm diameter particles are the most easily eroded, starting at a
+mean velocity of 0.2 m/s. For smaller particles the velocity required is higher because of the
+
+need to overcome electrochemical cohesion, while for larger particles a higher velocity is
+needed to roll or lift
+
+Page 276
+
+the heavier material. Figure 8.17 also incorporates the work of Shields (1936) and Sundborg
+(1956). Although this (and Fig. 1.14) are useful in giving some idea of the mean velocities at
+which erosion may be expected, they are not very accurate. For exampl e, there is no fixed
+relationship between bed velocity and mean velocity; bed material often consists of a range of
+sizes, which behave differently; the existence of sand ripples on the bed will reduce the
+erosion velocity, while fine cohesive material may break away in lumps rather than being
+moved grain by grain (Rice, 1977).
+Frequently the significant stream velocity (U or V) is replaced with the shear velocity (U*
+m/s). While U* has the dimensions of velocity, it is not a real velocity although it is related to
+the real fluid velocity and to the shear stress at the bed. The shear velocity is defined as
+
+Page 277
+
+Obviously predicting scour depths is difficult, and there are two basic approaches. The first
+is to use laboratory-based equations for scour in a long constriction, perhaps in conjunction
+with a factor of safety, although this does not guarantee that either an accurate or a safe
+estimate will be obtained. This approach is explored in more detail in Sections 8.4 and 8.5
+below. The second option is to estimate how the natural width and depth of the channel will
+be affected by the construction of a bridge. This is explored in Section 8.6, where regime
+theory is considered. Under appropriate conditions this can also be used to estimate
+degradation and aggradation.
+
+8.4 Estimation of scour depth in cohesionless material
+
+The degradation scour depth (∆d) has to be evaluated as part of the design process, but the
+two types of scour that are the direct result of bridge construction are contraction and local
+scour, which can occur with either clearwater or live-bed conditions, as described earlier and
+summarised in Table 8.2. Each condition may have its own set of equations that should be
+used to estimate the scour depth.
+
+8.4.1 Contraction scour depth (dSC )
+
+Contraction scour occurs as a result of the narrowing of a channel by a bridge and its highway
+embankments, but this effect can be exacerbated by natural stream constrictions, islands or
+sand banks, vegetation growth in the channel, debris accumulation, ice jams and bends. Bends
+produce a non-uniform flow, so the contraction scour may be concentrated on the outside of
+the bend, or possibly nearer the centre during flood when the thalweg may shift.
+The effect of any constriction is to reduce the flow area and to increase the velocity. The
+higher velocity results in an increased erosive force so that more bed material is removed
+from the contracted reach than is transported into it from upstream, where there may be no
+transport at all (clear -water conditions) or a lower transportation rate (live-bed conditions).
+However, as the bed elevation is lowered and a scour pit develops, the cross-sectional area
+increases and the velocity falls again so th at some form of equilibrium is reached. This can be
+achieved either when the velocity in the contracted section falls below the critical value
+required to initiate motion (clear-water scour) or when the rate of transport of material into
+and out of the sco ur hole are equal (live-bed equilibrium scour).
+A quick but conservative method of estimating the scour depth at a contraction of fixed
+width such as a bridge is to estimate the mean flow velocity and depth in the opening (V=Q/a
+and Y), and the median diameter of the bed material by weight (D50). From Fig. 1.14 the
+competent mean velocity (VSC) of cohesionless material can be obtained; this is the velocity at
+
+Page 278
+
+which the flow is just competent to move the exposed bed material at the scoured depth. By
+increasing a (via Y) the depth at which the bed material can resist being moved can be
+determined, and thus the average contraction scour depth, dSC. The answer obtained is
+obviously approximate, and can be seriously affected by local conditions such as eddies and
+bends. For example, at a bend the scour depth may be much greater on the outside of the
+curve, and this should be allowed for by adjusting either the ave rage velocity or the shape of
+the scoured cross -section to obtain the maximum scour depth (see point 4 of Section 8.3).
+This simple technique is likely to overestimate when the approach flow carries a large bed
+load (live-bed scour). For cohesive materials compare V with the values in Table 1.3b.
+At any particular location a combination of clear-water and live-bed scour may occur. A
+typical example would be a bridge with several openings, some in the main channel (which
+are likely to experience live -bed conditions) and one or more relief openings on the floodplain
+(which is likely to be grassed and to experience clear- water conditions). Each opening must
+be analysed separately using the equations, bed material and hydraulic parameters appropriate
+to that particular opening. For either the clearwater or live -bed condition the equations below,
+which are based on a simplified transport function, are the starting point recommended by
+Richardson et al. (1993).
+
+Clear-water contraction scour
+Laursen (1963) presented the following equation for the scour-critical velocity, Vs (m/s) at
+which the bed material will start to move with clear -water scour:
+
+Page 279
+
+bridge opening (or on the overbank), b is the bottom width (m) of the bridge opening less pier
+width s (or overbank width), and DM (=1.25D50 m) is the effective mean diameter of the bed
+material in the bridge opening (or on the floodplain). Note that for a single-span bridge Q2
+will equal the total upstream discharge (Q1 ) unless there is flow around or over the structure
+being analysed. With multispan bridges Q2 is that part of the total flow passing through the
+opening under consideration. The original equations presented by Laursen used the median
+diameter of the bed ma terial (D50) not DM. This modification was introduced by Richardson et
+al. (1993) as a result of further research with the effect that the calculated clear-water scour
+depths are reduced. With stratified material the equation would have to be applied to th e layer
+with the smallest D50 to obtain the worst result, or alternatively applied to each layer in turn.
+If the average depth of flow in the main approach channel prior to scour is Y1 (m), if the
+head loss ( hL) is small and if the velocity heads are appr oximately equal so the water surface
+through the bridge waterway is almost horizontal (Fig. 8.15), then the average depth of
+contraction scour (dSC m) is
+
+dSC=Y2−Y1
+
+(8.11)
+
+Of course, if the depth of flow remains constant and follows the scoured bed profile through
+the contraction (Section 3.11) then this equation is not valid.
+By assuming continuity between the upstream main channel (subscript 1) and the
+contracted section (subscript 2) equation 8.10 can be written in terms of the approach velocity
+(V 1 m/s):
+
+(8.12)
+
+where B is the bottom width of the upstream main channel (m) and b is the botttom width (m)
+of the channel in the contracted section. Either bottom or top channel widths can be used as
+long as there is consistency.
+
+Example 8.1
+
+When unobstructed, the discharge in a 7.5m wide channel is 6.9m 3/s when the depth is 1 .0m.
+The bed material has a specific gravity of 2.65 and a D50 =0.01 m. If all of the flow has to
+pass through a rectangular bridge opening with b=4.0m, calculate the scour depth.
+Approach average flow velocity, V=6.91(7.5×1.0)=0.92 m/s.
+From equation 8.3, the scour-critical average velocity, VS=6.36 (1.0)1/6 (0.01)1/3 =1.37 m/s.
+Since V<VS the condition would be clear water so equations 8.10 and 8.11 are applicable.
+
+The bed material in the waterway has DM=1.25D50=1.25×0.01= 0.0125m.
+
+Page 280
+
+Live-bed contraction scour
+The following equation can be used to estimate live-bed contraction scour (Laursen, 1962):
+
+(8.13)
+
+where Y2, Y 1, B and b are as above, Q1 is the flow (m 3/s) transporting sediment in the upstream
+main channel (i.e. floodplain flows are not included), Q2 is the discharge (m3/s) through the
+contracted channel (of width b), k1 and k2 are exponents determined from Table 8.5 and Fig.
+8.18 according to the mode of bed material transport, and n1 and n2 are Manning’s roughness
+coefficients for the upstream main channel and the contracted section respectively (see below).
+Note that in simple cases typically involving a single opening with no bypass flow Q1<Q2 as
+in Example 8.2, but Q1>Q2 if some of the live-bed upstream flow passes around or over the
+bridge instead of through the waterway. However, Q1<Q2 when the flow is spread out on an
+upstream floodplain which experiences clear -water scour and only the live-bed discharge in
+the main live-bed channel (ie Q1) is considered, as in
+
+Table 8.5 Exponents for determining live-bed contraction scour for use with equation 8.13. Calculate
+
+k 1
+
+k2 Mode of bed material transport
+
+<0.50
+0.50−2.0
+>2.00
+
+0.59
+0.64
+0.69
+
+0.07 Mostly contact bed material
+0.21 Some suspended bed material discharge
+0.37 Mostly suspended bed material discharge
+
+is the shear velocity in the upstream section (m/s)
+g=acceleration due to gravity (9.81 m/s)
+Y 1=average depth in the upstream main channel (m)
+SF1=slope of energy grade line in main approach channel (dimensionless). Usually assumed SF=SO .
+w= the median fall velocity (m/s) of the bed material based on D50 (see Fig. 8.18)
+After Richardson et al. (1993)
+
+Page 281
+
+Fig. 8.18 Variation of fall velocity (w m/s) with median particle size (D50 mm) and temperature for
+use with Laursen live-bed contraction scour equation (8.13). (After Richardson et al., 1993)
+
+Example 8.5. The openings of multiple opening contractions have to be considered
+individually if the flow is not uniform, with part of the total discharge being allocated
+appropriately to each opening.
+Richardson et al. (1993) recommended that the ratio of Manning’s n be dropped from the
+equation. They also po inted out that this equation tends to overestimate scour depth if the
+bridge is located at the upstream end of a natural contraction or if the contraction is the result
+of bridge abutments and piers. However, they concluded that it was the best equation
+cu rrently available. As before, the average depth of contraction scour, dSC, can be obtained
+from equation 8.11. An approximate general solution of the equation is shown in Fig. 8.19.
+This can be useful during the early stages of bridge design, but should be confirmed by
+subsequent calculations.
+
+Example 8.2
+
+The upstream approach channel to a bridge is rectangular in section, 20m wide, and carries a
+discharge of 25.84 m 3/s when the depth of flow is 1.70m. The median particle size
+D50=0.5mm (0.0005m) while the energy gradient (SF1) can be assumed equal to the bed slope
+at 1 in 3000. The bridge has two 5m spans separated by a central pier. All of the approach
+flow passes through the bridge openings. The water temperature is 16 °C/60 °F. Determine
+the average scour depth in the waterway.
+
+First, check that the live-bed condition exists in the upstream channel.
+From equ ation 8.3 the scour-critical mean velocity is V S=6.36 Y1/6
+
+Page 282
+
+Page 283
+
+Fig. 8.19 Variation of the depth of live-bed scour in a long contraction ( dSC ), expressed as a proportion
+of the average depth of flow in the upstream main channel (Y1 ), with the severity of the
+channel constriction (Q2 /Q1 or B/b) and (gYSO)1/2/ w as in Table 8.5. This is live -bed scour
+so the flow (QFP ) on the (grassed) floodplains is ignored. Unless some flow bypasses the
+bridge, for a single opening Q2 is the total flow. The solution was formulated for a
+constriction that narrowed both the main channel and the floodplain. If the abutments
+protrude into the main channel this is a channel constriction defined by B/b, if the main
+channel is unobstructed but the floodplain is constricted by the highway embankments then
+this is an overbank constriction defined by Q2 /Q1. (After Lau rsen, 1962, Scour at Bridge
+Crossings, Transactions of the ASCE. Reproduced by permission of ASCE)
+
+obtained for blunt-nosed piers, especially when at an angle to the flow (Fig. 1.15 ).
+Under ‘normal’ conditions the foundations of the piers will be below bed level, but under
+some circumstances the footing or pile group may be exposed, and this too has to be allowed
+for when estimating scour depths. These scenarios are considered in turn below.
+
+Clear -water and live-bed scour for conventional piers
+For both clear -water and live-bed conditions Richardson et al. (1993) recommended the
+Colorado State University (CSU) equation for the estimation of
+
+equilibrium pier scour depth ( dsp m). Some alternative equations for pier scour depth are given
+in Appendix B, and these may be used cautiously to obtain additional estimates. However, the
+preferred CSU equation is
+
+Page 284
+
+(8.14)
+
+where Y2 is the flow depth (m) at the bridge section directly upstream of the pier (m), K1P is
+an adjustment factor for pier nose shape obtained from Table 8.6 for ø<5°, K2P is an
+adjustment factor for the angle of attack (ø >5°) obtained from Fig. 8.20, K 3P is an adjustment
+factor for bed configuration (explained below) obtained from Table 8.7, bp is the pier width
+(m), V2 is the mean velocity of flow (m/s) at the bridge directly upstream of the pier, and F2 is
+the Froude number=V 2/(gY2)1/2. Note that if ø>5° the factor K2P dominates so K1P can be taken
+as 1.0.
+With piers that comprise trestle or pile bents (Fig. 5.6) or groups of cylinders as in Table
+8.6, the scour depth depends upon the column spacing. If the spacing is >5 diameters, dsp can
+be limited to about 1.2 times the scour depth at a single cylinder. With columns less than 5
+diameters apart the spaces between the cylinders are ignored when calculating the equivalent
+pier dimensions perpendicular to the flow. For example, with three cylinders (as below) of 0.6
+m diameter spaced at 2.0 m intervals, if ø=0° then bp=0.6 m and L=1.8 m. For other angles of
+attack the projected width
+
+Table 8.6 K1P—adjustment factor for pier nose shape applicable when φ<5 °
+
+Shape of pier
+
+Square nose
+
+→
+
+K1P
+
+Table 8.7 K3P: increase in equilibrium pier scour depths for various bed conditions
+
+Bed condition
+
+Clear-water scour
+Plane bed and antidunes
+Small dunes
+Medium dunes
+Large dunes
+
+Dune height, H (m)
+
+Not applicable
+Not applicable
+0.6–3.0 m
+3.0–9 m
+>9m
+
+Page 285
+
+K3P
+
+1.1
+1.1
+1.1
+1.1–1.2
+1.3
+
+Note that these values are to be used with the CSU pier scour equation (8.14). See also Figs 8.9 and 8.10 .
+After Richardson et al. (1993)
+
+Fig. 8.20 Pier skew correction factor (K2P) for use with the CSU equation (8.14). If ø<5° the
+correction for skew can be ignored. If ø>5° the skew dominates, so use the value of K2P
+obtained from the diagram with K1P =1.0 regardless of shape. (After Richardson et al.,
+1993)
+
+will be between 0.6m and 1.8m. Because the angle of attack is allowed for in the projected
+width, K2P is always taken as 1.0. The shape factor K1P is also taken as 1.0 regardless of the
+actual column shape. The exception to this may be if debris becomes trapped between the
+columns, effectively turning them into a single solid pier of width (bP) and length (L), which
+can be analysed as any normal pier.
+The factor K3P converts the equilibrium scour depth calculated from the CSU equation to
+the maximum scour depth according to the prevailing bed configuration (Table 8.7 ). For the
+plane-bed condition commonly
+
+Page 286
+
+encountered at bridge sites during a typical design flood, the maximum scour depth may be
+10% larger than indicated by the CSU equation, so K3P =1.1. For various bed configurations
+and dune heights, the table shows the factor that should be used to increase the calculated pier
+scour depths (dSP). For the unusual situation where the bed exhibits large dunes during flood,
+for very big rivers such as the Mississippi K3P=1.3, fall ing to 1.1–1.2 for smaller rivers. For
+the antidune bed condition K3P=1.1. Note that several different bed forms may occur during
+one flood as the velocities rise and fall, and that ripple-forming sediments usually have a grain
+size<0.7mm, larger diameters being non-ripple forming (Figs 8.9 and 8.10).
+Sometimes Kσand KFS may be added to the other correction factors in equation 8.14, where
+Kσis the factor that allows for sediment grading (Fig. 8.14) and KFS is a factor of safety (Copp
+and Johnson, 1987). Richardson et al. (1993) felt that the former was still not proved
+satisfactorily by field data.
+
+Example 8.3
+
+Just upstream of a 0.9m wide round -nosed pier the depth of flow is 1.3m with a velocity of
+1.6m/s. The pier is skewed to the approach flow with ø= 15°. The length of the waterway in
+the direction of flow (L) is 14.4m. Assume that the channel bed is plane. Calculate the local
+pier scour depth.
+From Table 8.6, regardless of pier shape K1P=1.0 since ø>5°.
+L/bP=14.4/0.9=16 so Fig. 8.20 gives K 2P=2.5 (using the line labelled L/b P>12 and ø=15°).
+K3P=1.1 (the plane bed condition in Table 8.7).
+
+(8.14)
+
+As a quick check Fig. 1.15 gives an approximate dSP=1.5bp×2 .5=3.38m (where 2.5 is the
+correction factor for 15° skew).
+
+Pier scour for exposed footings
+If the foundations of a bridge have been well designed with an appropriate allowance for
+scour this situation should not arise. Unfortunately it does, often as a result of long-term
+degradation, channel shifting, exceptionally large flows or poor design, so it is necessary to
+have some means of calculating likely scour depths. It should also be pointed out that having
+the foundations undermined, even if they are pi led, is not desirable because lateral support
+may be lost and the piles may have to behave as columns
+
+Page 287
+
+subject to bending. Often the exposure of footings and the undermining of abutments is a
+prelude to failure.
+The effect of an exposed footing or pile cap on scour is not always easy to predict. There is
+some evidence that if the top of the foundation is flush with the bed the scour may be reduced
+(because part of the downflow in Fig. 8.6 is intercepted by the concrete footing). However, as
+the scour holes become deeper, larger and more of the foundation becomes exposed and
+projects into the flow then Richardson et al. (1993) made the following recommendation for
+estimating pier scour: calculate the depth as described in case 1 and case 2 below, and then
+adopt the larger of the two values.
+
+CASE 1: TOP OF THE FOOTING OR PILE CAP IS AT OR BELOW THE RIVER BED
+After allowing for degradation and contraction scou r, use the actual pier width (bP) in the pier
+scour equations (as normal).
+
+CASE 2: THE PIER FOOTING EXTENDS ABOVE THE RIVER BED
+Use the width of the footing as bp in the pier scour equation, in conjunction with the average
+depth and average velocity in the flow zone obstructed by the footing (YF and VF respectively)
+instead of the depth and velocity of the approach flow just upstream (Y2 and V2). The value of
+V F can be obtained from
+
+(8.15)
+
+where V F is the average velocity (m/s) in the flow zone below the top of the footing, YF is the
+distance (m) from the bed to the top of the footing, and kS is the grain roughness of the bed
+material, which is normally taken as the D84 value (m).
+
+Pier scour for exposed pile groups and pile caps
+The piled supports of piers and abutments may become exposed. The piles may be spaced
+across the flow in addition to along it. A particular problem with this situation is that the piles
+make excellent trash racks and tend to collect debris, which increases the effective size of the
+group and increases scour.
+If local scour has resulted in the pile group being exposed to the flow, it is not necessary to
+consider the piles so the pier scour depth can be calculated using equation 8.14.
+If bed degradation or contraction scour has resulted in the pile group being exposed to the
+flow, a conservative analysis can be undertaken by considering them as a single width equal
+to the projected width of the
+
+Page 288
+
+piles normal to the flow (the clear space between the piles is ignored). For example, three
+0.4m piles at 2m centres at right angles to the flow would have a width bP=3×0.4=1.2m. Some
+allowance for debris may be needed. If a large amount of debris accumulates then the pile
+group may again be considered as a single pier using equation 8.14 (Jones, 1989; Richardson
+et al., 1993). However, ignoring debris, for pile groups exposed by degradation or contraction
+scour the variables for use in equation 8.14 are as follows.
+
+b p use the total width of the piles only, as in the example in the text above
+L
+is defined as for a group of cylinders in Table 8.6
+K 1P use a factor of 1.0 regardless of shape
+K 2P if the pile group is square (e.g. 3 piles by 3 piles) then K 2P=1.0, but if the group is rectangular (e.g.
+3 piles wide by 6 piles long) to determine K2P use the dimensions for a single pier of appropriate
+L/bP with L and b p as defined immediately above and in Fig 8.20
+K P assume a value of 1.1
+
+If degradation or scour results in the piles, pile cap and part of the pier all being exposed to
+the flow then the scour caused by each element should be calculated separately and the largest
+scour depth adopted. When calculating the scour due to the pile cap assume that the cap is
+resting on the bed and use the values of V F and YF as described in connection with equation
+8.15.
+
+Width of pier scour holes, WSP
+The size of a scour hole can be important with respect to pier spacing and the stability of
+banks and abutments. In cohesionless bed material the top width, WSP (m), of the hole
+measured on one side only of a pier or footing can be estimated as
+
+WSP=dSP (KW+cot θ)
+
+(8.16)
+
+where dsp is the pier scour depth (m), Kw is a coefficient representing the bottom width of the
+scour hole (on one side of the pier) as a fraction of the scour depth, and θis the angle of
+repose of the bed material, which is typically between 30° and 44°. For example, if the bottom
+width on one side of the scour hole equals the depth of scour then Kw=1 and if the angle of
+repose is 30° then WSP=2.73dsp. As a general guideline, the bottom width decreases as dsp
+increases, but an assumed top width of 2.8dsp has been recommended (Richardson et al.,
+1993). Thus scour from a single pier may extend over a total width of (5.6dsp+bp) measured
+across the waterway op ening.
+
+Page 289
+
+8.4.3 Local scour depth at abutments (d SA)
+
+The evaluation of abutment scour is more problematical than for pier scour: piers are usually
+located in the centre of the channel where the flow is reasonably uniform, whereas abutments
+and the associated approach embankments may cross the entire width of a floodplain from the
+outside edge where the depth and velocity may be zero to a point in the main channel where
+the velocity is relatively large. Thus the bridge approaches cross a compound channel of
+variable topography, where the flow conditions vary greatly and the mean values are difficult
+to determine accurately. This contrasts sharply with laboratory investigations that generally
+have a uniform approach flow across the entire width of a rectangular channel so that the full
+length of the approach embankments experiences practically the same flow. Consequently it is
+not surprising that many laboratory -based equations that assume a relationship between
+embankment-abutment length and scour depth overestimate significantly.
+Some of the factors that influence abutment scour include the topography of the site, the
+abutment shape, and the hydraulic and sediment characteristics. Scour is worst where
+conditions result in the overbank flow returning suddenly to the main channel, perhaps as a
+consequence of flow along the upstream face of the embankment being relatively easy, as
+shown in Fig. 7.11. Vertical wall abutments have approximately twice the scour depth of
+spillthrough types (see Fig. 4.21 for an illustration of the abutment types). Channel migration
+may result in a larger angle of attack and scour depth than envisaged during design, while
+hydraulic changes above or below the bridge may lead to channel degradation. The conditions
+in the approach channel combined with the type of bed material can result in either clear-
+water or live -bed scour.
+
+Clear-water and live-bed abutment scour
+Richardson et al. (1993) recommended the use of the live-bed Froehlich equation for the
+calculation of both clear- water and live-bed abutment scour depths, dSA. The equation yields
+large scour depths as a result of the assumption that most of the overbank flow returns to the
+main channel at the end of the abutment, which is entirely feasible, particularly if the
+abutments protrude into the main channel. However, if the floodplain, channel and abutments
+are all covered in vegetation then smaller depths may be experienced. The predicted abutment
+scour depth, dSA (m), is
+
+Table 8.8 K1A: coefficients for abutment type
+
+Abutment type
+
+Vertical -wall abutment
+Vertical -wall abutment with wingwalls
+Spillthrough abutment
+
+Page 290
+
+K1A
+
+1.00
+0.82
+0.55
+
+Note that these values are to be used only with the abutment scour equations (8.17 or 8.18).
+After Richardson et al. (1993)
+
+the approach flow (see below), LA is the length (m) of the embankment-abutment projected
+normal to the flow, and FM1 is the Froude number of the approach flow upstream of the
+abutment. In this case FM1=VM1/ (gYM1 )1/2 where VM1 is the mean velocity (m/s) on the
+floodplain, which is calculated as VMI=QA/AA where QA is the approach flow (m3/s)
+obstructed by the embankment -abutment and AA (=LAYM1) is the flow area (m2) of the
+approach cross -section obstructed by the embankment-abutment.
+Note that with respect to the angle of the approach flow, Φ<90° if the embankment-
+abutment points downstream and Φ>90° if it points upstream. For example, with a crossing
+built diagonally at 45° over a floodplain then one abutment will point downstream so Φ=45°
+and K2A= (45/90)0.13 =0.91, while the other abutment points upstream so Φ=135° and
+K2A=(135/90)0.13=1.05. Thus scour is reduced if the embankment -abutment points
+downstream and increased if it points upstream, so often only the latter needs to b e calculated,
+being the worst case.
+One difficulty with equation 8.17 is estimating accurately the values of the variables: depth
+and velocity will vary across a floodplain and may not have been measured, so there is scope
+for error. Often the conveyance or discharge over the entire floodplain will have to be
+calculated as in Examples 3.2 and 3.3, or by breaking the floodplain down into subsections.
+Some alternative equations for abutment scour are listed in Appendix B, and they may be
+applied cautiously to obtain additional estimates of scour depth. The equation below arises
+from the study of scour at the end of spur dykes, which, apart from the difference in
+orientation, behave similarly to bridge approach embankments provided that (LA/YM1) >25
+where LA and YM1 are defined above (Simons and Senturk, 1976; Melville, 1988; Richardson
+et al., 1993). Assuming this similarity exists at the site under investigation then a rough
+estimate of the abutment scour depth (dSA m) is
+
+Page 291
+
+Fig. 8.21 Abutment-embankment skew correction factor (K AΦ) for use with equation 8.18.
+Embankments pointing downstream have Φ<90°; those pointing upstream have Φ>90°.
+KAΦ represents the ratio of the depth of scour at the skewed embankment to that at a
+perpenicular crossing. (After Richardson et al., 1993)
+
+abutments for which K1A=1.0 so the term K1A/0.55 converts the values in Table 8.8 to this
+scale. The adjustment factor for skew (KAΦ) can be obtained from Figure 8.21 , embankments-
+abutments pointing upstream again having values of Φ>90°. Under appropriate circumstances
+the equation can be used to check the results from equation 8.17, as shown later in Example
+8.5.
+
+Example 8.4
+
+The longitudinal centreline of an embankment leading to a bridge abutment is skewed at an
+angle of 30° compared with a perpendicular crossing. The length of the
+embankment/abutment is 33m measured along the centreline. The abutments are of the
+vertical-wall type. It is estimated that the mean depth on the upstream floodplain is 1.2m with
+a mean velocity of 0.7 m/s. Calculate the maximum abutment scour depth.
+The scour depth will be calculated using the recommended equation 8.17.
+
+YM1=1.2m, VM1=0.7 m/s so FM1=0.77(9.81×1.2)1/2=0.20.
+
+K1A=1.00 (from Table 8.8 , vertical-wall abutments).
+Scour will be greatest at the abutment pointing upstream when Φ=30°+ 90°=120° (the
+definition of Φis shown in Fig. 8.21, but not the value of K2A) so K2A=(120/90)0.13=1.04.
+
+LA=33 cos 30°=28.58m (i.e. the length normal to the approach flow)
+
+Page 292
+
+(8.17)
+
+8.5 Designing for scour
+
+8.5.1 General design philosophy
+
+The return interval of the flood used to design scour prevention measures needs to be
+considered carefully. For instance, suppose that both the size of the waterway opening and the
+foundations of a bridge are designed for the 1 in 100 year flood (Q100). If a discharge larger
+than Q100 occurred this would not be important hydraulically if the excess flow passed safely
+around or over the bridge, but it would be disastrous if the structure failed by scouring of the
+foundations. Thus the consequences of the design flood being exceeded may be more severe
+structurally than hydraulically.
+The likelihood of the design flood being exceeded may be much higher than imagined from
+a cursory inspection of the problem. This is easily calculated from the equation
+
+Page 293
+
+of safety should still be greater than 1.0 even with a super-flood. The super- flood should be
+the 1 in 500 year event, which can be estimated as 1.7Q100 if more accurate data are not
+available. If the super-flood results in water spilling over the bridge o r its approaches, as
+described in Chapter 6, then it is possible that the worst-case scenario will be during a smaller
+event when all of the flow is forced to pass through the waterway opening. Obviously, for less
+important bridges the size of the design and super -floods may be reduced.
+A failed bridge can disrupt commerce and cause loss of life (see Section 1.3), while the cost
+of replacing a collapsed bridge is normally many times larger than the original construction
+cost, so it is usually better value to design and construct a bridge to a standard that will
+withstand scour and the super-flood rather than to have to conduct repairs and fit scour
+protection measures at a later date.
+When initially designing the bridge there are a number of elements or features that can be
+incorporated, often at relatively little expense, that can improve the hydraulic performance
+and/or reduce scour and improve structural integrity. Some of these are considered briefly
+below.
+
+8.5.2 Hydraulic considerations
+
+The list below summarises some of the things that may be considered to help reduce scour
+problems. They may not all be practical under all circumstances, nor is every possibility listed.
+• Is the control of the longitudinal profile of the water surface constant (e.g. controlled by rock
+outcrops) or is it likely to change (e.g. removal of old w eirs) leading to degradation or
+aggradation?
+• Shifting or meandering channels create uncertainty in scour prediction. Can the bridge be
+located to avoid problems of this nature? Or can river training works be used effectively to
+eliminate such concerns?
+• Skewed crossings are not as efficient as those perpendicular to the approach flow. Scour is
+increased at a skewed abutment pointing upstream. Can the bridge location or alignment be
+chosen to avoid skew?
+• Can contraction scour be reduced by increasing the width of the bridge opening?
+• Abutment scour can be reduced by using spillthrough abutments rather than vertical-wall
+types (Table 8.8 ).
+• Abutment scour prot ection, such as riprap, may avoid the need to design for the full scour
+depth.
+• Problems may be reduced if the abutments are set back from the edge of the main channel
+by 3–5 times the depth of flow, so that bank failure will not initiate abutment failure.
+• Pier scour is reduced if the piers point directly into the flow (no skew).
+
+Page 294
+
+Is this possible? Will channel shifting alter this in the future? If it is likely that the approach
+flow will change direction, can circular columns be used so the angle is unimportant?
+• Pier scour increases with increasing pier thickness. How thin is it practicable to make the
+piers?
+• Pier scour is reduced if rectangular shapes are avoided, sharp noses being best (Table 8.6 ).
+Can a more efficient shape be adopted economically?
+• Can overlapping scour holes be avoided, by increasing pier spacing if necessary? When
+scour holes overlap the total depth of scour increases, although by how much is not clear.
+• Generally a small number of large openings is better than a large number of small openings.
+• Scour problems increase where overbank flow on wide floodplains returns suddenly to the
+main channel in order to pass through the bridge opening. Can guidewalls or spur dykes be
+used either to return the flow more gradually or to prevent transverse flow along the
+upstream face of the embankment? Can relief openings be used effectively on the
+floodplains?
+• Have existing bridges in the area been assessed to provide some indication of the likely
+performance of the structure under consideration?
+• When estimating scour depths, has adequate allowance been made for the accumulation of
+debris or ice on the piers and abutments?
+• Has at least 0.6m freeboard been allowed for the passage of debris between the design flood
+level and the underside of the bridge deck?
+• Can the underside of the bridge deck be made as smooth and streamlined as possible to
+reduce the obstacle to flow if the deck becomes submerged, to reduce the vertical
+contraction, and to avoid snagging debris?
+• Can the danger to the bridge during a super-flood be reduced by allowing flow over the
+approach embankments?
+• Scour is additive, so where they overlap contraction scour (dsc), pier scour (dsp) and
+abutment scour (dSA) must be added to any anticipated degradation (∆d) of the channel to
+get the total depth of scour ( ds), which is dS=dSC+dSP+dSA+∆d.
+• Has the proposed design significant flaws? Does it involve some uncertainty? Is there some
+alternative that can be considered, perhaps using a different approach?
+
+8.5.3 Geotechnical and structural considerations
+
+Again, this is a brief and far from complete reminder of a few of the design factors that should
+be borne in mind.
+• The foundations should withstand the design flood with a factor of safety of 1.5–2.0 and the
+super-flood with a factor of safety not less
+
+Table 8.9 Some suggestions for foundations to resist scour
+
+Foundation type
+
+Depth and other considerations
+
+Page 295
+
+Spread footings on
+erodable rock
+
+Spread footing on soil The bottom of the footing should be below the total scour and degradation
+depth calculated using equation 8.5.
+Footings should be located on competent rock below the weathered zone and
+below the maximum scour and degradation depth. Excavation and blasting
+need to be conducted carefully, the excavation cleaned and completely filled
+with concrete.
+The bottom of the footing should bear directly on the cleaned rock surface.
+Footings may be keyed to the rock by using dowels, but avoid operations such
+as blasting that may damage the rock structure and aid scour.
+The top of the footing or pile cap should be below the total scour and
+degradation depth to minimise any possibility of being exposed, obstructing
+the flow, or suffering damage.
+Stub abutments in the embankment should be piled to below lowest bed level
+in the bridge waterway to ensure structural integrity if the thalweg or channel
+shifts course.
+
+Spread footing on
+resistant rock (e.g.
+granite)
+Deep foundations and
+piles with footings or
+caps
+Stub abutments on
+piles
+
+After Richardson et al. (1993)
+
+than 1.0. Factors of safety should reflect the importance of the crossing and the degree
+of uncertainty in the design.
+• The design should assume that the material down to the total scour depth has been removed
+and is not available for bearing or lateral support. As a general rule, foundations should
+always be at least 2 m below the level of the streambed after allowing for the total depth of
+scour indicated by equation 8.5. Spread footings on soil or weathered rock should be at or
+below this level (see Table 8.9 ). If used, the piling should be designed for additional lateral
+restraint and column action.
+• With piled foundations and a high scour potential, can the bearing load be carried by a small
+number of long piles instead of a large number of relatively short ones? The obstacle to
+flow is then reduced should the piles become exposed.
+• When appropriate, the foundations of all piers (whether on the floodplain or main channel)
+should be taken to the same depth to allow for channel shifting over the life of the bridge.
+• If likely to become submerged, or if significant debris or ice forces are expected, the
+superstructure should be securely anchored to the substructure. Buoyancy forces acting on
+the soffit of slab or arch bridges increase the risk of structural damage (see Appendix A).
+• Forces arising from scour and foundation movement are resisted better by continuous span
+structures than by simple span bridges.
+
+8.5.4 A general scour design procedure
+
+The procedure for designing a bridge to resist scour can be broken down into the 10 steps
+shown below. These are illustrated in Example 8.5.
+
+Page 296
+
+Step
+1
+
+Step
+2
+
+Step
+3
+Step
+4
+Step
+5
+Step
+6
+Step
+7
+Step
+8
+
+Step
+9
+
+Assemble the data. This should include, hydrological, climatic, hydraulic and topographic data
+relating to the site, with an indication of future catchment changes; field data including samples
+of the material forming the river channel and floodplains, a visual assessment of channel
+stability, evidence of the behaviour of other bridges in the area and any notable features;
+geotechnical data regarding depth to competent loadbearing material; the design brief, including
+an indication of the importance of the crossing, the level of expenditure that can be justified, and
+details of the proposed design such as the span between abutments, the number of piers and their
+spacing. Determine the return interval to be adopted for the hydraulic and geotechnical design.
+Analyse long- term bed and channel changes. On the basis of field observation and evidence,
+local development plans, industrial developments and possibly regime theory (Section 8.6 )
+assess whether or not the channel bed is likely to remain at its current level, degrade, aggrade or
+shift course. Calculate the depth of degradation (∆d ) or aggradation.
+Determine whether clear-water or live-bed scour is involved. Equation 8.3 can be used for this
+purpose while Table 8.2 summarises the equations that can be subsequently employed.
+Calculate the depth of contraction scour, dSC . Either equation 8.10 or equation 8.13 can be used
+depending upon the answer from step 3.
+Calculate the depth of local pier scour, dSP. Equation 8.14 is recommended. See also Appendix
+B.
+Calculate the width of the pier scour holes. Assume that the top width of the scour
+hole=(5.6d SP+bP) and the angle of repose is 30° to the horizontal.
+Calculate the depth of scour at the abutments, dSA. Equation 8.17 is recommended. Equation
+8.18 and Appendix B offer alternatives.
+Calculate the total scour depth, dS. This should include the estimated value for bed degradation
+(if any). On a cross-section of the bridge site, plot the bridge details, the existing bed level, and
+the scoured bed level and profile using the results of steps 2 and 4–7 . If the bed elevation has
+been significantly reduced by scour then the enlarged channel will have lower velocities, so
+equilibrium bed level may be somewhat higher than indicated; if necessary repeat the
+calculations starting with an intermediate level. Concurrent with the above calculations, the
+scour depths during a super-flood may be estimated to ensure integrity of the structure.
+Review the analysis and evaluate the design. Have the correct equations been applied, within
+range, and are the results within normal guidelines? Have all relevant factors been considered?
+Glance through items 1–12 in Section 8.3 . Has appropriate engi
+
+Page 297
+
+neering judgement been applied? Is the design adequate? Glance down the checklists in Sections
+8.5.2 and 8.5.3. Is it necessary to adjust the bridge span, pier or abutment type, width, spacing or
+orientation, or to provide river training works or riprap protection (Section 8.9 )? Could it be
+done better or more cheaply some other way?
+Design the foundations. The design flood should be used with a suitable factor of safety, and
+foundations set below the maximum scour depth (see Table 8.9 ). The calculations should be
+repeated for a super -flood.
+
+Step
+10
+
+Example 8.5
+
+This example is Intended to illustrate the hydraulic aspects of the above procedure. For
+simplicity and brevity it is concerned mainly with the underlying principles and consequently
+lacks the scale and complexity that would be encountered in a real investigation.
+
+The brief
+A river in the lower stages of its course passes through a wide shallow valley (Fig. 8.22).
+The main channel is 60m wide and has low banks about 1.0m high that are rather prone to
+erosion, making the flow direction rather variable. The approach bed slope is 1 in 1000. The
+floodplains are grassed and used for grazing. The riverbed and floodplains comprise fine
+material with D50=1.0mm. Rock can be found approximately 25m below bed level. It is
+proposed that a road will cross the valley requiring a bridge, basic details of which are shown
+in Fig. 8.23. The proposed bridge waterway consists of a 60 m wide main channel section,
+with a raised overbank section 20m wide. The latter is at current bank level and is provided
+partly to enable the landowner to move livestock from one side of the highway to the other
+during n ormal flow conditions. The bridge deck will be supported on three 1.2m thick round-
+nosed piers at 20m centres. The proposed abutments are of the vertical type with wingwalls.
+The intention is that both the piers and abutments will be perpendicular to the flow, their
+length in the direction of flow being 36m. The bridge is still at the design stage, and
+modifications are permissible.
+In this region the most severe floods occur in winter, and it is estimated that the 1 in 100
+year flood is 490 m 3/s. The discharge through the main subsections of the approach channel
+and bridge waterway is indicated on the two diagrams. It is anticipated that parts of the
+catchment will become more urbanised in future (hence the road).
+
+Step 1 Assemble the data
+The data availa ble are indicated above and in Figs 8.22 and 8.23. It would be advantageous
+at a later date to split the channel into a larger number of subsections (perhaps 10–20
+streamtubes with an equal discharge) to get a
+
+Page 298
+
+Fig. 8.22 Cross-section of the approach channel for Example 8.5.
+
+Fig. 8.23 Cross-section through the bridge waterway for Example 8.5.
+
+more detailed picture of the flow patterns, and to have more data regarding the longitudinal
+profile.
+
+Step 2 Analyse long-term bed and channel changes
+The fact that urbanisation is expected locally may result in channel improvements,
+increased runoff, peakier hydrographs than at present, and an enhanced sediment transport
+capability. Consequently channel degradation may occur, so 0.5 m will be assigned to ∆d.
+There is evidence of channel meandering, so although the intention is to construct the crossing
+at right angles to the river, a skew of 15° will be allowed initially in case this condition is not
+met exactly.
+
+Step 3 Determine whether clear-water or live-bed scour is involved
+From equation 8.3, the scour-critical mean velocity is
+
+Page 299
+
+Approach channel
+
+Y=YM=A/BT (m)
+
+VS (m/s)
+
+Actual V=Q/A (m/s)
+
+Left floodplain
+Main channel
+Right overbank
+Right floodplain
+
+0.80
+2.60
+1.60
+0.80
+
+0.61
+0.75
+0.69
+0.61
+
+0.61
+1.95
+1.25
+0.61
+
+Thus the floodplains are borderline between the two conditions, but since they are grassed,
+clear -water scour is most likely. The main channel is livebed scour (V>V s). Although the right
+overbank area is also grassed this relatively narrow strip will probably be quite heavily
+trafficked and worn near the bridge; it will contain sediment that can be transported because
+of its proximity to the main channel, the possibility of bank caving and its relatively high
+velocity, so it will be considered as live bed.
+
+Step 4 Calculate the depth of contraction scour, dsc
+Two areas need to be assessed: the main channel and the right overbank. This is the live -
+bed condition so equation 8.13 is applicable without the roughness ratio.
+
+MAIN CHANNEL
+Y1=depth in main approach channel=2.6m.
+Q1=the flow carrying sediment in the main part of the approach channel= 304 m3/s (Fig.
+8.22).
+Q2=the flow passing through the main part of the bridge opening= 399 m3/s (Fig. 8.23).
+B=width of main approach channel=60m.
+b=net width of main bridge opening=57m (i .e. 60m less 2.5×1.2m pier widths).
+From Table 8.5, with SF=SO the shear velocity
+
+Page 300
+
+RIGHT OVERBANK
+Y1=depth on overbank at upstream section=1.6m (Fig. 8.22).
+Q1=the flow in the overbank part of the approach channel=40 m 3/s.
+Q2=the flow passing through the overbank part of the bridge opening= 91m3/s (Fig. 8.23).
+B=width of the overbank section in approach channel=20m.
+b=net width of the overbank opening=19.4m (i.e. 20m less 0.5×1.2m pier width).
+From Table 8.5, shear velocity
+
+In this case L/bP=36/1.2=30 so use the maximum ratio of 12 giving K2P=2.5.
+K3P=1.1 for the plane bed condition (Table 8.7)
+
+Page 301
+
+(8.14)
+
+This scour depth is unacceptably large. Inspection of the above equation shows tha t this is
+mainly due to K2P=2.5, which was used to allow for some meandering of the approach
+channel. An alternative is to use river training works in the approach to the bridge to ensure
+that ø=0° (as stated in the brief) so that K1P=1.0 (Table 8.6 , round-nosed piers) and K2P=1.0
+(Fig 8.20). Now: dSP=2.0×2.4×1.0×1.0×1.1×(1.2/2.4)0.65×(0.60)0.43=2.70m (below the main
+channel).
+This depth of scour will be assumed for all piers in the main channel; even if there is an
+identifiable thalweg it may shift, so design for the maximum depth of scour over the whole
+width. See also Example B1 in Appendix B , where some alternative pier scour equations are
+applied to this problem.
+
+RIGHT OVERBANK
+Y2=1.4m upstream of the pier at the bridge cross-section (Fig. 8.23).
+
+As above, assume a 0° (=ø) angle of approach, so K1P=1.0 for round-nosed piers, K2P=1.0
+and K3P=1.1 for the plane bed condition.
+
+(8.14)
+
+Thus the depth of scour is 2.66m below overbank level, or 1.66m below main channel
+level. It would be more sensible to adopt the pier scour depth (2.70 m) and level from the
+adjacent main channel. Note that dsp/bp =2.70/1.2=2.25, which is consistent with the values
+normally expected for round-nosed piers aligned to the flow. The high velocity and Froude
+number in the overbank waterway may suggest that an additional overbank span should be
+considered.
+
+Step 6 Calculate the width of the pier scour holes, WSP
+For both the main channel and the overbank the width of the scour holes on one side of a
+pier can be obtained from WSP=2.8dSP=2.8×2.70=7.56m. Thus the total width of the top of the
+hole=2WSP+bP=2×7.56+1.20 =16.32m.
+The scour holes do not overlap since the piers are at 20 m centres. When drawing the hole
+this corresponds to an angle of repose of about 30° to the horizontal.
+
+Page 302
+
+Step 7 Calculate the depth of scour at the abutments, dSA
+This must be done for the left and right abutments located at the left edge of the main channel
+and right overbank respectively. Equation 8.17 will be adopted initially. This essentially
+considers the flow on the upstream floodplain that is cut off by hte abutment, and utilises the
+mean depth and Froude number.
+
+very different, whereas in reality the depth and velocity are likely to vary more gradually.
+
+Page 303
+
+RIGHT ABUTMENT
+The average depth on the upstream floodplain YM1=A 1/B T1 where A1=½ ×1.6×160=128m2 and
+B T1=160m giving YM1=128/160=0.8m.
+From Fig. 8.22 the flow cut off by the abutment is 78 m3/s, so VM1 =78/128 =0.61 m/s.
+
+K1A=0.55 from Table 8.8 with a spillthrough abutment.
+K2A=1.0 (i.e assuming that the abutments are now at right angles to the flow).
+
+Note that the scour depth would be 6.57m with vertical abutments and wingwalls instead of
+the spillthrough type now assumed.
+A second estimate of scour depth can be obtained from equation 8.18, since
+LA/YM1=160m/0.8m > 25. At the end of the abutment in the main channel YA2=1.40m,
+V A2=3.35 m/s, F A2=3.357(9.81×1.40)1/2=0.90, so for spillthrough abutments:
+
+(8.18)
+
+The depth of 4.67m will be adopted, but the abutments will be given scour protection so
+that these values become overly conservative (see Example
+
+Step 8 Calculate the total scour depth, d S
+According to the brief, rock occurs 25 m below bed level, so there appears to be nothing to
+stop the full calculated scour depths occurring. A summary of the scour depths relative to the
+bottom of the main channel or the right overbank is:
+
+Scour type
+
+Left abument (m) Central piers (m) Right overbank abuments (m)
+
+Degradation
+Live-bed contraction
+Live-bed pier
+Live-bed abuments
+
+0.50
+0.79
+Not applicable
+4.45
+
+0.50
+0.79
+2.70
+Not applicable
+
+Not applicable
+1.70
+Not applicable
+4.67
+
+These scour depths cannot be added numerically because it is not clear where the scour
+holes overlap. Instead the depths must be drawn on a cross -section of the bridge and channel
+as shown in Fig. 8.24.
+
+Page 304
+
+Fig. 8.24 Plot of the scoured prism using the result from Example 8.5.
+
+Step 9 Review the analysis and evaluate the design
+The scour depths are large, causing an increase in bridge waterway area that may result in the
+velocity of flow being less than assumed, and thus reduced scour. As a quick check, Fig. 1.14
+suggests that with D=1mm and an average depth of flow of 5m the competent velocity is
+about 1.4m/s, so if the discharge through the main opening is Q=399m3 /s then a=399/1.14=
+285m 2 giving Y=285/57=5.0m and dS=5.0−2.4=2.6m. This is similar to the scour level shown
+in Fig. 8.24, but the calculations should be repeated starting with an intermediate bed level to
+check this. Otherwise the appropriate equations have been used within range, but it would be
+prefable to have more detailed information regarding the longitudinal water profile and the
+conveyance of the various parts of the main channel and floodplains. The current lack of
+detail leads to some uncertainty. The repeat calculations should also take into consideration
+the revised opening geometry following the decision to use spillthrough abutments. An
+alternative method of analysis based on regime theory can be found in section 8.6.
+A brief review of the design is:
+• abutments—spillthrough type required with riprap protection;
+• piers—round nosed;
+• angle of attack—assumed to be zero so river training works are needed;
+• river training works—possibly riprap revetments or gabions, to be designed;
+• scour—posssible down to 94.3m elevation;
+• foundations—set below 92m elevation.
+It would be better if the left abutment was set back from the main channel so there was less
+risk of bank failure initiating failure of the abutment. This is probably desirable even if river
+training works are used to ensure that the
+
+Page 305
+
+approach flow is perpendicular to the crossing. Velocities and Froude numbers are relatively
+high in the right overbank area. Possibly a relief opening on the right floodplain should be
+investigated (see also Example 1.1 ).
+
+Step 10 Design the foundations
+In general terms it looks as though all foundations should be set below a level of 92m
+following the general guidelines in Table 8.9.
+
+8.6 Regime theory
+
+Regime theory concerns the concept that the long -term width, depth and gradient of an
+alluvial channel carrying a certain amount of si lt are dictated by nature and can be
+approximated by equations. The regime equations were developed mainly on the Indian
+subcontinent in the first half of the twentieth century from observation and experience arising
+from the design of irrigation systems (Kennedy, 1895; Lacey, 1929–30, 1933–34, 1939). It
+took many years for empirical equations of this form to gain acceptance and for a theoretical
+basis to be developed. Utilising data from a large number of canals Lacey summarised the
+relationships as
+
+V=0.625 (f SR)1/2
+
+P=4.84Q1/2
+
+where f s=(2500D)1/2
+
+(8.20)
+
+(8.21)
+
+(8.22)
+
+(8.23)
+
+and V is the mean flow velocity (Q/A m/s), Q is the discharge (m3 /s), A is the cross-section
+area of flow (m2 ), R is the hydraulic radius (A/P m), P is the wetted perimeter (m), SO is the
+dimensionless channel slope, and f S is a silt factor for a sediment of diameter D (m). In wide
+rectangular channels the width B (m) can be approximated by P and obtained from equation
+8.21.
+Numerous other equations have been proposed, notably by Blench (1939), who introduced
+seperate factors for the channel bed and sides, but care must be taken when using them
+because they apply only to a particular type of material (e.g. sand bed, gravel bed, cohesive
+bed) or to a restricted range of discharge, sediment size, median bed material diameter (D50),
+bank vegetation and channel slope. The equations can be applied successfully to channels
+with similar characteristics, but when applied to channels with significantly different features
+the result can be disastrous (Brandon, 1987). Another complication is that canals, which
+
+formed the basis of regime theory, essentially carry a relatively steady discharge and sediment
+load whereas rivers do not. This leads to the concept of a single
+
+Page 306
+
+‘dominant discharge’ which would result in the same channel dimensions as a range of flows.
+The dominant discharge usually coincides with flow at, or about, the bankfull stage.
+Because of the possibility of using the regime equations outside their recommended range,
+they will not be listed here. A useful guide to regime equations and their use to design stable
+channels was provided by Brandon (1987). Ackers (1992) gave the 1992 Lacey Memorial
+Lecture, which provided a good summary of the historical development of canal and river
+regime theory.
+Although the equations in Section 8.4 normally provide a better approach, regime theory
+can be used to obtain an indication of the scour depth at a bridge. This involves calculating
+the stable regime width and depth of an alluvial channel (BR and Rs ) for a articular discharge
+(Q), and then adjusting the depth to take into account the effect of the bridge contraction. The
+depth of contraction scour (dsc) is obtained from the difference in the depths of flow (Novak et
+al., 1996).
+The minimum stable regime width of an alluvial channel is
+
+B R=4.75Q1/2
+
+(8.24)
+
+where B R is the channel regime width (m) measured along the water surface at 90° to the
+banks, and Q is the maximum flood discharge (m /s). If f is taken as the average of the Lacey
+silt factor=1.59
+
+width of the bridge opening. The expression used is very similar to equation 8.13 for live-bed
+contraction scour with Q1=Q2 and the Manning roughness ratio omitted. Thus the normal
+scoured depth of flow YSN (m) in the bridge opening is
+
+Page 307
+
+Page 308
+
+8.7 Scour in cohesive materials
+
+Relatively little research has been conducted relating to scour depths when the bed material is
+cohesive. However, the fact that a cohesive materi al is likely to be more scour resistant (than
+a cohesionless one) does not necessarily mean that the depth will be less, only that the scour
+hole will take longer to reach its full depth. The collapse of the Schoharie Creek bridge in the
+USA was the result of local scour accumulated over a 10 year period, the bed material being
+glacial till (Lagasse et al., 1995). Sometimes a few large floods, not 10 years, may be
+sufficient to cause significant scour.
+Some theoretical approaches to sediment transport and erosion involve considering the
+forces on individual particles exposed to the flow as incipient motion occurs. This concept
+does not apply to a cohesive material such as glacial till. Saturated cohesive materials may
+tend to break away in unpredictable lum ps, rather than a particle at a time. Nevertheless, in
+the absence of any special equations for scour depth in cohesive materials the only options are
+either to use the equations above for cohesionless materials, or to use the competent mean
+velocity as a guide to the size of waterway required for the bed material not to be eroded (see
+Table 1.3b , Example 1.1 and Section 8.4.1).
+
+8.8 Scour in tidal waterways
+
+The tidal cycle with its associated flow reversal can increase degradation, contraction and
+local scour compared with the equivalent non -tidal crossing depending upon the amount of
+sediment transported in the flow and where and when scour occurs. The introduction of
+salinity, saline wedges, storm tides, reversible flow and unsteady conditions makes the tidal
+situation more complex than its riverine counterpart, and as yet there are no proven scour
+depth equations specifically for tidal waterways (Fig. 8.25). Additionally there are very few
+measurements of scour at tidal bridges to prove or disprove the various equations.
+Consequently the riverine equations described above are usually considered to be the best
+available option for evaluating tidal scour (Richardson et al., 1993). It has been speculated
+that future research may show these equations to be too conservative or safe (Sheppard, 1993),
+but this is usually regarded as the lesser of two evils.
+In all tidal or non -tidal streams the basic concept of continuity of sediment transport applies
+so that for the reach under consideration during a given period of time,
+
+V SE−VSL=∆V S
+
+(8.30)
+
+where V SE is the volume of sediment entering (m3), VSL is the volume of sediment leaving
+(m 3), and ∆V S is the change in the volume of sediment stored in the bed (m3). In the normal
+riverine environment the sediment enters and
+
+Page 309
+
+Fig. 8.25 Laira rail bridge over the River Plym, Plymouth: an example of a tidal crossing.
+
+leaves in the downstream direction borne by the river flow, whereas with a tidal situation the
+river is carrying sediment downstream while the flood tide is carrying sediment upstream,
+some of which may be derived from littoral drift along the coastline. Thus the tidal situation is
+more complex. However, the scour may again be classified as clear-water (V<V S) or live-bed
+(V>V S) depending upon whether or not bed material is being transported into the bridge reach.
+If live-bed material is carried into the scour hole then the depth will be less than with the
+equivalent clear -water condition.
+One of the first steps when planning a tidal crossing is to assess how much the tidal process
+affects the conditions at the site and whether the river is tidally affected or tidally controlled.
+The magnitude of the tidal influence depends upon the distance from the sea, bed slope,
+channel rou ghness, cross-sectional area and tidal volume. For example, at the tidal limit, river
+flow conditions predominate. Just downstream of the tidal limit (A in Fig. 8.26a ) the bridge is
+tidally affected, but the tidal influence will be small. As the distance from the tidal limit
+increases and the sea gets nearer (B) both river flow and tidal fluctuations become important:
+the tides provide a cyclic variation in the control ling downstream water level and thus
+influence the depth, velocity, discharge and direction of flow at the bridge. Eventually a point
+(C) is reached at which the tidal influence will be sufficient at high tide to reduce the
+discharge through the bridge to zero, with river flow being stored upstream. This is the
+limiting case, and between this point and the sea bridges are classed as tidally controlled.
+They will experience flow in two directions (freshwater downstream and the tide in both
+directions), with the discharge and velocity being higher on the ebb as the stored river water is
+discharged.
+
+Page 310
+
+Fig. 8.26 The three types of tidal inlet defined by Neill (1973): (a) an unconstricted inlet; (b) a
+constricted inlet consisting of a narrow inlet or ‘neck’ leading to a larger inland tidal basin;
+(c) offshore islands separated by tidal passages and linked to the mainland by causeways,
+which experience tidal flow in two directions simultaneously. Often tidal passages can be
+completely closed by a causeway since there is no absolute necessity for water to flow
+through them.
+
+The maximum tidal discharge (QMT) usually occurs near the midpoint of the tidal cycle, the
+maximum and minimum tidal levels be ing associated with slack (still) water at the turn of the
+tide (Fig. 8.27). Note that the bed level in the estuary may be above or below the low water
+level shown in the
+
+Page 311
+
+diagram, so the depth measured from the mean water (sea) level has to be calculated
+accordingly. Needless to say, the design of a tidal crossing is greatly facilitated if
+measurements of depth and velocity at the location have been recorded over several tidal
+cycles, especially spring tides when the range is largest. Storm tides, which arise from the
+combination of normal astronomical tides with storm surges resulting from wind and
+barometric pressure effects, may be much higher than normal tides and may have a much
+different tidal period.
+If the tidal influence is small or insignificant then tidally affected bridges can be designed
+using the riverine procedures described previously, typically using the 1 in 100 and 1 in 500
+year flood (Q100 and Q500). If the tidal influence is larger, but the greatest risk to the bridge is
+still river floods, then again the riverine procedures can be used. If the greatest risk to the
+bridge is from a combination of river flooding and tide and storm surges, or from the latter
+alone, then the bridge must be designed using the procedures for a tidal crossing, possibly
+using the 1 in 100 and 1 in 500 year storm surge with a full consideration of all the coastal
+engineering processes (e.g. resonance, wind and wave effects). When the river flood
+discharge is relatively small and arises from the same storm that created the tidal surge then
+the river and tidal discharges can be added, or the runoff hydrograph volume can be added to
+the tidal volume. If the river flood and tidal surge might result from different storms a joint
+probability approach may be used to determine the Q100 and Q500 flows. If it is not clear what
+presents the greatest risk, both the riverine and tidal approach should be used and the largest
+scour depth adopted. Obviously the return
+
+Fig. 8.27 The tidal cycle. Note that the tidal amplitude (H) varies significantly depending upon
+whether the tides are neap, high water springs, etc. Similarly the normal semidiurnal
+astronomical tidal period, T, is 12 hours 24 minutes but this may be significantly different
+in some parts of the world or during a severe storm surge. Starting at the mean water level
+the tidal height (h) above mean water at any time (t) is h=H sin θwhere θ=360(t/T). This
+represents one tidal cycle (T) as 360°. Values below the axis are negative. The discharge at
+any time (t) is Qt=QMT co s θ where θ = 360(t/T): the maximum tidal discharge (QMT ) occurs
+at the midpoint of the tidal range; the mean discharge QMEAN=2QMT/π.
+
+Page 312
+
+interval employed for design purposes varies with the importance of the crossing.
+The main differences between scour in rivers (as considered previously) and scour in tidal
+waterways are described briefly below.
+• The flow in a tidal stream can be in two directions: that is, freshwater flow downriver with
+the tidal flow changing direction periodically.
+• The continuity equation Q=AV does not apply in the normal way because Q is not constant:
+as the bed level is reduced by scour and the cross-sectional area of flow increases it is
+possible that both the tidal discharge and velocity will also increase, resulting in long -term
+degradation.
+• The values of the variables (e.g. Q, A, V, Y) are harder to estimate in the tidal situation. It is
+possible that the construction of a bridge will reduce the tidal discharge and level on the
+landward side of the structu re.
+• The normal semidiurnal period between successive high or low astronomical tides is about
+12.4 hours, but the tidal period during a design event may be much different as a result of
+storm surge, wind, river floods or the geometry of the estuary and coastline. Semidiurnal
+tides generally occur at low earth latitudes with diurnal variations (T≈25 hours) becoming
+increasingly dominant in higher latitudes.
+• The mean maximum velocity, VMEANMAX, on the ebb (corresponding to the maximum
+discharge at the midpoint of the tidal cycle, QMT) at a cross -section of a tidal inlet is usually
+around l.00m/s (Bruun, 1990). Taking the hydraulic radius (R m) as being equal to the
+mean depth of flow, for spring tides the values of the mean maximum velocities in tidal
+inlets fall within a relatively narrow band, approximately as follows:
+
+VMEANMAX=(R1/8−0.2) m/s for R≥5m
+
+VMEANMAX=(R1/8−0.1) m/s for R<5m
+
+Considering all flood, ebb and littoral drift conditions, VMEANMAX may be between 0.89
+m/s and 1.08 m/s, with local values in the centre of the inlet being around 33% greater
+(Neill, 1973). Over a full tidal cycle the average velocity in an inlet is typically around
+0.77 m/s, being slightly lower (0.70 m/s) for semidiurnal tides and higher (0.87 m/s) for
+diurnal tides (Bruun, 1990).
+• The relatively small velocities in tidal inlets (compared with rivers in flood) result in smaller
+Froude numbers, typically ranging up to a maximum of about 0.2.
+• In addition to the usual data, for tidal scour assessments it is necessary to have a knowledge
+of sediment transport on the ebb and flood tides, littoral drift, the magnitude of tidal flows
+and storm surges, and the interaction between tides and river flow.
+
+Page 313
+
+• Because of material originating as littoral drift, tidal inlets usually have a clean sandy
+bottom with an average particle diameter of around 0.1 –0.5mm, whereas rivers carrying
+fine sediments often have clayey or silty bottoms (Bruun, 1990).
+• Storm surges (e.g. from hurricanes) may have very high peaks and short durations (less than
+24 hours) compared with riverine events of the same magnitude. Consequently, ‘steady’
+conditions never really exist, so scour holes may never fully develop and scour depth
+equations may no t be valid.
+• The unsteady storm condition just described can result in large changes in bottom roughness
+as the bedform changes, ranging from sand ripples to dunes to a flat bed.
+• The deposition, consolidation and susceptibility to erosion of fine sediments are influenced
+by the ions present in saline water, and will be different from those in fresh water
+(Sheppard, 1993).
+Guidelines for assessing scour in tidal locations are given below. They should be used in
+conjunction with common sense and enginee ring judgement, as appropriate.
+
+8.8.1 Degradation and aggradation
+
+The tidal flow arising from the flood and ebb of normal astronomical tides will usually have
+the most influence on long-term degradation (∆d) or aggradation patterns. If there is transport
+of sediment on both the ebb and flood tide then there may be no net loss of bed material in the
+vicinity of the bridge and no degradation. If there is a net loss of sediment in one or both
+directions then there is degradation, while a net gain would be aggradation. Sometimes this
+may be difficult to judge. For example, if a river flows into a wide basin (Fig. 8.26b) then
+riverine sediments may be mostly deposited as sandbanks in the tranquil areas of the basin (A)
+and not reach the crossing at B. This will result in clear -water scour and degradation at B
+unless sea -derived sediment is transported on both the flood and ebb tides. If in doubt the
+general principle outlined in equation 8.30 should be remembered. To obtain a worst -case
+estimate of the degradation depth apply equation 8.10 for clear -water contraction scour to the
+inlet assuming the maximum tidal discharge (QMT). Obviously the presence of solid rock
+would restrict degradation and scour, so knowledge of the local geology is required.
+The assessment of long -term changes to bed level is complex and must include a
+consideration of current and future dredging practice, the construction of new beach groynes
+or entrance breakwaters, the removal of old groynes or breakwaters, land reclamation, and
+any coastal defence measures that may affect littoral drift. For example, if in Fig. 8.26b the
+construction of beach groynes or a breakwater at the estuary mouth (as in diagram a) cut off
+the littoral drift, the flood tide would erode the mouth
+
+Page 314
+
+and deposit sediment in the basin , only some of which may be carried out to sea on the ebb
+tide. Thus there may be aggradation in the basin and degradation in the estuary mouth. As
+degradation occurs, the enlarged cross -sectional area of flow will increase the tidal discharge
+and velocity and cause further degradation.
+As with any bridge, the stability of the tidal channel and its tendency to shift laterally must
+be fully assessed during the early stages of design. The comparison of old and new charts,
+maps and aerial photographs can be useful in this respect.
+
+8.8.2 Contraction scour and local scour
+
+Tidal flow also affects the depths of contraction and local scour, but in this case the largest
+depths may result from storm surges and tsunamis rather than from regular astronomical tides.
+Local scour may occur at either end of the piers and abutments, and may be most severe on
+the landward side on the ebb and the seaward side on the flood tide.
+The live-bed contraction scour formula (equation 8.13) can be applied to estuaries or inlets
+that are long enough to develop fully live -bed conditions, but not to short inlets. For example,
+the equation can be applied to situations such that shown in Fig. 8.26a, where B/b is the
+relative width of the estuary to the total length of the bridge openings and Q2/Q1 is the ratio of
+the discharge passing through the bridge to that in the upstream channel. The equation cannot
+be applied successfully to short inlets similar to that in Fig. 8.26b. The clear-water equation
+(8.10) could be applied, but would overestimate because there will generally be a supply of
+sediment from the upstr eam river and/or the tidal flow. With either equation the assumption of
+a long constriction experiencing steady uniform flow is unlikely to be met, so engineering
+judgement and experience are needed when interpreting the results to avoid overestimating
+scour depth.
+The CSU equation (8.14) for local pier scour can be applied using the appropriate tidal
+depths and velocities. The calculation of abutment scour is problematical: unless the bridge
+opening is very narrow, tidal velocities are relatively low compared with those in rivers
+during flood, and even lower at the banks of the estuary where the abutments are likely to be
+situated. Thus it may not be necessary to calculate abutment scour, but if it is the depths
+obtained may be unrealistically large since the riverine equations tend to overestimate anyway.
+As in the riverine situation, riprap or some other measure can be easily adopted to limit scour
+at the abutments.
+
+8.8.3 Analysis of tidal crossings
+
+The procedure used depends upon whether the tidal inle t is unconstricted or constricted. The
+constriction may be due to either the geometry of the inlet or the bridge itself. The essential
+distinction is that the tidal level in an
+
+Page 315
+
+unconstricted inlet is assumed to be constant so the water surface is horizontal, whereas at any
+time in a constricted inlet there is a significant difference in surface water level so the surface
+is not horizontal. The existence of large mudflats, thick vegetation (rushes, reeds) in the
+estuary or heavily vegetated overbank areas will result in the attenuation of tidal levels and a
+sloping water surface, and so should be classed as constricted for analysis purposes. Figure
+8.26a shows a typical unconstricted river mouth, and Fig. 8.26b shows a typical constricted
+inlet. It may not always be obvious whether an estuary is unconstricted or constricted, and it is
+possible that an estuary that is unconstricted at normal tides may be considered constricted
+during a 1 in 100 year or 1 in 500 year design storm surge.
+Unconstricted inlets can be analysed using a procedure outlined by Neill (1973), which
+a ssumes a horizontal water surface and well-defined vertical sides to the channel. Constricted
+inlets can be analysed using an ‘orifice’ equation. Both cases are considered below. If it is not
+clear which approach to employ, use both and adopt the largest scour depth.
+Richardson et al. (1993) recommended a three-stage analysis for tidal waterways. Stage 1
+includes: a qualitative assessment of the stability of the tidal inlet; an investigation of future
+changes and development plans for the estuary and adjacent coastline; an evaluation of
+whether scour is predominantly controlled by river flow, tidal flow or both; classification of
+the estuary as constricted or unconstricted; and an assessment of whether clear-water or live-
+bed scour is most likely. All of these judgements are facilitated by site visits, sonic sounding
+to obtain sediment data, and the installation of equipment to record flow depths and velocities
+simultaneously at different points in the estuary. Stage 2 is the quantitative evaluation of the
+variables (notably discharge, velocity and water depth) that are used in the riverine scour
+depth equations presented earlier. This will probably result in an overestimation of scour
+depths because the assumption of steady-state equilibrium is not valid with unsteady tidal
+flows. For complex problems, stage 3 involves using physical or computer models to verify
+the stage 1 and 2 analysis.
+The sections below are principally concerned with the stage 2 analysis.
+
+Scour depth in an unconstricted estuary
+The steps required to evaluate the bridge scour in an unconstricted estuary with a horizontal
+water surface are summarised below.
+1. Decide upon the location of the bridge and its preliminary design.
+2. Determine the type and size of the bed material (D50) and locate any rock outcrops that will
+limit scour. Many coastal inlets have sandy beds in the 0.1–0.5 mm range.
+3. Assess the pattern of sediment transport, potential degradation depth and the lateral stability
+of the channel.
+
+Page 316
+
+4. Plot a graph of the elevation of the water surface against net bridge opening area (a). This
+is the total cross-sectional area of the bridge openings perpendicular to the direction of flow,
+or the cross -sectional area of the estuary channel minus the area of the piers and abutments
+(e.g. see Fig. 8.28).
+5. For the site, determine the normal tidal range, which is the height between the mean high
+and low tidal water levels (or the est uary bottom, if this is higher) as shown in Fig. 8.27.
+Note that the mean sea level in Britain is often assumed to be 0.000m relative to Ordnance
+Datum (m OD) at Newlyn, but it varies with location.
+6. For the 1 in 100 year and 1 in 500 year design storm tide, or the return interval appropriate
+to the importance of the crossing, determine the tidal range (2H m) and tidal period (T s).
+These data are unlikely to have been recorded and so may have to be estimated.
+7. For the the return interval adopted, use the storm tidal amplitude (H m) to plot the storm
+tidal level (elevation) as a function of time from the information in Fig. 8.27 using normal
+mean sea level as the datum for elevation (e.g. see Fig. 8.29). Determine the midpoint of
+the tidal range, which is assumed to coincide with the maximum tidal discharge, QMT.
+8. For various water surface elevations calculate the volume of water stored in the estuary or
+basin upstream of the bridge. This can be obta ined from the average area enclosed by
+successive contours and the contour interval. Plot a graph of water surface elevation against
+storage (e.g. Fig. 8.30). From th is determine the tidal volume (VOL m 3) between the high
+and low storm tide levels (or the estuary bottom, if this is higher). The tidal volume is the
+amount of water (m3) that must flow past the bridge between low and high tide to fill the
+estuary upstream .
+9. Determine the maximum design discharge, QMAX (m3/s). Assuming a sinusoidal variation
+of discharge with time as in Fig. 8.27, then according to Neill (1973) for an ideal estuary
+the maximum tidal discharge (QMT m3/s) occurs at the midpoint of the tidal range when the
+tidal energy gradient is steepest. With the storm tidal period (T s) defined by the plot in step
+7 and with π=3.14, QMT can be estimated from the area between the sine curve and Q=0
+axis as
+
+where Q is the significant riverine contribution to flow which (as discussed earlier) may
+be zero if the river flow is insignificant, the peak flood discharge if it is relatively large,
+or the routed flow through a basin (Fig. 8.26b) as appropriate. Alternatively, the volume
+of water under the river hydrograph can be added to VOL with Q=0 if the timing of the
+events coincide.
+
+(8.32)
+
+10. Determine the corresponding average midtide velocity (VMT m/s) in the bridge openings
+from
+
+Page 317
+
+Page 318
+
+17. For important crossings, physical or computer modelling should be undertaken to verify
+the analysis, particularly if the hydraulics or geometry of the site are complex or unusual.
+
+Scour depth in a constricted estuary
+Constricted estuaries are characterised by having a sloping water surface as a result of
+significant tidal flow resistance, Fig. 8.26b being a possible example. It is assumed that the
+maximum difference in water level (∆h m) between the sea and the inland part of the estuary
+or basin occurs at the midtide level when the tidal discharge is greatest. When the constriction
+is caused by the channel (not by the bridge) the velocity and discharge in the inlet channel can
+be obtained from the following ‘orifice’ and continuity equations (Kreeke, 1 967; Bruun,
+1990; Richardson et al, 1993):
+
+Page 319
+
+If the measurement of ∆h does not include riverine storm flow (Q) then, when the
+circumstances warrant it, equation 8.32 can be used to obtain the maximum design discharge,
+QMAX=QMT+Q.
+Equation 8.33 gives the average midtide velocity in the bridge openings as VMT=QMAX/ aMT.
+Again it may be prudent to increase the average value of VMT by 33% to obtain VMAX ,
+although in a constricted ‘ orifice’ inlet there may be a smaller variation of transverse velocity.
+Apart from the depth, hC , and the method of calculating QMAX and VMAX, most of the steps
+listed for the investigation of unconstricted estuaries can be applied to constricted inlets as
+well. The depth of local scour during the design storm surge can be obtained from the
+appropriate riverine clear -water or live-bed equations using the values of QMAX, VMAX and hC.
+The estimation of contraction scour using VMT in the riverine equations res ults in excessively
+large values if the inlet is too short to be a long contraction and the storm surge is too short for
+scour depths to be fully achieved. The worst -case degradation depth can be obtained from the
+clear -water contraction scour equation (8.10), as described in Section 8.8.1, using the value of
+∆h for normal ebb and flood tides (not a storm surge) in equation 8.34 to obtain the
+corresponding values of QMT and VMT.
+
+Example 8.7
+
+A small tidal basin at the head of a river estuary has a similar geometry to that shown in Fig.
+8.26b. The basin lies within an urban area that is to be opened up for redevelopment by
+having a new river crossing constructed at the narrowest point of the channel. It is not clear
+whether the estuary is unconstricted or constricted, or whether the crossing will be tidally
+affected or tidally controlled. The proposed crossing point is 132m wide. The bridge will be
+perpendicular to the flow with abutments on the same alignment as the existing quay walls
+(i.e. they do not protrude into the channel). Thus the contraction will result from three round-
+nosed piers each 4.0m wide (including some protection from impact by small craft). At the
+centre of the channel the depth is about −3.9m OD. A preliminary investigation of the site has
+yielded the data below.
+Bed material: fine to medium sand, D50=0.2mm.
+Tide heights for various return intervals: 1 in 1 year: +2.85m OD
+1 in 50 years: +3.28m OD
+1 in 100 years: +3.36m OD
+Tidal period corresponding to the above levels=12.41 hours.
+Riverflow into the basin during an observed 1 in 100 year storm=30.4 m 3/s.
+Length of inlet neck LC=800m.
+Manning’s n for the inlet bed=0.03s/m 1/3.
+Estimated midtide difference in water level between the estuary and the inland basin during
+a 1 in 100 yea r tide (but with normal river flow), ∆h= 0.31 m.
+Corresponding average midtide depth in the 800m length of inlet=2.4m.
+
+Page 320
+
+Initial assessment
+An unconstricted and constricted analysis will be undertaken since it is not clear which
+procedure is the most appropriate. A return interval of 1 in 100 years will be adopted. Because
+the river catchment is quite small it is possible that both the 1 in 100 year river flood and the
+storm tide will be the result of the same event, so the same return interval will be used for
+both. The basin is developed and its edges are bounded by well -defined quay walls, so the
+lateral stability of the channel is not a problem. However, further development of the
+catchment may increase river floo ds and cause degradation in future. An allowance of 1.0m
+(∆d) is made for this. The D50 =0.2 mm and it is suspected that there is sediment transport in
+both directions on the tide, so live-bed scour is likely.
+
+Unconstricted estuary
+The net cross-sectional area of the bridge openings (i.e. with the area of the piers
+subtracted) is plotted in Fig. 8.28 as a function of water level.
+Mean sea level is 0.000m OD. The normal tidal range is +2.85m OD but during the 1 in
+100 year storm this increases to +3.36m OD. Thus the design storm amplitude, H, is 3.36m.
+The equivalent tidal period is 12.41 hours. Assuming a sinusoidal variation the equations in
+Fig. 8.27 can be used to plot the design tidal cycle as shown in Fig. 8.29. The maximum
+discharge occurs at the midpoint of the tidal cycle, which is at normal mean sea level in this
+instance.
+The volume of water stored in the estuary is shown as a function of water level in Fig. 8.30.
+This gives the tidal volum e between low and high tides (+3.36m) as VOL=3.4×10 6 m3. Using
+equation 8.31:
+
+(8.31)
+
+Fig. 8.28 Graph of water level against the net cross -sectional area of flow in the bridge openings
+perpendicular to the direction of flow (a) for Example 8.7 .
+
+Page 321
+
+Fig. 8.29 The storm tidal cycle calculated for Example 8.7 .
+
+Fig. 8.30 Graph of sea level against the volume of water in the estuary. The difference between the
+storage at high and low tides is the tidal volume (VOL m3 ) in Example 8.7.
+
+The 1 in 100 year river flow is Q=30.4m3/s so from equation 8.32:
+
+Page 322
+
+(8.32)
+
+From Fig. 8.28 at midtide level the net area of flow in the bridge openings aMT=295 m2.
+Thus the average midtide velocity in the openings is
+
+Assume that the maximum velocity in the centre of the channel is 33 % higher so:
+
+(8.33)
+
+1.00m allowance for degradation (∆d) plus 0.15m contraction scour (dsc) plus 4.37m local pier
+scour (dsp). Thus considering the estuary to be unconstricted gives the future maximum scour
+depth as 5.52m, so scour is possible to −9.42m OD.
+
+Page 323
+
+Constricted estuary
+Many of the values above can be used for the constricted analysis, which is based on the head
+loss as the sea floods into (or ebbs out of) the tidal basin. Equation 8.37 gives the velocity
+head loss coefficient as
+
+With VMAX=1.58 m/s and Y2 =3.90m (the known depth at the pier, as before) then
+F 2=VMAV/(gY2)1/2 =1.58/(9.81×3.90)1/2=26. For round-nosed piers, no skew and a flat bed the
+pier scour depth is
+
+(8.14)
+
+With a degradation depth of 1.0m, the total potential scour depth is 1.0+ 0.16+4.88=6.04m
+(i.e. scour to −9.94m OD).
+The estimates of VMT and F are lower than normally expected, probably because the basin
+is at the head of the estuary. Under different circumstances the average velocity for a 1 in 100
+year storm tide may be
+
+Page 324
+
+expected to exceed significantly the value of VMEANMAX , which is often around 1.00m/s for
+normal spring tides. However, much depends upon the validity of the assumptions and data
+(see Kreeke, 1967; Bruun, 1990). This inlet may be too short to meet the conditions for a long
+contraction, while the value of ∆h is not easy to determine accurately, particularly in
+situations where a significant and variable riverflow is also involved. The existence of
+mudflats above low tide level that submerge at different times can make it difficult to define
+precisely the ‘midtide level’ that corresponds to maximum discharge. Regardless of which
+method is used there is a considerable scope for error when analysing tidal crossings.
+
+8.9 Combatting scour
+
+The best and most cost-effective way to ensure that scour is not a threat to the structural
+integrity of a bridge is to design the structure so that its foundations are either well below the
+scour level or sufficiently well protected (by riprap or a suitable alternative) for scour not to
+be a problem. The former is the safest and most reliable method, assuming that the scour
+depth and channel stability have been correctly assessed over the lifetime of the bridge,
+whereas protective measures need regular monitoring and maintenance to be continually
+effective. Another measure that can be adopted at the design stage is to optimise the location
+an d alignment of the bridge, particularly in relation to potentially destructive flood flows. A
+good hydraulic design is also required, with suitably sized waterways and efficient
+streamlined piers and abutments positioned to avoid skew and eccentricity. The provision of
+spur dykes, guidebanks, channel training works, channel improvements, relief openings and
+allowing the overtopping of embankments have all been discussed previously.
+With existing bridges that are found to be suffering from scour, if it is not possible to alter
+the foundations some of the ancillary works just described can be added. Bridge piers can also
+be protected by placing in front of them sacrificial piles in a V formation that points directly
+into the flow (Anon, 1992). This approach h as been adopted for the Over rail viaduct on the
+River Severn, England (Anon, 1994). However, one of the most common and time-honoured
+methods of alleviating scour is to dump large pieces of rock (riprap) in the affected area,
+usually at piers and abutments. When rock is available in a suitable size, riprap is generally
+regarded as the most economical protective material. A riprap blanket has the advantage of
+being flexible should settlement occur, easily repaired, easy to place, durable, and recoverable
+should the stones be moved.
+Riprap can be an effective scour prevention measure, but if incorrectly placed it may also
+initiate scour. In either case, during a sequence of floods the large velocities and turbulence
+experienced in bridge openings can move riprap, so regular monitoring is required. The
+collapse of the bridge at
+
+Page 325
+
+Schoharie Creek in the USA in 1987, which caused the death of 10 people, started with the
+removal of riprap around the bridge piers. Severe scour of the glacial till beneath the spread
+footings then occurred over a 10 year period (Richardson et al., 1993; Lagasse et al., 1995).
+
+8.9.1 Riprap at abutments and piers
+
+There are many design guides that advise on the use of riprap (Brown and Clyde, 1989; Li et
+al., 1989; Richardson et al., 1990). One recommendation is that riprap should not be used on
+slopes steeper than 1 in 1.5. This simple limitation, along with using a correctly sized and
+graded stone (Table 8.10 ), may eliminate many potential problems. When designing riprap at
+abutments common failure modes are:
+• the movement and erosion of particles as a result of high velocities and powerful vortices,
+which are exacerbated if the stone size is not large enough, the gradation is too uniform or
+the embankment too steep relative to the angle of repose of the riprap;
+• a translational slide of the riprap down an embankment, which may be initiated by channel
+scour eroding the toe of the riprap blanket, sliding along the plane of the filter blanket,
+excess pore water pressure, or bank slopes that are too steep. This type of failure may be
+indicated by cracks parallel to the channel in the upper part of the riprap blanket;
+• a modified slump failure along an internal slip surface within the riprap, which may occur if
+the slope is near the riprap’s angle of repose so that movement of individual stones results
+in a slide. The causes are similar to a translational slide;
+• a slump failure involving a rotational -gravitational movement along a slip surface within the
+embankment material, causes being excess pore water pressure reducing friction, the use of
+non-homogeneous material that results in ‘fault lines’, and slopes that are too steep.
+Chiew (1995) reviewed the mechanics of riprap failure at cylindrical bridge piers, and
+identified three failure modes:
+• shear failure due to the stones not being large or heavy enough to withstand the downflow
+and horseshoe vortex;
+• winnowing failure due to the erosion of the underlying bed material through the voids or
+interstices of the coarse riprap stones;
+• edge failure, where the erosion of the natural bed material next to the riprap results in a
+small scour hole into which the outer stones of riprap roll or slide, leading to a progressive
+failure.
+These problems can be avoided by making the riprap large and heavy enough to resist motion,
+ensuring the thickness of the riprap layer is adequate and
+
+Page 326
+
+at least greater than one stone thick (this facilitates rearmouring of any scour hole and helps to
+eliminate winnowing and edge failure), providing a stone or fabric filter layer to retain the bed
+material, and ensuring that the riprap extends uniformly over the areas prone to scour (see
+below). Thus it is important that the riprap layer is thick enough and composed of stones of
+the necessary diameter and gradation to withstand the prevailing conditions. There are many
+equations that can be used t o calculate the required diameter, and these share some of the
+disadvantages of scour depth equations: they are either theoretical or based on small-scale
+laboratory experiments, while the field data available to verify them are scarce and sometimes
+of unc ertain accuracy. The factors that should be considered include the velocity to be resisted,
+stone density, the shape and angularity of the rock, the depth of flow, the degree of turbulence
+or eddying, the curvature of the flow, and the slope angle (Neill, 1973). Velocity-based design
+procedures are thought to be as good as any, provided that an accurate estimate of the velocity
+can be obtained (Richardson et al., 1990). Less scientific approaches to the problem are to use
+the size of stone that has been obs erved to work under similar conditions during similar floods,
+or to use a rule of thumb. Some of these are considered later.
+
+Riprap at abutments
+When deciding the stone diameter to use with a Froude number (F)≤0.80 the following
+equation, based on the Isbash (1935) formula, was recommended by Pagán-Ortiz (1991, 1992)
+and Richardson et al. (1993):
+
+In both equations the factor K allows for the local increase in velocity at the point of riprap
+failure. The recommended procedure for obtaining the characteristic average velocity in the
+above equations is as follows.
+(a) Determine the distance from the toe of the abutment to the nearest edge of the main
+channel ( Fig. 8.31), which is called the set-back distance, LSB.
+
+Page 327
+
+Fig. 8.31 Riprap protection and zones of failure at setback abutments. The cross-hatched area shows
+where the riprap is most likely to fail. Without the riprap protection the channel bed is most
+vulnerable to scour at the upstream corner of the abutment as shown in Fig. 8.7, the scoured
+zone extending into the waterway (perpendicular to the flow direction) by a distance of
+2.75d SA where dSA is the abutment scour depth. See also Fig. 8.35. (After Richardson et al.,
+1993)
+
+Page 328
+
+(b) Calculate the average depth of flow in the main channel, YAV .
+(c) Calculate the set -back ratio (SBR)=LSB/YAV.
+(d) If SBR<5 for both abutments then V=Q/a where Q is the total upstream flow but excluding
+any that overtops the roadway, and a is the total area of the bridge openings.
+(e) If SBR>5 for an abutment then V=Q/A for the overbank flow at that abutment. This
+effectively assumes an imaginary wall along the edge of the main channel so that all of the
+flow on that floodplain (Q) passes through the corresponding overbank area of the bridge
+opening (A).
+(f) If SBR<5 for one abutment but>5 for the other then the velocity for the former obtained
+from point (d) may be too low so the average velocity for this abutment should be based on
+the area (A) between the abutment and an imaginary wall on the opposite bank. The
+corresponding discharge (Q) is all of the flow between the outer edge of the floodplain
+associated with the abutment and the imaginary wall on the opposite bank.
+The area of the riprap protection required is illus trated in Fig. 8.31, and should extend
+outwards to a distance twice the depth of flow on the overbank area (2 YOB ) up to a maximum
+of 7.6m. This area should include th e abutment slopes. With spillthrough abutments the zone
+where initial failure of the riprap usually occurs is on the overbank near the downstream toe
+(shown cross-hatched in the diagram). It then expands outwards to include the toe of the
+abutment slope, which can endanger the abutment, as described above. Another vulnerable
+zone is at the upstream corner of the abutment. With vertical-wall abutments the initial failure
+zone usually occurs in the bed at the upstream corner, where the flow accelerates as it enters
+the waterway opening (Fig. 8.7). The zone then spreads into the opening (Richardson et al.,
+1990; Pagán -Ortiz, 1991, 1992).
+The minimum thickness of the ripra p layer should be the larger of D100 or 1.5D50. This
+thickness should be increased by at least 50% if the riprap is placed underwater or in less than
+ideal conditions. Some guides (Li et al., 1989) suggest that the thickness need not exceed
+2D100. Thickness is
+
+Table 8.10 Typical riprap grading and classification (all values in metres)
+
+% passing
+
+Particle size
+
+100–90 2.0 D50
+85–70 1.5 D50
+50–30 1.0 D50
+15–5 0.67 D50
+5–0 0.33 D50
+
+0.15
+
+0.300
+0.225
+0.150
+0.100
+0.050
+
+0.20
+
+0.400
+0.300
+0.200
+0.125
+0.075
+
+D50 size (m)
+0.45
+0.60
+
+0.900
+0.675
+0.450
+0.300
+0.150
+
+1.200
+0.900
+0.600
+0.400
+0.200
+
+0.30
+
+0.600
+0.450
+0.300
+0.200
+0.100
+
+0.75
+
+1.500
+1.125
+0.750
+0.500
+0.250
+
+0.90
+
+1.800
+1.350
+0.900
+0.600
+0.300
+
+After Li et al. (1989); Richardson et al. (1990)
+
+Page 329
+
+measured perpendicular to a sloping surface. The need for a filter layer or fabric to support
+and reinforce the riprap and separate it from the bed material should also be considered
+(Section 8.9.2). There is a large body of trade literature that can help the designer in this
+regard.
+
+Riprap at piers
+Planning to use riprap at piers is to some extent tantamount to accepting that the basic design
+is inadequate. At best riprap is a temporary means to alleviate pier scour problems. The large
+velocities and strong vortices near piers make regular inspection of the riprap essential when
+it is used (for this reason the riprap should never be buried). The stone diameter requ ired in
+fresh water is (Brown and Clyde, 1989; Pagán-Ortiz, 1991, 1992; Richardson et al., 1993)
+
+(8.41)
+
+where Q and A are the discharge and area of the main channel, C=0.9 for a pier near the bank
+in a straight uniform reach, while C=1.7 for a pier in the fastest part of the flow around a bend.
+Intermediate values of C are used in between these two extremes.
+The riprap protection should be flush with the river bed and extend horizontally over a
+distance of 2 bP to 3bP from all faces of the pier, where bP is the width of the pier normal to the
+flow. The greater the penetration of the riprap into the bed the less likely it is to be moved, but
+the minimum thickness should be 3D50. The largest rock size used should not exceed 2D50. In
+some situations a stone or fabric filter may be needed (see below).
+
+Highway embankments and streambanks
+If riprap is placed on a steepl y sloping surface it is easier for flowing water to roll or slide the
+stones down the slope. Consequently a larger diameter (heavier) stone may be needed on
+sloping revetments, abutments, spurs and embankments. A theoretical treatment of riprap
+stability on slopes was given by Brown and Clyde (1989), Li et al., (1989) and Richardson et
+al.,
+
+Page 330
+
+(1990), while Figs 8.32 and 8.33 provide a simple and interesting comparison of the diameters
+required on flat and sloping surfaces which are parallel to the flow. The charts may be used to
+design riprap protection to highway embankments or eroding stream banks. The trial and error
+procedure is as follows.
+1. Estimate the mean flow velocity (V m/s) and guess the 50% stone size, D50 (m).
+2. If the depth of flow Y<3 m calculate D50/Y or if Y>3 m calculate D50/(0.4×Y).
+3. Enter Fig. 8.32 with the value from step 2 and obtain the corresponding value of VIMP/V ,
+which is the ratio of the velocity impacting on the stone ( VIMP m/s) to the mean flow
+velocity (V m/s).
+4. Calculate VIMP=(VIMP/V)×V. If the flow hits the riprap perpendicularly the velocity, V IMP,
+should be increased by a factor between 1.0 and 2.0. A factor of 2.0 may be prudent to
+allow for future changes in stream alignment.
+5. Enter Fig. 8.33 with the adjusted value of V IMP and read off the stone size/weight needed
+for the embankment slope in question. This chart assumes a spherical stone of density 2650
+kg/m 3 (i.e. specific gravity= 2.65).
+
+Fig. 8.32 Velocity against riprap stone (V IMP) on the channel bottom, for use with Fig. 8.33 . (After
+HEC 11, Brown and Clyde, 1967)
+
+Page 331
+
+Fig. 8.33 Approximate size of riprap (D50 or W50) required to resist displacement as a function of
+impact velocity against the stone (VIMP m/s) and the embankment slope. (After HEC 11,
+Brown and Clyde, 1967)
+
+6. If the diameter of stone obtained from step 5 is not the same as assumed in step 1 then
+repeat the procedure until it is.
+Remember that slopes steeper than 1 in 1.5 are not recommended and that if significant
+drawdown of the water surface occurs or if there is a change in flow direction around the
+co rner of an abutment the results must be used cautiously and/or the stone size increased.
+
+Page 332
+
+Alternative approaches
+Different equations will give different diameters of riprap, assuming that the velocity and
+depth are known—which may not be the case, so it is important that common sense and
+experience are also employed. Existing bridges in the region may provide a guide as to what
+works in practice. Rules of thumb can serve as a means of learning from the experience of
+others , provided individual judgement is also applied. Paraphrasing Neill (1973) quoting
+Blench (1969), a rough guide is:
+• large sand bed rivers without a very large bed load—normally need stone about 68 kg;
+• small sand bed rivers—stone as small as 23 kg may suffice;
+• gravel bed river with a small bed load and moderate attack—twice the diameter of the
+largest material that rolls on the bed;
+• gravel bed river with a very violent attack (as at the nose of a spur)—three times the
+diameter of the largest material that rolls on the bed.
+Frequently, trade literature can provide a means of obtaining ‘second opinions’ or useful
+design suggestions. For channel beds (not specifically in the vicinity of piers or abutments)
+Fig. 8.34 shows a graph for the determination of stable riprap diameter or weight. Although
+very simplistic it can serve as a handy guide; note that it gives the D40 or W40 size, which will
+be smaller than the D50 or W50 (for a typical riprap, very approximately D40≈0.8D50).
+Assuming spherical particles of density 2650kg/m3 the conversion from diameter (D m) to
+weight (W kg) is
+
+W=0.524D3×2650=1388D3
+
+(8.42)
+
+When using Fig. 8.34, to ensure that adequate protection is afforded and to avoid winnowing,
+the velocity of water in the voids (V V m/s) of the riprap layer should be calculated . For a
+uniformly graded material of diameter, D, this is given by (Stephenson, 1979)
+
+Page 333
+
+Fig. 8.34 Approximate riprap stone weight and diameter required for various velocities. Use the
+maximum line for very turbulent flows and the minimum line for normal flows.
+(Reproduced by permission of US Army Engineer Waterways Experiment Station)
+
+Example 8.8
+
+For the crossing in Example 8.5, determine the riprap requirements at the abutments.
+The design in Example 8.5 was left incomplete in that the calculations were not repeated
+after the decision was made to change to spillthrough abutments, but as a preliminary estimate
+of the riprap requirements assume that the conditions in the contracted section are as shown in
+Fig. 8.23.
+
+Left abutment/main channel
+In the main channel Y2=2.4m, V2 =2.92m/s, F2=0.60.
+Note that in this case the SBR=0 and 8.3 for the left and right abutments respectively so
+either from case (d) V2=399/(2.4×57)=2.92 m/s or from (f) and Fig 8.22
+V 2=(68+304)/(2.4×57)=2.72 m/s. The higher value will be adopted.
+Using equation 8.38 for F<0.80, with spillthrough abutments K=0.89 and sS=2.65, then
+
+(8.38)
+
+Use a 0.45m class riprap as in Table 8.10. The area covered should extend 4.8m (2Y) from
+the abutment as in Fig. 8.31. The minimum thickness should be D100 to 2D100, say 1.8m (the
+same as below).
+
+Page 334
+
+Right overbank area
+On the overbank Y2=1.40m, V2 =3.35m/s, F2=0.90 so use equation 8.39 for F>0.80.
+Say LSB=20m and in the main channel YAV=2.40m so SBR=20/2.40=8.3 >5.
+Thus V should be calculated from all of the overbank flow at that abutment, which (from
+Fig. 8.22) is Q=(40+78)=118 m3/s. Thus V= Q/A=118/(1.40×19.4)=4.35 m/s.
+With spillthrough abutments K=0.61 and ss=2.65 then
+
+Use a 0.6m class riprap ( Table 8.10). The area of protection required is as shown in Fig.
+8.31 and should extend outwards from the abutment to a distance of twice t he depth on the
+overbank area, that is 2×1.4=2.80m (it may be sensible to make it 4.8m, the same as at the
+other abutment). The minimum thickness of the layer should be about D100 to 2D100, say 1.8m.
+
+Piers
+Riprap should not be needed at the piers of an appropriately designed new bridge but, as an
+illustration, for the main channel Y2=2.4m and V 2= 2.92 m/s (from Fig. 8.23). Assume
+s s=2.65, for a round-nosed pier K=1.5, and that the piers are in a straight where the flow is
+fastest so C=1.2. From equation 8.41 V=1.2×2.92=3.50m/s.
+
+(8.40)
+
+Use a 0.60m class riprap as in Table 8.10. The riprap should extend a distance of
+2bP=2×1.2=2.4 m from the pier. The minimum thickness is 3D50=3×0.60=1.80m with the
+surface of the riprap at bed level.
+As a quick check, using the same velocity as above, V=3.50 m/s and assuming very
+turbulent flow around the pier so that the maximum curve applies, the chart in Fig. 8.34 gives
+W40=200kg and D40=0.52m (so very approximately if D40=0.8D50 then D50=1.25×0.52=0.65m,
+similar to above). Check the void velocity using equation 8.44:
+
+Since 0.12 m/s is less than 0.6 m/s (the value for sand with D=1 mm in Table 1.3a), this is
+acceptable.
+
+Page 335
+
+8.9.2 Riprap specification
+
+The required properties of riprap are that it is hard, durable, dense and angular. The rock must
+be able to withstand abrasion, freeze -thaw action, weathering, and dissolution. Typically,
+igneous and metamorphic rock is used, although some sedimentary rocks may be suitable. A
+relatively high density is desirable because it increases the weight of a rock of any given size,
+so the current is less likely to move it. Angular riprap is preferred to rounded stones because it
+interlocks better, but it also has a higher angle of repo se, which increases stability. The angle
+of repose of very angular material is fairly constant at around 40° regardless of size, whereas
+with very rounded material large diameters may have an angle of repose of 40° but it falls off
+to about 33° below 0.15m diameter. As explained in Section 8.9.1, on sloping surfaces a low
+angle of repose can initiate failure of the riprap blanket. However, not more than 25% of the
+stones should have a length 2.5 times their breadth. Very flat, slab -like stones are easily
+dislodged by the flow. The use of broken concrete riprap was not recommended by
+Richardson et al. (1990).
+Riprap should be a graded material that comprises a range of sizes rather than being
+entirely composed of stones with the same (D50) diameter. The different-sized stones interlock
+and prevent flow through the void spaces. Typical grading classifications are shown in Table
+8.10. Generally the grading is not critical: usually a tolerance is specified and any material
+that falls in this band is acceptable. The availability and cost of stone in a particular location
+must always be borne in mind.
+Riprap can be placed by hand, or by backhoe, skip, bucket or dragline. Some sources say
+that hand placing is better than machine placing, but others say it is worse than tamped,
+machine-placed riprap. In most cases hand placing is too expensive anyway. If a backhoe,
+skip or bucket is used the objective should be to place the stone as near as possible to its final
+position and rework it as little as possible. Excessive re -handling or dragging tends to break
+the stone and cause segregation. For this reason it should not be tipped down an embankment
+or pushed down by bulldozer.
+The riprap at the toe of a bank is particularly vulnerable to scour, and any loss of material
+can initiate sliding or failure of the entire blanket. Generally a toe trench, taken well below
+normal bed level along the whole length of the riprap blanket, is filled with riprap to anchor
+the toe and support the upslope material (Fig. 8.35a ). If a trench is not possible the toe may be
+anchored by placing a deep, narrow strip of riprap on the bed (shown dashed), but this has its
+drawbacks: if badly done it can channel flow along the base of the slope and cause scour.
+With both of these desig ns the objective is to form a reserve of riprap in the most vulnerable
+area, so when scour occurs the riprap falls into the scour hole and armours it. The quantity of
+riprap required in the reserve is 1.5 times the volume calculated assuming the design blanket
+thickness at a slope of 1 in 2 over the
+
+anticipated scour depth (Brown and Clyde, 1989). Care must also be taken at the interface
+between the start/end of the riprap protected area and the natural channel.
+Riprap is not usually placed directly on the base (the bed or side-slope of the channel) but
+on a filter layer, which is designed to prevent base material leaching through the riprap. Thus
+the filter material must be relatively fine
+
+Page 336
+
+Fig. 8.35 Some typical bank protection measures: (a) bank protection only using riprap, with extra
+material at the toe, which can be launched into the toe scour hole when erosion occurs
+(after Brown and Clyde, 1989); (b) gabion and mattress protection with a moderate
+embankment slope, and (c) a steep slope; (d) bank protection using a tubular geotextile
+gabion taken to below bed scour level, (b–d after Netlon Ltd, reproduced with permission)
+
+Page 337
+
+to prevent winnowing of the bed but more permeable than the bed material, the choice being
+between a gravel or synthetic fabric filter.
+Very fine base material may requ ire a gravel filter which consists of several layers, each
+around 0.1 –0.2 m thick and meeting the stability and permeability requirements of the layer
+underneath, otherwise one layer will usually suffice. A filter ratio of 5 or less between layers
+usually results in a stable condition, where the filter ratio is defined as the ratio of the 15%
+particle size (D15) of the coarser layer to the 85% particle size (D85) of the finer layer (Brown
+and Clyde, 1989; Richardson et al., 1990). An additional requirement is that the ratio of the
+D15 of the coarser layer to the D15 of the finer layer should exceed 5 but be less than 40. Thus:
+
+(8.45)
+
+Page 338
+
+An alternative to the traditional gravel filter is a filter cloth, which is quick and easy to
+install, economical, and not reliant upon the availability of suitable stone. However,
+placement underwater is not easy, the in-situ performance of such filters over the lifetime of a
+bridge is unproven, and they may initiate sliding or slump failure of the riprap on steep slopes.
+Often fabrics with an open area of about 25–30% are selected, their function being to provide
+both f iltration and drainage. If not well designed and specified with respect to piping
+resistance, clogging resistance, strength and installation procedure the performance may be
+unsatisfactory. A 100–150 mm protective layer of sand or gravel may be spread on the cloth
+to prevent puncturing and local stretching when using large riprap, but heavy rock must still
+be placed carefully. The sides and toe of the cloth must be sealed or embedded in a trench to
+prevent leaching of the base material at the edges. Similarly, care must be taken at the joins,
+which are usually sewn or overlapped. Folds should be included to allow stretching under
+settlement.
+
+8.9.3 Summary of some protective measures for bridges and riverbanks
+
+Below is a brief reminder of some of the options available when trying to decide how to
+combat scour. Obviously which is adopted depends upon a combination of many factors.
+Generally rock riprap, rock or timber groynes, jacks and vegetation are at the cheaper end of
+the spectrum, while cellular block revetments, concrete mattresses and concrete walls are
+more expensive (Petersen, 1986; Richardson et al., 1990).
+• Riprap, as described above.
+• A paved invert through the bridge opening (Highways Agency, 1994). This must extend a
+sufficient distance up and downstream of the structure, and must be toed in to the river bed
+(by about 1.5m in the UK) to prevent undermining by scour. Note that a smooth surface to
+the paving may increase velocities and cause scour downstream.
+• Soil-cement mixtures using in situ soil might be an alternative to riprap if rock is scarce, but
+they have many disadvantages.
+• Gabions: stone in wire baskets. Hand filling can be expensive.
+• Tubular gabions: a geotextile tube mechanically filled with stone.
+• Grass or woody vegetation (possibly in combination with a geotextile) can be used to
+reinforce embankments naturally (see Hemphill and Bramley, 1989; Coppin and Richards,
+1990). This may include the use of fascines (typically living willow poles that grow,
+providing bank stabilisation) and buried thorn or willow faggots (bundles of branches),
+which are used as reinforcement to weak soils.
+• Sand -cement -filled sacks; commonly used for emergency repairs.
+• Precast cellular concrete blocks; used as a facing material.
+
+Page 339
+
+• Concrete (reinforced) if frequent impact by ice flows or logs or other floating debris is
+expected.
+• Geotextile mattresses for covering larger areas: a stone blanket wrapped in a geotextile.
+• Articulated concrete mattresses; difficult to place and expensive.
+• Timber or concrete cribs: large open ‘cubes’ formed from timber or concrete members,
+which are filled with rock or earth. Used for bulkheads or retaining walls, perhaps to hold a
+highway embankment . An alternative to a reinforced concrete retaining wall.
+• Drop structures: concrete or gabion structures that are used to reduce and stabilise the slope
+of a channel. They can take the form of either a weir or a straight drop (step) without the
+structure projecting above the upstream bed level. Both usually have a protective
+downstream apron to prevent erosion near the drop.
+• Groynes (or spurs); used to stabilise a channel, reposition the flow or encourage siltation
+(Section 7.6.1).
+• Jetties (USA) consisting of triangular steel frames (jacks) tied together into units. By
+collecting debris they increase the roughness of parts of the channel or floodplain and help
+train the stream (like groynes). They also reduce velocities and erosion near the banks.
+• Spur dykes (guide banks); used where large overbank flows have to return to the main
+channel (Section 7.4 ).
+For bank protection Hemphill and Bramley (1989) quoted a typical cost per metre (1978 –85
+prices) of £1 for seeded grass, £9–18 for geotextiles, £13 for thorn faggots, £19 for geotextile-
+reinforced vegetation, £25 for ungrouted riprap, £85 for concrete-filled bags, £87 for gabions,
+£116 for interlocking concrete blocks (ungrouted), £130 for steel sheet piling, £291 for
+concretefilled mattress, and £347 for in -situ concrete wall.
+
+References
+
+Ackers, P. (1992) Gerald Lacey M emorial Lecture. Canal and river regime in theory and practice:
+1929–92. Proceedings of the Institution of Civil Engineers, Water Maritime and Energy, 96,
+September, 167–178.
+Ahmad, M. (1953) Experiments on design and behaviour of spur dikes, in Proceedings of the
+International Association of Hydraulic Research, American Society of Civil Engineers Joint
+Meeting , University of Minnesota, August 1953.
+Anon (1992) Sacrificial action may counter pier pressure. Construction Weekly, 26 February, 14–15.
+Anon (1994) Rail rethink leaves research in limbo. New Civil Engineer, 24 February, 8.
+Apt, S.R., Richardson, J.R., Hogan, S.A., Van Zanten, B.L. and Siller, T.J. (1992) Laboratory testing
+of scour-monitoring devices, in Transportation Research Record 1350, Hyd rology and Bridge
+Scour, Transportation Research Board/ National Research Council, Washington DC, pp. 19–27.
+
+Page 340
+
+Blench, T. (1939) A new theory of turbulent flow of liquids of small viscosity. journal of the
+Institution of Civil Engineers, Paper 5185.
+Blench, T. (1969) Mobile -Bed Fluviology, University of Alberta Press, Edmonton.
+Blodgett, J.C. (1984) Effect of bridge piers on streamflow and channel geometry, in Transportation
+Research Record 950, Second Bridge Engineering Conference, Vol. 2, Transportation Research
+Board/National Research Council, Washington DC, pp. 172–183.
+Brandon, T.W. (ed.) (1987) River Engineering—Part 1, Design Principles, Institution of Water and
+Environmental Management, London.
+Brice, J.C. (1984) Assessment of channel stability at bridge sites, in Transportation Research Record
+950, Second Bridge Engineering Conference, Vol. 2, Transportation Research Board/National
+Research Council, Washington DC, pp. 163 –171.
+Brice, J.C. and Blodgett, J.C. (1978) Countermeasures for Hydraulic Problems at Bridges. Vol. 1,
+Analysis and Measurement, report FHWA-RD-78–162; Vol. 2, Case Histories for Sites 1–283,
+report FHWA -RD -78–163. Federal Highways Administration, US Dept of Transportation.
+Brown, S.A. and Clyde, E.S. (1989) De sign of riprap revetment. Report no FHWA-IP -39–016,
+Hydraulic Engineering Circular 11 (HEC 11). Federal Highways Administration, McLean, VA.
+Bruun, P. (1990) Port Engineering, 4th edn, Vol. 2, Harbor Transportation, Fishing Ports, Sediment
+Transport, Geomorphology, Inlets and Dredging; Chapter 9, Tidal inlets on alluvial shores, Gulf
+Publishing Company, Houston, TX.
+Bryan, B.A., Simon, A., Outlaw, G.S. and Thomas, R. (1995) Methods for assessing the channel
+conditions related to scour -critical conditions at bridges in Tennessee. Final Report Project No. TN-
+RES1012, United States Geological Survey, Nashville.
+Chadwick, A. and Morfett, J. (1993) Hydraulics in Civil and Environmental Engineering, 2nd edn, E
+& FN Spon, London.
+Chang, F.F.M. (1973) A statistical summary of the cause and cost of bridge failures. Federal Highway
+Administration, US Department of Transportation, Washington DC.
+Chiew, Y.-M. (1995) Mechanics of riprap failure at bridge piers. American Society of Civil Engineers,
+Journal of the Hydraulics Division, 121(9), September, 635–643.
+Chin, C.O., Melville, B.W. and Raudkivi, A.J. (1994). Streambed armoring. American Society of Civil
+Engineers, Journal of Hydraulic Engineering, 120(8), August, 899–918.
+Copp, H.D. and Johnson, J.P. (1987) Riv erbed scour at bridge piers. Final Report WA-RD 118.1,
+Washington State Department of Transportation, Olympia, WA.
+Coppin, N.J. and Richards, I.G. (1990) Use of Vegetation in Engineering, CIRIA/Butterworths,
+London.
+Ettema, R. (1976) Influence of bed gra dation on local scour. Report no. 124, University of Auckland
+School of Engineering.
+Ettema, R. (1980) Scour at bridge piers. Report no. 216, University of Auckland School of
+Engineering.
+Farraday, R.V. and Charlton, F.G. (1983) Hydraulic Factors in Bridge Design, Hydraulics Research
+Station, Wallingford, England.
+Hemphill, R.W. and Bramley, M.E. (1989) Protection of River and Canal Banks, CIRIA/Butterworths,
+London.
+
+Page 341
+
+Henderson, F.M. (1966) Open Channel Flow, Macmillan, New York.
+Highways Agency (1994) Design Manual for Road Bridges, Vol. 1, Section 3, Part 6, BA 59/94, The
+Design of Highway Bridges for Hydraulic Action. HMSO, London.
+Hjulström, F. (1935) The morphological activity of rivers as illustrated by river Fyris. Bulletin of the
+Geological Institute of Uppsala, Vol. 25, Chap III.
+Isbash, S.V. (1935) Construction of dams and other structures by dumping stones into flowing water.
+Trans. Res. Inst. Hydrot. Leningrad, 17, 12–66.
+Johnson, P.A. (1995) Comparison of pier scour equations using field data. American Society of Civil
+Engineers, Journal of Hydraulic Engineering, 121(8), August, 626–629.
+Johnson, P.A. and Ayyub, B.M. (1996) Modeling uncertainty in predictions of pier scour. American
+Society of Civil Engineers , Journal of Hydraulic Engineering, 122 (2), February, 66–72.
+Johnson, P.A. and Simon, A. (1997) Effect of channel adjustment processes on reliability of bridge
+foundations. American Society of Civil Engineers, Journal of Hydraulic Engineering, 123 (7), July,
+648–651.
+Jones, J.S. (1984) Comparison of prediction equations for bridge pier and abutment scour, in
+Transportation Research Record 950, Second Bridge Engineering Conference, Vol. 2,
+Transportation Research Board/National Research Council, Washingto n DC, pp. 202–209.
+Jones, J.S. (1989) Laboratory studies of the effects of footings and pile groups on bridge pier scour.
+US Interagency Sedimentation Committee Bridge Scour Symposium, US Department of
+Transportation, Washington DC.
+Kennedy, R.G. (1895) The prevention of silting in irrigation canals. Proceedings of the Institution of
+Civil Engineers, 119, 281–290.
+Kreeke, J. van de. (1967) Water -level fluctuations and flow in tidal inlets. Proceedings of the
+American Society of Civil Engineers, Journal of the Waterways and Harbors Division, 93 (WW4),
+November, 97–106.
+Lacey, G. (1929–30) Stable channels in alluvium. Proceedings of the Institution of Civil Engineers,
+229, 258–384.
+Lacey, G. (1933–34) Uniform flow in alluvial rivers and canals. Proceeding of the Institution of Civil
+Engineers, 237, 421–453.
+Lacey, G. (1939) Regime flow in incoherent alluvium. Central Board of Irrigation and Power, India,
+Publication 20, July.
+Lagasse, P.P., Thompson, P.L. and Sabol, S.A. (1995) Guarding against scour. Civil Engineering, 65
+(6), June, 56–59.
+Lane, E.W. (1955) The importance of fluvial morphology in hydraulic engineering. American Society
+of Civil Engineers Proceedings, 81 (795), 1–17.
+Laursen, E.M. (1962) Scour at bridge crossings. Transactions of the American Society of Civil
+Engineers, 127, Part 1, 166–180.
+Laursen, E.M. (1963) An analysis of relief bridge scour. American Society of Civil Engineers, Journal
+of the Hydraulics Division, 89 (HY3), 93–118.
+Laursen, E.M. (1984) Assessing vulnerability of bridges to floods, in Transportation Research Record
+950, Second Bridge Engineering Conference, Vol. 2, Transportation Research Board/National
+Research Council, Washington DC, pp. 222 –229.
+Li, R.M., MacArthur, R. and Cotton, G. (1989) Sizing riprap for the protection of approach
+embankments and spur dikes and limiting the depth of scour at bridge
+
+Page 342
+
+piers and abutments, Vol. 2, Design Procedure. Report no. FHWA-AZ89–260, Arizona Department
+of Transportation, Phoenix.
+Melville , B.W. (1988) Scour at bridge sites, in Civil Enginering Practice, 2/Hydraulics/Mechanics
+(eds P.N.Cheremisinoff, N.P.Cheremisinoff and S.L. Cheng), Technomic Publishing Company,
+Lancaster, PA, pp. 327–362.
+Melville, B.W. and Dongol, D.M. (1992) Bridge pi er scour with debris accumulation. American
+Society of Civil Engineers, Journal of Hydraulic Engineering, 118 (9), September, 1306–1310.
+Miller, A.C., Johnson, D. and Steinhart, R. (1992) Predictive equations for bridge scour applicable to
+streams in Pennsylvania, Field Manual, Research Project 89 –03. Environmental Resources
+Research Institute, The Pennsylvania State University.
+Neill, C.R. (1968) Note on initial movement of coarse uniform bed material. Journal of Hydraulics
+Research, 17(2), 247–249.
+Neill, C.R. (ed.) (1973) Guide to Bridge Hydraulics, Roads and Transportation Association of
+Canada/University of Toronto Press, Toronto.
+Netlon Ltd. Maritime and Waterway Engineering with Tensar and Netlon Geogrids, Blackburn,
+England.
+Novak, P., Moffat, A.I.B., Nalluri, C, and Narayanan, R. (1996) Hydraulic Structures, 2nd edn, Unwin
+Hyman, London.
+Pagán-Ortiz, J.E. (1991) Stability of rock riprap for protection at the toe of abutments located at the
+floodplain. Federal Highways Administration, McLean, VA.
+Pagán-Ortiz, J.E. (1992) Stability of rock riprap for protection at toe of abutments and floodplain.
+Transportation Research Record 1350, Transportation Research Board, Washington DC, 3 –6.
+Petersen, M.S. (1986) River Engineering, Prentice-Hall, Englewoo d Cliffs, NJ.
+Raudkivi, A.J. (1997) Ripples on stream beds. American Society of Civil Engineers, Journal of
+Hydraulic Engineering, 123(1), January, 58–64.
+Rice, R.J. (1977) Fundamentals of Geomorphology, Longman, London.
+Richardson, E.V., Simons, D.B. and Julien, P.Y. (1990) Highways in the river environment. Report no.
+FHWA -HI-90–016, National Highways Institute/Federal Highways Administration, McLean, VA.
+Richardson, E.V., Harrison, L.J., Richardson, J.R. and Davis, S.R. (1993) Evaluating Scour at Bridges
+2nd edn. Publication no. FHWA -IP-90–017, Hydraulic Engineering Circular No. 18, National
+Highways Institute/Federal Highways Administration (FHWA), McLean, VA.
+Sheppard, D.M. (1993) Bridge scour in tidal waters. Transportation Research Record 1420,
+Transportation Research Board, Washington DC, pp. 1–5.
+Shields, A. (1936) Anwendung der ähnlichkeitsmechanic und turbulenzforschung auf die
+geschiebebewegung. Mitteil, PVWES, Berlin, no. 26.
+Simons, D.B. and Senturk, F. (1976) Sediment Transport Technology, Water Resources Publication,
+Fort Collins, CO.
+Stephenson, D. (1979) Rockfill in Hydraulic Engineering, Elsevier, Amsterdam.
+Sundborg, A. (1956) The river Klaralven: a study of fluvial processes. Geogr. Annlr., 38, 125–316.
+Trent, R.E. and Brown, S.A. (1984) An overview of factors affecting river stability, in Transportation
+Research Record 950, Second Bridge Engineering Conference,
+
+Vol. 2, Transportation Research Board/National Research Council, Washington DC, pp. 156–163.
+Tyagi, A.K. (1989) Scour around bridge piers in Oklahoma streams. Final Summary Report, No. 89 –1.
+Oklahoma State University, Still water.
+
+Page 343
+

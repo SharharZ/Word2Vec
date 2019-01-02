@@ -1,0 +1,1085 @@
+Page 61
+
+3
+Factors that affect the hydraulic performance of a
+bridge
+
+3.1 Introduction
+
+This chapter reviews the main factors that affect the hydraulic performance of a bridge,
+explains why they are important, and illustrates their effect. Many of these variables are
+related to the geometry of the structure and are summarised in Fig. 3.1. It is these factors in
+combination with the types of flow encountered (as described in Chapter 2 ) that give each
+bridge its own unique hydraulic characteristics.
+Some of the factors described below are quite difficult to estimate numerically with any
+degree of accuracy. However, this fact should not necessarily deter anyone from starting an
+analysis. Sometimes it is better to have an inaccurate estimate of (say) the afflux that occurs at
+a particular discharge than no estimate at all. The important thing is to realise that the estimate
+is inaccurate so that the appropriate allowances can be made. Possibly the estimate can be
+refined at a later date whe n better field data become available. If such data already exist, then
+provided care is taken to prove and verify the mathematical models adopted in the analysis,
+the solutions obtained can be surprisingly robust.
+
+3.2 The bridge opening ratio, M
+
+The bridge opening ratio (M) is basically a measure of the severity of the constriction (Fig.
+3.1a ). In channel flow this is perhaps the most important of all the variables: the smaller the
+opening, the greater the obstacle to flow, the greater the afflux, and the smaller the discharge
+through the opening for a given stage. However, once the waterway opening is submerged M
+ceases to be important since the dimensions of the opening and the degree of submergence of
+the waterway determine the stage-discharge relationship (Section 2.5).
+With channel flow, the flow in the middle of the river can go straight through a centrally
+located bridge opening whereas the flow in the sides of the channel or on the floodplains will
+have to bend inwards and contract to
+
+Page 62
+
+Fig. 3.1 Summary of the principal hydraulic variables affecting the hydraulic performance of a bridge:
+(a) bridge opening ratio, M; (b) Froude number, F; (c) waterway length/span, L/b; (d)
+entrance rounding; (e) eccentricity, e; (f) skew, ø; (g) depth of flow, YN/Z; (h) shape of
+opening.
+
+pass through. The opening ratio represents the ratio of flow that can pass straight through the
+bridge opening without having to contract, q, to the total flow in the river, Q (Kindsvater et al.,
+1953; Kindsvater and Carter, 1955, Tracy and Carter , 1955; Bradley 1978), so:
+
+Page 63
+
+If A N2=a and A N1=A then
+
+If both the opening and the channel are rectangular, so a=b×YN, and A =B×YN then
+
+(3.2)
+
+(3.3)
+
+(3.4)
+
+At high flood stages in real, compound river channels the depth of flow and velocity vary
+greatly across the width of the channel so neither equation 3.3 nor 3.4 adequately describes M.
+Under these conditions a popular way to calculate M is to split the channel into subsections
+wherever there is a large change in hydraulic radius (changes in roughness are not important
+unless the flow is shallow) and then calculate the hydraulic conveyances. Provided all parts of
+the channel (i.e. the main channel and
+
+floodplains) have the same longitudinal energy (friction) gradient, S F, the opening ratio
+becomes
+
+Page 64
+
+(3.5)
+
+where K b is the conveyance of that part of the approach channel equivalent to the opening
+width (b) projected upstream to section 1 and K is the conveyance of the whole channel at
+section 1. Conveyance is defined in terms of the Manning equation (equation 2.7) so, in
+metric units, for any channel or channel subsection (denoted by subscript i below) its
+conveyance is
+
+evaluated directly using equation 3.1 or 3.5 or, alternatively, by assuming a rectangular
+upstream channel with flow at the normal depth an expression can be developed from
+equation 3.3 (Biery and Delleur, 1962). For a semicircular opening of radius r with the arches
+springing from bed level, with a depth in the waterway of Ys above the springs of the arch (Fig.
+3.2a ), working in radians:
+
+Page 65
+
+For a semicircular arch with the springline above the bed, the area of the flow beneath the
+springs should be added to the numerator (Fig. 3.2b). With segmental arches the centre of
+curvature of the arch, O, is at some depth, d, below spring level (Fig. 3.2c). If the height of the
+water surface above the centre of curvature is h, then for a segmental arch with the springline
+at bed level, working in radians:
+
+(3.7)
+
+As before, if the springline is above the bed (Fig. 3.2d) then the area of the flow beneath the
+springs should be added to the numerator. Example 3.1 illustrates the use of the equation.
+Instead of calculating the area of flow, a practical alternative is to produce a scale drawing
+of the opening and measure the area using a planimeter or a digitiser. This is often the easiest
+way with elliptical openings or arches that have a unique shape.
+
+(3.8)
+
+Fig. 3.2 Definition of the variables needed to calculate the area of flow through some common types
+of arched waterway: (a) semicircular arch with springs at bed level; (b) semicircular arch
+with springs above bed level; (c) segmental arch with springs at bed level; (d) segmental
+arch with springs above bed level.
+
+Page 66
+
+In natural river channels the value of M is not constant and changes with stage (Fig. 3.3).
+As the stage rises, the capacity of the main channel will be exceeded and flow will commence
+on the floodplains. When this happens the values of q, Kb and a may remain relatively
+constant while Q, K and A continue to increase, resulting in a change in gradient of the stage -
+M curve. With an arch bridge there is an added complexity because the width of the opening
+also varies with stage so b is not constant. Figures 3.3 and 3.11 can be compared to see the
+difference in M that results from applying equations 3.1 and 3.8 respectively. The latter uses a
+simpler definition of M, and assumes that the channel has a constant width of 5.5m and that
+there is no overbank flow prior to the submergence of the opening.
+From the comments above it wi ll be apparent that the opening ratio is quite difficult to
+evaluate accurately. Often the field data required are unavailable. For an accurate estimate it
+is important that the person doing the calculations observes a flood at the site in question.
+Unfortunately this rarely happens. For example, at Canns Mill the channel is compound in
+nature (Fig. 3.3a ) with a hedgebank and then pasture on the left, and a hedge or barbed wire
+fence bordering open pasture on the right. There is flow over both floodplains during flood,
+with ultimately all of the flow passing through the bridge opening (Fig. 2.1). However, during
+a 15m3/s flood, at about 10 m and 15 m from the left and right banks the water on the
+floodplains is stagnant and does not contribute to flow (this may also happen where there are
+levees, as in Fig. 8.16). If this is ignored when using equations 3.3 and 3.4 the value of M
+obtained is far too small: b/B=0.08 and a/A=0.14. With zero flow on parts of the floodplains
+SF cannot be the same as in the main channel, so equations 3.5 and 3.6 are not appropriate.
+Thus equation 3.1 is the only reliable method of obtaining M and indicates that the true value
+is around 0.55 ( Fig. 3.3b and Example 3.3).
+Forty-seven undergraduate students at the University of Plymouth were given the task of
+calculating the opening ratio at Canns M ill. All conducted a technically correct analysis, but
+there was a very large range of answers and almost all produced values that were too small.
+This was mainly a consequence of never having seen the site or having had the opportunity to
+study the flow. It serves as a reminder that in many cases only a rough estimate of M can be
+obtained, which has repercussions for the accuracy of any subsequent calculations.
+In open channel flow the opening ratio is very important. With a wide opening (large M)
+the flow in the river is barely affected. If the opening is narrow compared with the river (small
+M), the flow entering the waterway will have a significant transverse velocity resulting in a
+relatively narrow live stream at the vena contracta ( Fig. 2.2b) and a small coefficient of
+contraction, CC (and a small coefficient of discharge, C, since friction losses are small and C
+is basically a coefficient of contraction). Thus a fundamental relationship exists between M
+and CC or C in open channel flow, as illustrated by the base curves of Fig. 4.3a . It is apparent
+from the diagram that
+
+Page 67
+
+Fig 3.3 Canns Mills Bridge, Devon: (a) approximate cross -section 1; (b) varition of the opening ratio,
+M, with stage. (Reproduced by permission of the Institution of Civil Engineers)
+
+Page 68
+
+the value of M can change C' and C and hence the discharge through the waterway by up to
+30%.
+The opening ratio is also instrumental in determining the type of flow at a particular site.
+Waterways that are narrow and have a small opening ratio are more likely to experience
+supercritical flow in either the opening or the downstream channel (flow types 5 and 6 in Fig.
+2.6). A narrow opening also makes it more likely that the capacity of the opening will be less
+than the floods that occur, so increasing the possibility of flooding upstream and/or that the
+bridge will operate with the waterway submerged (flow types 1 to 3).
+The opening ratio (M=q/Q) is also referred to as the bridge opening ratio or the channel
+opening ratio. In this book only equations 3.1 –3.8 are used to define and evaluate the opening
+ratio, so a value of 1.0 always means that the flow is unobstructed. Note that the contraction
+ratio, the channel contraction ratio or the blockage ratio (often symbolised by m) is usually
+defined as (1−q/Q) or (1−b/B). With this definition a value of zero means that the bridge has
+no effect on the flow, while a value above zero gives an indicat ion of the quantity of flow that
+cannot pass unimpeded through the opening: that is, the amount that flows in from the sides of
+the channel. Both of these alternative definitions are in common usage, so whenever a value is
+quoted in other literature it is essential to check which has been adopted.
+
+3.3 Froude number (F), subcritical and supercritical flow
+
+Whether or not the flow is subcritical or supercritical is instrumental in determining the
+hydraulic performance of a bridge and the type of flow that wi ll be encountered (Section 2.4).
+In open channel flow F also affects the discharge through the bridge opening: for example,
+compared with the standard value of F=0.5 i n Fig. 4.3b, when F=0.2 there is roughly a 6%
+decrease in Q and when F=0.8 there is about a 10% increase. This relationship is independent
+of the opening ratio, M.
+Flow at the critical depth (F=1.0) can be used to optimise the performance of a waterway,
+as described in Section 7.5 , so a knowledge of the critical (or limiting) contraction that will
+cause this condition is important. A waterway narrower than the critical contraction may
+result in an unexpectedly large afflux due to the phenomenon known as choking. This is
+explained below.
+
+The Froude number of the flow in a particular channel depends upon the velocity and depth,
+thus:
+
+3.3.1 Froude number
+
+Page 69
+
+where V is a characteristic velocity of flow (m/s) and Y is a characteristic depth (m). F itself is
+dimensionless. If F=1, the flow is in the critial state. If F<1 the flow is subcritical, and if F>1
+it is supercritical. The denominator of the Froude number is the celerity of an elementary
+gravity wave in shallow water. The significance of this is that in subcritical flow a gravity
+wave (or disturbance to the flow) can propagate upstream ((gY)1/2>V) so that the upstream
+reach is in hydraulic communication with the downstream reach. Therefore with subcritical
+flow through a bridge the control is downstream of the constriction and this would be the
+starting point for a backwater analysis, and the calculations would progress in an upstream
+direction. In supercritical flow a gravity wave cannot propagate upstream because V>(gY)1/2
+so the effect of any disturbance is swept downstream. Consequently the upstream reach is not
+in hydraulic communication with that downstream. With supercritical flow the control is
+upstream so the calculations for the backwater analysis proceed in a downstream direction.
+The Froude number is more important than just being an indicator of where a backwater
+analysis should begin. The Froude number of the downstream control section (section 4 in Fig.
+2.2) gives an indication of the ease with which water can flow away from the constriction. For
+example, a low Froude number of 0.1 might indicate a deep, slow flow with the possibility of
+an abnormal stage at the bridge site. The relatively low velocities would probably result in a
+correspondingly small afflux. If the opening submerges, then drowned orifice flow might be
+expected. On the other hand, a high Froude number of 0.8 would suggest a very steep channel
+with high flow velocities, so the afflux might be relatively large. There would also be the
+likelihood of supercritical flow in the opening o r downstream channel, with it being less likely
+that the opening would submerge. If it did, sluice gate flow would be more likely than
+drowned orifice flow. In model tests Hamill (1997) found that sluice gate flow usually
+occurred when F N>0.25.
+The importance of the Froude number in determining the type of flow encountered at a
+bridge site was investigated using a hydraulic model of Canns Mill Bridge (see Section 2.6).
+The study was conducted in a tilting laboratory channel. The model bridge was tested under a
+wide range of conditions, not just those actually encountered at the prototype site, in order to
+determine how an identical bridge would perform hydraulically at a different location. Some
+of the results are shown in Fig. 3.4, which is simplified and for illustration only: it should not
+be used for design purposes.
+The vertica l scale of Fig. 3.4 is the dimensionless ratio of the normal depth at section 4 to
+the arch height, YN/Z . The horizontal scale is the dimensionless normal depth Froude number,
+F N, at section 4. The contours on the diagram represent the dimensionless ratio of upstream
+depth at section 1 to the normal depth: that is, Yu/YN. This is effectively a measure of the
+afflux, a contour value of 1.0 meaning that there is no afflux ; a contour value of 2.0 means
+that the afflux is equal to the normal depth. From the diagram it is easy to see that for a given
+stage (YN/Z) the contour values
+
+Page 70
+
+Fig. 3.4 Illustration of the variation in performance of a bridge with depth of flow and Froude number
+based on a 1:15 scale hydraulic model of Canns Mill. The vertical scale (Y N/ Z) represents
+normal depth as a proportion of the arch height. The horizontal scale is the normal depth
+Froude number (FN). The contours of Yu /YN show the upstream depth as a proportion of
+normal depth. For a given stage (Y N/Z) it is apparent that the contour values, which are
+equivalent to the afflux, increase with increasing FN . The type of flow experienced is also
+indicated.
+
+increase from left to right, showing that a fflux increases with increasing Froude number. The
+diagram is also marked to show the types of flow experienced under different conditions.
+With low Froude numbers, channel flow and drowned orifice flow predominate (flow types 4
+and 1 in Fig. 2.6). There is no possibility of critical depth flow occurring in the opening or
+downstream channel (flow types 5 and 6) until the value of FN approaches 0.5. At higher
+Froude numbers channel flow (types 4 to 6) and sluice gate flow ( type 3) are possible.
+
+Page 71
+
+Figure 3.4 has been included not just to illustrate the importance of the Froude number in
+determining the type of flow that occurs at a particular site, but also to emphasise once again
+that identical bridges can have a very different hydraulic performance at different sites.
+Consequently the types of flow that will occur at any given site must be identified before
+trying to assess the afflux, head loss and energy loss. It should also be appreciated that Fig.
+3.4 represents only one opening ratio, and that changing this would also affect the type of
+flow experienced.
+The Froude number is another parameter that at first appears easy to calculate, but which in
+practice involves some considerable margin for error. Indeed, for anything other than a
+rectangular channel the value of F may be unreliable. For instance, determining accurately the
+value of the characteristic hydraulic depth (Y) can be difficult in natural channels where the
+depth varies considerably. Normally Y is taken as the mean depth (YM), which is the flow area
+(A) divided by the width of the top (free) water surface (B T) so YM=A/BT (Fig 3.1b).Thus
+
+the stage increases. Consequently YM3 and F3 at first become numerically dubious, then
+meaningless. The same problem is encountered when trying to calculate the critical depth (YC )
+in an opening. For a rectangular opening:
+
+Page 72
+
+Page 73
+
+3.3.2 The limiting or critical contraction
+
+If a wide waterway opening is made progressively narrower, there is a limiting width at which
+the flow in the opening will no longer be subcritical but critical. This is the limiting or critical
+contraction. Henderson (1966) considered the limiting contraction required to cause flow at
+the critical depth between the piers of a bridge, and presented two equations that relate the
+limiting opening ratio (ML) to the Froude number (F or FL) in the channel. These equations
+are generally used in connection with the flow between bridge piers, but can be cautiously
+applied to single -span openings. Both assume that the velocity is uniform across section 3
+between the piers, and that this is where the most contracted section is located and where
+critical flow first occurs (F 3=1.0). The first equation assumes that the specific energy at
+section 1 equals that at section 3. The limiting bridge opening ratio, M L=b/B , is given by
+
+where F 1 is the Froude number at section 1. This equation is attributed to Yarnell (1934), who
+used it to distinguish between unchoked flow and choked flow (see Sections 3.3.3 and 5.4.1).
+Chow (1981) presented basically the same equation but equated the energy at section 3
+between the piers to that at section 4 while introducing -ε- to represent the proportion of
+energy recovered, so:
+
+(3.13)
+
+For convenience, equations 3.14 and 3.15 have been plotted as Fig. 3.5 so it is a simple
+matter to obtain t he limiting opening ratio. Although this is derived in terms of b/B above,
+because rectangular cross -sections are assumed, generally this is not a very good way of
+defining M. Usually the area, conveyance or discharge ratio produces a more accurate result.
+The significance of critical flow, or supercritical flow, occurring in the waterway is that the
+methods used to calculate the afflux or backwater in
+
+Page 74
+
+Fig. 3.5 Relationship between the limiting bridge opening ratio (ML) and the Froude number at either
+section 1 or 4 when the flow at the contracted section is at the critical depth (YC) with
+F3=1.0. The proportion of energy recovered from section 3 to 4 is represented by ε.
+
+Page 75
+
+subcritical flow are no longer appropriate, so a different technique must be adopted (e.g.
+Section 4.3.5). In addition, there may be a substantial increase in the afflux because a higher
+local value of specific energy is needed to enable the transition from subcritical to
+supercritical flow to occur. This is referred to as chok ing.
+
+3.3.3 Choking of a bridge waterway
+
+If the flow through a bridge waterway chokes this will result in an increase in the upstream
+water level that is additional to the afflux caused by the energy loss. The concept of a choke
+has to be explained in terms of specific energy, ES, which is the energy calculated above bed
+level, so
+
+Page 76
+
+Fig. 3.6 Illustration of choking caused by the need for a local increase in specific energy, ES. The
+narrowing of a channel by a constriction leads to an increase in q (from 0.500 m2 /s to 1.734
+m2 /s in this example). If the constriction is narrower than this the appropriate ES curve
+cannot be reached by dropping vertically from G, necessating an increase in ES and depth,
+Y. For example, starting from G the q=2.500 m 2/s curve is inaccessible without an increase
+in ES.
+
+is progressively reduced then a point will be reached where the flow in the opening is at the
+critical depth, which is represented by the movement G to E on the Y-ES diagram. This is not
+a problem because the flow can accelerate smoothly from subcritical to critical while the
+specific energy
+
+remains constant. This represents the limiting contraction defined by equation 3.13:
+
+Page 77
+
+The same result can be obtained from Fig. 3.5 with F 4=F 1=0.160.
+Thus b=2.884m is the limiting contraction, which is why E is vertically below G. However,
+consider wha t happens if b is further reduced, say to 2.000 m so q=2.500 m3/s per m. A line
+drawn vertically down from G now fails to intercept this Y-ES curve indicating that this flow
+condition is not possible with ES=1.0m. In order to intercept the q=2.500m3/s per m line a
+shift to the right is necessary, which means that an increase in specific energy must occur.
+This can be accomplished only by an increase in the upstream depth, which is called choking.
+A phenomenon such as choking is logical because if a channel is progressively narrowed
+there must be some limit at which the water level upstream is affected, irrespective of the fact
+that critical or supercritical flow occurs.
+Choking is significant because it can result in the afflux being larger than expected. M ost
+methods of calculating afflux are valid only when the flow is subcritical, and certainly do not
+allow for choking. In many ways afflux and choking are similar: the afflux provides the
+additional head necessary to overcome energy losses in subcritical flow through a constriction,
+while choking represents the additional head required to increase the specific energy and
+accelerate the flow through a constriction in the critical or supercritical condition. Choking is
+also significant when a waterway is deliberately designed to operate at the critical depth (e.g.
+see Section 7.5).
+The occurrence of choking is not always as easy to predict as the example above may
+sugges t. No allowance was made for a non-uniform distribution of velocity or energy losses;
+Fig 3.5 illustrates how this alone can throw doubt upon the value of the critical contraction.
+Then there is always the problem of debris caught on the piers or abutments altering the flow
+condition.
+
+3.4 Ratio of waterway length to span, L/b
+
+In general, long waterways are more efficient than short ones, so the length of the opening is
+another factor that affects the hydraulic performance of a
+
+Page 78
+
+bridge. This is assessed in terms of the length ratio (L/b), which is the ratio of the waterway
+length between the upstream and downstream faces of the constriction, L, to the width or span
+of the opening, b. With an arch bridge the bottom width is usually adopted so that L/b remains
+a constant for a particular structure (Fig. 3.1c). To be classed as a bridge this ratio should be
+less than 1.0, waterways with larger values being classed as culverts. However, the distinction
+is rather arbitrary.
+Kindsvater and Carter (1955) showed that reducing the waterway length from L/b=1 to
+L/b=0.15 can decrease the discharge through a waterway by as much as 15%. Thus the ratio
+L/b appears in Fig. 4.3a (for example) in recognition of the fact that the waterway length is
+one of the more important variables controlling the hydraulic performance of a bridge.
+The reason why long waterways are more efficient is that the contraction and subsequent
+expansion of the flow is more controlled in a long waterway, so the energy loss is reduced.
+This can be explained as follows. As the flow enters the opening it contracts and forms a vena
+contracta. With a short waterway the contraction will continue unsuppressed into the
+downstream channel (as in Fig. 2.2b). The expansion between the vena contracta and section
+4 is then relatively large, and takes place in a region with an adverse (positive) pressure
+gradient, so there is a large energy loss. With a long waterway the vena contracta will be
+inside the opening, and the flow will have expanded to the full width of the waterway before
+emerging into the downstream channel (Fig. 3.1c). This effectively means that the water
+between the separation boundary of the live stream and the abutment wall (shown cross-
+hatched) is trapped. It cannot be replaced from downstream, but it will be entrained by the jet
+and removed. Thus the depth of water in this zone is less than that in the jet, and the
+consequent negative pressure gradient aids the expansion of the jet and reduces the energy
+loss. When the jet leaves the opening it is wider than it would otherwise have been , so the
+expansion and energy loss between sections 3 and 4 are reduced. The double expansion still
+results in an energy loss, but it is smaller than for a short waterway so there is an overall
+improvement in hydraulic performance.
+The length ratio is one of the few variables that is easy to calculate and which has a
+constant value once a bridge has been built, unlike the opening ratio and Froude number,
+which vary with river stage.
+
+3.5 Entrance Founding
+
+One method of improving the hydraulic efficiency of a waterway opening is to round the
+upstream edges so that the geometry of its entrance more closely resembles the shape of the
+boundary streamlines (Fig. 3.1d). Entrance rounding reduces the contraction of the live stream
+and increases the width of the vena contracta, and hence increases the coefficient of discharge,
+such as Cd in equations 2.8 and 2.9. Since the discharge for a given
+
+Page 79
+
+stage is directly prop ortional to Cd, this means that the bridge can pass larger floods for the
+same water level.
+Kindsvater et al. (1953) and Kindsvater and Carter (1955) showed that as the relative radius
+of curvature, r/b, increases so the improvement in the hydraulic performance of a constriction
+operating with open channel flow increases, but at a diminishing rate until a maximum value
+is reached. The maximum value corresponds to a value of the coefficient of contraction (CC)
+approaching unity. Under these conditions the difference between CC and C (i.e. the
+coefficient of discharge in open channel flow) represents the boundary friction loss.
+Predictably, the greatest benefit arises with narrow openings (small M). For example, with
+r/b=0.14 and M=0.2 the improvement in C, and hence Q, is about 20% (Fig. 4.3c). This
+probably represents about the maximum improvement that can be gained from entrance
+rounding in channel flow. It should be appreciated that improvements on this scale are not
+automatic: the type of flow, Froude number and bridge geometry all influence the value, and
+in most cases it will be much less than 20%. Hamill (1997) found that in channel flow the
+increase in discharge o r reduction in afflux that could be obtained through entrance rounding
+was usually less than 5%, although much larger improvements that increased with the degree
+of submergence were obtained once the opening had drowned ( Section 7.2.2).
+An alternative to using a rounded entrance is to use a chamfer (bevel), which has the
+advantage that it is easier to construct. In channel flow this virtually amounts to angled
+wingwalls. The degree of chamfer is indicated by the angle (δ) and its length measured as w/b
+(Fig. 3.1d). When the radius of a rounded entrance is small a chamfer may be as effective, but
+rounding becomes superior as the radius increases. Kindsvater et al. (1953) found that with
+w/b=0.12 and M=0.2 a 30° chamfer used with channel flow resulted in a maximum 9%
+increase in discharge, a 45° chamfer 15%, and a 60° chamfer 29% (Fig. 4.3 d to f). The
+improvement is smaller with larger M values, but the 60° chamfer/wingwall configuration is
+always best since this minimises the transverse contraction.
+Kindsvater et al. (1953) found that rounding the downstream corners had a negligible effect
+in laboratory tests. Hamill (1997) studied the contraction from the soffit of rectangular and
+arched openings and concluded that this was where rounding or a chamfer was most effective,
+since there is usually a large vertical contraction from the deck of a bridge, particularly in
+sluice gate flow. This type of deck rounding is apparent in Fig. 1.1. Entrance rounding is
+considered in more detail in Chapter 7, along with other ways to improve hydraulic
+pe rformance.
+
+3.6 Eccentricity, e
+
+If a bridge opening is eccentrically located in the river channel, as shown in Fig. 3.1e, this can
+affect the flow through the constriction. To take an extreme
+
+Page 80
+
+example, if X a=0 there is no contraction on that side of the channel so the flow on the left
+bank can pass through the constriction unimpeded. This would increase the width of the live
+stream at the vena contracta (Fig. 2.2b) and increase the coefficient of discharge. The reverse
+is also true. If one abutment is very long (e.g. Xc in Fig. 3.1e), so that the water has to flow
+along it prior to passing through the opening, the resulting contraction may be very large,
+reducing the width of the live stream and decreasing the coefficient of discharge. One
+consequence of this may be an increased likelihood of supercritical flow in the waterway (Fig.
+2.8). Another may be that a very large eddy will form in the downstream separation zone.
+The amount of eccentricity can be quantified as e=Xa/Xc (Fig. 3.1e), but it is best defined in
+terms of the discharge or conveyances of the approach section, so e=Qa/Qc or e=Ka /Kc where
+the numerator is always the smaller of the two values so e<1.0 (Kindsvater and Carter, 1955;
+Matthai, 1967; Bradley, 1978). Generally if e is larger than 0.12–0.20 the effect of the
+eccentricity on the coefficient of discharge can be ignored. Even with smaller values the
+resulting reduction in discharge will probably be less than 5% (Table 4.1 ).
+
+3.7 Skew, ø
+
+A simple definition of skew is shown in Fig. 3.If. In this example the longitudinal centreline
+of the bridge and its approach embankments is at an angle ø to the banks of the channel and
+the direction of flow, although the waterway opening itself is parallel to the flow. For a
+normal or perpendicular crossing ø=0°. However, Fig. 3.7 illustrates that there are three
+possible types of skew in addition to a normal crossing:
+• normal crossing—embankments perpendicular to the flow, waterway parallel to the flow;
+• skew 1—embankments skewed to the flow, waterway parallel to the flow;
+• skew 2—embankments skewed to the flow, waterway skewed to the flow;
+• skew 3—embankments perpendicular to the flow, waterway skewed to the flow.
+Of these skew 3 is unusual, although not unknown: it may occur unintenti onally if the river
+shifts its course after the bridge has been constructed, but will not be considered further. Both
+skew 1 and 2 are common and will be considered in some detail. Note that the USGS method
+of analysis in Section 4.2 treats skew in a slightly different way from that described here.
+Skew has many effects, some of which are not immediately obvious. The hydraulic
+consequences of skew 1 and 2 compared with a normal crossing are summarised below and
+then explained fully.
+
+Page 81
+
+Fig. 3.7 Compari son of normal and skewed crossings and the definition of skew types and the skew
+angle ø: (a) normal crossing; (b) type 1 skew with abutments parallel to the flow; (c) type 2
+skew with abutments at 90° to the approach embankments; (d) type 3 skew with the
+abutments at an angle ø to both the flow and approach embankments. Note that with skew
+type 2 the unobstructed opening width normal to the flow (b#) is reduced compared with
+type 1.
+
+Page 82
+
+Fig. 3.8 A skewed crossing illustrating: (a) the location of the maximum afflux; (b) the higher water
+level on the right bank where the water is ‘trapped’ in the corner; (c) the possible use of a
+relief opening to reduce the raised water level; (d) the possible use of a dyke to reduce the
+effect of skew and aid flow through the opening, (e) the projection of the skewed opening
+upstream to section 1 and the discharge Qa, Qb and Qc in the channel subsections.
+
+• The water levels recorded at the two upstream corners of the channel will be different, being
+higher on the side where the water is ‘trapped’, such as in the right corner of Fig. 3.8.
+• In channel flow there is a reduction in the effective width of the waterway with an
+associated change in the opening ratio (M) and in hydraulic performance.
+• Once the waterway is submerged there is a change in hydraulic performance, and the flow
+emerging from the opening is angled towards one bank.
+
+Page 83
+
+3.7.1 Transverse variation of water level
+
+In Fig. 3.8 the water flowing along the right -hand boundary floodplain is trapped in the corner
+of the channel against the upstream face of the bridge or embankment, and may have to flow
+backwards to escape. This means that the water in this region is effectively static and, owing
+to the recovery of the velocity head, the depth is larger than in th e centre of the channel. On
+the left bank the flow along the floodplain is deflected towards the centre by the embankment,
+so it accelerates smoothly into the opening while experiencing a reduction in depth as the
+velocity head increases. Thus there is a general slope of the water surface from right to left.
+Because of the ‘superelevation’ of the flow, when a skewed opening first submerges it will
+do so on the side where the water is trapped in the corner between the upstream face and the
+channel boundary. It is not unusual for one side of the opening to be submerged while the
+other side is still operating in open channel flow. Thus the transition between the two may
+take place over a larger range of Yu/Z than for a normal crossing.
+The river is most likely to burst its banks in the corner of the channel where the water
+surface is highest. However, unless the channel is wide, steep and the velocity head relatively
+large the cross -fall may not be particularly significant. Nevertheless, the hydraulic
+performance of a skewed crossing may be improved by constructing an embankment or dyke
+across the ‘troublesome’ floodplain to deflect the flow into the opening. This dyke is more or
+less the mirror image of the br idge embankment on the opposite floodplain. An alternative is
+to provide a relief opening through the embankment ( Fig. 3.8). An opening (e.g. a pipe) may
+also be needed at this location if a dyke is contructed, so that the area between the dyke and
+the bridge embankment can drain if flooded.
+
+3.7.2 Reduction in width
+
+In Figs 3.7 and 3.8 the opening width (b) is measured perpendicular to the direction of flow,
+and it is this width that is projected upstream to section 1, whereas bS is the skewed width
+between the abutments or piers measured along the longitudinal centreline of the highway
+embankments (except for skew 3). To aid the comparison of the waterway size and ease of
+flow through the opening, Fig. 3.7 is drawn so that the upstream corners of the left-hand
+abutments align.
+It is generally assumed that skew reduces the efficiency of a waterway, but the true effect is
+often obscured by confusion regarding the effective ‘span’. For example, consider skew 1A in
+Fig. 3.7 where b=10.0m, as for the normal crossing. The skew angle ø=45° so bS=b/cos
+45°=14.1 m. The clear dist ance between the abutments has increased, so there is a
+corresponding increase in discharge capacity (although not in direct proportion to bS), as
+shown in Fig. 3.9a. Conversely, for skew 1B with ø=45° and bS=10m the
+
+Page 84
+
+Fig. 3.9 Illustration of the effect of type 1 skew on the stage-discharge curve of model bridges at a
+slope of 1:50. For the normal bridge b= bS=200 mm. With ø=45°, skew 1A has b=200 mm
+and bS=283 mm; skew 1B has bS =200 mm and b=141 mm. (a) Rectangular opening; (b)
+arched opening.
+
+projected width perpendicular to the flow is b=bs cos 45°=7.1 m, which represents a reduction
+of 29% compared with the 10m wide normal crossing. As a result, the waterway has a
+reduced discharge capability ( Fig. 3.9a). With skew type 2B there is also a marked reduction
+in the unobstructed
+
+Page 85
+
+span (b#) between the abutments parallel to the flow. This is one reason why skewed
+waterways are generally assumed to be inefficient. However, provided the appropriate
+allowances are made, such as increasing bS slightly and considering the possibility of scour
+near the points of the abutments, there is no real need to avoid skewed crossings (particularly
+with ø<20°). Thus the question arises: what size of skewed opening actually gives the same
+performace as a normal crossing?
+Fo r skew 1 waterways Bradley (1978) presented a chart (Fig. 4.24) that showed the skewed
+width of opening ( bS) required to produce the same backwater as a normal crossing of width b.
+For example, if b=10 m, ø= 45° and M=0.45 then from the chart bS cos 45°/b=0.87, giving
+bS= 12.3 m. This is between the dimensions indicated in diagrams 1A and 1B of Fig. 3.7.
+Bradley suggested that with ø<20° there were no objectionable results regardless of abutment
+geometry, but bigger angles may result in large eddies, reduced efficiency and scour.
+In open channel flow, Kindsvater et al. (1953) and Kindsvater and Carter (1955) suggested
+that skew (or angularity) of less than 20° has a relatively small effect in most cases, usually
+causing less than a 5% reduction in discharge. However, the effect of skew becomes larger as
+as the angle increases, and i s most apparent when M is near 1.0. For skew 2, Matthai (1967)
+showed that when M=0.95 a 45° skew can reduce the discharge through an opening by up to
+28%, but this reduces to 0% when M=0.36 (Fig. 4.3g). When M is small other hydraulic
+factors predominate. Note that in the USGS method of analysis the projected opening width at
+section 1 (b) is the same as the skewed width between the abutments (bS ) so b=bS regardless
+of the skew angle ( Fig. 4.14a).
+To summarise, a skewed waterway is usually regarded as having a smaller effective width
+than a normal crossing so the value of Qb or Kb is reduced and a decrease in M is experienced.
+These factors generally result in a small loss of hydraulic performance, but this can be as
+much as 28% of the discharge capacity in extreme cases (but see below).
+
+3.7.3 Change in submerged performance
+
+After the opening has submerged, the orientation of the crossing with respect to the direction
+of the approach flow is much less significant, since the situation is analagous to discharge
+through an orifice, and M is irrelevant. The flow contracts strongly from the deck and enters
+the opening at right angles to the face of the bridge, so the emerging jet is basically
+perpendicular to the plane of the entrance. This is true even with skew 1 openings, where the
+waterway is parallel to the sides of the channel. In a narrow channel the angled jet can lead to
+severe scouring of the bank if it has not been protected. With skew 2 openings the direction of
+the jet is more obvious. Note that the zone of drawdown, as delineated by the dashed line
+showing the maximum afflux in Fig. 3.8, is also based on the line of the
+
+upstream bridge face.
+Given that the jet in submerged flow emerges perpendicularly to the bridge face, it is
+reasonable to expect that the discharge capacity of the waterway is related to the skewed
+width ( bS) of the opening. For example, assume a rectangular opening of height Z, with the
+dimensions shown in Fig. 3.7, and then compare the following:
+
+Page 86
+
+Normal crossing
+
+Skew 1A
+
+Skew 1B
+
+opening area along the line of the bridge face=10Z
+projected opening area at section 1=10Z
+opening area along the line of the bridge face=14.1Z
+projected opening area at section 1=10Z
+opening area along the line of the bridge face=10Z
+projected opening area at section 1=7.1Z
+
+Skew 1A has the largest all-round dimensions and could be expected to have the largest
+discharge for a given stage. In model tests involving rectangular openings this was found to
+be the case (Fig. 3.9a). This does not imply that skewed waterways are beneficial; it merely
+demonstrates that it is not easy to predict their performance because the effective span of the
+waterway is not always apparent. Conversely, skew 1B has the same area at the face (10Z) as
+a normal crossing but a reduced projected area (7.1Z) so it has a worse stage-discharge
+performance.
+The geometry of a skewed, arched opening is more complex than that of a rectangle. If a
+semicircular waterway is cut at an angle to give a type 1 skew then the entrance to the
+opening is no longer a semicircle. Additionally, with an arch there is a strong radial
+contraction towards the centre. This tends to make the effect of skew on the flow through
+arches difficult to identify and measure, and as yet there appears to have been no satisfactory
+study of the effect of skew on arch bridges, although there have been attempts (Husain and
+Rao, 1966). However, Fig. 3.9b compares a normal semicircular arch ( b=bS=200mm) with a
+45° skewed 1A arch with b= 200mm and bS=283mm. The larger value of bS results in an
+increased discharge, but the increase is smaller than that obtained with the corresponding
+rectangular opening in Fig. 3.9a.
+
+3.8 Depth of flow, Y
+
+For a given discharge, flow can occur over a wide range of depths depending upon the slope
+and geometry of the channel, and on whether the flow is uniform or non-uniform. The values
+of many variables, such as the Froude number (F), conveyance (K) and opening ratio (M), are
+functions of the depth. Additionally, the depth of flow relative to the height of the bridge
+opening can influence both the type of flow that occurs at a bridge site and the hydraulic
+performance of the str ucture: it may determine whether or not a waterway becomes drowned
+during flood. For example, if the value of
+
+Table 3.1 Geometric properties of semicircular arches
+
+Proportional depth, Yu/Z
+
+Surface width, BT(m)
+
+Cross-sectional area A(m2 )
+
+Page 87
+
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0
+
+1.000×D
+0.995
+0.980
+0.954
+0.917
+0.866
+0.800
+0.714
+0.600
+0.436
+0
+
+0
+0.064×πD2/4
+0.125
+0.188
+0.248
+0.305
+0.358
+0.406
+0.448
+0.481
+0.500
+
+Notes:
+1. Froude number, F=V /(gYM)½ where the mean depth, YM=A/BT.
+2. For example, if V=1.5 m/s, Y u=1.75 m and the diameter of a semicircular arch, D= 5.0 m then Z=2.5 m and
+YU /Z=0.7. From the table A=0.406×π×5.02/4=7.97 m2 and BT=0.714×5.0=3.57 m. Thus YM=7.97/3.57=2.23 m and
+F3 =0.32.
+3. There is an apparent anomaly with YM=A/BT=2.23 m and Y u=1.75 m, which is compounded by the fact that BT
+decreases to zero when Y u/Z=1.0. Section 3.3 suggested an alternative approach with YM=A/b=7.97/5.0=1.59 m.
+This gives F3=0.38. These figures illustrate the problem of obtaining a ‘correct’ value of F, particularly with
+arched waterways.
+
+YN in an unconstricted channel is similar to the height of a bridge opening (Z) then it is likely
+that the waterway will become submerged (Fig. 3.1g).
+The ratios YN/Z and Yu/Z are used in Figs 3.4 and 3.9 to illustrate hydraulic performance.
+With arched openings the ratios are valuable in defining changes in geometry (Table 3.1). The
+listing of the water surface widths and proportional cross -sectional areas is useful when
+evaluating M and F 3.
+
+3.9 Shape of the waterway opening
+
+The shape of the waterway may affect the hydraulic performance of a bridge (Fig. 3.1h). For
+instance, a rectangular opening with a width twice its height (b=2Z) has a 27% larger cross-
+sectional area than the equivalent semicircular arch. This means that at any given stage a
+rectangular opening will probably have a larger discharge and a smaller afflux than an arch of
+the same span . These differences are likely to be most significant when the waterway is
+running nearly full or full.
+The distribution of velocity and the pattern of flow through a waterway will also vary
+according to shape. For example, the upstream edge of an arch can impart a distinct radial
+contraction (lateral and vertical) to the flow, even before the waterway becomes drowned.
+This is apparent from
+
+Page 88
+
+Fig. 2.9 which shows how the point of maximum velocity moves nearer to the bed with rising
+stage. With arches the gradually closing roof can produce a more gentle transition between
+channel flow and sluice gate flow than a rectangular opening where (theoretically) the
+waterway becomes drowned very abruptly when the water level rises above the horizontal
+upstream soffit. In practice, the water surface may be lower in the centre of the opening
+(because of the higher velocity head) than at the sides, so this transition is not always as
+sudden as expected (Fig. 2.7). Nevertheless, a very large vertical contraction can occur from
+the horizontal soffit after the opening has submerged and Yu>1.1Z . Section 7.2 shows that
+rounding the soffit of the opening can significantly reduce the contraction and improve
+hydraulic performance.
+Differences in the shape of the waterway might also be expected to affect the values of the
+coefficients of contraction and discharge. Matthai (1967) presented four different graphs of
+the coefficient C' corresponding to the four different types of waterway listed in Section 4.2.1.
+The coefficients of discharge of arched and rectangular waterways in Fig. 2.11 are also
+different.
+
+3.10 Channel roughness and shape
+
+These parameters do have an influence on the hydraulic performance of a bridge, but it is
+usually small. Generally they are not considered directly, although they are taken into account
+indirectly in the calculation of the opening ratio (in terms of the discharge or conveyance,
+equations 3.1 and 3.5) and the Froude number.
+Channel roughness affects the differential head across the opening (∆h in Fig. 2.3), which
+increases with increasing roughness. Heavy vegetation on the downstream floodplain
+interferes with the natural expansion of the jet and causes a large afflux. The existence of
+rough, scrub- or tree-covered floodplains also causes practical difficulties in estimating
+roughness and friction loss, in addition to any limitation arising from the way in which these
+parameters are incorporated into the hydraulic analysis of bridge performance. Conversely,
+with smooth channels and relatively severe contractions the friction loss arising from
+boundary roughness is insignificant compared with the differential head across the
+constriction. In many cases the friction loss in the opening is negligible or assumed to be so
+(see Section 4.2.1).
+The relative roughness and shape of a river channel also affect the distribution of velocity
+and discharge within it. For convenience, it is often assumed that there is a uniform velocity
+over the entire width of the channel (as in equation 3.2). Unfortunately this is often unrealistic,
+particularly when the flow is overbank in a compound channel where the velocity can vary
+from almost nothing on the floodplains or at the banks to a large value in the deeper or central
+parts of the main channel. To allow for this the velocity distribution coefficient, or kinetic
+energy correction factor, a, is
+
+Page 89
+
+used to obtain the weighted average velocity head (aV2/2 g) at a cross-section (Chow, 1981;
+French, 1986).
+In a man-made channel with a uniform cross -sectional area a seldom exceeds a value of
+1.15. Chow pointed out that a tends to be lower (1.10 minimum) with large, prismatic, straight
+channels and when the flow is of considerable depth. The value is higher (1.20 maximum) for
+small channels and when the conditions are the reverse of those just described. Natural
+streams typically have a value of around 1.30, ranging from as low as 1.15 to a maximum of
+1.50 depending upon the conditions. When the flow is over the floodplains, values range from
+1.5 to 2.0 with 1.75 being a typical figure. Compound sections and natural rivers that
+comprise several di stinct subchannels and/or floodplains, obstructions, bridges, weirs, and
+pronounced irregularities in alignment can all result in values greater than 2.0. High values
+are also possible in closed conduits, which may have relevance under some circumstances t o
+bridge waterways running full. However, large values near 2.0 should be used sparingly, since
+they cannot be justified very often. It is very difficult to give accurate guidelines regarding a
+values so those just quoted must be regarded as extremely approximate; if possible the true
+value should be established by calculation, as described below.
+During a flood the mean velocity and hence the velocity head may be quite large (if
+V=3m/s then V 2/2g=0.46m), so neglecting a or using an inappropriate value can significantly
+affect the analysis. This problem often manifests itself in an energy line that looks wrong,
+possibly because its elevation increases in the downstream direction. If the water surface has a
+shallow slope, then any errors in the calculated ve locity heads at the various sections often
+become apparent in this way.
+The value of the dimensionless coefficient αfor a particular cross-section can be obtained
+by splitting the channel into N subsections and then using the equation
+
+where Qi and Vi are the discharge (m 3/s) and velocity (m/s) in the i th subsection, Q is the total
+discharge of the river, and V is the average velocity of the whole section—that is, Q/A.
+Example 3.2 illustrates the use of the equations.
+
+Page 90
+
+3.11 Scour
+
+Scour is not really a hydraulic variable in the same way as some of the others described above,
+but it can affect the afflux or backwater at a bridge site, so it has been included here as a
+reminder. In some ways a scoured waterway may be considered as the natural equivalent of
+the minimum -energy waterway described in Section 7.5. Scour itself is considered in much
+more detail in Chapter 8.
+If a bridge causes significant scour over a length of the river channel then the elevation of
+both the bed and the water surface will be reduced if the depth of flow remains the same.
+Consequently the head loss between the scoured sections and section 4 (where normal depth
+occurs and scour is less likely) will decrease, as will the afflux. One method of allowing for
+this is to estimate the scour depths and length of reach affected at different discharges, and
+then adjust the measured bed levels accordingly. Another technique is to calculate the
+increase in cross -sectional area caused by scour, ∆A S, and express this as a proportion of the
+cross -sectional area of flow at section 2 at normal depth, AN2 (Bradley, 1978). The scour
+correction factor,
+, can then be obtained from Fig 3.10 and used to adjust either the normal
+afflux,
+(Fig. 2.3), or the drawdown of the water surface at section 3,
+. Using this
+technique the afflux with scour
+is
+
+Page 91
+
+Fig. 3.10 Variation of the scour correction factor,
+, with the proportional increase in scoured area,
+∆AS/AN2 . By calculating the depth and area of scour the value of ∆AS/AN2 and thus
+can be
+obtained, hence the maximum afflux corrected for scour is
+
+Page 92
+
+Fig. 3.11 (a) Approximate dimensions of Canns Mill Bridge and (b) the corresponding variation of
+opening ratio M=AN2/AN1 with stage obtained from equation 3.8 assuming a constant
+channel width of 5.5 m.
+
+change with stage. Equation 3.3 is more appropriate, where M=a/A= A N2/AN1 and where AN1
+and AN2 are the cross-sectional areas of sections 1 (upstream) and 2 (opening area) at normal
+depth (YN) so that AN1=BYN When the water level is below the springline of the arch A N2=bYN,
+and this applies up to YN=0.6m when AN2=4.28×0.60=2.57m2. After this 2.57 m2 must be
+added to the area calculated from the numerator of Equation 3.8. Referring to Figs 3.2d and
+3.11a :
+
+Page 93
+
+distance between bed and centre of curvatu re O=2.70−1.80=0.90m
+distance between O and arch springs, d=0.90+0.60=1.50m
+height of water surface above O, h=YN+0.90 m
+
+The area of flow between the bed and the water surface for any depth of flow, YN, in the
+segmental arch can be calculated from the numerator of equation 3.8, written here with π/180
+included to convert to radians. For instance, if YN=1.65m, then h=1.65+0.90=2.55m and
+
+Now AN1=5.50×1.65=9.08 m2
+Thus M=AN2/AN1=6.17/9.08=0.68
+
+Notes
+1. M is not constant but varies with stage, so this calculation has to be repeated with other
+values of YN. The resulting variation of A N1, AN2 and M is shown in Fig. 3.11b. It is
+apparent that A N1 increases linearly, while AN2 curves upward to reach a constant value of
+6.36 m2, which corresponds to the full waterway opening. As the stage rises and the crown
+begins to close, M reduces to around 0.64. After this M decreases sharply as AN2 is constant
+whereas A N1 continues to increase.
+2. If the opening had been rectangular, the line representing A N2 would have been straight so
+that AN2/AN1 would have a constant value equal to b/B .
+3. The calculation of the cross -sectional areas (channel and opening) is often best
+accomplished with a digitiser since in reality they are usually irregular. A simple graph of
+area against stage can be produced, eliminating the need for the calculations above.
+4. This example over-simplifies: see Fig. 3.3 and Example 3.3.
+
+Example 3.2
+
+A bridge has a single rectangular opening 10m wide, which is the same width as the main
+river channel at low stages (Fig. 3.12). However, during flood the bridge obstructs the flow
+over the floodplains. The dimensions and Manning roughness coefficients are shown in the
+diagram. Assuming uniform flow, that the longitudinal slope of the channel and floodplains is
+1 in 1000, and a depth of 4m in the main channel, estimate the following: (a) the
+
+Page 94
+
+Fig. 3.12 A compound channel split into three subsections by dotted vertical lines. The roug hness of
+the various parts of the channel is shown by the values of Manning’s n. The conveyance of
+the subsections is calculated in Example 3.2.
+
+conveyance of the upstream cross-section, K; (b) the velocity distribution coefficient, a; (c)
+the bridge open ing ratio, M.
+(a) The total conveyance of the upstream section 1 was denoted by K in equation 3.5. The
+value of K can be obtained by evaluating the right -hand part of equation 3.6 with respect to
+each of the three subsections shown in Fig. 3.12 and then adding the values, thus:
+
+(3.21)
+
+Page 95
+
+(b) The velocity distribution coefficient can be estimated by calculating the discharge (Qi ) and
+velocity (Vi ) in each of the subsections and then using equation 3.18.
+
+Subsection
+
+Page 96
+
+to the same distance scale. The shape of the cumulative conveyance curve between the
+plotted points can then be ‘shaped’ using the cumulative area curve as a guide. By this
+means a better estimate of the conveyance in various parts of the channel might be
+obtained.
+5. Another point to remember is that when the value of Manning’s n is not uniform over the
+whole perimeter of a subsection then the effective value of n has to be calculated: that is,
+nE. This is not difficult, but if the problem has not been encountered before it is possible to
+make mistakes. Equation 3.22 was recommended (Hydraulics Research, 1988) for British
+
+(3.22)
+
+Page 97
+
+Fig. 3.13 (a) A simplified cross-section of section 1 at Canns Mill (Fig. 3.3a) showing the areas of
+floodplain storage that do not contribute to flow. The dimensions and Manning’s n values
+are also marked. The discharge in the three channel subsections is calculated in Example
+3.3 prior to calculating M. (b) The dimensions of the bridge. The roughness coefficients are
+as for section 1.
+
+Introduction
+One of the most common mistakes made by graduate engineers when analysing hydraulic
+problems involving bridges is to assume that the flow upstream of the structure is uniform so
+that the bed slope can be substituted in the Manning equation to obtain the discharge. In
+reality, there may be an abnormal stage with or without the bridge ( Fig. 2.4) so the bed, water
+surface, and total energy line all have different gradients. Under these conditions the slope of
+the energy line (friction gradient, SF ) over about 10–20 channel widths should be used. This is
+often much flatter than the bed slope. Similarly, the friction slope on the floodplain may be
+less than in the main channel.
+Another potential source of error lies in using the maximum flood level (which may be
+indicated by deposited flood debris) to determine the cross-sectional area of flow. This often
+introduces significant errors because the flood level shows the maximum flooded cross -
+section not the maximum cross -sectional area of flow, which may be much less. In other
+words, there may be no flow through some of the cross-section, the water on parts of the
+floodplains being stationary (floodplain storage). The only way to ascertain
+
+Page 98
+
+whether or not this is the case is to be on site during a flood to observe what happens. The
+importance of t his is illustrated below.
+The approach adopted in this example is to split the compound channel into three
+subsections: the left floodplain, the main channel, and the right floodplain. It is assumed that
+the sum of the discharges in the three subsections must equal that in the whole channel, and
+indeed the quantity passing through the bridge opening since there was no flow around it. At
+the maximum gauged flow of 15 m 3/s a stage of approximately 2.23 m exists in the main
+channel at section 1.
+
+Assumptions
+
+LEFT FLOODPLAIN
+By observation it is known that at 15 m 3/s there is flow only through the 10m of the
+floodplain adjacent to the main river channel; the rest of the inundated area beyond this does
+not contribute to the flow, and is marked as storage in Fig. 3.13a. It is assumed that the
+dividing vertical on the left has zero roughness, as is customary.
+The top of the hedgebank between the left floodplain and the main channel is about 1.5m
+high when measured from the bottom of the main channel ( Fig. 3.3a). Because the bank is
+lower much further upstream, water can enter the floodplain but it cannot return to the main
+channel and pass through the bridge until the stage exceeds 1.5m. Thus it is assumed that any
+water stored below the 1.5m stage is floodplain storage, over the top of which passes the live
+part of the stream. Thus at 15 m 3/s a depth of (2.23 −1.50)=0.73m exists over the 10m wide
+floodplain. It is not appropriate to assume that this horizontal interface between the stationary
+water and the live stream has zero roughness (because then practically the entire perimeter of
+t he subsection would be frictionless) so a roughness equivalent to the underlying floodplain,
+namely 0.035 s/m 1/3, is adopted (see Hydraulics Research, 1988).
+The dividing vertical on the right of the subsection is the bank and hedge through which the
+water ultimately has to flow, incurring a significant and visible loss of head in the process.
+This boundary is assumed to be relatively rough, with n=0.150 s/m1/3.
+
+THE MAIN CHANNEL
+This is assumed to have n=0.035 s/m1/3 across the 5.5m width of the channel with both
+sides having n=0.08 s/m1/3 over the full height, although the bottom part of the channel is
+perhaps smoother and the top part with the hedge rougher.
+To calculate the bridge opening ratio from M =q/Q the waterway has to be projected
+upstream to section 1, with q representing the flow in this projected subsection of the main
+channel (i.e. the quantity that can pass through the bridge without contraction), and Q the total
+discharge, including the floodplains. Thus the main channel itself has to be subdivided
+
+Page 99
+
+(Fig. 3.13b). It is assumed that the bed has a roughness (0.035 s/m1/3 ) while the imaginary
+projected boundary of t he arch is ignored.
+At 15m 3/s the stage is 2.23 m while the height of the arch is 1.8m, so the opening is
+submerged. By calculating the discharge (q) through the projected waterway area (6.30m) the
+value of M will include the vertical contraction through the bridge. Note that if the width of
+the opening (4.30m) was projected upstream over the full 2.23m depth this would be
+equivalent to an unsubmerged rectangular opening with an area of 9.59 m.
+
+RIGHT FLOODPLAIN
+The right floodplain, like the left, is approximately 1.5m above the bottom of the main
+channel. It has a transverse slope towards the main channel, so the width of the floodplain
+varies with stage. At 15 m3/s the maximum depth at the interface with the main channel is
+(2.23−1.50)=0.73m, reducing to zero over a slope distance of 15 m as shown in Fig. 3.13a .
+The roughnesses of both surfaces are included in the calculations, being 0.080 s/m 1/3 and
+0.035 s/m 1/3 for the left and bottom boundaries respectively.
+
+Calculations
+These are conducted for each of the subsections in turn. Important features
+(a) the non-uniform roughness around the wetted perimeter necessitating the calculation of
+the effective Manning roughness (nE) for the subsection, as follows:
+
+(3.24)
+
+where P i=length of ith perimeter, ni=roughness of i th perimeter and P= the length of the
+total wetted perimeter used in the calculations (see French, 1986);
+(b) the friction gradients of the main channel and floodplains are unknown, so it is not
+possible to obtain directly the discharges. This problem is overcome by first calculating the
+conveyances of the subsections at two different discharges (15m 3/s and 12.5m3/s) and then
+equating the total conveyance to the gauged discharge to obtain the gradients. The discharge
+in the subsections can then be calculated.
+
+LEFT FLOODPLAIN
+Sectional area
+Wetted perimet er,
+
+From equation 3.6, conveyance
+
+109m 3/s
+
+MAIN CHANNEL—PROJECTED BRIDGE OPENING
+
+Page 100
+
+MAIN CHANNEL—REMAINDER
+
+Using the same roughness coefficients as for section 1 in Fig. 3.13a :
+
+RIGHT FLOODPLAIN
+
+TOTAL CONVEYANCE AND RELATIONSHIP TO DISCHARGE
+Total conveyance of main channel,
+
+2.00m, then another equation is obtained:
+
+and
+giving SFF=0.000376 or 1 in 2660
+As a check, if the conveyances corresponding to 10.8m 3/s and a stage of 1.85m are
+calculated then
+
+Page 101
+
+Page 102
+
+References
+
+Ackers, P. (1992) Hydraulic design of two stage channels. Proceedings of the Institution of Civil
+Engineers, Water Maritime and Energy, 96, December, 247–257.
+Ackers, P. (1993) Stage-discharge functions for two stage channels: the impact of new research.
+Journal of the Institution of Water and Environmental Management, 7, February, 52–61.
+Biery, P.F. and Delleur, J.W. (1962) Hydraulics of single span arch bridge constrictions. Proceedings
+of the American Society of Civil Engineers, Journal of the Hydraulics Division, 88 (HY2), March,
+75–108.
+Bradley, J.N. (1978) Hydraulics of Bridge Waterways, 2nd edn, US Department of
+Transportation/Federal Highways Administration, Washington DC.
+Chow, V.T. (1981) Open-Channel Hydraulics, International Student Edition, McGraw-Hill, Tokyo.
+French, R.H. (1986) Open-Channel Hydraulics, International Student Edition, McGraw-Hill,
+Singapore.
+Hamill, L. (1993) A guide to the hydraulic analysis of single-span arch bridges. Proceedings of the
+Institution of Civil Engineers, Municipal Engineer, 98, 1–11.
+Hamill, L. (1997) Improved flow through bridge waterways by entrance rounding. Proceedings of the
+Institut ion of Civil Engineers, Municipal Engineer, 121, 7–21.
+Henderson, F.M. (1966) Open Channel Flow, Macmillan, New York.
+Husain, S.T. and Rao, G.M. (1966) Hydraulics of river flow under arch bridges. Irrigation and Power,
+October, 441–454.
+Hydraulics Research. (1988) Assessing the hydraulic performance of environmentally acceptable
+channels. Report EX 1799, Hydraulics Research Ltd, Wallingford, England.
+Hydrologic Engineering Center (HEC) (1990) HEC-2 Water Surface Profile User’s Manual, US Army
+Corps of Engineers, Davis, CA.
+Kindsvater, C.E. and Carter, R.W. (1955) Tranquil flow through open -channel constrictions.
+Transactions of the American Society of Civil Engineers, 120, 955–992.
+Kindsvater, C.E., Carter, R.W. and Tracy, H.J. (1953) C omputation of peak discharge at contractions,
+Circular 284, United States Geological Survey, Washington DC.
+Laursen, E.M. (1984) Assessing vulnerability of bridges to floods, in Transportation Research Record
+950, Second Bridge Engineering Conference, Vol. 2, Transportation Research Board/National
+Research Council, Washington DC, pp 222 –229.
+Matthai, H.F. (1967) Measurement of peak discharge at width contractions by indirect methods.
+Techniques of Water Resource Investigations of the United States Geologi cal Survey, Chapter A4,
+Book 3, Applications of Hydraulics, US Government Printing Office, Washington DC.
+Tracy, H.J. and Carter, R.W. (1955) Backwater effects of open -channel constrictions. Transactions of
+the American Society of Civil Engineers, 120, 993–1018.
+Yarnell, D.L. (1934) Bridge piers as channel obstructions. Technical Bulletin No. 444, November, US
+Department of Agriculture, Washington DC.
+

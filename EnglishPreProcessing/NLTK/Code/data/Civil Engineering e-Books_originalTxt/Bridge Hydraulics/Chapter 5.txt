@@ -1,0 +1,277 @@
+Page 176
+
+5
+How to analyse flow past piers and trestles
+
+5.1 Introduction
+
+Unlike the previous chapter, which dealt with channel constrictions where the abutments
+formed the primary obstacle to flow and the piers were the secondary consideration, this
+chapter deals with situations where the piers themselves cause the primary obstruction, while
+the secondary effect of the abutments is negligible. This may happen either with short bridges
+where the abutments are not in the flow (just the piers) or when the the bridge is long with a
+large number of piers in the watercourse. Although the latter may be uncommon in Britain,
+where rivers and floodplains are relatively small, in some countries the floodplains of large
+rivers can be several miles across and bridges may have well over 100 spans. Under these
+conditions it is easy to see how the piers, rather than the abutments, become the primary
+factor in the hydraulic analysis of the bridge.
+The obstruction of bridge piers to the flow of water has been studied for over 150 years.
+One of the earliest investigations was by d’Aubuisson (1840), followed by Nagler (1918) and
+Yarnell (1934a). A typical approach is to use a long, laboratory channel in which the flow is
+initially uniform. By introducing one or more equally spaced piers to the central part of the
+channel their effect on the flow can be measured. If the uniform flow is supercritical the result
+will be to split the flow, causing a disturbed wake downstream and spray upstream. The
+amount of spray depends upon the shape of the piers. There is no other effect upstream, since
+a characteristic of supercritical flow is that disturbances do not propagate upstream. However,
+the more usual scenario is that the flow will be initially subcritical. As described in Section
+2.2, a backwater occurs upstream, increasing the depth at section 1, while the depth between
+the piers decreases to a minimum at section 3 as the flow accelerates ( Fig. 5.1). At section 4,
+well downstream of the bridge, the flow is again at normal depth. Between sections 3 and 4
+there is a region of turbulence due to the wake created by the piers and the expanding flow.
+It is as a result of Yarnell’s work that there are fairly reliable coefficients to use with the
+d’Aubuisson and Nagler equations, and that there is some understanding of which equation is
+the most suitable under various circumstan ces. Consequently it is advisable to read all of
+Sections 5.2–5.4 rather
+
+Page 177
+
+Fig. 5.1 Flow past bridge piers, (a) Longitudinal section, with the velocity heads exaggerated for
+clarity. The afflux is
+
+in Fig. 5.1 is
+
+so rearranging equation 5.1 gives
+
+Page 178
+
+pier shapes. He derived his own equation for the discharge (Q) between the piers. This
+derivation is rarely presented in full, perhaps because the original paper is not always clear in
+its meaning . However, the basis is simply to consider the flow
+
+Table 5.1 Values of K A and KN for bridge piers. For use with equation 5.7 (KA) or 5.10 (KN)
+
+Type of pier
+
+Bridge opening ratio, M
+0.90
+0.80
+0.70
+0.60
+0.50
+KA KN KA KN KA KN KA KN KA KN
+
+Page 179
+
+Page 180
+
+Fig. 5.2 Longitudinal section of flow past bridge piers for the derivation of the Nagler equation.
+
+when the flow is shooting and turbulent. The value of βvaries with the opening ratio (M), as
+shown in Fig. 5.3. Example 5.1 provides an illustration of the application of the equation.
+The Nagler equation is rath er more complicated than d’Aubuisson’s but, because there is
+some allowance for the recovery of head downstream of section 3 and it is not assumed that
+Y3=Y4 , it is more accurate under conditions of low turbulence. Like the d’Aubuisson equation
+it is not very accurate at high velocities.
+
+Fig. 5.3 Values of βin the Nagler equation for flow past piers. (After Nagler, 1918; Obstructions of
+bridge piers to the flow of water, Transactions of the ASCE. Reproduced by permission of
+ASCE)
+
+Page 181
+
+5.4 The work of Yarnell
+
+5.4.1 Flow between bridge piers
+
+Between 1927 and 1931 Yarnell conducted about 2600 experiments on the obstructive effects
+of bridge piers to the flow of water. He used larger piers and a more extensive range of
+conditions than previous investigators. The opening ratios adopted were between 0.88 and
+0.50, quite severe by modern standards, but the results can still be applied to more slender
+piers. Yarnell published his results in 1934, and listed the following as affecting the amount of
+obstruction caused by a bridge pier, and hence the resulting af flux:
+• the shape of the pier nose;
+• the shape of the pier tail;
+• the channel contraction caused by the pier;
+• the length of the pier;
+• the angle between the longitudinal centreline of the pier and the approaching stream of water
+(the angle of attack, ø, in Table 5.1);
+• the quantity of flow.
+Yarnell’s aim was to evaluate these factors by investigating the flow past piers of different
+shape and length to width ratio. He also determined the values of the coefficients (K) in the
+d’Aubuisson and Nagler equations (as shown in Table 5.1 ) and investigated the accuracy of
+the equations. Yarnell made the following observations.
+• The d’Aubuisson and Nagler equations are not accurate at high velocities, but for ordinary
+velocities the coefficients in Table 5.1 are generally satisfactory.
+• For low-velocity flows and little turbulence, piers with lens -shaped noses and tails, semi-
+circular noses and tails, or some combination of these, are the more efficient. Twin-cylinder
+piers (with or without connecting diaphragms), piers with 90° noses, and piers with
+recessed webs are less efficient, while piers with square noses and tails are the least
+hydraulically efficient. A lens -shaped nose or tail is formed from two convex curves that
+are tangent to the sides of the pier and which have a radius twice the width of the pier.
+• The optimum pier length-to-width ratio is probably between 4 and 7 depending upon
+velocity. Typically increasing the ratio from 4 to 13 will increase the values in Table 5.1 by
+3–5%, but this is not guaranteed.
+• There is little difference between similar piers that are parallel to the approaching flow and
+at an angle of less than 10°, but if the angle of attack (φ) is 20° then typically the values in
+Table 5.1 will decrease by 7%. Over 20° the afflux increases significantly, the actual
+increase depending upon the flow rate and depth, and the severity of the obstruction.
+
+Two basic flow types were identified: class A or subcritical flow, and class B or supercritical
+flow. Yarnell used equation 3.13 to determine the limiting condition at which the flow
+becomes choked and supercritical flow may commence. With subcritical conditions the afflux
+
+Page 182
+
+After Yarnell, 1934a
+
+Page 183
+
+Fig. 5.4 Charts for determining afflux,
+(after Yarnell, 1934a). For example, assume M=0.865,
+V4=2.41 m/s,
+and piers with semicircular noses and
+tails. Enter the left-hand chart at M =0.865, move horizontally to V4=2.41 m/s, then
+vertically down to read x=0.04 m. Enter the right-hand chart with
+move
+horizontally across to the sloping K= 0.90 semicircular nose and tail line, then down to
+x=0.04, and then horizontally across to obtain
+.
+
+Figure 5.4 for subcritical flow was originally presented by Yarnell (1934a) in English units,
+but has been redrawn for this book in metric units. For simplicity, the metrication of the
+diagram assumes that 1 foot=0.30m. Several of the terms are dimensionless and do not need
+conversion; the variable x was defined by Yarnell as
+
+Page 184
+
+Fig. 5.5 Chart for determining the afflux caused by supe rcritical flow past bridge piers (after Yarnell,
+1934a). As explained in the text, F4L is the normal depth Froude number at the limiting
+contraction when the flow in the opening is at critical depth (F3=1).
+
+An illustration of this procedure is given in Fig. 5.4 and Example 5.2. Note that if the afflux is
+already known and the discharge (Q=A4V4) has to be obtained using Fig. 5.4 it will be
+necessary to guess a value of V 4 and then keep repeating the steps listed above until the value
+of
+obtained from the chart equals that which was observed. When this happens V4 is
+correct and Q can be calculated. Naturally the generalised charts cannot be very accurate
+when applied to specific situations.
+Figure 5.5 was also presented by Yarnell and redrawn, but has not needed to be metricated.
+To use it, knowing Y4, start by calculating the actual value of F4 and M. Then with the actual
+value of M as ML, the limiting downstream condition (F4L) at which the flow between the
+piers will be at critical
+
+depth can be obtained from equation 3.14 or Fig 3.5. By entering the bottom scale of Fig. 5.5
+at the appropriate value of F4/F4L, moving vertically up to the line representing the pier shape,
+and then horizontally across to the left scale, the value of
+can be obtained. Thus the
+afflux
+
+Page 185
+
+Table 5.3 Values of KA and kN for pile trestles. For use with equation 5.7 or 5.10
+
+Arrangement of trestle
+
+Bents in line with the current
+Single track 5 pile trestle bent
+Double track 10 pile trestle bent
+Two single track 5 pile bents offset
+Bents at an angle with the current
+Single track 5 pile trestle bent at:
+10° angle
+20° angle
+30° angle
+
+After Yarnell, 1934b
+
+Page 186
+
+KA
+
+0.99
+0.87
+0.85
+
+0.99
+0.96
+0.92
+
+KN
+
+0.90
+0.82
+0.79
+
+0.90
+0.89
+0.87
+
+small amount of channel contraction, the question as to whether the pile trestle coefficient is
+the same for different bridge opening ratios does not arise. Consequently the coefficients
+presented in Table 5.3 can be used for subcritical flow (but not supercritical) without
+correction for the opening ratio.
+Other conclusions reached by Yarnell were as follows.
+• In general, the d’Aubuisson and Nagler equations could be applied ‘very favourably’ to
+most of the conditions encountered in the experiments concerning trestles.
+• Until the angle of attack exceeds 10° there is little decrease in the coefficient, and hence in
+the discharge.
+• With an angle of attack of 30° the discharge coefficient for trestle bents is about 4% less
+than for bents aligned with the current, while the backwater will be increased by 50–70%
+for a single-track crossing.
+• Some beneficial effect can be obtained by setting trestle bents in echelon if a roadway
+crosses the river at an angle.
+• A double -track trestle with the bents offset offers a somewhat greater obstruction than a
+double-track trestle with the piles in line.
+• All of the above may be unreliable if the velocity and depth of flow met in practice are much
+greater than used in the model tests.
+
+5.5 Examples
+
+Example 5.1
+
+A rectangular river channe l 107m wide is completely spanned by a bridge that has six equally
+spaced piers (but no abutments) in the watercourse. Each of the piers is 2.40m wide and has a
+semicircular nose and tail.
+
+During a flood it was observed that the afflux
+was 0.09m when averaged across the six
+piers. The average normal depth of flow downstream of the crossing (Y4=YN) was 2.44m.
+Estimate the discharge using the d’Aubuisson and Nagler equations.
+
+Page 187
+
+Note that the d’Aubuisson and Nagler equations must be solved by trial and error because
+the velocities V1 and V4 are initially unknown when the discharge is unknown. However, to
+shorten this example, assume that V1= 2.34 m/s and V4=2.41 m/s.
+
+d’Aubuisson equation
+
+Page 188
+
+Example 5.2
+
+Using the same data as in Example 5.1 and assuming that the discharge is 630.5 m3/s but the
+afflux
+is unknown, determine its value when the piers have (a) semicircular noses and
+tails, and (b) square noses and tails.
+From Example 5.1, V4=2.41 m/s and Y4 =2.44 m.
+Thus F 4=V 4/(gY4)1/2=2.41/(9.81×2.44)1/2=0.493 and so
+a=(1−M)=0.135 (or alternatively, a =6×2.40/107= 0.135).
+(a) From Table 5.2 piers with round noses and tails have K=0.90. Assuming subcritical
+flow:
+
+. M=0.865 so
+
+(5.11)
+
+The same answer can be obtained from Fig. 5.4. The caption to the diagram relates to part
+(a) of this example. (Note that in Example 5.1 the initial value of
+was 0.090m—different
+equations yield different answers.)
+(b) For piers with square noses and tails Table 5.2 shows K=1.25, so equation 5.11
+becomes
+
+Similarly using the K=1.25 line in Fig. 5.4 with
+
+and x=0.04 gives
+

@@ -1,0 +1,1318 @@
+Appendix A
+Hydrodynamic forces on bridges
+
+A1 Hydrodynamic forces on piers
+
+These are the drag force (F D kN) in the direction of flow and the lift force (F L kN)
+perpendicular to it. According to Apelt and Isaacs (1968):
+
+Page 344
+
+(A1)
+
+(A2)
+
+where C D and CL are the dimensionless coefficients of drag and lift respectively, ρis the
+density of the water (kg/m3), V is the approach flow velocity (m/s), Y is the depth upstream of
+the pier (m), and L is either the length of the pier in the direction of flow or the diameter of a
+single cylindrical pier (m).
+The hydrodynamic forces on piers are usually small (e.g. compared with ship impact),
+which is often convenient because CD and CL depend upon factors such as the shape and
+spacing of the piers, the angle of attack, and the Reynolds number of the flow (Apelt and
+Isaacs, 1968; Farraday and Charlton, 1983). Note that (unlike coefficients of discharge) CD
+and CL can have values above 1.0. Very approximately, CD values around 0.2–0.5 may be
+typical for some pier shapes pointing into the flow, but rise with the angle of attack to
+somewhere around 1.0–2.0. Since equations A1 and A2 are the same apart from the
+coefficients, a blunt pier, which would be expected to experience a larger drag than lift force,
+would have a highe r CD value than C L, and vice versa for aerofoil shapes.
+
+A2 Hydrodynamic force on submerged superstructures
+
+Hydraulic Engineering Circular 20 of the US Federal Highways Authority (FHWA, 1991)
+gave the drag force per metre length (FD kN/m) of a submerged o r partially submerged bridge
+deck as
+
+(A3)
+
+Page 345
+
+where C d is the dimensionless coefficient of drag, which has a suggested value of between 2.0
+and 2.2, H is the depth of submergence (m), and the other variables are as above.
+
+A3 Ice forces
+
+Neill (1973) suggested that piers with semicircular noses in plan and slightly inclined inwards
+to the vertical (Fig. 1.15) are effective in discouraging ice accumulations. The worst -case
+scenario may be large sheets of hard ice hitting the piers. Unfortunately the forces generated
+depend upon the type and strength of the ice, and how the ice fails (e.g. crushing, splitting,
+shearing, bending). Farraday and Charlton (1983), the American Association of State and
+Transport Officials (AASHTO , 1993) and the UK’s Highways Agency (1994) presented an
+equation for the horizontal force (F H kN) on a pier having ‘substantial mass and dimensions’:
+
+adjacent to the pier up to a maximum of 21 m. The following equation gives the force (F kN)
+due to trapped debris of area A (m 2) being hit by a flow with an approach velocity, V m/s:
+
+Page 346
+
+(A6)
+
+References
+
+AASHTO (1993) Standard Specification for Highway Bridges, American Association of State
+Highway and Transportation Officials.
+Apelt, C.J. and Isaacs, L.T. (1968) Bridge piers—hydrodynamic force coefficients. Proceedings of the
+American Society of Civil Engineers, Journ al of the Hydraulics Division, 94(HYI), January, 17–30.
+Canadian Standards Association (1978) Design of Highway Bridges. National Standards of Canada,
+CAN 3 –56-M78, Rexdale, Ontario.
+Farraday, R.V. and Charlton, F.G. (1983) Hydraulic Factors in Bridge Design, Hydraulics Research
+Station, Wallingford, England.
+Federal Highways Administration/US Department of Transportation (1991) Stream Stability at
+Highway Structures. Report number FHWA-IP-90–014, Hydraulic Engineering Circular 20.
+Highways Agency (1994) Design Manual for Road Bridges, Vol. 1, Section 3, Part 6, BA 59/94, The
+Design of Highway Bridges for Hydraulic Action, HMSO, London.
+Neill, C.R. (ed.) (1973) Guide to Bridge Hydraulics, Roads and Transportation Association of
+Canada/University of Toronto Press, Toronto.
+
+Page 347
+
+Appendix B
+Some alternative equations for local scour
+
+See Jones (1984), Melville (1988) and Richardson et al. (1993) for further details.
+
+B1 Pier scour
+
+All equations have to be used with the appropriate adjustment factors to allow for pier shape
+and orientation to the flow. The equations below are for square-nosed piers.
+The Laursen—Toch equation is
+live-bed scour
+
+Page 348
+
+(8.14)
+
+For the CSU equation it is assumed the bed is plane (K3P=1.1).
+
+B2 Abutment scour
+
+All equations have to be used with the appropriate adjustment factors to allow for abutment
+shape and orientation to the flow. These equations tend to assume that there is no overbank
+flow, so that abutment or embankment length is measured from the side of the main channel.
+The following simplified Laursen equation will be very conservative for wingwall and
+spillthrough abutments:
+live-bed scour
+
+clear -water scour
+
+(B4)
+
+(B5)
+
+where dSA is the abutment scour depth (m), Y is the depth of the approach flow (m), and L is
+the length by which the abutment protrudes into the main channel measured perpendicularly
+to the bank.
+For live-bed scour at spillthrough abutments the equation attributed to Liu et al. (1961) is
+
+Page 349
+
+(8.17)
+
+References
+
+Jones, S.J. (1984) Comparison of prediction equations for bridge pier and abutment scour, in
+Transportation and Research Record 950 , Second Bridge Engineering Conference, Vol. 2,
+Transportation Research Board/National Research Council, Washington DC, pp 202–209.
+Liu, H.K., Chang, F.M. and Skinner, M.M. (1961) Effect of bridge constriction on scour and
+backwater. Engineering Research Center, Colarado State University, CER 60 KHL22.
+Melville, B.W. (1988) Scour at bridge sides, in Civil Engineering Practice , 2/Hydraulics/Mechanics
+(eds P.N.Cheremisinoff, N.P.Cheremisinoff, and S.L. Cheng), Technomic Publishing Company,
+Lancaster, PA, pp 327–362.
+Richardson, E.V., Harrison, L.J., Richardson, J.R. and Davis, S.R. (1993) Evaluating scour at bridges
+(2nd edn), publication no. FHWA-IP-90–017, Hydraulic Engineering Circular No. 18, National
+Highways Institute/Federal Highways Administration (FHWA), McLean, VA.
+
+Page 350
+
+Index
+
+Abnormal stage
+with Biery & Delleur method 154 –6, 172–4
+at Canns Mill Bridge 56–9, 97, 162–5, 172–4
+definition of 40, 43– 4, 48 , 52 , 143 , 203
+effect of improvement works 50, 203–4, 238
+hydraulic significance of 35, 43−4, 52, 54–5, 64, 69, 104–5
+with HR method 157
+with USBPR method 134, 143–4, 152
+Abutments
+chamfered 112, 120–3, 199–215, 217–18
+with flow along face 38, 49, 219–20
+flow between 38, 43, 103, 123, 176, 203, 219–20
+illustration of types 2, 109 –10, 113 , 116, 120, 125, 128, 138, 140 , 220–1, 224–5
+rounded 2 , 111, 123, 199–215, 216 –17
+scour at 2, 30, 85, 289–92, 293, 297–305, 308, 314, 317, 322, 326–8, 348–9
+set back 271–2, 293, 327–8
+spillthrough
+depiction of 109, 116–19, 138, 263, 327
+use and performance 199, 216, 262–3, 269, 272, 289–91, 293, 326–8, 332–4
+vertical-wall 66, 113, 199, 272, 289–92, 293, 326, 328
+wingwall 109–12, 120–2, 137–8, 145, 148, 214–15, 262–3, 289–91, 326–8
+Accuracy
+of various equations 161, 181, 186, 272, 279, 289, 302, 308, 314, 315
+of calculations 61, 154, 160–2, 166, 197, 324
+of computer models 104, 162, 165, 315
+of field data 24, 61, 66, 161–2, 253, 255, 312
+of methods of analysis
+Biery & Delleur 104–5, 155–6, 160–6, 174
+HR 104 –5, 157–60, 160–6, 174
+USBPR 104–5, 147–8, 152, 160–6
+USGS 104–5, 108, 133–4, 160–6
+of physical models 161, 208, 212–13, 218, 243, 255, 271, 272, 289, 315
+of variables 66, 71–2, 154, 161, 165, 315
+Adve rse hydraulic gradient 37–9, 42, 78
+Aerial photographs 22–3, 270, 273
+Afflux,
+see also Backwater
+accuracy of estimates 61, 97–8, 104–5, 108, 133–4, 152, 157, 160–6
+see also Accuracy
+Biery & Delleur method 154–5, 172−4
+
+Page 351
+
+calculation of 55, 74 –5, 103, 105, 130–3, 134
+at Canns Mill 57–9, 163
+causes of 27, 36–7, 39, 44–7, 52, 68, 88, 181, 191, 200–5, 226
+definition of 34, 39– 44, 53−4, 177, 185
+with dual bridges 148–9
+example calculations 166–74, 182–3, 186–8
+HR method 156–60, 163, 174
+illustrations of 57–9, 70–1, 163, 204
+maximum and location 36, 82, 85–6, 90–1, 154
+with multiple piers 64, 126–8, 131, 137, 139−44, 158, 177–8, 181–6, 188
+negative afflux 90, 256
+with pile trestles 185–6
+reduction of 26, 216, 217–18, 219, 228, 230, 236–8
+see also Improvement works
+scour, adjustment for 27–8, 90–1, 133–4, 256
+significance of vii- x, 1–2, 11–15, 17–19, 34–6, 199–200
+with supercritical flow 72, 74–7, 182, 184–5
+USBPR method 134–44, 147–52, 169–72
+USGS method 130–3, 134, 166–9
+Aggradation 23, 260, 269, 277, 293, 296, 313–14
+Alluvial fans 23
+Angle of attack, see Skew
+Angularity, see Skew
+Antidunes 265–7, 285–6
+Approach highway embankments design considerations 21, 26, 38, 148, 219–20, 264, 329–33
+difference in water level across 144–7
+failure of 191, 252, 253
+flow over 26, 46, 50, 189–97, 230, 273, 294, 324
+skewed 13, 83–6, 123–6, 139–41, 222–3, 290–1, 293
+types 109–10, 113, 116, 120, 137, 138, 145, 215, 293
+Arch bridges
+definition of variables for 64–6, 78, 87, 91–3, 96–101
+elliptical 3, 7, 65, 156, 157
+historical perpective 3–9, 200
+hydraulic analysis of 103–4, 109, 134, 147, 152–60, 172–4
+hydraulic performance of 50–1, 55 , 56–9, 62, 70, 84–6, 160–5, 204–14
+segmental 3, 9, 55–9, 64–5, 91–3, 213
+semicircular 3, 64–5, 87–8, 204–14
+Arch springs 65, 91–3, 155
+Armouring of bed (natural) 268–71, 276, 286
+see also Riprap
+
+Backwater,
+see also Afflux
+Biery & Delleur method 154–5, 172–4
+Bradley method, see USBPR method
+definition of 34, 36– 7, 40 , 143
+design considerations 19–21, 26–8, 54–6, 72, 147, 191, 238
+downstream 104
+with dual bridges 147–50
+flow passes through critical depth 72, 150–1, 230
+HR method 156–60, 163, 174
+maximum suggested value 15
+with modified Bradley method 165
+with multiple piers, 176, 186, 188
+with scour 27–8, 90, 133–4, 256
+significance of viii—x, 1, 14–15, 17–19, 143–4, 199
+with skewed opening 85, 139
+
+with vegetated floodplains 39, 88, 104, 134, 143, 144, 152, 165
+USBPR (Bradley) method 134–44, 147–52, 165, 169–72
+USGS method 130–3, 134, 166–9
+Bank failure 240 –3, 252, 253, 261 , 264, 272, 275, 293
+see also Erosion, lateral;
+Meander migration
+Bank protection 85, 238−3, 335–7
+summary and relative costs 338–9
+
+Page 352
+
+Bed configuration 257–8, 265–7, 285–6, 313
+Bed material classification 25
+Bed slope, see Channel gradient
+Bends in channels
+effect of removal 238 , 260, 264
+effe ct on flow depth 22
+effect on flow velocity 25 , 270, 277
+effect on scour depth 277, 288
+with groynes 239, 242
+hydraulic significance 25, 39, 273, 275, 277
+significance for bridge location 22, 269–70
+with spur dykes 222–3
+see also Meander migration
+Biery & Delleur method 103–5, 152–6, 174
+accuracy of 104–5, 155–6, 160–6, 174
+afflux 154 –5
+backwater ratio 153–5, 156
+coefficient of discharge 155–6
+discharge 155–6, 172−4
+example calculation 172–4
+location of maximum and minimum stage 154–5
+Blockage of opening 17–19, 190, 274, 285, 287–8, 345–6
+Blockage ratio 68, 157–8, 159, 160 , 163, 164, 165 , 174
+Braided channels 199, 270–1
+Bridges (named)
+Axe Bridge 22
+Camelford 48
+Canns Mill 34–5, 55, 56–9, 66– 7, 70, 155–6, 158–60, 161–5, 211, 213
+example calculations based on 91–3, 96–101, 172–4
+Chilly 190
+Coalbrookdale 8
+over River Dove 147
+Egton Bridge 9
+Exwick, Exeter 2
+Fenny Bridges 11
+Girven Viaduct 19
+Glanrhyd rail 15, 17
+Halfpenny 273
+Ham Footbridge, Sidmouth 18
+over Hatchie River 16–17
+Roughmoor Bridge 55, 213
+Hexham 15
+Sarsfield (Wellesley) 7
+Inverness 15
+Stoneyford 253
+Laira rail 309
+Westminster 5
+London 3–5, 15
+Whetcombe Barton 18
+Menai Straights 8
+Yarm 6, 8
+Morpeth 7, 200
+Newington 230
+Bridge damage/failure
+New York State Thruway (over Schoharie creek) 16, 308, 325
+America 9–10, 16–17, 251, 260
+avoidance 27, 28, 228, 230
+Notre Dame 7
+see also Scour, protective measures
+Nottoway 191
+causes of 2, 9–19, 189–92, 219, 238, 251, 272, 273, 274, 292–3
+Over 7
+Devon/Cornwall 10–12 , 14 , 15, 17 , 19 , 253
+Over rail 324
+Japan 11
+Plympton, Plymouth 200
+Bridge height 1, 11–14, 23–4, 30, 48, 189
+Polgooth 14
+Bridge, hydraulic design procedure 19–31, 292–7
+Pont d’Avignon 6
+Bridge inspection 16–17, 252, 253−4, 255, 274–5
+Pont Molle 3
+Pont Neuilly 7
+Bridge opening, see Bridge waterway opening
+Ponte Vecchio 6
+Bridge opening ratio
+use with Biery & Delleur method 153–6, 172–3
+
+Page 353
+
+definition of 4, 61–8, 157 , 203
+design considerations 21, 26, 85, 85
+improvement of 21, 240
+limiting (critical) value 74, 184
+numerical calculation of 4, 7, 78, 88, 91–101, 167, 204–5
+significance of 52, 61–8, 70–1, 104, 161, 180, 181, 212
+use with USBPR method 135–42, 150, 151, 170, 172
+use with USGS method 109–23, 130, 132, 133, 167, 223, 225
+Bridge site selection 20–6, 199, 293–7
+Bridge waterway opening
+arched openings
+analysis of 103–5, 107, 109, 134, 152–60, 162
+definition of variables for 62, 64–5, 71–2, 87, 123
+example calculations 91–3, 96–101, 172–4, 243–4
+hydraulic performance of 51, 56–9, 62, 79, 84, 86–8, 161–5, 204–17
+area of opening
+in Biery & Delleur method 65
+calculation of dimensions 23, 26–8, 30–1
+effect of errors in 161
+example calculations 87, 91–3, 166–74
+proportional area of semicircular arch 87
+in USBPR method 103, 135, 136, 140, 142, 151
+in USGS method 103, 105, 108, 126–8, 133–4
+discharge capacity 34–5, 206, 243–4
+freeboard 13–14, 48, 294
+Froude number, see Froude number height 13–14, 48, 189–92, 294
+irregular 71, 112, 113, 116, 120, 135
+length 62, 77–8, 109–23, 131, 155, 166, 204, 216
+rectangular openings
+definition of variables for 62, 63, 72
+example calculations 93–6, 166–72, 243–4
+hydraulic performance of 62, 84, 87–8, 93, 200, 204–7
+in USBPR method 134–5, 144, 151
+in USGS method 103–5, 107
+shape, effect of 87–90
+skewed width 81–6, 124–6, 139, 140, 141, 169–71
+unobstructed skewed width 81, 84–5
+submerged, see Submerged openings
+velocity
+with respect to design 20, 30–1, 87
+in riprap design 326–8, 329, 333−4
+velocity distribution 36 –9, 50–1, 87–8, 202−4, 219–20
+width (span) viii, 11–14, 21–3, 26–7, 135
+Bypass channel (channel diversion) 24, 199
+Bypass flow 9, 26 , 56, 190, 273, 279, 280
+
+Canns Mill Bridge 34–5, 55, 56–9, 66–7, 70, 155–6, 158–60, 161–5, 211, 213
+example calculations based on 91–3, 96–101, 172–4,
+Channel contraction ratio 68, 182
+Channel control 25, 47, 51–9, 201
+Channel discharge capacity 34–5, 52, 93–5, 97–8
+Channel evolution 10–11, 260, 269–71, 275
+see also Erosion, lateral;
+Meander migration
+Channel flow
+calculation of conveyance 63–4, 94, 96, 99–101
+calculation of discharge 52, 95, 99–101, 318
+controlling variables 61–71, 79, 86–91, 201, 206
+definition of types 47–51
+
+Page 354
+
+example calculation 93–101, 243
+hydraulic performance of bridges in 52 –4, 57–9, 70, 82–4, 162–5, 204, 209–13, 215, 274
+typical values of velocity
+distribution coefficient 88–9
+in USBPR methods 134–6, 151, 152
+in USGS method 105–9, 130–3
+vertical velocity profile 51
+Channel gradient (bed slope)
+definition of 40, 42
+determination of 23, 305
+effect on scour 258, 259, 260, 264, 270, 276, 280–2, 297
+example calculations involving 166–9, 281–2, 297–300
+hydraulic significance of 36, 39, 47, 49, 54–7, 86, 135, 144, 150, 206
+in Manning equation 52, 93–5, 97
+with minimum ene rgy waterways 226–7, 231, 233–4, 248
+from regime theory 305
+relationship to afflux and head loss 40–4, 107, 130, 148
+removal of bends 238, 260, 264, 270
+with tidal channels 309
+Channel improvements, see Improvement works
+Channel migration, see Erosion, lateral;
+Meander migration
+Channel opening ratio 68
+Channel roughness 24, 36, 38–9, 63, 88–90, 94–6, 206, 309
+Channel shape, effect of 88–90, 134
+Channel stabilisation 238–43
+see also Bank protection
+Channel subsections
+with bridge opening ratio 61–8, 82, 93–101, 131, 135, 143, 166–72
+to calculate conveyance/discharge 64, 93–101, 131, 143, 290, 297–8, 317
+to calculate velocity distribution coefficient 89–90, 93–5
+with eccentricity 62 , 79–80, 124–6, 131, 137–9, 143, 166–72
+with multiple openings 127–8, 233, 235
+Choking 24, 50, 68, 75–7, 182, 232–3
+Chutes and pools 266
+Clear -water scour, see Scour (riverine and/or tidal), clear -water
+Coefficient of contraction 5, 38, 66, 79, 88, 107, 201
+Coefficient of discharge
+Biery & Delleur’s 155–6, 172–4
+Canns Mill Bridge 55, 211, 213
+constricted estuary 318, 323
+d’Aubuisson’s 178–9, 181, 185–6, 186–7
+effect of opening shape 88
+improvement of
+entrance rounding 78–9, 80, 203, 208, 211–16, 243−4
+minimum energy waterways 228
+spur dykes 223–5
+Nagler’s 179, 181, 185–7
+in open channel flow 66–8, 107–23, 131–3, 166–9, 214–5, 223–5
+overtopped highway embankments 195–7
+piers 179
+pile trestles 185 –6
+USBBR method
+drowned orifice flow 54–5, 78–9, 201, 211, 243−4
+sluice gate flow 52, 55, 201, 211, 243–4
+USGS method 66–8, 107–23, 129–33, 166–9, 214–15, 223–5
+Cohesive material
+mean competent velocity of 25, 27, 277–8
+
+scour of 25, 27, 251, 256, 278, 308
+Competent velocity of materials 25, 28
+use to calculate scour depth 27, 30–1, 277–8, 304, 307, 308
+Compound channel 63−4, 66–7, 71, 88–9, 93–101, 289
+Computer models viii–x, 72 , 101, 103–5, 157, 182, 192,
+accuracy of 104, 162, 165
+typical applications 30, 315, 318
+Constant energy waterways, see Minimum energy waterways
+Constriction of channels
+
+Page 355
+
+effect on scour 9–19, 133–4, 257, 261, 271–2, 275, 277–82, 297–305, 314, 319–24
+see also Scour (riverine and/or tidal), contraction
+flow through constrictions 9–19, 36–56, 72, 75–7, 80–2, 103–74, 189–92, 200–4
+long constrictions 271–2, 277, 279, 283, 314
+overbank constrictions 278 , 283, 299–300
+main channel constrictions 278, 281–3
+minimum energy waterways 226 –38, 244–8
+by multiple piers 177 , 178
+by pile trestles 185–6
+quantified as bridge opening ratio 61–68
+with spur dykes 219–25
+see also Submerged openings
+Contraction of flow
+effect on scour 9–19, 133–4, 257, 261, 271–2, 275, 277–82, 297–305, 314, 319–24
+see also Scour (riverine and/or tidal), contraction
+horizontal
+effect on hydraulic performance 5, 36–41, 49, 61–86, 103–9, 134–6, 152–60
+minimum contracted section 37–40 , 105– 7
+multiple openings 64 , 127–8
+by multiple piers 177, 178
+and opening design 27, 31
+by pile trestles 185–6
+significance of 34–5, 43, 61–3, 68, 72, 73−4, 77 , 80–6, 203−4
+radial 50–1, 62, 86–8
+reduction of 199–248
+vertical
+effect on hydraulic performance 30, 43, 50–9, 62, 84–6, 128–30, 200–17
+significance of 30, 43, 44–8, 50–6, 79, 88, 274, 294
+Conveyance
+definition of 63–4
+example calculations 94–101, 166–9
+significance of 50, 66–8, 74, 86, 88–9, 194, 317
+use with opening ratio 61–8, 74, 94–101, 131, 143
+use with USGS method 107–9, 123–5, 128, 131, 166–9, 224
+Cornes de vâche 7
+Corps des Ingénieurs des Ponts et Chaussées 4, 5, 7
+Critical depth
+in determining flow type 45–6, 48–50, 70
+with flow over highway embankments 192 –95
+hydraulic significance of 45–6, 68
+and limiting contraction 73–7, 184
+and minimum energy waterways 226 , 229–32, 234, 245–8
+in USBPR method 150–1, 152
+Critical flow 69 , 70, 73−4, 182, 195, 226, 232
+Critical specific energy 228, 231–2, 245–6
+Critical velocity 151 , 195, 231, 245–8
+Culverts 78, 200, 204, 226, 229, 234, 236–7
+Curvilinear flow 219–20
+Cutwaters (starlings) 3
+
+Data
+effect of errors in 161
+field 25, 253, 255
+requirements 23–6, 296
+sources 23
+d’Aubuisson 8, 176, 177–8, 181
+d’Aubuisson equation 177–8, 181, 186, 187
+Debris
+
+allowance for 30, 274, 275, 285, 294, 345–6
+problems with 9–11, 17–19, 77, 190, 229, 260, 274, 275, 277, 285
+Debris forces, see Forces on bridges
+Depth of flow
+abnormal, see Abnormal stage
+alternate 75–6
+
+Page 356
+
+effect on bridge performance 86–7
+mean hydraulic 62, 71, 72, 87, 110, 113, 116, 120, 135
+normal, see Normal depth
+proportional 51, 53, 55, 69–70, 84, 86–7, 69–70, 204–14, 217 .
+reduction of 203–1, 208, 209, 210–14, 243–1
+Desi gn flood (discharge)
+determination of 13, 19, 23–4, 26, 292–3, 314–24
+use of viii, 27, 30–1, 34–5, 189, 222, 226, 230–2, 237, 244–8, 29−5
+Design flood frequency (return period) 13, 19–20, 26, 189–90, 292–3, 296, 316
+Design procedures 19 –30, 292– 7
+example calculations 30–1, 297–305, 307, 319–24, 333–4
+Diame ter of material
+effect on scour 266–71, 275–6
+fall velocity 280–2, 283, 299–300
+graded 268–271, 276, 286
+mean bed (DM) 266 , 278–80, 300
+median bed (D 50) 24, 27–8, 258, 259, 266–71, 278–82, 297–300, 317, 319–22
+median riprap (D50 ) 326 , 328–31, 333–5
+Differential head (fall)
+causes of 36–44, 88, 201–2
+for a constricted estuary 318–19, 323–4
+definition of 54, 106 –7, 201–3
+effect of entrance rounding 202–11, 244
+significance of 47
+with submerged openings 54, 129 , 201– 3, 208– 11
+in USBPR meth od
+with dual bridges 148–50
+fall across highway embankment 144– 7
+in USGS method
+with backwater ratio 130–3
+definition of 106–7, 110, 113, 116, 120 , 124, 129, 131
+in example calculation 166–9
+suggested minimum value 134 , 164
+Discharge (riverine), calculation of
+accuracy of estimates 160–6, 174, 181, 186, 197
+Biery & Delleur method 155–6, 172–3
+in channel flow 52, 95, 99–101, 318
+effect of entrance rounding 203–4, 208, 210–14, 215, 218, 243–4
+over highway embankments 194 –7
+nominal 206, 243−4
+past multiple piers 176–85, 186–7
+past pile trestles 185–6
+per unit width 72, 75–7, 232
+proportional 206–8, 210, 212
+subsectional 64, 89–90, 93–101, 127–8, 290, 297–8, 317
+in USBPR method
+drowned orifice flow 54–6, 201–3, 244
+sluice gate flow 51–6, 201, 243–4
+in USGS method 105–9, 166–9
+Discharge (in tidal estuaries),
+calculation of maximum tidal discharge (QMT) constricted estuary 318, 319 , 323– 4
+unconstricted estuary 311, 316, 319–22
+maximum total discharge (QMAX) 316, 319, 322, 323
+mean tidal discharge 311
+Discharge, design, see Design flood (discharge)
+Discharge, dominant 306
+Drag force 344–5
+Drawdown of water surface 63, 90, 148, 166–9, 176, 212
+
+zone of 36–8, 82 , 85 –6
+Drowned orifice flow
+afflux with 127, 128–30
+at Canns Mill Bridge 35, 56–9, 162−4
+coefficient of discharge for 55
+definition of 44–7, 50–1, 201–2
+discharge equation for 54–6, 201–3, 244
+
+Page 357
+
+effect of entrance rounding 202, 206–13
+hydraulic performance with 69–70, 194, 206–13, 274
+see also Submerged openings
+Dual bridges 39, 104, 134, 147–50, 152
+Dunes (bed) 258, 265–7, 285–6, 313
+Dykes 82–3, 239, 240 , 272
+see also Levees
+
+Eccentricity
+definition 62 , 79–80, 124–5, 137–9, 146
+effects of 49, 79–80, 123–4, 138, 199, 324
+fully eccentric condition 124 , 139
+in USBPR method 134, 143, 145, 146, 147, 150, 170
+in USGS method 105, 124–5, 131, 168
+Ecole des Ponts et Chaussées 5–6
+Economic considerations 1, 20–3, 26, 28, 30, 199, 252–3, 292–3, 296, 324, 339
+Energy (fr iction) gradient
+in calculating conveyance 64, 93–5, 96–101
+in calculating discharge 52, 55–6, 93–5, 96–101
+in calculating shear velocity 280–2, 283, 299, 300
+calculation of 24, 89 , 96 –101
+definition of 41, 42– 3, 97
+on floodplains 66, 95, 96–101
+hydraulic significance of 47, 89, 144, 222
+with minimum energy waterways 226, 227, 231, 233
+Energy loss
+allowance for 73–4, 106–7, 135–6, 139 , 177, 179–80, 318
+calculation of 42–3, 182
+causes of 34, 38–51, 148, 191, 200, 201, 217–18, 272, 318
+defin ition of 41–4
+reduction of 138, 145, 199–248
+see also Improvement works
+significance of 34, 75–8, 144, 200
+see also Friction loss;
+Head loss
+Entrance rounding, see Improvement works
+Environmental considerations 24 , 238, 252
+Erosion
+of banks 11, 85, 240–1, 252, 253, 261, 264, 270, 271–2, 275
+change of river course 16–17, 19, 260, 273
+lateral
+bridge damage/failure resulting from 10, 238, 260, 270–1
+design considerations 21–2, 90, 269–70, 314
+examples of 11, 22, 260, 264
+see also Meander migration
+Estuary types
+constricted and unconstricted 314–24
+illustration of tidal inlet types 310
+tidally affected and tidally controlled 309
+Extended wingwalls 215–18, 219
+
+Factor of safety 253 –6, 274–5
+Fall velocity of particle 280–2, 283 , 299– 300
+Fathometer (black & white/colour) 255
+Field inspection 253–6, 274–5
+Filter layer for riprap
+geotextile 222, 325, 326, 329, 338
+stone 222, 325, 326, 329, 336–7
+
+Flood frequency (return period) 13, 19–20, 26, 189–90, 292–3, 296, 316
+Flood levels 26, 48, 189–90, 294
+Flood magnitude, see Design flood (discharge)
+Floodplains
+analytical difficulties with 89, 143, 158–9, 174, 290
+at Canns Mill Bridge 35, 66–67, 93–101
+in evaluation of opening ratio 61–4, 66–7
+example calculations involving 93–101, 166–74, 297–305
+
+Page 358
+
+with flow over embankments 176, 189, 190, 191, 273
+heavily vegetated, backwater arising from 39 , 88, 104, 134, 144, 152, 165, 315
+with minimum energy waterways 230
+scour with 258–60, 267, 278–80, 283, 289–90, 294, 295
+with spur dykes 219–21
+velocity distribution coefficient with 89, 143
+water level on 37–8, 82–3, 144, 146, 200
+Floodplain storage 35 , 97–8, 101, 273
+Floods
+American 9–10, 16, 219, 251, 260, 265, 308, 324–5
+British 10–17, 19, 56–9, 273
+design, see Design flood (discharge) extreme 12
+maximum historical flood 13
+super -flood 292–5
+Flow -duration curve 24
+Flow types
+in bridge opening 44–51, 58, 61, 68–9, 71, 79, 104, 182, 201–2, 204, 274
+over highway embankments 192 –4
+Forces on bridges 41, 344–46
+buoyancy 30 , 295
+debris 20, 30, 295, 345–6
+drag 344 –5
+hydrodynamic 20, 30
+ice 20, 24, 30, 295, 345
+impact 20, 30
+lift 344
+Foundations
+in bridge design procedure 20, 23, 30, 260, 292–3, 297, 305
+depth of 252–3, 295, 324
+design suggestions 295
+failure of, see Scour (riverine), bridge failures due to
+protection of, see Scour, protective measures
+scour of 30, 90, 251, 252, 253, 256, 283, 286–8
+Freeboard
+bridge opening 13–14, 48, 294
+groyne 243
+river channel 35
+spur dyke (guidebank) 222
+Friction loss 43, 47, 66, 79, 88, 105–9, 129, 168, 203, 218, 224, 226, 233
+Froude number
+in Biery & Delleur method 153, 154, 155, 156 , 173
+calculation of 57, 71 –2, 77, 87, 123
+definition of 62, 68– 9
+effect on hydraulic performance 68–77, 79, 183, 203, 207, 209–11, 214, 218, 219, 238, 264
+in HR method 157, 158 , 159, 160
+with limiting (critical) contraction 68, 73–5, 77, 182, 184
+with minimum energy waterways 227, 234–5, 244–8
+and scour depth 290–2, 300–1, 322, 323, 347–9
+significance of 35, 47, 68–71, 74–5, 88, 135, 144, 162, 219, 274, 276
+with submerged openings 47, 57 , 72, 106, 207 , 209 –11, 243–4, 274
+typical values in tidal estuaries 312
+in USGS method 109, 111, 122, 123, 131, 132, 165, 168, 215
+
+Gabions 238, 336, 338–9
+Geological survey maps 23
+Graded bed material 268–271 , 276, 286
+Gradually varying flow 36
+Ground penetrating radar 255
+
+Flood frequency (return period) 13, 19–20, 26, 189–90, 292–3, 296, 316
+Flood levels 26, 48, 189–90, 294
+Flood magnitude, see Design flood (discharge)
+Floodplains
+analytical difficulties with 89, 143, 158–9, 174, 290
+at Canns Mill Bridge 35, 66–67, 93–101
+in evaluation of opening ratio 61–4, 66–7
+example calculations involving 93–101, 166–74, 297–305
+
+Page 359
+
+HEC–2 38, 96, 192
+Horseshoe vortex 261–3, 325
+HR methods, see Hydraulics Research method
+HR Wallingford ‘Tell -Tail’ scour monitor 254
+Hydraulic gradient
+longitudinal 37, 42, 57, 264
+transverse 13, 38, 41, 83, 104, 270
+Hydraulic jump 49, 75, 182, 192, 193
+Hydraulic (physical) models ix, 2, 30, 50, 72, 161, 186, 236– 8, 242, 253, 255, 271, 315, 318
+Hydraulic performance (efficiency)
+of Canns Mill Bridge 57–9, 161–5
+factors affecting 19, 52, 61–102, 139, 181, 264, 293–4
+improvement of, see Improvement works
+significance of viii, 1–2, 34, 200
+see also Bridge waterway openings,
+arched and/or rectangular
+openings, hydraulic performance of
+Hydraulic radius 52, 63−4, 94, 108, 305, 312
+Hydraulics Research (HR) method 103 , 156– 60
+accuracy of 104–5, 157–60, 162–6, 174
+blockage ratio 157, 158, 159, 160, 163, 164, 165, 174
+calculation of afflux 156–60, 163, 174
+numerical example 174
+Hydrodynamic forces, see Forces on bridges
+
+Ice flows 24, 30, 242
+Ice jams 274, 277, 294
+Ice scars 26
+Improvement works 199–248
+abutment type 138 , 145, 109–23, 215–16
+to approach channel 199–200, 238–40
+dykes 82–3, 239, 240, 272
+entrance rounding 1, 2, 7, 50–1, 62, 78–9, 88, 199–204, 293, 294
+full 204 –13, 243−4
+partial 213–14
+USGS method 105, 109–12, 116–23, 214–15
+extended wingwalls and transitions 215– 18
+see also entrance rounding, USGS method
+groynes (spurs) 26, 199–200, 239–40, 241–3, 339
+minimum energy waterways 199 –200, 226–37, 244–8
+optimisation of opening ratio 21, 240
+optimum pier length and shape 179, 181–2
+relief openings 82–3, 294
+removal of bends 238, 260, 264, 271
+river training works 82–3, 238–43, 264
+consideration in design procedure 20–4, 27–8, 30, 199–200, 293, 297, 302, 324
+spur dykes (guide banks) 199–200, 216, 219–25, 240, 261, 290, 294, 329, 339
+with USGS method 130, 223–5
+wingwalls, see entrance rounding, USGS method;
+extended wingwalls
+see also Abutments, wingwall
+
+Incipient motion 259, 274–6
+Interior embankment 64, 127–8
+
+Jet expansion 37–9, 43, 72, 77–8, 88, 148, 165, 176, 191, 201, 216, 217–18, 226
+
+Lacey’s silt factor 306
+Lacey’s width of alluvial channel, 13, 26, 30–1
+Land use 23, 260, 271, 296
+Latera l erosion, see Erosion, lateral;
+Meander migration
+Levees 66, 101, 273
+see also Dykes
+Lift force 344
+
+Page 360
+
+Limiting (critical) contraction 68, 73–7, 184
+Littoral drift 309 –10, 312, 313
+Local scour, see Scour (riverine or tidal), local and abutments and piers
+Location of bridge crossing, 20–6, 199, 293–7
+Logging 24
+
+Main channel constriction 278, 281–3
+Manning equation 24, 39, 52, 55–6, 64, 97, 132, 152, 203, 266
+Manning coefficient 52, 64, 93−4, 96–101, 131, 132, 266, 280–2
+effective 96, 99–100, 130–1, 168, 238, 242, 318
+variation with bed configuration 266
+Maximum flow velocity, see Velocity, maximum
+Mean competent velocity, see Competent velocity
+Meander migration (channel migration) 21–2, 199, 269– 71, 286, 289, 293–6, 298
+ex amples of 22, 264
+see also Erosion, lateral
+Median fall velocity of particle 280–2, 283, 299–300
+Minimum energy waterways 26, 90, 199–200, 218, 226–38, 245–8
+description 226–30, 232–5
+design of 226, 227, 229, 232–6, 245–8
+equations for 230–2
+numerical example 245–8
+performance of 226, 229–30, 236–8
+use of piers with 230, 235–6
+Multiple piers/trest les
+subcritical flow 176–84, 185–8
+supercritical flow 73–7, 176, 184–5, 233, 235–6
+see also Piers
+Multispan bridges
+design considerations 1–2, 26–30, 199–200, 204, 251–7, 293–7, 329
+example calculations 30–1, 169–72, 297–305, 307, 334
+flow past multiple piers, see Multiple piers/trestles
+hydraulic analysis of viii, 64, 103–5, 108, 126–8, 139−42, 156–60
+scour with 261–3, 264, 278–92, 347
+
+Nagler ix–x, 8, 176
+Nagler equation 178–80, 181, 186, 187
+Navigation 24, 26, 242
+Neill 13, 25, 28–9, 258, 310, 315, 317, 332
+Nominal discharge 206, 210, 243–4
+Non- uniform flow 36, 39– 40, 42, 52, 55– 7, 86 , 104, 281
+Normal depth
+with Biery & Delleur method 153 , 154 , 172–4
+definition of 35, 37, 39, 40, 132
+in definition of opening ratio 63–5
+in determining flow type 40, 48, 54, 62, 69–70, 238, 272
+effect of improvement works 203−4, 205, 206
+and flow between piers 176, 178, 182, 187
+and flow through a constriction 35–43, 90, 176, 221, 272
+with HR method 157
+with USBPR method 134, 135–6, 142, 143, 146, 148, 151–2, 169–72
+with USGS method 132, 134, 169
+
+Open channel transitions 217–18, 226–8
+Opening ratio, see Bridge opening ratio
+Orthogonal width 227, 231–3, 245–7
+Overbank constriction 278, 283, 299–300
+Overbank flow
+at Canns Mill Bridge 56, 66–7, 96–101
+effect on Froude number 71, 289–90
+
+Page 361
+
+effect on velocity 88–9, 165, 289–90
+example calculations 93–101, 166–74, 297–305
+with flow over highway embankments 190 –7
+head loss with 152, 165
+illustration of 35, 190, 220, 264, 273
+riprap design with 327–8, 333–4
+scour with 259, 261, 264, 267, 273, 278–83, 289–92, 294, 297–305
+spur dykes with 219–25
+Overtopping of bridges 46, 50, 189–92, 274
+Overtopping of highway embankments 26, 46, 50, 189–97, 230, 273, 294, 324
+Overtopping of spur dykes 222
+
+Paved beds 15, 338
+Penetration test testing 255
+Piers
+afflux
+effect of pier shape 181−4, 185, 188, 199–200, 345
+equations for 181–5, 188
+coefficients of discharge for
+d’Aubuisson’s 178–9, 181, 185–6, 185–7
+Nagler’s 179–81, 185–7
+cylindrical 28 –9, 179, 253, 261– 2, 267– 9, 284– 5, 288 , 294, 309
+damage or failure 10, 16–17, 251, 252, 270–1
+debris at 9–11, 17–19, 30, 77, 185, 274, 277, 285, 288, 294, 345–6
+elongated 2 , 181
+energy/head loss at 43, 73−4, 177–8, 179–80
+example calculation involving 30–1, 169–72, 186–8, 286, 297–305, 319–24, 333–4, 347–8
+with exposed foundations 252, 286 –8
+flow past multiple piers 176 –88
+discharge equations, see d’Aubuisson and Nagler equations
+subcritical 176–84, 186–8
+supercritical 176, 182, 184–5
+ice, designing for 24, 274 , 345
+inclusion in hydraulic analysis 64, 103, 176, 199–200, 281
+with USBPR method 137, 139–41, 142, 143, 145, 146, 149, 150, 169–72
+with USGS method 105, 123, 126–7
+length, effect of 28–9, 181, 274, 284−5, 288
+with limiting contraction 73–7, 182, 184–5
+with minimum energy waterways 230, 235–6
+number/spacing 19 –20, 26–7, 30–1, 275, 288, 294, 296
+optimum pier length and shape 179, 181–2
+raked piers 28–9, 235–6, 273, 274, 345
+scour, effect of shape 28–9, 82, 272–3, 274, 282–6, 294
+scour protection, see Scour, protective measures
+skew, effect of 11, 28–9, 83–5, 181, 186, 273–5, 282–8, 293−4
+types 28–9, 179, 284
+Pile trestles 185–6
+Plane bed 265–7, 285, 313
+Profile (longitudinal) near constrictions
+with abnormal stage 39–40, 64, 104, 152
+at Canns Mill Bridge 57
+with dual bridges 148
+flow over a highway embankment 193, 194
+at a long constriction 272, 279
+with minimum energy waterways 227, 236
+with normal dep th 35−43, 45–6, 106, 110, 113, 116, 120, 167, 224
+between piers 74, 177, 180, 185, 236
+with spur dykes 224
+with submerged openings 45, 129 , 202 , 252
+with supercritical flow 46
+
+Page 362
+
+Rapidly varying flow 36, 72
+Recovery of energy/head 73, 177–8, 179–80, 217–18
+Regime scoured depth of flow 306–7
+Regime theory 256, 277, 296, 305–7
+Regime width 27, 306
+Relief openings 26, 82–3, 278, 294, 324
+Reservoir (dam) safety considerations 14, 191
+Retardance jacks 241
+Ripple forming sediments 265–9, 286, 313
+Ripples (bed) 258, 265–7, 276, 313
+Riprap
+at abutments 293 , 297, 302, 325–9, 332−4, 338–9
+advantages of 324
+alternative design approaches 332–3, 338–9
+on banks 238 , 272, 329–32, 335–6, 338–9
+cost, relative 339
+diameter-weight relationship 332–3
+examples of use 15, 327, 336, 338–9
+failure of 252, 324–6, 332, 335, 336–7
+filter layer 222, 325, 326, 329, 336–8
+grading and classification 325, 326 , 328
+numerical example 333−4
+at piers 297, 325–6, 329, 332–4
+placing 335
+required diameter, thickness and area 325–34
+specification 335–8
+with spur dykes 222
+River channels
+semi-stable 21–2
+stable 21
+unstable 21–2
+River regulation 24, 260, 264
+River training works 82–3, 238–43, 264
+consideration in design procedure 20–4, 27–8, 30, 199–200, 293, 297, 302, 324
+
+Sampling bed material 25–6, 266 –7, 296
+Satellite photographs 23
+Scale effects, model 161, 212
+Scour (riverine), background and theory
+at abutments 2 , 30, 85, 289–92, 293, 296, 348–9
+abutment shape factor 290
+assessment of potential for 16, 23–7, 274–5
+assumption of long constriction 271–2, 277, 279, 283, 314
+bridge failures due to 9–12, 14–17, 199, 251, 287, 292–3
+causes of 4–5, 11–19, 49, 85, 139, 204, 222, 229, 264, 273
+classification of 257–63
+clear -water 257–9, 264, 265, 267, 269, 277, 278–80, 283–92, 296, 347–9
+with cohesive material, see Cohesive material
+at a contraction 26–7, 90–1, 260, 261, 263 , 277–83, 287, 293, 294, 296
+controlling factors 257–77
+correction factor 90–1
+debris, effect of 9–11, 17–19, 274, 275, 277, 285, 288, 294
+defi nition of 251
+degradation 22–3, 238, 251, 259–60, 263, 264, 269, 277, 286–7, 289, 293, 294, 295, 296, 298
+equilibrium depth 257–9, 277, 285, 296
+at exposed footings 286– 7
+with graded material 268 –71, 276 , 286
+holes
+causes of 50 , 203, 237, 252, 261–3, 264, 274
+hydraulic significance 90–1, 133–4, 256, 257, 277
+problems with 16, 56–7, 251, 253−4, 294
+time needed to form 251
+total depth of 263, 295, 296
+
+Page 363
+
+width of pier scour hole 288, 296, 301
+live-bed 257 –9, 265, 267, 277, 280 –92, 296, 347–9
+local 257, 260, 261–3, 277
+see also at piers and at abutments
+at multiple- opening contractions 278, 281
+at piers 2, 27–31, 252, 253, 261–2, 265, 268, 272, 281, 283–8, 296, 347–8
+pier shape factors 28–9, 284
+at pile bents 284, 287–8
+at pile caps 287–8
+at relief openings 278, 280–1, 297–305
+scour -critical velocity 257–9, 267–8, 270, 278, 279, 282, 298–9, 322
+in stratified material 279
+skew, effect of 11, 273–4, 282, 284–5, 289–92, 293, 298
+at trestles 284
+visible effects of 11, 14, 252, 253
+with USBPR method 90–1
+with USGS method 133–4
+see also Scour depth, calculation of and Scour (tidal channels)
+Scour (tidal channels)
+abutment scour 308, 314
+aggradation 313–14
+bed configurations 313
+bed sediment size, typical 313
+clear -water scour 309, 314, 315, 319
+constricted inlet 310, 314–15, 318–24
+contraction scour 308, 317, 319, 322, 323
+degradation 308, 312, 315, 319, 322, 323
+effect of salinity 308
+Froude numbers 312
+live-bed scour 309, 314, 315, 319, 320
+local scour 308, 314, 319, 322
+see also abutment and pier scour mean maximum velocity 312, 324
+numerical example 319–24
+pier scour 308 , 314, 322, 323
+sediment transport 308–9
+tidally affected 6, 309–10, 311, 319
+tidally controlled 309–10, 319
+total scour depth 322, 327
+unconstricted inlet 310, 314–18
+unsteady flow conditions 308
+typical velocities 312, 324
+CSU 284
+Scour depth
+Froehlich 289
+Laursen 278, 279, 280, 348
+definition of average contraction scour depth 272, 279
+Laurson-Toch 347
+measurement of 254–5
+Liu et al. 348
+‘typical’ values 219, 260, 261, 265, 270, 274
+Shen II 347
+Scour depth (riverine), calculation of
+clear -water abutment 289–92, 348–9
+Scour, designing for
+clear -water contraction 278–80
+design procedure 295–7
+clear -water pier 283–8, 347–8
+geotechnical and structural considerations 90–1, 252–3, 294–5
+live-bed abutment 289–92
+hydraulic considerations 90–1, 199–200, 215–16, 293−4
+live-bed contraction 280–3
+minimal scour, see Improvement works
+live-bed pier 283–8
+numerical example 297–305
+numerical examples 30–1, 279–80, 281–2, 286, 291–2, 297–305, 307
+reliability of estimates 253–7
+total scour depth 257, 263
+using mean competent velocity method 25, 27, 28, 30–1, 277–8, 304, 307, 308
+using regime theory 26–27, 30–1, 305–7
+Scour depth equations (named)
+
+Page 364
+
+overview 19–31, 292–3
+Scour monitoring 254–5
+Scour, protective measures
+gabions 238, 336, 338–9
+groynes 26, 199 , 239–40, 241–3, 339
+paved bed 15, 338
+riprap 324–39
+sacrificial piles 324
+spur dykes, see Spur dykes
+summary of measures and relative costs 338–9
+vegetation 338–9
+see also Improvement works
+Secondary flow 269–70
+Sediment transport 259–60, 275–7, 280, 308–9, 312, 313, 315
+Separation 36–9, 192, 262
+zone of 37–9
+Shape of channel, effect of 88–90, 134
+Shape of opening, effect of 87–8
+Siltation (sedimentation) 90, 229, 236–8, 239, 241, 275
+Silt factor 305, 306, 307
+Skew (angularity or angle of attack)
+effect on hydraulic performance 13, 38, 80–6, 174, 181, 186, 199
+effect on scour 10–11, 28–9, 85, 139, 273–4, 275, 282–8, 289–92, 293–4, 301
+example calculations involving 169–72, 286, 291, 297–301
+illustration of 11, 62, 81–2, 179
+reducing the effect of 21– 3, 27–8, 82–3, 199, 222–3, 239, 301, 324
+types of 80–1, 139, 140
+in USBPR method 85, 124, 134, 135, 139–42, 143, 145–7, 150, 169–72
+in USGS method 80, 85, 105, 112, 114–15, 117–19, 121–6, 131, 168
+width needed to equal normal crossing 83–5, 139, 141, 171
+Skewed width of opening, see Bridge waterway opening
+Sluice gate flow
+afflux with 52–9, 204
+at Canns Mill Bridge 56–9, 162–5
+coefficient of discharge for 55, 211
+definition of 47, 201 –2
+discharge equations for 52, 127, 129, 201–3, 243–4
+effect of entrance rounding 79, 202, 204, 206–13, 243−4
+hydraulic performance with 47–8, 50–6, 69–70, 88, 194, 201–3, 274
+see also Submerged openings
+Sonic fathometer 255
+Sounding rods 255
+Specific energy 73, 75–7, 226, 228–32, 235–6, 245–7
+Spur dykes (guide banks)
+consideration in overall design 24, 199–200, 240, 339
+design and performance 216, 219–23, 261, 290, 294, 329
+illustration of 220, 221, 224
+scour at 219–20, 239, 241–2, 261, 262, 290
+in USGS method 130, 223–5
+Stable river channels 21
+Stage -discharge curve
+controlling factors 51–6, 61, 84, 86, 133–4, 203–4, 206–8, 238, 266
+determination of 50, 52–4, 103, 201
+improvement of 199–248
+with Biery & Delleur method 155, 172–3
+use of 24, 96–101, 230
+with multiple piers 177–80, 186–7
+Standing wave 56–7, 266
+with USBPR method 151–2, 243–4
+Streamlining 226 –9, 233, 236, 272
+with USGS method 106–7, 132
+Structural design considerations 9–11, 26, 30, 90, 199–200, 292–3, 294–7
+with flow over highway embankments 191 –2, 197
+summary of 294–5
+see also Foundations
+Structure control 47, 51–9, 201, 206
+Subcritical flow
+
+Page 365
+
+with depth -specific energy curves 76, 228
+with flow between multiple piers 176, 182, 183, 186
+with minimum energy waterways 226, 229, 232, 233, 234, 235
+occurrence of 36, 45 , 48 , 176
+significance of 50, 68–77, 104, 134, 204–5, 218, 265
+Submerged openings
+calculation of discharge 52–5, 135, 151, 201, 244
+at Canns Mill Bridge 56–9, 211, 213
+design considerations 30, 52–6, 61, 48, 147, 189–92, 212–13, 217, 274
+differential head for 41, 52, 54, 201–2, 244
+effect on opening ratio 61 , 66, 93
+effect on scour 252, 274
+energy/head losses in 43, 47
+with entrance rounding 79, 201– 3, 206– 15, 217, 243–4
+Froude number with 47, 57 , 72, 106, 207, 209–11, 243−4, 274
+hydraulic performance of 53, 56–9, 69 , 201–15, 217, 237
+with skew 82– 3, 85–7
+structural considerations 295
+types of flow with 44–8, 58, 52–6, 68, 202
+with USBPR 52–5, 134, 135, 151
+with USGS method 105, 108, 109, 123, 127–30, 214–15
+Subsectional discharge 64, 89–90, 93–101, 127–8, 290, 297–8, 317
+Supercritical flow 233, 265
+calculation of afflux 72, 150–1, 184–5
+with depth -specific energy curves 76, 228
+with flow between multiple piers 176, 182, 184–5, 186
+with minimum energy waterways 228, 233
+occurrence of 46, 48 –50 , 80 , 176, 204–5
+with overtopping of highway embankments 192–4
+significance of 68–77, 104, 105, 265
+Suspended bed load 280, 322
+
+Telford 7–8, 13, 200
+Tidal amplitude 311, 321
+Tidal basin 310 , 314, 316, 319–24
+Tidal causeways 310
+Tidal cycle 310 –11
+Tidal discharge
+maximum 309, 310, 311, 313, 316, 320
+mean 311
+Tidal estuaries 39, 308–24
+Tidal level
+mean/mid-point of tidal range 311, 316
+spring tides/surges 311, 312, 324
+storm tides/surges 311, 312, 313, 315, 316, 319, 316, 322
+Tidal limit 309–10
+Tidal passages 310
+Tidal period
+diurnal 311, 312
+semidiurnal 312
+Tidal range 311, 316, 321
+Tidal velocities 309, 312, 314, 315
+average 312, 318
+average maximum midtide (VMT or V) 317, 318–19, 319– 24
+maximum ( VMAX) 317, 319, 322, 323
+mean maximum (VMEANMAX) 312, 324
+Tidal volume 309, 311, 316, 320– 1
+Transportation of sediment 12, 25–6, 257–60, 264−5, 267–8, 274–8, 280–2, 308–9, 312–15
+
+Trash deposits/marks 26, 48, 105, 128
+Tuned transducer 255
+Turbulence 38–9, 47–8, 106, 176 , 178 , 180, 181, 236 , 324, 326
+
+Uniform flow 36–43, 52, 86–7, 93, 104, 107, 135–6, 143, 176, 289
+United States Bureau of Public Roads (USBPR or Bradley) method 134– 52
+
+Page 366
+
+abnormal stages 134, 143−4, 147, 152
+abutment types 137 , 138, 145, 148, 170
+accuracy of 104–5, 147–8, 152, 160–6
+backwater 134, 139, 141, 145, 148, 150–1, 152
+bridge opening ratio 61–6, 135, 143
+calculation of afflux 134–44, 147–52, 163, 169–72
+coefficients for 136 –42, 143, 145, 149, 150, 151, 170–2
+differential level across embankments 134 , 144–7, 148–50
+discharge (submerged opening) 51–6, 201–3, 243−4
+downstream water level 146–7, 149–50
+dual bridges 134, 147–50, 152
+eccentricity 134, 135, 143, 145, 146, 147, 150 , 170
+effective opening width 135
+example calculation 169–72
+flow passes through critical depth 150–1, 152
+limitations of 152
+piers 137, 139–41, 142, 143, 145, 146, 149, 150, 169–72
+pile bents 139−41
+reference velocity head 134, 135, 144, 151
+skew (angularity) 85, 124, 134, 135, 139–42, 143, 145, 146–7, 150, 169–72
+spur dykes (guide banks) 141, 219–22
+submergence of opening 52–5, 134, 135, 151
+summary of procedure 142–3
+supercritical flow 74–5
+United States Geological Survey (USGS) method 105–34
+accuracy of 104–5, 108, 133–4, 160–6
+adjustment factors 106, 109–30, 131, 132, 133, 214–15, 223–5
+afflux 105 , 130–3, 134, 163
+backwater analysis 130 –3
+backwater ratio 131–3
+coefficients 107–9, 111–12, 114–15, 117–19, 120–3, 129 , 131, 133, 134 , 215, 223–5
+curved approach 124–6
+differential head (fall) 106–7, 112–13, 116, 120, 128, 130–2
+discharge 105–9, 128, 131, 168
+eccentricity 105, 123−4, 131, 168
+entrance rounding 105, 109–12, 116–23, 214–15
+example calculation 166–9
+Froude number 109, 111, 122, 123, 131, 132, 165, 168, 215
+limitations of 133−4
+minimum contracted section 105 –7, 126, 133
+multiple opening contractions 64, 126–8
+piers 105, 123, 126–7
+piles 126–7
+significance of scour 133−4
+skew (angularity) 80, 85, 105, 112, 114–15, 117–19, 121–6, 131, 168
+spur dykes (guide banks) 130, 223–5
+standard opening types
+illustration of 109–23, 125, 128, 225
+use of 109, 123, 131, 131–3, 134, 166–9, 214–15, 223–4
+submergence of opening 105, 108, 109, 123, 127–30, 214–15
+summary of procedure 130–1
+wingwalls 105, 109, 110–12, 120–2, 214–15
+Unstable river channels 21–2
+see also Erosion, lateral;
+Meander migration
+Unsteady conditions in tidal
+estuaries, significance of 313, 315, 319
+Urbanisation 260, 298
+
+Velocity
+competent mean 25, 27 , 28, 30–1, 277–8, 304, 307, 308
+critical 151 , 195, 231, 245–8
+
+Page 367
+
+erosion threshold 25, 27, 28, 257–9, 264−5, 266–71, 274–8, 308 –9, 313
+maximum 25–6, 50–1, 87–8, 259, 270, 317, 319, 322, 323
+mean channel 88–90, 93–6, 305
+median fall, of particle 280–2, 283, 299–300
+scour -critical 257 –9, 267–8, 270, 278, 279 , 282, 298–9, 322
+scour -critical shear 276
+shear 275–6, 280, 282, 283, 299, 300
+spatial distribution 50–1, 87–8
+tidal, see Tidal velocities void 332, 334
+Velocity distribution coefficient (kinetic energy correction factor, α)
+calculation of 89–90 , 93 –5
+estimation in USBPR method 135–7, 143, 151
+examples of use 42, 43, 52, 54, 71, 106, 107, 128, 201
+typical values 88–9
+Vena contracta 37–9, 49, 62, 66, 78, 80, 106
+Vortices 31, 261–3, 325, 329
+
+Wake vortex 261–3
+Water staining 12, 26
+Waterway length ratio 62, 77–8
+application of 109–23, 126, 131, 155, 166
+Wave heights 23−4
+Wetted perimeter 52 , 94, 96, 98, 101, 129, 131, 168, 305
+Width, skewed, see Bridge waterway opening
+Width of water surface 62, 71, 87, 110, 113, 116, 120, 133, 302–3, 306
+Wingwalls
+benefits of chamfered/rounded abutments 2, 199–216
+effect of geometry on scour 262–3, 272, 289–92, 293, 326, 328, 348
+extended 215–18, 219
+transitions 216–18
+types 109–12, 120–2, 138, 140, 219–20
+in USBPR method 137–8, 139−40, 145, 148, 170
+in USGS method 105, 109–12, 120–2, 214–15
+WSPRO 38, 165
+
+Yarnell 8, 176, 181–6
+
+Zone of abstraction 39 , 104
+Zone of accretion 39, 104
+Zone of drawdown 36–8, 82, 85–6
+Zone of separation 37–9
+

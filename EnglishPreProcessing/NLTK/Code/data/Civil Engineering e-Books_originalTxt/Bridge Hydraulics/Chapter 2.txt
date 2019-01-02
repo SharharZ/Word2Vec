@@ -1,0 +1,677 @@
+Page 34
+
+2
+How a bridge affects river flow
+
+2.1 Introduction
+
+When a bridge is placed in a river it forms a narrowing of the natural channel and an obstacle
+to the flow. This results in a loss of energy as the flow contracts, passes through the bridge
+and then, most significantly, re -expands back to the full channel width. To provide the
+additional head necessary to overcome the energy loss the upstream water level increases
+above that which would be usually experien ced without the bridge. This additional head is
+called the afflux, and its variation with distance upstream is called the backwater profile. The
+smaller the opening, the greater the afflux and backwater.
+One situation where a knowledge of bridge hydraulics is essential is when a new bridge is
+to be built that obstructs the main river channel and/or encroaches onto the floodplain. The
+construction of a hydraulically inefficient bridge could cause flooding upstream, or exacerbate
+that which already occurs. T his would be extremely damaging and expensive if a large
+number of properties or factories were flooded, so it is important that a hydraulically efficient
+structure is designed and the backwater calculated accurately.
+Sometimes the analysis may involve an existing bridge where flooding already occurs and
+it is necessary to determine what proportion of this is attributable to the afflux from the
+structure. First appearances can be deceptive. In many situations flooding, in the form of
+overbank flow, would occur even if the bridge was not there. For instance, the small arch
+bridge just visible in the centre of Fig. 2.1 looks as though it should be the cause of the
+flooding but, although the afflux increases the depth and width of water on the floodplain, it is
+actually the inadequacy of the river channel that is largely to blame.
+When investigating whether or not a bridge is (or will be) the primary cause of flooding the
+hydraulic capacity of the main river channel without the bridge (QR) should be compared with
+the capacity of the bridge waterway (Qw) and the design flood (QDF). Then as a rough guide:
+
+Page 35
+
+Fig. 2.1 Upstream of Canns Mill Bridge during a 1 in 5 year flood (see also Fig. 2.15). The bridge is
+in the centre of the photo. The width of the floodwater is about 55 m while the bridge span
+is 4.3 m. The bridge appears to be responsible for the flooding, but only exacerbates it. The
+primary cause is the low conveyance of the downstream channel. Much of the water on the
+upstream floodplain is static overbank storage, a fact that must be recognised in any
+hydraulic analysis. (Photo courtesy of G.A.McInally)
+
+• if QR<Qw the bridge is relatively blameless;
+• if QR<QDF i nundation of the floodplains would occur without the bridge;
+• if Qw<QR the bridge forms an obstacle to flow and may cause or exacerbate flooding;
+• if Qw<QDF the waterway is underdesigned;
+• if Qw>QDF the waterway is overdesigned or has a margin of safety.
+Although the above relationships are fairly logical, the extent of any flooding actually induced
+by the bridge will depend upon such factors as the height of the banks and their freeboard,
+whether normal or abnormal stages exist, the Froude number, and the severity of the
+contraction.
+The problem of analysing flow through a bridge often appears deceptively easy, perhaps
+because it has been oversimplified by assuming a horizontal channel and flow at the normal
+depth parallel to the bed. In reality the bed level will vary considerably so that the depth
+becomes almost meaningless, while the flow may not be at the normal depth. Additionally,
+some complex hydraulic phenomena are involved and there are many different types of
+
+Page 36
+
+flow that can occur at any particular bridge site, while identical bridges may perform
+differently in different locations.
+This chapter describes how the flow in a river is affected as it passes through a bridge, and
+defines some basic variables such as afflux, head loss and energy loss. This is important: for
+example, engineers not familiar with bridge hydraulics have been known to define the afflux
+incorrectly. Chapter 3 describes the principal factors that significantly affect the hydraulic
+performance of a bridge, while Chapters 4 and 5 outline various methods that can be
+employed to obtain the afflux.
+
+2.2 What happens when water flows through a bridge
+
+If water flows through a constriction—that is, a section narrower than the natural river
+channel—the water level is increased upstream of the constriction compared with that which
+would otherwise exist (Kindsvater and Carter, 1955; Tracy and Carter, 1955). The backwater
+extends upstream to section 0, at which point the constriction has no effect on the water level,
+and uniform flow exists (Fig. 2.2a). The distance between the constriction and section 0
+depends upon such factors as the geometry, roughness and slope of the channel, and can be
+calculated using a backwater analysis (e.g. French, 1986; Hydrologic Engineering Center,
+1990; Chadwick and Morfett, 1993). In the reach affected by the backwater the depth will be
+greater than normal, so the velocity and energy loss are less than would otherwise occur.
+Unless the constriction is very severe the flow is usually subcritical, with gradually varied
+flow upstream and downstream of the structure and rapidly varying flow at the bridge.
+When the opening is running free (i.e. not submerged) the water surface is drawn down as
+it approaches the opening (of width or span b). This zone of drawdown approximates a
+semicircle of radius b radiating from the centreline of the opening at the upstream face (Fig.
+2.2b). Thus the maximum afflux is generally assumed to occur on the centreline of the
+channel at one opening width (span) upstream of the upstream face of the constriction
+(Kindsvater et al. 1953; Bradley, 1978). This is a simplification: the maximum afflux tends to
+be nearer the upstream face when the contraction is slight and further upstream when it is
+severe (Fig. 4.33). Additionally, with wide flooded valleys (of water surface width B) section
+1 may be better located around 0.5 (B−b) upstream of the constriction. Nevertheless, for
+simplicity and consistency the maximum affl ux will be assumed to occur one span upstream
+from the bridge face at section 1.
+After passing through section 1 the water surface is drawn down as it accelerates through
+the opening, passing through normal depth at section 2 at (or near) the upstream fac e of the
+bridge. The body of water in the centre of the channel experiences the greatest acceleration,
+while deceleration occurs along the outer boundaries. This is significant for two reasons: first,
+it results in the region of drawdown being roughly semicircular; second, sepa-
+
+Page 37
+
+Fig 2.2 (a) Diagrammatic longitudinal section of uniform flow at normal depth (YN) in a river channel
+with (superimposed) the surface profile arising from the introduction of a bridge, (b) Plan
+view showing how the flow separates and forms a vena contracta of width CCb. For clarity
+the diagrams are not to scale.
+
+ration occurs in the corners between the edge of the channel and the upstream face of the
+constriction. The separation zone is delineated by a dashed line in Fig. 2.2b. Eddies may form
+in the separation zone, especially when the opening has a small span relative to the width of
+the river. The size of the zone depends upon the upstream channel characteristics and the
+geometry of the constriction. An important point is that the water level in the separation zone
+is higher than that in the region of drawdown, so the water level at the edge of the floodplain
+may be significantly higher than at
+
+Page 38
+
+the centre of the channel. This transverse hydraulic gradient is needed to drive water off the
+floodplain and through t he opening, especially where there are wide, rough floodplains.
+Skewed openings also cause transverse gradients, the water being trapped in one corner
+against the bridge face (see Fig. 3.8 and Section 3.7). This is most pronounced when the
+channel slope is steep.
+Although water approaching the bridge along the centre of the channel can pass through the
+opening unimpeded, as the distance from the centreline increases the streamlines have to
+curve ever more sharply inwards. Water flowing along the upstream abutments or approach
+embankments has to curve particularly sharply, and this c an interfere with the main central jet
+passing through the opening, a process that is very troublesome in extreme cases (Section 7.4
+and Fig. 7.11). Another result of the inward curvature is that the ‘live’ stream continues to
+contract as it passes through the opening so that it reaches a minimum width and depth at
+section 3 (effectively a vena contracta, as for an orifice). Section 3 may be located either in
+the opening or some distance downstream of it, the actual position depending upon the length
+of the waterway and the downstream conditions, but for convenience it is usually assumed to
+be at the downstream face of the constriction (Fig. 4.34). The width of the live stream can be
+estimated as CC b, where CC is the dimensionless coefficient of contraction and b is the width
+of the opening (m). Both the location and width of the vena contracta significantly influence
+the energy loss and hydraulic performance (see Section 3.4).
+The expansion of the live stream starts at the vena contracta and continues until the flow
+fills the full width of the channel and normal conditions have been re -established at section 4.
+There is no absolute rule regarding the location of section 4: the distance depends upon the
+geometry of the channel, its roughness and the flow characteristics. HEC-2 suggests an
+expansion of the jet at the rate of 1:4 (width: length) so the section would be located at least
+2(B−b) from the downstream face (Hydrologic Engineering Center, 1990), but this is
+questionable (Kaatz and James, 1997). Note that some computer models (e.g. WSPRO)
+assume that section 4 is one span (b) downstream, so there are many variations. However, for
+consistency it is alway s assumed in this book that section 4 is far enough downstream for
+normal depth conditions to have been re -established and for the flow to be unaffected by the
+bridge.
+Downstream of the structure there is a large zone of separation (Fig. 2.2b). In all of the
+zones of separation eddying occurs between the live stream and the side of the channel, but
+this can be very pronounced downstream of the opening. Here, under appr opriate conditions,
+the flow can be very turbulent with large eddies, and it is possible for the flow direction to be
+backwards towards the constriction: that is, from right to left in Fig. 2.2. The line along which
+separation occurs represents a shear boundary. As the jet expands, the shear causes a
+deceleration of the jet, its width increasing in the direction of flow to maintain continuity of
+discharge. The creation of
+
+Page 39
+
+eddies along the boundary results in lateral mixing of the two bodies of water until the
+diffused jet occupies the whole channel. This process is aided by the existence of a deep,
+slower-moving body of water downstream. The transfer of momentum from the jet to the
+separation zone also results in the water in this zone being accelerated, entrained and carried
+downstream by the mixing process.
+The region of expanding flow is important since the greatest energy loss usually occurs
+between the vena contracta and the section where the expansion ends. A rule of thumb is that
+the energy loss due to the expansion is twice that of the contraction. In the expansion the high
+rate of production of turbulence in the shear zones results in a large loss of e nergy that, when
+added to the boundary shear loss, may lead to a total energy loss greater than the initial kinetic
+energy of the jet (Laursen, 1970). To overcome this energy loss the water level increases
+upstream of the structure, which is why afflux occurs.
+The presence of wide, densely vegetated floodplains can significantly increase the
+backwater arising from a constriction, perhaps even doubling it (Laursen, 1970; Bradley,
+1978; Kaatz and James, 1997). In addition to the process described above, there is now a
+significant flow from the floodplain into the main channel in order to pass through the
+opening, followed by the expansion of the flow back onto the floodplain downstream. Laursen
+called this accretion and abstraction respectively. In both cases an additional head of water is
+needed to drive the tranverse flow. This is an important factor to remember when selecting a
+method to calculate the afflux and when assessing the accuracy of the results (see also Section
+4.6).
+Figure 2.2a shows the water depth relative to a uniformly sloping bed. In real situations the
+bed is often irregular so it is better to work in terms of the elevation above a datum (such as
+ordnance datum) as in Fig. 2.3. This shows dia grammatically the longitudinal profile at a
+bridge site resulting from uniform flow: that is, when the flow in the channel without the
+bridge is constant at the normal depth (YN) as calculated from the Manning equation, for
+example. For uniform flow to occur the discharge must be constant, and the channel, within a
+sufficiently long reach, must have a uniform cross -section, a uniform surface roughness and a
+uniform gradient. Skogerboe et al. (1973) pointed out that these stringent conditions suggest
+that uniform flow at a bridge site may be the exception rather than the rule. Non-uniform flow
+occurs if there is downstream control of water levels due to a severe bend, flood conditions at
+a confluence between two streams, vegetation, tides or any sort of obstruction, including
+another structure. In this case the usual water surface profile is a shallow curve, termed the
+abnormal profile, lying above the normal depth line (Fig. 2.4). The backwater profile is
+obtained by adding the bridge afflux to the abnormal profile. Obviously this is more
+complicated since the abnormal profile is not parallel to the bed. Again, working to a datum
+below bed level makes things easier.
+
+Page 40
+
+Fig. 2.3 Definition of afflux
+
+Page 41
+
+It should be appreciated that the bridge does not alter the elevation of the water surface or
+the energy line at section 0, nor at section 4. By definition (in this book) these two sections
+are located outside the reach affected by the structure. It is only between these two sections
+that the values are changed as a result of the obstruction to flow.
+
+2.3 Afflux, piezometric head loss and energy loss
+
+Regardless of whether it is a proposed or existing bridge that is to be analysed, most hydraulic
+investigations require an estimate of the chang e in water level caused by the structure. This
+means that the afflux and the piezometric head loss are required. The energy loss includes a
+consideration of the change in both the velocity head and the piezometric head. These
+variables are defined below, while methods that can be used to evaluate them are described in
+Chapters 3–5.
+
+2.3.1 The uniform flow condition
+
+Because it is the simplest, the uniform flow condition will be used initially to define and
+illustrate the afflux and head loss across a bridge. For the situation shown in Fig. 2.2a, at any
+particular discharge:
+
+maximum afflux,
+
+(2.1)
+
+where Y1 is the water depth (m) at section 1 and YN is the normal depth (m). In reality the bed
+is likely to have a variable slope and the depth of flow will not be constant, so a more widely
+applicable definition is shown in Fig. 2.3. Here the elevation of the water surface above a
+datum is used. Again the maximum afflux
+is the difference in water level with and
+without the bridge, but it is now apparent that
+
+slope as in the diagrams, the fall in b ed level depends upon the distance between the two
+points. The true head loss across the constriction is that measured between section 1 and
+section 4, where the normal depth has been recovered (Fig. 2.3). Thus
+
+Page 42
+
+the energy line between two points, which again must be specified. The true energy loss
+across a bridge is measured between sections 1 and 4: energy loss
+
+Page 43
+
+simple. Without the bridge the slope of the bed and the gradient of the water surface are not
+equal, so the depth of water at the site varies wi th distance upstream of section 4 (Fig. 2.4).
+Consequently if an existing bridge is being investigated this abnormal profile will have to be
+computed from a backwate r analysis; if the bridge has not yet been constructed it can be
+either measured in the field or calculated. The geometry of this longitudinal profile will
+change with the discharge, but at any particular discharge
+
+Page 44
+
+Page 45
+
+Fig. 2.6 Classification of some common types of flow through bridges. Y* is the stage needed to
+submerge the waterway opening; usually Y*>1.1Z . The critical depth is Y C, which is higher
+in the narrow opening.
+
+Page 46
+
+Fig. 2.6 Classification of some common types of flow through bridges (cont.) Y* is the stage needed
+to submerge the waterway opening; usually Y*>1.1Z. The critical depth is YC , which is
+higher in the narrow opening.
+
+Page 47
+
+channel or friction slopes, and low normal depth Froude numbers (eg F N<0.25). When
+conducting a numerical analysis of drowned orifice flow it is essential that the opening is truly
+submerged at both faces. This may only occur when both water levels exceed 1.1Z , where Z is
+the height of the opening.
+This type of flow is significant because it can result in a large afflux and head loss, and so
+cause extensive flooding upstream, as illustrated in Section 2.6. It is inefficient, partly because
+the waterway is flowing full resulting in a large boundary friction loss, and partly because
+(unlike type 3 sluice gate flow) the water in the downstream channel is deep enough to
+prevent the waterway from discharging freely. Equation 2.9 shows that with drowned orifice
+flow the geometry of the opening (C d, aW), the difference in head across the structure (∆H)
+and the depth of water in the downstream channel ( Yd) all affect the discharge (Q), so there is
+a combination of structure and channel control.
+
+Type 2
+This is the transitional case between types 1 and 3. The flow is similar to type 1 except that
+the outlet is not submerged, although the waterway is still running full. This means that the
+friction loss is still relatively high.
+
+Type 3
+The upstream face of the opening is submerged but the water level is below soffit level at the
+downstream face. This is frequently referred to as sluice gate flow, and can be evaluated using
+an equation of this type (equation 2.8). The discharge through th e opening depends upon the
+upstream water level (Yu) and the geometry of the opening, so structure control is dominant.
+The downstream water level is irrelevant. The waterway is running only partially full so the
+friction loss is reduced compared with type 2 flow. This condition frequently occurs when the
+capacity of the opening is exceeded in channels with relatively steep bed or energy gradients
+and FN> 0.25, or with flatter channels in the transition to flow types 2 and 1 (Hamill, 1997).
+The head required for the opening to become permanently submerged is denoted by Y* in
+Fig. 2.6 with Y*>1.1Z . Around this stage the upstream water level is usually extremely
+turbulent and fluctuates considerably, resulting in the opening running alternately free and
+submerged (Fig. 2.7). In this photograph, despite the horizontal soffit, the opening is
+submerged at the sides but not at the centre, where the velocity head is large st. After
+becoming permanently submerged there can be a rapid increase in upstream water level (Fig.
+2.14). A helpful rule of thumb when trying to decide whether or not sluice gate flow will
+occur at a site is that laboratory tests indicated that in channel flow ( type 4) normally about
+one -half of the total fall of the
+
+Page 48
+
+Fig 2.7 There was some concern regarding the safety of this bridge at Camelford in June 1993. Note
+the extreme turbulence as the opening starts to drown. This illustrates the difficulty of
+measuring upstream water levels accurately and in determining the height required for an
+opening to ensure a minimum freeboard of 0.6 m. (Reproduced by permission of Newquay
+Press Service)
+
+water surface from section 1 to 3 occurs between section 1 and the upstream face of the bridge
+(Kindsvater and Carter, 1955). Often the maximum flood level at sections 1 and 3 can be
+determined from trash marks.
+
+Type 4
+This is the subcritical channel flow condition that is most commonly encountered. The water
+level is below the top of the opening at both the upstream and downstream face of the bridge.
+The flow can be either at the normal depth or at an abnormal stage, but the depth is always
+greater than the critical value (YC) that represents the start of supercritical flow.
+
+Type 5
+In this channel flow condition the water surface passes through the critical depth in the
+opening indicating supercritical flow. No te that the
+
+Page 49
+
+critical depth is larger in the opening than in the river channel because the opening is
+narrower. Thus supercritical flow often occurs first in the opening. This type of flow can be
+very difficult to detect from a visual inspection of the site, because if the flow is only weakly
+supercritical there will be no obvious hydraulic jump. In some instances it is possible to
+calculate the critical depth ( Section 3.3.1) corresponding to a particular discharge and
+compare this with observations made in the field, if there are any. Alternatively, it is possible
+to calculate the width of constriction needed for flow to occur at the critical depth (Section
+3.3).
+Type 5 flow is more likely to occur (than type 4) when F N or the channel slope is relatively
+large, the constriction is relatively severe, or perhaps when the opening is located
+eccentrically in the channel. Flow types 5, 6 and 7 are significant because supercritical flow in
+the waterway means that the upstream water level is now independent of the conditions
+downstream.
+
+Type 6
+This is similar to type 5 except that the flow is supercritical in both the opening and the
+channel immediately downstream of the bridge ( Fig. 2.8). In the more extreme cases (FN>2) it
+may be possible to see clearly that the flow is supercritical because there may be a well -
+developed hydraulic jump. The conditions associated with this type of flow are similar to
+those described for type 5, only more severe. The problem of scour may now be quite acute.
+
+Fig. 2.8 Type 6 supercritical flow in the opening and downstream channel. This bridge is eccentric to
+the channel so there is a considerable flow along the upstream face of the right hand
+abutment (on the left in the photo). This pushes the jet towards the left abutment, narrows
+the vena contracta, and results in high velocities (see Fig. 7.11).
+
+Page 50
+
+Type 7
+Supercritical flow now exists throughout the channel and opening, and a loss of energy results
+in an increase in water level. This type of flow is rarely encountered but could occur in
+mountainous regions or in smooth, steep, artificial channels.
+
+Type 8
+This type of flow occurs only when the capacity of the opening is gros sly exceeded and water
+spills over the bridge deck and/or the approach embankments. Because all of the flow does
+not now pass through the opening, this condition is not consistent with those described above
+(which is why it was placed last). A different method of analysis is required, as described in
+Chapter 6.
+The eight types of flow above give rise to the important generic classification of subcritical
+and supercrit ical flow. This is important not only because the hydraulic behaviours of these
+two types of flow are different, but also because many model studies of bridge hydraulics
+have not included supercritical flow at all. Crucially, it is usually more difficult to analyse the
+supercritical condition and produce appropriate designs, while the phenomenon known as
+‘choking’ can result in a much larger afflux than expected (see Section 3.3.3).
+Another important generic classification is that of drowned orifice, sluice gate and open
+channel flow with equations 2.7–2.10 (or similar) being used to analyse the stage-discharge
+relationship. These equations are different in form, so it is essential to know what general type
+of flow is being dealt with. For example, Fig. 2.9 illustrates how the velocity profile in a
+laboratory channel (diagram a) is modified by the flow contraction that occurs at the entrance
+to a bridge opening, in this case an arch. Even in channel flow the contraction has a radial
+component that deflects the flow downwards so that the maximum relative velocity occurs
+nearer to the bed (b and c). Once the stage is above soffit level, the contraction is most
+pronounced in sluice gate flow (d). Many bridges have a scour pit just downstream because
+the jet has a large velocity and a downward component as it emerges from the opening.
+A knowledge of the flow type is important when designing works to improve the hydraulic
+performance of a bridge and reduce flooding (see Chapter 7). For type 1 drowned orifice flow
+with downstream control and an abnormal stage, some form of channel improvement below
+the bridge may be most effective. This can result in an increased conveyance and reduced
+stages at the bridge site. On the other hand, if a rounded entrance to the bridge waterway is to
+be employed, this may be ineffective in channel flow, fairly effective with type 1 drowned
+orifice flow, but very effective with type 3 sluice gate flow. This is because with type 3 flow
+there is a large contraction from the soffit and a very uneven distribution of velocity within
+the
+
+Page 51
+
+Fig. 2.9 Variation of proportional velocity with proportional depth: (a) in an unconstricted 450 mm
+wide laboratory channel; (b) in the jet emerging from a 300 mm span model arch bridge
+with Yu /Z=0.54 (three field measurements from Canns Mill Bridge are also shown); (c) in
+the jet emerging from the 300 mm arch with Y u/Z=0.98; (d) in the jet emerging from the
+300 mm arch with the opening submerged and experiencing drowned orifice flow and
+sluice gate flow. Note how the radial contraction from the arch results in the maximum
+velocity moving progressively closer to the bed.
+
+opening, whereas with type 1 the whole opening is already being used and there is a more
+uniform velocity distribution. This is apparent in Fig. 2.9d, which shows that in sluice gate
+flow only about 50% of the jet emerging from the opening has a centreline proportional
+velocity of 0.7 or more, whereas in drowned orifice flow about 85% of the jet has a
+proportional velocity over 0.7. Thus it pays to know what type of flow is being dealt with.
+
+2.5 Channel control and structure control
+
+This is another generic classification that incorporates some of the factors described above.
+The classification depends upon whether the stage and
+
+discharge at the bridge site are controlled by the channel or by the structure. An example of
+channel control (i.e. channel characteristics dominating) is a low stage at a bridge opening
+that is almost as wide as the river so that the flow is practically unaffected. The stage-
+discharge relationship for a channel experiencing uniform flow can be predicted using the
+Manning equation:
+
+Page 52
+
+(2.7)
+
+where Q is the discharge (m3/s), A (m2) is the cross-sectional area of flow in the channel, R
+(m) is its hydraulic radius (=cross-sectional area/wetted perimeter), n (s/m1/3 ) is the Manning
+roughness coefficient, and SF is the (dimensionless) slope of the energy line (friction gradient).
+In uniform flow SF equals the bed slope, SO , but in non-uniform flow it does not. In American
+texts using English units the (1/n) of equations 2.7 and 3.6 becomes (1.49/n).
+Two features of channel control are that the stage- discharge curve is concave downwards
+(Fig. 2.10), and that the bridge opening ratio (M) is an important factor in determining the
+hydraulic performance of a bridge, as described in Section 3.2. Channel control can occur
+with normal or abnormal stages, the latter being where a backwater from further downstream
+controls water levels at the bridge site. A feature of abnormal stage channel control is that the
+water level downstream of the bridge often increases more rapidly than that upstream. Under
+these conditions the channel characteristics significantly influence the afflux and head loss.
+Structure control occurs if an opening is very narrow and/or low so that the constriction
+itself controls the flow and determines the upstream water level. In sluice gate flow where the
+water level rises above the top of the opening, submerging or drowning the waterway, the
+opening ratio (M) becomes unimportant so the discharge (Q) can be calculated from equation
+2.8:
+
+(2.8)
+
+where C d is a dimensionless coefficient of discharge, aW is the total cross-sectional area (m2)
+of the opening flowing full, g is the acceleration due to gravity (9.81 m/s2), Yu is the water
+depth (m) on the centreline at an upstream cross -section (either the bridge face or one span
+upstre am depending upon which has the largest stage), Z is the vertical height (m) of the
+opening from mean bed level (that is, the height to the crown of an arch), au is the
+dimensionless velocity distribution coefficient, and Vu is the mean upstream approach v elocity
+(m/s). The discharge through the bridge is determined mainly by Yu and the geometry of the
+waterway (i.e. C d, aW, Z), so the bridge controls the flow. In structure control the discharge
+and
+
+Page 53
+
+Fig. 2.10 Stage-discharge curves for an unconstricted 450 mm wide laboratory channel and a 250 mm
+span model bridge with a rectangular opening. The channel curve is concave downwards
+while, after submergence, the bridge curve is concave upwards. These curvatures are
+characteristic of channel and structure control. The vertical difference between the curves is
+the afflux.
+
+upstream water level are independent of the conditions in the downstream channel. However,
+when sluice gate flow is just becoming established, the conditions in the channel may still
+have an influence on the upstream stage, but this influence diminishes as Yu increases.
+A feature of structure control is that the upstream stage (Yu) increases more quickly than
+that downstream (the two are not related). Another is that the stage—discharge curve is
+usually concave upwards after the upstream water level has risen above the soffit of the
+bridge; channel flow
+
+Page 54
+
+is concave downwards (Fig. 2.10). The curvature can be a useful way of identifying the flow:
+at some sites it may not always be clear whether the flow is controlled by the channel or by
+the structure, and there may be an indistinct transition zone. This often occurs on a rising or
+falling stage when the flow alternates between channel flow and sluice gate flow, and neither
+is really established. The vertical difference between the two stage-discharge lines is the
+afflux caused by the bridge.
+The shape of the lines in Fig. 2.10 is easy to explain. With respect to equation 2.7, A=BY
+where B is the width of the channel (m) and Y is the depth of flow (m); if a wide rectangular
+channel is assumed so that R can be approximated by Y , then ignoring the other variables the
+equation reduces to Q αY5/3 . On the other hand, with equation 2.8 it can be assumed that the
+area of the opening, a w, is constant so basically Q αY1/2 . Spend a moment plotting the graphs
+of these two relationships and they will have the curvature described above.
+When both the upstream and downstream water levels are above the top of the opening the
+flow is of the drowned orifice type and can be described by an equation of the form
+
+Q=CdaW (2g∆H)1/2
+
+where
+
+(2.9)
+
+(2.10)
+
+and Yd is the downstream water depth (m) at the centre of the opening. The conditions
+associated with drowned orifice flow are such that the velocity head is often negligibly small
+so the differential head can be taken as ∆H = (Yu−Yd). There is always some degree of both
+structure and channel control since both the geometry of the opening (i.e. Cd, aW ) and ∆H
+(which includes Yd) affect the discharge through the bridge.
+Typical values of the discharge coefficients (Cd) for use with equations 2.8 and 2.9 are
+shown in Figs. 2.11 and 2.12. These have been derived from several sources (Bradley, 1978;
+Hamill and Mclnally, 1990; Hamill, 1997). The diagrams show the range of values applicable
+to various types of bridge; it would be wrong to assume that at any stage there is a single
+value that can be adopted. Remember that the transition from channel flow to submerged flow
+is always unpredictable until Yu>>1.1Z or Z/Yu< 0.9.
+As a further example of a few of the things discussed in this chapter, imagine a laboratory
+channel that is supplied with water by a pump. The slope of the channel can be altered, while
+the depth of flow can be adjusted by raising or lowering a tailgate at the end of the channel.
+Suppose that initially the tailgate and slope are set so that uniform channel flow at a constant
+normal depth is obtained as in Figs 2.2a and 2.3. If everything remains the same except that
+the tailgate is raised to create a backwater, there will now be an abnormal stage as in Fig. 2.4.
+It is the same bridge operating at
+
+Page 55
+
+Fig. 2.11 Coefficients of discharge (Cd) for sluice gate flow. Below Yu /Z=1.1 submerged flow is not
+established, and the results are unreliable. The results are from Bradley (1978), Hamill and
+McInally (1990), and Hamill (1997).
+
+Fig. 2.12 Coefficients of discharge (Cd) for drowned orifice flow. Below Yu /Z=1.1 or Z/Yu=0.9
+submerged flow is not established and the results are unreliable. The results are from
+Bradley (1978), Hamill and McInally (1990) and Hamill (1997).
+
+the same discharge, but the afflux is different and the method of analysis would have to be
+different. Note that under these conditions, if the depth of flow and bed slope are used to
+calculate the discharge from the Manning equation, the answer would be too large. With non -
+uniform flow, the slope
+
+Page 56
+
+of the energy line (the friction gradient) must be used in the Manning equation, not the bed
+slope.
+Continuing the above example, if the tailgate is raised progressively, eventually the bridge
+opening will become submerged by the backwater so that type 1 drowned orifice flow is
+established. This would require yet another method of analysis. As observed earlier, identical
+bridges experiencing the same discharge may exhibit very different types of flow and
+hydraulic behaviour.
+
+2.6 Case study: Canns Mill Bridge
+
+Canns Mill Bridge is located on the River Dalch in Devon ( Fig. 2.1). It is a single-span
+segmental arch structure with a waterway opening approximately 4.28m wide, 1.8m high and
+3.35m long. The segmental arch springs from vertical abutments approximately 0.6m high.
+During the course of the investigation a number of floods caused slight scouring of the bed so
+that the height of the arch above mean bed level increased to 1.9m (which explains why a
+different but equally correct figure may be used later).
+The channel approaching the bridge is quite straight and steep, having a gradient of about
+1:60. However, the downstream channel has an adverse gradient as a result of a scour pit: that
+is, it slopes towards the bridge for the first 12m or so before beginning to fall in the direct ion
+of flow (Fig. 2.13). After this the river channel is tortuous and overgrown so that it provides a
+control on water levels at the bridge during flood, resulting in abnormal stages.
+The hydraulic performance of the bridge was investigated by locating pressure transducers
+in stilling tubes at four locations, as shown in Figs 2.13 and 2.15. All transducer readings
+were checked against staff gauges located adjacent to the stilling tubes. The transducer
+readings were recorded at 15 minute intervals by an intelligent outstation (Mclnally and
+Hamill, 1987). Additional manual measurements were made at the faces of the bridge. The
+river discharge was measured by velocity meter gauging from the bridge, and the results
+checked against a mathematical model of the site.
+The largest event recorded was about 15 m3 /s, which caused the water level to rise 0.76m
+above the upstream soffit of the bridge, equivalent to Yu /Z=1.4. This level is indicated by the
+white mark on the bridge face in Fig. 2.15. Typically a shallow standing wave formed against
+the face, moving further upstream as the degree of submergence increased. At the downstream
+face the water level was probably around 0.2m above the downstream soffit of the bridge
+(which is higher than the upstream soffit). There was significant overbank flow both upstream
+and downstream of the bridge, but no bypass flow around it. This study provided some
+reliable and accurate water level and discharge data (Hamill and McInally, 1990).
+
+Page 57
+
+Fig. 2.13 Longitudinal section through Canns Mill bridge showing the profile of the water surface at
+various discharges. Until submergence the site is controlled by an abnormal stage arising
+downstream, so the depth initially increases more rapidly downstream than upstream.
+
+The longitudinal profile of the water surface observed during a series of floods in November
+1986 is shown in Fig. 2.13. At low flows the water surface has a relatively uniform gradient
+throughout the site. At medium stages (type 4 flow) a backwater from further downstream
+reduces the slope of the water surface and the depth is greater downstream than upstream,
+indicating typical non -uniform flow behaviour associated with abnormal stages and channel
+control. The normal depth Froude number at Canns Mill is difficult to estimate accurately
+because of the compound channel (see Section 3.3) but is around 0.3, more or less on the
+boundary between sluice gate and drowned orifice flow. Thus at higher stages with the
+opening permanently submerged flow types 3, 2, and 1 occur. With structure contro l
+established, there is a larger increase in depth upstream than downstream.
+The hydraulic performance of the bridge is illustrated nicely by the relationship between
+the head loss and the discharge (Fig. 2.14 and Table 2.1 ). The head loss is small until just
+before the opening becomes permanently submerged, after which it increases rapidy. The line
+gets steeper as type 3 flow changes to type 2 and then type 1. Type 1 and 2 flow usually result
+in a relatively large afflux and head loss.
+Prior to submergence of the waterway, the river channel rather than the bridge was the
+primary cause of flooding, after which the afflux added up
+
+Page 58
+
+Fig. 2.14 The relationship between the piezometric head loss from gauge 1 to 4 and the discharge at
+Canns Mill. The head loss increases rapidy after the opening submerges and flow types 3 , 2
+and 1 occur.
+
+Table 2.1 Observed head loss and afflux at Canns Mill according to flow type
+
+Discharge (m 3/s)
+
+Head loss 1−4 (mm)
+
+Afflux (mm) Flow type
+
+2.4
+4.5
+5.8
+7.0
+8.3
+9.5
+10.8
+12.5
+13.8
+15.0
+
+8
+3
+3
+27
+60
+90
+123
+200
+264
+330
+
+3 Open channel—channel control
+5
+11
+17
+45 Sluice gate—structure control
+72
+115
+175 Drowned orifice
+220
+270
+
+Page 59
+
+Fig. 2.15 Canns Mill after the flood, showing the water level gauges and flood height (the white mark
+on the bridge parapet).
+
+to 270 mm to the upstream stage. Thus severe flooding would occur without the bridge. This
+again demonstrates the need to fully understand the nature of a site and the prevailing flow
+conditions before considering either improvement works or a replacement bridge.
+
+References
+
+Bradley, J.N. (1978) Hydraulics of Bridge Waterways, 2nd edn, US Department of
+Transportation/Federal Highways Administration, Washington DC.
+Chadwick, A. and Morfett, J. (1993) Hydraulics in Civil and Environmental Engineering, 2nd edn, E
+& FN Spon, London.
+French, R.H. (1986) Open-Channel Hydraulics, International Student Edition, McGraw-Hill,
+Singapore.
+Hamill, L. (1997) Improved flow through bridge waterways by entrance rounding. Proceedings of the
+Institution of Civil Engineers, Municipal Engineer, 121, March, 7–21.
+Hamill, L. and Mclnally, G.A. (1990) The hydraulic performance of two arch bridges during flood.
+Municipal Engineer, 7, October, 241–256.
+Hydrologic Engineering Center (HEC) (1990) HEC -2 Water Surface Profile Users Manual, US Army
+Corps of Engineers, Davis, CA.
+Kaatz, K.J. and James, W.P. (1997) Analysis of alternatives for computing backwater at bridges.
+American Society of Civil Engineers , Journal of Hydraulic Engineering, 123 (9), 784–792.
+
+Page 60
+
+Kindsvater, C.E. and Carter, R.W. (1955) Tranquil flow through open -channel constrictions.
+Transactions of the American Society of Civil Engineers, 120, 955–992.
+Kindsvater, C.E., Carter, R.W. and Tracy, H.J. (1953) Computation of peak discharge at contractions.
+Circular 284, United States Geological Survey, Washington DC.
+Laursen, E.M. (1970) Bridge backwater in wide valleys. Proceedings of the American Society of Civil
+Engineers, Journal o f the Hydraulics Division, 96 (HY4), 1019–1038.
+Mclnally, G.A. and Hamill, L. (1987) Telemetry systems for research and practice. Proceedings of the
+British Hydrology Society, National Hydrology Symposium 1987, pp. 27.1–27.6.
+Skogerboe, G.V., Barrett, J.W.H., Walker, W.R. and Austin, L.H. (1973) Comparison of bridge
+backwater relations. Proceedings of the American Society of Civil Engineers, Journal of the
+Hydraulics Division, 99 (HY6), 921–938.
+Tracy, H.J. and Carter, R.W. (1955) Backwater effects of open channel constrictions. Transactions of
+the American Society of Civil Engineers, 120, 993–1018.
+

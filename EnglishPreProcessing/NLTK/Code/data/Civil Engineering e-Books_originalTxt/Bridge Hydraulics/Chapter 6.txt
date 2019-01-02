@@ -1,0 +1,1960 @@
+Page 189
+
+6
+How to analyse flow over embankments
+
+6.1 Introduction
+
+McKay (1970) described a location in Australia where an embankment had to be constructed
+across an 8 km (5 mile) wide floodplain, which sometimes carried enormous flows. In such
+cases it is often impractical to build an embankment that is higher than the flood level and
+uneconomic to provide as many waterway openings as might be desired purely from the
+hydraulic point of view. The only practicable design solution may be to allow water to pass
+over the embankment (Fig. 6.1). Provided the embankments are designed not to be damaged
+by overtopping and the road is not so important that it must be kept open at all costs, this
+provides a pragmatic solution to a potentially dif ficult problem.
+Another reason for allowing water to pass over the approach embankments may be to
+prevent damage to the bridge. For example, consider a bridge with approach highway
+embankments that cross a wide floodplain ( Fig. 6.2). Option A below represents a
+‘conventional’ design approach, whereas option B is less conventional since it allows flow
+over the embankments.
+Option A is to construct a bridge with an economically sized opening that will pass a 1 in
+50 year flood, and road embankments that are above the highest recorded flood (say the 1 in
+200 year flood level). This is a reasonably typical design standard. If such a flood occurred
+(and equation 8.19 indicates there is a 39% chance that a 1 in 200 year flood will occur in a
+100 year period, which could be the life of the bridge) then the opening would have to pass a
+much larger flow than it was designed for. This may cause serious damage to the bridge, or
+possibly its destruction (see Table 1.1 ).
+Option B is to design the opening for the 1 in 50 year flood and to keep the approach
+embankments just above this level over most of their length (Fig. 6.2). If the bridge
+superstructure is higher than the approaches to avoid it becoming submerged when the flow
+passes over the embankments, the greatest threat to the bridge occurs near the design flood,
+not the peak discharge (Richardson et al., 1993; Highways Agency, 1994). Anything larger
+than the design flood passes relatively harmlessly over the embankments, avoiding damage to
+the bridge.
+
+Page 190
+
+Fig. 6.1 Floodwater passing from right to left over the bridge approach at Chilly Bridge on the River
+Exe, December 1960. Preventing this flow by raising the approach embankments would
+increase the chance of the bridge being damaged and exacerbate flooding upstream. The
+object at the bottom right is reputedly a garden shed, which illustrates the hazard of debris
+becoming trapped in an opening. (Reproduced by permission of the Environment Agency)
+
+Fig. 6.2 Example of a bridge and highway approach embankments crossing a wide valley.
+
+Page 191
+
+Option B has proved successful in many locations. Bradley (1978) quoted as an example
+the Nottoway River Bridge on State Route 40 in Vir ginia. The bridge itself was designed for a
+1 in 100 year flood of around 280 m3/s but actually coped with 740 m 3/s without incurring any
+damage, the excess flow passing over the embankments. After the flood, only minor repairs
+were required to the downstream shoulders of the embankments, a quick and cheap thing to
+accomplish compared with replacing a damaged or destroyed bridge. Of course, if it is known
+that overtopping of the embankment will happen, it can b e designed accordingly (CIRIA,
+1987).
+If high road embankments are constructed then this will result in a greater obstacle to flow,
+a larger backwater and greater flooding than would occur if overtopping was allowed, as in
+Fig. 6.1. Another point to keep in mind is that if a road embankment is designed that retains
+more than a certain quantity of water on the upstream floodplain (25000m in the UK), then
+the embankment is classed as a dam and becomes subject to dam safety legislation. This may
+impose higher construction standards initially, and then regular safety inspections throughout
+its life. Controlled overtopping of the embankment can avoid this problem as well.
+As mentioned above, overtopping of the approach embankments can act as a ‘safety valve’
+that prevents expensive damage to a bridge. This is illustrated by Fig. 6.3a. In the diagram, the
+curve ABC represents the flow through the bridge opening. This reaches a maximum at B,
+which is the level of the top of the embankments. From A to B all of the flow, including that
+on the upstream floodplains, must pass through the bridge opening. This large contraction
+results in a large afflux, which is needed to overcome the energy loss as the flow is funnelled
+through the bridge and then expands back onto the downstream floodplains. When the
+embankment is overtopped at B, there is no need for all of the flow to funnel through the
+bridge; the resistance to flow decreases and the afflux reduces
+
+Fig. 6.3 Diagrammatic illust ration of the stage-discharge curve when embankments are overtopped
+and form a ‘safety valve’, (a) Flow through the waterway opening. Note the maximum
+discharge occurs at B, just before the flow spills over the embankments, (b) Flow over the
+embankments, (c) The combined stage—discharge curve equivalent to ABC plus DE.
+
+Page 192
+
+as the difference in water level across the embankments diminishes. Consequently, the
+discharge through the bridge opening falls (BC).
+Figure 6.3b illustrates the increase in discharge over the embankments with stage.
+Obviously, the flow is zero at D, the stage equivalent to the level of the embankments, and
+then rises as the head over the embankment crest increases. Figure 6.3c illustrates the
+combined stage—discharge relationship for the bridge opening and embankments, the curve
+FG being the sum of the curves ABC and DE.
+The shape of the curve ABC illustrates clearly that the largest flow through the waterway
+opening is that just prior to the embankments being overtopped, and it is at this time that there
+may be the greatest risk of damage to the bridge. Subsequently the bridge passes less of the
+total discharge, so flow velocities and the potential for scour reduce.
+
+6.2 Road embankments as weirs
+
+If the embankments are either deliberately designed as a ‘safety valve’ or are overtopped
+anyway, some means of assessing their hydraulic performance is needed. Often this is built
+into computer software, such as HEC-2 (Hydrologic Engineering Center, 1990). Much of this
+is based on the work of Kindsvater (1964), who reported on the results of 936 experiments
+in volving the discharge characteristics of 17 different model embankments, and 106 boundary
+layer velocity traverses on four different models.
+
+6.2.1 Types of flow
+
+Kindsvater identified two main types of flow when an embankment is overtopped: free flow
+and submerged flow (Fig. 6.4 and Table 6.1). In the
+
+Table 6.1 Principal characteristics of free and submerged flow over embankments Free flow (plunging
+and surface)
+
+Page 193
+
+Fig. 6.4 The main types of flow over an embankment: (a) and (b) are both free flows with critical
+depth on the crest and a relatively low tailwater; (c) is a transitional flow; and (d) is a
+submerged flow with a relatively high tailwater and a depth greater than critical depth on
+the crest.
+
+former case, critical depth ( YC ) always occurs on the crest, as with a broad- crested weir that is
+operating freely, whereas in the latter case the critical depth has been eliminated on the crest
+as a result of being drowned by the high tail water level.
+Free flow can be divided into free plunging flow ( Fig. 6.4a) and free surface flow (Fig.
+6.4b). Of the two, plunging flow is the most destructive since it consists of a high -velocity
+water jet flowing down the downstream face of the embankment followed by a submerged
+hydraulic jump. When the tailwater is sufficiently high the plunging flow goes through a
+transition to free
+
+Page 194
+
+surface flow. The stage at which this happens depends upon whether the water level is rising
+or falling. If the tailwater level rises sufficiently then a free surface flow will go through a
+transition (Fig. 6.4c) and become a submerged flow (Fig. 6.4d). Alternatively, if the tailwater
+is high to begin with then the flow may always be of the submerged type.
+Which type of flow will occur at a given site depends upon several factors, including the
+conveyance of the downstream channel and floodplains, which governs the crucial tailwater
+level. It is likely that a bridge that would experience sluice gate type flow (see Section 2.5)
+will operate with free flow over the embankment, whereas a bridge that would experience
+drowned orifice flow will operate with submerged flow over the embankment. This analogy
+to sluice gate and drowned orifice flow extends to the factors affecting the discharge. Table
+6.1 shows that with free flow the discharge depends upon the upstream head, whereas with
+submerged flow both the upstream and downstream heads influence the discharge.
+
+6.2.2 The discharge equation
+
+With respect to the discharge over a highway embankment, Kindsvater concluded that
+embankment shape and relative height have little effect, while the effect of boundary
+resistance is appreciable only at smaller heads. Consequently the most practical method of
+calculating the discharge is to consider the embankment as a broad -crested weir with critical
+de pth (YC) on the longitudinal centreline, or just downstream of the centreline. This equation
+can then be used with experimentally determined coefficients of discharge to allow for
+different flow conditions and embankment roughness. If the approach embankment is in the
+form of a vertical curve, this can be approximated by a series of horizontal weirs with their
+crests at different levels. These can be analysed separately and the discharges added to get the
+total (Richardson et al., 1990).
+The cross -section of the highway is as shown in Fig. 6.5. Assuming critical depth (YC m) on
+the crest, then for continuity of flow at the critical section:
+
+Fig. 6.5 Cross-section through an embankment defining the principal variables (not to scale).
+
+Page 195
+
+(6.1)
+
+(6.2)
+
+where Q is the discharge (m3/s) over the embankment, A c is the cross-sectional area of flow
+(m 2) at the critical section, LE is the length (m) of the embankment over which the critical
+flow occurs, and YC is the critical depth (m). The critical velocity (V C m/s) is
+
+(6.3)
+
+crested weir becomes submerged when a high downstream water level drowns the weir and
+eliminates critical flow on the crest. In this submerged condition the coefficient is CS, which
+can have a value anywhere between 0.50 and 1.71, and the discharge equation (Bradley,
+1978) is
+
+(6.9)
+
+Page 196
+
+Fig. 6.6 Coefficients of discharge for embankments: (a) and (b) are used for free flows with equation
+6.8; (c) is used for submerged flows with equation 6.9. (After Bradley, 1978)
+
+The ratio in the square brackets is obtained from Fig. 6.6c and represents the amount by
+which the free flow coefficient (CF ) must be reduced to allow for various degrees of
+submergence as described by the ratio D/H1 (Fig. 6.5). The value of [CS/CF ] is near 1.0 in the
+transition zone as submerged flow begins, reducing to around 0.3 when the downstream water
+depth (D) is about the same as the total upstream head (H1).
+
+Page 197
+
+When using Fig. 6.6 it should be appreciated that the graphs present a rather misleading
+impression of the accuracy of the coefficients. These diagrams are basically metricated
+versions of those pr esented by Bradley (1978). In the original work Kindsvater (1964)
+performed experiments on models with different surface roughness and obtained a number of
+different relationships for the variation of CF and CS with head. This is illustrated by the
+dashed line in Fig. 6.6c. With free flows, when using Figs 6.6a and b it may be pru dent to
+reduce CF by about 2% if the embankment is rough (e.g. 1.660 less 2%=1.627). Rough could
+perhaps be considered as a gravel surface, and smooth as a paved surface. Kindsvater covered
+one of his models in birdshot to increase its roughness; in reality it is reasonable to expect an
+embankment covered in bushes to have a slightly lower coefficient than one that is smooth.
+What effect crash barriers will have is problematical.
+
+Example 6.1
+
+An embankment and bridge carry a two -lane highway across the river valley shown in Fig
+6.2. The width of the carriageways (I) is 35m, and the surfaces of the embankment are
+relatively smooth. If the embankment is overtopped dur ing a flood with H=1.000m, what is
+the discharge (a) assuming free flow, and (b) that the flow is submerged with D=0.900m?
+From Fig. 6.2 the approximate combined average length of the left and right embankments
+at the stage involved is LE=2020m.
+(a) For the free condition, H1/l=1.000/35=0.0286, which is less than 0.14, so obtain the
+value of CF from Fig. 6.6b: with H1=1.000m then CF=1.684. Substitution in equation 6.8 gives
+
+(b) For the drowned condition, D /H1=0.900/1.000=0.9 or 90%, so using the smooth curve
+in Fig. 6.6c, CS/DF=0.93. Equation 6.9 gives
+
+Page 198
+
+References
+
+Bradley, J.N. (1978) Hydraulics of Bridge Waterways, 2nd edn, US Department of
+Transportation/Federal Highways Administration, Washington DC.
+CIRIA (1987) Protection and Provision for Safe Overtopping of Dams and Flood Banks, Construction
+Industry Research and Information A ssociation, London.
+Highways Agency (1994) Design Manual for Roads and Bridges, Vol. 1, Section 3, Part 6, BA59/94,
+The Design of Highway Bridges for Hydraulic Action, HMSO, London.
+Hydrologic Engineering Center (HEC) (1990) HEC -2 Water Surface Profile User’s Manual, US Army
+Corps of Engineers, Davis, CA.
+Kindsvater, C.E. (1964) Discharge characteristics of embankment-shaped weirs. US Geological
+Survey, Water Supply Paper 1617-A, US Government Printing Office, Washington DC.
+McKay, G.R. (1970) Pavement drainage. Proceedings of the 5th Conference, Australian Road
+Reasearch Board, Canberra, 5(4), pp. 305–326.
+Richardson, E.V., Simons, D.B. and Julien, P.Y. (1990) Highways in the river environment. Report no.
+FHWA -HI-90–016, National Highways Institute/Federal Highways Administration, McLean,
+Virginia.
+Richardson, E.V., Harrison, L.J., Richardson, J.R. and Davis, S.R. (1993) Evaluating Scour at Bridges,
+2nd edn. Publication no. FHWA -IP-90–017, Hydraulic Engineering Circular No. 18, National
+Highways Institute/Federal Highways Administration, McLean, VA.
+
+Page 199
+
+7
+How to improve flow through a bridge
+
+7.1 Introduction
+
+When designing a new bridge there are occasions when it is desirable to optimise the
+hydraulic performance, perhaps because only a very small afflux can be tolerated without
+causing flooding upstream. This can be achieved partly by using slender, round-nosed piers
+(or eliminating them altogether), spillthrough rather than vertical abutments, and by avoiding
+skewed or eccentric openings. However, sometimes it may be necessary to adopt additional
+measures to improve the flow through the bridge, such as when economic or other
+considerations result in a less than ideal location and alignment for the crossing, or when the
+channel is braided or has a tendency to migrate. Under these circumstances some form of
+‘improvement works’ may be needed to increase hydraulic efficiency at the design discharge.
+If possible these works should be incorporated at the design stage; it is usually less
+satisfactory and more expensive to add them at a later date.
+Once constructed, bridges do not always behave hydraulically as their designers intended:
+the waterway may turn out to be too small for the floods that occur, the backwater too large,
+the approach channel may have changed, or scour and structural damage may be much worse
+than anticipated. In this case some form of ‘improvement works’ may have to be added.
+The term ‘improvement works’ is a very general one, and includes such things as:
+• providing either a rounded or chamfered entrance to the waterway opening;
+• using wingwalls;
+• using spur dykes (guide banks);
+• designing a special ‘minimum energy’ waterway;
+• using channel improvements, river training works, groynes (spurs), or channel diversions.
+All are intended to increase the discharge through a bridge for a given upstream water level,
+or to reduce the upstream stage at a given discharge, or to reduce scour. All are describe d in
+this chapter. Entrance rounding,
+
+Page 200
+
+wingwalls and channel improvements are probably the most common means of improving the
+flow through a bridge, with spur dykes and minimum energy waterways being used less
+frequently.
+Afflux (backwater) occurs because there has to be an increase in the upstream head of
+water to overcome the energy loss as the flow passes through the bridge opening. Inefficient
+waterways result in a relatively large energy loss and afflux. If the afflux is 0.5 m on
+floodplain s that have a transverse slope of 1 in 100, then for some distance upstream this
+results in another 50 m of each floodplain being inundated compared with an unobstructed
+channel. If the afflux is larger, or the floodplains flatter, the area of innundation increases
+rapidly. Thus even a small reduction in afflux, perhaps through entrance rounding, can be
+beneficial.
+
+7.2 Entrance rounding
+
+For brevity, the term ‘rounding’ will be used to indicate that the upstream face of the
+waterway opening has either rounded corners or a chamfer; when necessary a distinction will
+be made. Entrance rounding is one of the simplest means of improving the hydraulic
+performance of a bridge, and has been used for centuries. Telford used a partial chamfer on
+some of his arches (Fig. 1.4). At Morpeth, the height of the existing streets and river banks did
+not allow the arches to rise well above flood level: hence the need for hydraulic efficiency.
+However, Ruddock (1979) wondered whether or not Telford also used a chamfer for aesthetic
+reasons. Some modern, rectangular openings have also been constructed with entrance
+rounding when hydraulic efficiency is important (Figs. 1.1 and 7.1). Entrance rounding has
+been used with culverts to increase the discharge by up to 25% (French, 1969).
+
+Fig. 7.1 A modern bridge at Plympton, Devon, having a rounded soffit and a pier with chamfers.
+
+Page 201
+
+The energy loss incu rred by water flowing through a bridge opening arises as a result of the
+flow having to contract and then re-expand in the waterway, as described in Section 2.2. Both
+the contraction and expansion cause a loss of energy: the larger the contraction and
+subsequent expansion the larger the loss. By rounding the entrance to the opening so that it
+more closely matches the curvature of the streamlines, the size of the initial contraction—and
+hence the energy loss—can be reduced. Usually the rounding is applied to the upstream face
+of the bridge, there being little or no additional improvement if the downstream edges of the
+opening are also rounded.
+In channel flow, the afflux depends partly upon the severity of the constriction as denoted
+by the bridge opening ratio, M. In sluice gate flow (Fig. 7.2a) where the water level rises
+above the top of the opening, submerging or drowning the waterway, the opening ratio
+becomes unimportant, so the discharge can be calculated from equation 7.1. The subscript u
+indicates the centreline at an upstream cross -section, either at the bridge face or one s pan
+upstream depending upon which has the largest stage.
+
+(7.1/2.8)
+
+where a W is the maximum cross-sectional area of the full waterway and Z is the mean height
+of the opening above bed level. The coefficient of discharge (Cd) is primarily a coefficient of
+contraction, so if entrance rounding reduces the contraction of the jet passing through the
+opening there is an increase in Cd, and hence Q, for a given upstream water level (Yu). The
+discharge through the bridge is determined mainly by Yu and the geometry of the waterway
+(i.e. Cd, aW, Z), so the bridge controls the flow. This is referred to as structure control. In
+structure control the discharge and upstream water level are independent of the conditions in
+the downstream channel. However, when sluice gate flow is just becoming establish ed, the
+conditions in the channel may still have an influence on the upstream stage, but this influence
+diminishes as Yu increases.
+When both the upstream and downstream water levels are above the top of the opening (Fig.
+7.2e ) the flow is of the drowned orifice type, and can be described by an equation of the form
+
+Page 202
+
+Fig. 7.2 The effect of entrance rounding (shown diagrammatically, not to scale) is generally to
+decrease the upstream depth (Y u) while simultaneously increasing the downstream depth
+(Yd). (a) The reduction in upstream depth is sufficient to change sluice gate flow to open
+channel flow through the opening (b), often resulting in a relatively large (temporary)
+increase in efficiency, (c) Sluice gate flow occurs initially and is maintained with the
+rounded entrance (d), but there is a smaller contraction from the soffit resulting in more of
+the waterway area being used, a reduced mean velocity in the opening, and a smaller
+energy loss, (e) With drowned orifice flow initially, entrance rounding (f) reduces the
+differential head ∆H. (After Hamill, 1997. Reproduced by permission of the Institution of
+Civil Engineers)
+
+Page 203
+
+is a relatively large friction loss, while the interaction between the flow emerging from the
+opening and the water in the downstream channel can cause a large loss of energy and the
+largest afflux (Hamill and Mclnally, 1990). Again, the effect of entrance rounding is to reduce
+the contraction of the jet and to increase the value of Cd, but since the contraction is smaller
+than in sluice gate flow (Fig. 2.9d) there is a smaller improvement in the flow.
+
+7.2.1 The effect of rounding on normal depth and afflux
+
+The upstream depth ( Yu) consists of two components, both of which increase with increasing
+discharge:
+
+Yu=normal depth+afflux
+
+7.4
+
+For a particular discharge and channel, the normal depth in uniform flow is constant and can
+be calculated from the Manning equation, whereas in the case of a channel with an abnormal
+stage it is the depth that would be experienced without the bridge (Section 2.3). With low
+Froude numbers and/or abnormal stages the afflux may be quite small, the main cause of any
+flooding being the large ‘normal’ depth. Thus improvement s to the channel (instead of to the
+bridge) may be the best way to alleviate flooding under these conditions.
+Entrance rounding reduces the afflux but, because the normal depth is constant, the
+equivalent percentage reduction in Yu is smaller (Fig. 7.3). If the normal depth is relatively
+large, quite a significant reduction in afflux may result in only a small decrease in Yu. The
+afflux can never be reduced to zero, u nless the bridge completely spans the channel and has
+no contact with the river (M=1.0). Typically the percentage reduction in afflux as a result of
+entrance rounding increases relatively slowly with stage until the opening is close to
+submerging, after wh ich it increases more rapidly. Eventually a stage is reached where little
+additional benefit accrues and the line becomes more vertical. Thus entrance rounding may be
+most effective when Yu/Z is between 0.8 and 1.6 (Hamill, 1997).
+When a waterway, particularly a rectangular one with a horizontal soffit, becomes
+submerged there is a relatively severe vertical contraction so the opening is used inefficiently
+(Figs. 7.2a and 2.9d ). The velocity of the jet is relatively small near the top but large with a
+downward component at the bottom, which is why many bridges have a scour pit just
+downstream. As described in Section 8.3, a 60% increase in the pier scour depth may be
+experienced with a submerged waterway. Entrance rounding reduces the contraction from the
+soffit so more of the opening is used, the mean velocity of the jet is lower, and the velocity
+distribution is more uniform: hence there is a smaller head loss. To a lesser extent the same
+argument applies to the contractions from the abutments , so the overall effect of entrance
+rounding is either to increase the discharge through the opening for a given upstream water
+level or, for a given discharge, to decrease the upstream water level
+
+Page 204
+
+Fig. 7.3 Illustration of the reduction in afflux and upstream depth obtained by rounding the entrance to
+a 200 mm span model arch bridge at a slope of 1:50. The rounding was r/b=0.125, referred
+to as R125 later (Fig. 7.4). Channel flow occurred up to Yu /Z ≈1.1, after which sluice gate
+flow prevailed. (After Hamill, 1997. Reproduced by permission of the Institution of Civil
+Engineers)
+
+while simultaneously increasing the downstream water level. Depending upon the stage, the
+improved entrance geometry may also change the type of flow in the waterway, such as from
+sluice gate flow to channel flow (e.g. Fig. 7.2, a to b), or from supercritical to subcritical.
+Generally, entrance rounding reduces the velocity in the opening, so scour in the waterway
+and the channel immediately downstream may also be reduced.
+
+7.2.2 Full entrance rounding (Hamill, 1997)
+
+Hamill undertook research specifically to evaluate the effectiveness of ent rance rounding to
+arch bridges but, to provide a comparison, also investigated rectangular openings. The aim
+was to present the results simply, for ease of use. To some extent, simplicity was preferred to
+extreme accuracy, which is probably unattainable an yway. The investigation used bridges
+with either a single semicircular arch or a rectangular opening (with b=2Z) and a waterway
+length equal to the span, although the research can to some extent be cautiously applied to
+other geometries, multispan bridges and short culverts.
+Three single -span bridges with arched openings and three with rectangular openings were
+tested in a 450mm wide (=B), 15m long tilting channel with a recirculating water supply. The
+bridges had spans (=b) of 200mm, 250mm and 300mm (i.e. the bottom width of the arches) so
+the ratio M=
+
+Page 205
+
+a/A was between 0.35 and 0.67. The normal depth flow was almost always subcritical,
+although supercritical flow sometimes occurred in the opening and in the channel just
+downstream.
+For each bridge there were two sets of plywood templates of 6mm, 12 mm and 25 mm
+nominal thickness, one set having a rounded edge with a radius (r) equal to the thickness of
+the plywood (Fig. 7.4), the second having a 45° chamfer with a width (r) equal to that of the
+plywood. The six different forms of entrance rounding for each bridge were identified by the
+ratio r/b, plus the letters R and C to denote rounded and chamfered entrances. Thus, for a
+12mm thick template and a 250mm wide arch with a chamfer the ratio was 12/250 or C0.048.
+For convenience these values have been multiplied by 1000 and rounded so C0.048 becomes
+C50. The nine nominal ratios shown in Table 7.1 result from using three plywood thicknesses
+with three different bridge spans. The templates were placed against the upstream face of the
+bridges and the improvement in hydraulic performance measured. Initial experiments showed
+that with the 6mm ply there was no significant difference between a rounded edge and a
+chamfer, so only the chamfered templates were used and a dual designation adopted (i.e.
+RC20, RC25 and RC30). Only 45° chamfers were considered; some idea of how 30° and 60°
+chamfers may compare can be obtained from Section 7.2.4. On a few occasions the plywood
+templates were placed on the downstream bridge face to see if this resulted in any
+improvement; as expected, it did not, so this was dismissed.
+The model results were presented in terms of non -dimensional parameters to make them
+applicable to full -size bridges. With stage this was
+
+Fig. 7.4 Definition of rounded and chamfered templates. The thickness of the plywood (r) equals (a)
+the radius of curvature of a rounded entrance and (b) the width of the 45° chamfer. Thus for
+either configuration the ratio r/b describes the degree of rounding, where b is the span of
+the opening. For convenience these values are multiplied by 1000 in Table 7.1 . (After
+Hamill, 1997. Reproduced by permission of the Institution of Civil Engineers)
+
+Table 7.1 Values of r/b (×1000) for the model spans and template thicknesses
+
+Page 206
+
+Template thickness (mm)
+
+200mm
+
+Span
+250mm
+
+300mm
+
+6
+12
+25
+
+30
+60
+125
+
+25
+50
+100
+
+20
+40
+85
+
+After Hamill (1997); reproduced with permission, Institution of Civil Engineers
+
+achieved by dividing the maximum upstream water depth by the height of the opening to
+obtain the proportional depth (Yu/Z). For discharge, the actual discharge (Q) was divided by
+the nominal discharge capacity of the opening running full (QF ) to obtain the proportional
+discharge (Q /QF). In reality there is no unique value of QF , because in channel flow QF
+depends upon such factors as roughness, gradient and normal depth. However, when structure
+control becomes fully established there are just two stage -discharge relationships, one
+representing sluice gate flow and one drowned orifice flow, with the latter being the higher of
+the two. Thus at Yu/Z=2 it was possible to identify one specific discharge (designated Q2F)
+corresponding to sluice gate flow and one to drowned orifice flow. The nominal discharge
+equivalent to the opening running full (QF) with Yu/Z= 1.0 was taken as QF=Q2F /2. The
+resulting values are shown in Table 7.2 . For real bridges the approximate value of QF can be
+calculated if it is unknown; see Examples 7.2 and 7.3.
+The results from all six model bridges were superimposed using the proportional depths
+and discharges to produce one non -dimensional stage—
+
+Table 7.2 Nominal capacity of arch and rectangular model waterways flowing full (QF)
+
+Arch
+Span (mm)
+
+200
+250
+300
+
+Rectangular
+Span (mm)
+
+200
+250
+300
+
+QF sluice gate flow (l/s)
+
+QF drowned orifice flow (l/s)
+
+7.80
+13.25
+21.88
+
+QF sluice gate flow (l/s)
+
+QF drowned orifice flow (l/s)
+
+8.90
+16.40
+26.30
+
+7.10
+12.20
+18.08
+
+8.50
+14.25
+20.70
+
+After Hamill (1997); reproduced with permission, Institution of Civil Engineers
+
+discharge relationship for sluice gate flow (Fig. 7.5) and one for drowned orifice flow (Fig.
+7.6). In the model tests, sluice gate flow almost always occurred with the normal depth
+Froude number FN >0.25, and drowned orifice flow with FN<0.25. The relatively wide
+distribution of points below Yu/Z=1.1 represents channel control. The single relationship at
+higher stages represents structure control; some of the scatter is due to the difficulty of
+measuring rapidly fluctuating water levels accurately.
+
+Page 207
+
+Fig. 7.5 Non-dimensional stage-discharge curve for arch and rectangular openings operating with
+FN>0.25 (i.e. sluice gate flow when the opening becomes submerged). The squares
+represent individual experimental results. (After Hamill, 1997. Reproduced by permission
+of the Institution of Civil Engineers)
+
+Fig. 7.6 Non-dimensional stage—discharge curve for arch and rectangular openings operating with
+FN<0.25 (i.e. drowned orifice flow when the opening becomes submerged). The squares
+represent individual experimental results. (After Hamill, 1997. Reproduced by permission
+of the Institution of Civil Engineers)
+
+Page 208
+
+By placing rounded templates in front of the model bridges and then applying the
+procedure described above, non -dimensional stage—discharge curves were obtained for each
+of the new entrance geometries. By comparison with the equivalent bridge curve or by direct
+calculation, the reduction in upstream depth, increase in discharge and the new coefficient of
+discharge due to entrance rounding could be determined. The results are shown in Figs. 7.7–
+7.9. Note that both Fig. 7.7 and Fig. 7.8 a re plotted with the initial value of the upstream depth
+(Y u/Z) or initial differential head (∆H/Z) on the horizontal axis, and that ∆H /Z=0 corresponds
+to Yu/Z= 1.1 because it is only above this stage that the opening is submerged. To determine
+the effect of entrance rounding, enter the graph at the appropriate Yu/Z or ∆H /Z , move
+vertically up to the desired r/b ratio, and then move horizontally across to obtain the
+associated improvement.
+In most cases the increase in discharge (∆Q) obtained by changing a square-edged opening
+to a rounded entrance was measured directly by keeping the upstream water level at the same
+value and then comparing the flow rates. This was necessary because, particularly with
+drowned orifice flow, when the inlet geometry was altered the downstream water level
+changed significantly (as well as the upstream stage, of course). Thus the calculation of the C d
+values from equations 7.2 and 7.3 always had to be based on observed downstream water
+levels. Similarly, although it would be possible to calculate the increase in discharge resulting
+from entrance rounding by assuming a constant upstream stage and then using the Cd values
+in Fig. 7.9, this would be less accurate than obtaining ∆Q from Fig. 7.8 because it would
+assume that the downstream conditions remained unchanged, which would not be the case.
+Figure 7.9 therefore shows the actual value of Yu/Z or ΔH /Z on the horizontal axis (not the
+initial value as in Figs 7.7 and 7.8) while the vertical scale shows the equivalent C d (not the
+improvement). The improvement in Cd is apparent from the spread of the lines. For example,
+Fig. 7.9a indicates that with an arch, F N >0.25 and Yu /Z =1.2, the Cd of the bridge is 0.52 but
+with R125 rounding it is 0.59 at the same upstream stage.
+Comparison of the graphs with the raw experimental data indicated good accuracy: typical
+differences in ∆Yu/Z and ∆Q/QF were of the order of +0.8% in channel flow, +1.5% in
+drowned orifice flow and +2.5% in sluice gate flow (see Example 7.1). Examples 7.1–7.3
+illustrate that the method is reasonably accurate and easy to use, even with limited data.
+However, it is essential that all charts are regarded as approximate and the recommendations
+as guidelines, not absolute rules that are always valid under all circumstances.
+
+Interpretation of the results
+Drowned orifice flow was relatively difficult to analyse because small changes in the
+difference between two fluctuating water levels had to be
+
+Page 209
+
+Fig. 7.7 Reduction in upstream depth for various degree of entrance rounding and waterway shape: (a)
+arch, sluice gate flow with FN> 0.25; (b) rectangular, sluice gate flow with FN>0.25; (c)
+arch, drowned orifice flow with FN<0.25; (d) rectangular, drowned orifice flow with
+FN<0.25. The horizontal axis represents the initial starting condition corresponding to a
+square-edged opening. Use graphs (a) and (b) when FN>0.25 and (c) and (d) when FN<0.25
+(including the channel flow condition). (After Hamill, 1997. Reproduced by permission of
+the Institution of Civil Engineers)
+
+Page 210
+
+Fig. 7.8 Increase in proportional discharge for various degrees of entrancer rounding and waterway
+shape: (a) arch, sluice gate flow with FN>0.25; (b) rectangular, sluice gate flow with
+FN>0.25; (c) arch, drowned orifice flow with FN<0.25; (d) rectangular, drowned orifice
+flow with FN<0.25. the horizontal axis represents the initial starting condition
+corresponding to a square-edged opening. Use graphs (a) and (b) when FN>0.25 and (d)
+when FN<0.25 (including the channel flow condition). (After Hamill, 1997. Reproduced by
+permission of the Institution of Civil Engineers)
+
+Page 211
+
+Fig. 7.9 Discharge coefficients corresponding to the actual stage observed with the round entrance in
+place: (a) arch, sluice gate flow with FN>0.25; (b) rectangular, sluice gate flow with
+FN>0.25; (c) arch, drowned orifice flow with FN<0.25; (d) rectangular, drowned orifice
+flow with FN<0.25. The line marked 'Bridge' corresponds to a normal square-edged
+opening. Use graphs (a) study. (After Hamill, 1997. Reproduced by permission of the
+Institution of Civil Engineers)
+
+Page 212
+
+measured. Consequently it was not always possible to distinguish between RC25 and RC30,
+or R100 and R125. Also, with a small value of M (e.g. 0.4), there may be a period of sluice
+gate flow before the transition to drowned orifice flow. When applying equation 7.2 the
+opening must be totally submerged at the downstream face (say Yd>>1.1Z); otherwise this
+adds to the scatter. This is also true of the upstream face. When Yu/Z is between 1.1 and 1.3
+the flow is always unstable and unpredictable to some extent: sometimes there was a large
+drawdown of the water surface as it approached the model opening, or the opening alternated
+between the free and submerged condition at the upstream face, and possibly the downstream
+face. Under these conditions model scale effects are likely to be significant, so the Cd values
+in this region are not reliable. Even with full-size bridges the flow in this zone is
+unpredicatable (see Fig 2.7).
+In channel flow the increase in discharge or reduction in upstream stage that can be
+obtained through entrance rounding is relatively small, particularly below Yu/Z=0.8. If this
+improvement has to be relied upon to alleviate flooding, it may be wise to seek an alternative
+solution. However, when the opening is submerged and the vertical contraction is large,
+significant reductions in stage or increase in discharge can be achieved, particularly in sluice
+gate flow (e.g. Figs 7.7b and 7.8b). At times the reduction in stage that could be achieved
+simply by adding a template with rounded edges was quite remarkable, and almost any form
+of rounded entrance or chamfer with r/b>25 can significantly improve the performance of a
+bridge. With r/b <30 there was no difference between a rounded and chamfered entrance. Up
+to r/b=50 there was little difference between the two, but over 50 a rounded entrance was
+always superior to a chamfer. The performance of C85 and C125 was substantially the same,
+so it may be assumed that there was an upper limit (85) to the width of chamfer that was
+effective, and that going beyond this produced a diminishing or negligible return. Generally
+R60 gave the same performance as C125. The rounded entrance with r/b= 125 was clearly
+superior under all test conditions and should be adopted when the optimum performance is
+required. An upper limit to the effectiveness of a rounded entrance was not clear, although
+with the arches there was some indication that beyond R100 the increase in performance was
+starting to diminish. With rectangular openings, the very pronounced contraction from the
+horizontal soffit may mean that the limit of effectiveness is not reached so quickly.
+As with all research, ideally the results should not be applied outside the range of the
+original observations. For instance, all the models used had a span (b) equal to 2Z. Waterways
+with significantly different proportions or opening ratios may perform differently. This,
+coupled with different methodologies, makes comparison with other investigations difficult.
+For example, Matthai (1967) did not differentiate between sluice gate and drowned orifice
+flow, and perhaps as a consequence may have overestimated the increase in discharge due to
+entrance rounding under some conditions
+
+Page 213
+
+by between 2% and 10% (e.g. 12% instead of 6%). However, the two studies shared some
+conclusions. Mathai found that for rectangular openings and channel flow with r/b<50 the
+percentage increase in discharge was in the same range for both rounded and 45° chamfe red
+entrances, confirming the earlier observation that the shape is not significant below RC50.
+Matthai also found that with the larger ratios a rounded entrance is better than a chamfer.
+For rectangular openings operating in sluice gate flow with Yu/Z between 1.1 and 1.5,
+Bradley (1978) reported values of Cd between 0.37 and 0.49 (Fig. 2.11), while the
+corresponding model values were between 0.45 and 0.50 (Fig. 7.9b). For arched models the
+equivalent figures were higher, between 0.52 and 0.55 (Fig 7.9a). Arches have a higher Cd
+than rectangular openings, which exhibit a pronounced vertical contraction from the
+horizontal soffit. The hybrid, segmental arch bridge at Canns Mill had a Cd of about 0.35 and
+0.46 when Yu/Z was 1.1 and 1.35 respectively (Fig. 2.11). Thus all of the upper values are
+similar (allowing for the differing Yu/Z). The largest discrepancies, predictably, are around
+Yu/Z=1.1 when the flow is unstable and submergence is barely established.
+With drowned orifice flow the calculation of Cd was more difficult and less reliable than for
+sluice gate flow, so there is a good deal of scatter when Cd values are plotted. Bradley
+suggested that the av erage value was around 0.80 over a restricted range of Z/Yu. The model
+results were between 0.63 and 0.76, which fits well with Bradley’s observations, Canns Mill
+and Roughmoor Bridge when all are plotted together (Figs 2.12 and 7.9c). Roughmoor Bridge
+has two segmental arches, and was part of a field study (Hamill and McInally, 1990).
+In conclusion, there is general agreement between the various studies undertaken, and it
+appears that entrance rounding can significantly increase the hydraulic performance of a
+bridge, particularly when it is submerged and there is a large contraction from the upstream
+soffit.
+
+7.2.3 Partial entrance rounding (Hamill)
+
+The research described above was concerned with rounding applied uniformly to the entire
+upstream face of the opening, but a limited number of experiments were conducted with the
+rounding applied to only part of the opening.
+
+Chamfer on the bottom half of the arch only
+The 200 mm span arch bridge was used with a 25 mm template with a 45° chamfer (C125) cut
+on the bottom half to achieve a geometry similar to that used by Telford for the bridge in Fig.
+1.4. Up to Yu/Z=0.5 the performance was of course identical to the normal C125 template.
+However, as the stage increased and the square-edged upper part of the arch became
+submerged,
+
+Page 214
+
+the performance diminished so that at Yu/Z=1.3 it was roughly equivalent to the fully
+chamfered C30. At higher stages the performance was somewhat worse than the C30. It is
+logical to assume that a r/b ratio less than C125 would further reduce the improvement
+obtained.
+Chamfering the bottom of the arch has the merit that this is the part that is in contact with
+the flow most often. The principal disadvantages are that the improvement in flow obtained at
+low stages is small, while at high stages it does nothing to reduce the very strong vertical
+contraction from the soffit. Chamfering the top part of the arch would produce a larger
+improvement at high stages, but this is only worthwhile if there is some certainty that floods
+reach this level.
+
+Chamfer on the top half of the arch only
+This template was similar to the one above bu t with the other (upper) half of the arch
+chamfered (C125) to reduce the vertical contraction. This configuration does not improve the
+passage of the most common floods that occupy the lower part of the waterway, only those
+above the level at which the chamfer starts. Consequently up to Yu/Z=0.5 there was no effect.
+At Yu/Z=1.3 it was less effective than the fully chamfered C30, and at Yu/Z= 1.7 about the
+same as the C30. At higher stages (Yu/Z=2.5 to 3.5) its performance was better, being similar
+to the C60. Thus it was tentatively concluded that with arched openings a small chamfer over
+the entire opening is better than a large chamfer over part of it.
+
+Rounding to the soffit of a rectangular opening only
+The 200mm span rectangular waterway was used with a 25mm template that had a rounded
+soffit cut into it (R125) while leaving the vertical sides square -edged. This is a similar soffit
+geometry to that in Fig. 7.1. Openings usually drown at about Yu/Z=1.1, so up to this stage the
+performance was identical to the normal bridge. At normal depth Froude numbers below 0.25
+(drowned orifice flow), or just above 0.25 with a low degree of submergence, the performance
+was between the fully rounded R30 and R60 templates. At higher F N values the performance
+was between R60 and R125, usually nearer R60. Thus this configuration was quite effective,
+particularly at high FN numbers, since it reduced the strong vertical contraction from the
+upstream soffit. Again it is logical to assume that a r/b ratio less than R125 would reduce the
+improvement obtained.
+
+7.2.4 Partial entrance rounding (United States Geological Survey—USGS)
+
+The effect of partial entrance rounding in the form of wingwalls was studied by the United
+States Geological Survey (USGS) as part of the work
+
+Page 215
+
+summarised in Section 4.2 (Kindsvater et al., 1953; Kindsvater and Carter, 1955; Mathhai,
+1967). This included rounded or chamfered (wingwall) entrances to crossings that have
+vertical abutments and either vertical or sloping embankments (opening types I and IV: see
+Figs 4.2 and 4.3c –f, and 4.11–4.13). Apparently a normal square -edged road deck was
+assumed, so the opening had only partial rounding. The results can be applied to rectangular
+openings and, to a lesser degree, arched openings (Matthai, 1967). However, this technique
+can be di fficult to apply because it requires the evaluation of the opening ratio (M), the Froude
+number (F3) at a cross -section between the abutments at the downstream face of the bridge,
+and the fall of the water surface (∆h ) between a section upstream of the bridge and the
+downstream face. Despite these problems the USGS method provides a means of evaluating
+the effect on the discharge of either rounded abutments or wingwalls with a 30°, 45° or 60°
+chamfer when operating in channel flow or in the submerged condition.
+The procedure is as described in Section 4.2, the only difference being that the adjustment
+factors kr , kw and k T are included in equation 4.10, which defines the coefficient of discharge,
+C. For opening types I and IV the factors are evaluated as follows:
+
+kr
+rounded entrance (Fig. 4.3)
+kw 30°, 45° or 60° chamfered entrance (Figs 4.3, 4.12 and 4.13)
+kT
+submergence of the waterway (Fig 4.17)
+
+The numerical values of C obtained for the various entrance geometries can be used in
+equation 4.5 or 4.9 to calculate the discharge (Q) for a given value of ∆h. Since Q is directly
+proportional to C (and k r, k w) it is easy to see the effect of entrance rounding. For example,
+with a type I opening, M =0.50, a rounded entrance and r/b=0.08 then kr=1.150; with M=0.50
+and w/b=0.08 a 30° wingwall gives kw=1.066; with a 45° wingwall kw= 1.106, and with a 60°
+wingwall kw=1.218. Note that the coefficient increases with the angle of the wingwall, a 60°
+wingwall having a higher value than a rounded entrance. Similarly, with type IV wingwall
+embankments an angle of 60° has the largest coefficient. However, Fig. 4.3 (diagrams c–f)
+illustrates that there is little point in using a rounded or type I wingwall abutment with
+r/b>0.04–0.14 (depending upon M and the type of rounding) because there will be no
+a dditional gain. As observed above, the law of diminishing returns applies.
+
+7.3 Abutment type and extended wingwalls
+
+As mentioned briefly in the introduction to the chapter, some types of abutment are
+hydraulically more efficient than others so the choice of abutment geometry will affect the
+performance of the bridge. The section immediately above illustrated how wingwalls can be
+used to increase the coefficient
+
+Page 216
+
+of discharge of an opening. Additionally, spillthrough -type abutments tend to reduce the
+backwater (e.g. Fig. 4.21) and the scour depth in the waterway (Table 8.8). Both of these may
+be important considerations at the design stage.
+Many bridges are designed with wingwalls, which can have two functions. One is structural,
+to retain the material forming the approach embankments. The second is hydraulic, to help
+funnel the flow into and through the waterway opening. If this is the intention then (in plan)
+the wingwalls are usually curved as in Fig. 1.1, or flared outwards as in Fig. 4.11. In either
+case the principal effect is to form ‘rounded’ abutments that behave similarly to the
+chamfered entrances described above. However, in the examples described so far the
+wingwalls did not extend beyond the toe of the embankment. If they do extend beyond the toe
+then they start to behave as a partial transition between the opening and the full channel width,
+the extent of the transition depending upon how far upstream or downstream they extend. This
+may also slightly increase the effective length of the waterway. As described in Section 3.4,,
+long waterways are mo re efficient than short ones. With a long waterway there is an initial,
+controlled re-expansion within the opening itself, then a secondary expansion into the
+downstream channel. With a short waterway there is one large expansion into the downstream
+channel. Thus there may sometimes be merit in trying to control the re-expansion by
+elongating the waterway, either by extending the wingwalls (see below and Section 7.5) or, if
+they are aligned to the flow, by increasing the length of the bridge piers ( Fig. 1.1). However,
+this must be done carefully: the scour depth at a skewed pier increases with pier length, as
+shown in Fig. 1.15b.
+There is relatively little useful information relating to the hydraulic performance of
+extended wingwalls. If used appropriately they may improve the flow through a bridge but, as
+described above, the law of diminishing returns applies to entrance rounding, and beyond a
+certain radius or width of chamfer there is little or no additional gain. Frequently extended
+wingwalls may be too short to form an effective transition so, despite their size, they are not
+very effective (but see spur dykes in Section 7.4). Hamill conducted some limited experiments
+on wingwalls, while Chow (1981) quoted the work of Formica (1955) relating to open
+channel transitions.
+
+7.3.1 Extended wingwall transitions (Hamill)
+
+This is a continuation of the work described in Section 7.2.2 and 7.2.3, a few experiments
+being conducted with extended wingwalls as a comparison with entrance rounding. A pair of
+identical, curved, extended wingwalls each 75 mm wide, 300 mm long and 400 mm high were
+placed against the upstream face of bridges having square -edged arched and rectangular
+openings. An important point is that with the 300mm rectangular opening placed centrally in
+the 450mm wide channel, in plan the wingwalls effec-
+
+Page 217
+
+tively formed curved abutments or transitions between the full channel width and the opening
+so that there was no longer a square vertical edge. However, with the 300mm arch, as the
+stage increased the roof of the arch curved away from the vertical wingwalls leaving the
+square edge of the opening exposed. Thus the model wingwalls could be expected to be most
+effective with the 300mm sp an rectangular bridge, less effective with the 300mm arch, and
+less effective again when used with smaller -span bridges where the normal square abutments
+protrude beyond the wingwalls.
+For the 300 mm rectanglular waterway with the perfectly fitting wingwalls the performance
+up to submergence at Yu/Z=1.1 was equivalent to R85, and sometimes slightly better.
+However, above this stage the wingwalls did nothing to reduce the strong vertical contraction
+from the soffit, so by Yu/Z=1.2 they decreased the upstream stage by only about 25% of the
+amount that the fully rounded RC20 template did. By around Yu/Z=1.9 the wingwalls had no
+effect. The performance of the 300mm arch with the wingwalls was broadly similar to that
+described for the rectangular opening. With the 200mm span arch the wingwalls were less
+effective than RC30 prior to submergence, and had no effect after submergence. Thus it
+would appear that extended upstream wingwalls can be used instead of entrance rounding
+with some success up to Yu/Z=1.1, but only if they essentially form a rounded transition from
+the full channel width to the opening width (see below). When used inappropriately, they may
+be ineffective.
+
+7.3.2 Open channel transitions
+
+Some standard transitions are shown in Fig. 7.10. According to Chow (1981), the higher
+losses usually occur with the contractions because they involve both an initial contraction of
+the flow and a subsequent re-expansion. Thus there is a conversion of energy from potential
+to kinetic
+
+Fig. 7.10 Open channel transitions of various designs: (a) square contraction; (b) straight taper; (c)
+rounded taper; (d) square expansion; (e) straight expansion; (f) rounded expansion.
+
+Page 218
+
+and back to potential, which results in less energy being recovered than when there is just the
+equivalent expansion. However, there is roughly twice the amount of energy lost in the
+expansion than in the contraction (e.g. see Section 2.3.1).
+Formica (1955) investigated subcritical flow through open channel transitions of various
+design, the widths being 355 mm and 205 mm. Apparently the narrower section had a steeper
+bed slope, which may not be the case with bridges, so the results are indicative only. The
+difference in the energy loss between the various designs was often only fractions of one
+millimetre, which requires great precision and accuracy to achieve consistent results, while
+the relationship between the reduction in energy loss and any decrease in upstream afflux or
+potential increase in discharge must be inferred. Nevertheless, the work gives an indication of
+the effectiveness of various types of transition.
+For converging flow, the square contraction in Fig. 7.10a was the worst. A rounded 1:2
+taper (c) was the best, reducing the energy loss by about 70%, with a straight 30° taper (b) and
+a rounded 1:1 taper being marginally inferior (Chow, 1981). For expanding flow, the square
+expansion (d) was generally the least efficient. According to Formica a straight 1:4 expansion
+(e) was the best, reducing the energy loss by about 66%. A rounded 1:4 expansion (f) was also
+quite effective, as were hybrid designs involving an initial 1:2 or 1:3 straight expansion
+followed by a sudden expansion to the full width. However, there is a limit to the length of
+transition that is effective, beyond which there is little or no significant gain in efficiency. On
+t he other hand, if the transition is too short or the angle of divergence too great the result may
+be the same or worse than the original square expansion. For this reason extended wingwalls
+that do not form a full and effective transition between a bridge waterway and the downstream
+channel are also of limited value.
+Mazumder and Ahuja (1978) studied ‘curved’ contracting transitions in open channels.
+When seen in plan the geometry adopted was like the tapered neck of a white wine bottle (i.e.
+a ‘smoother’ version of Fig. 7.10f). They concluded that for the given shape an average linear
+contraction of 1:3 (tranverse: longitudinal) was the optimum and was practically ind ependent
+of the Froude number in the throat.
+It would appear that open channel transitions, or guide walls, may be effective under some
+circumstances if appropriately designed. However, to be successful they may have to be of a
+considerable size and will probably have to provide a smooth transition from the full channel
+width to the waterway opening and/or back to the full channel width. Ultimately this leads to
+the type of transitions used with minimum energy waterways (Section 7.5) that are designed
+to reduce or eliminate almost all energy losses except friction. Short transitions, such as
+small-radius rounding applied to the downstream face of a bridge opening, are not likely to
+have any significant effect.
+
+Page 219
+
+7.4 Spur dykes (or guidewalls)
+
+Spur dykes are essentially large upstream wingwalls. They are not common in Britain, simply
+because British rivers are relatively small. However, they are widely used th roughout the
+world in situations where a wide floodplain exists and floods have to be funnelled through a
+relatively narrow bridge waterway. They are used for two reasons, the first being to improve
+the hydraulic efficiency of the opening: according to Brown and Recinos (1988) spur dykes
+can reduce bridge backwater by up to 5%, the amount increasing with the Froude number in
+the constriction. The second and principal reason is to reduce scour and the potential for
+damage to the structure.
+Spur dykes are mo st needed where there is a tendency for water to flow along the upstream
+face of the highway embankment, so that close to the upstream abutments it meets at 90° the
+main flow passing through the bridge (Fig. 7.11a). Apart from the hydraulic inefficiency of
+two streams of water meeting like this, the interaction between the streams causes curvilinear
+flow, significantly increasing the scour potential. Bradley (1978) quoted a scour depth of 7.6
+m at Big Nichols Creek, which may have been much greater since fallen piers and bridge
+spans were buried deep in the river bed.
+The result of flow along the upstream face of the road embankment is effectively to reduce
+the width of the opening, since the sideflow results in a large contraction and a narrow main
+jet in the waterway (Fig. 7.11a): the larger the sideflows, the worse the situation. Sideflows
+occur most easily where there are upstream borrow pits, drainage ditches parallel to the road
+embankments or smooth unobstructed floodplains. The aim of the spur dyke is to guide the
+main flow through the opening while simultaneously reducing (or stopping) the sideflow and
+moving the point of interaction to the end of the spurs. The deepest scour then occurs near to
+the nose of the dyke, where the radius of curvature is sharpest, which is preferable to having
+the greatest scour in the vicinity of the abutments and any nearby piers (Highway Research
+Board, 1970; Neill, 1973). However, if the scour between the abutments is to be kept to a
+minimum, the dyke must be correctly proportioned, which means having an appropriate
+geometry, height and length.
+Bradley (1978) recommended that the optimum shape for a dyke was a quarter of an ellipse
+(Fig 7.12), with a ratio of major (length) to minor (offset) axes of 2.5:1. For bridge crossings
+that are perpendicular to the river, the major axis should be at 90° to the highway
+embankment. Based on laboratory tests, this geometry worked as well as or better than any
+other shape. The length of the dyke required (L s) was determined from model studies
+performed at Colorado State University and limited field data collected during flood. It was
+based largely on the spur dyke discharge ratio, QfP/Q30 , which is
+
+(7.5)
+
+Page 220
+
+Fig. 7.11 Illustration of the effect of spur dykes when there is significant flow along the face of the
+highway embankments. The stippling shows the areas most affected by scour, (a) Without
+the spur dykes the flow along the embankment interferes with the main waterway jet,
+resulting in a potentially destructive curvilinear flow and high velocities, (b) By
+intercepting the flow along the embankment, spur dykes reduce the apparent severity of the
+contraction and move the most scour-prone area from the upstream corner of the
+embankment to the end of the spur, which is relatively unimportant.
+
+Page 221
+
+This ratio relates the flow over one of the floodplains to the flow through the 30m of the
+bridge waterway adjacent to the abutment, both measured at section 1 (Fig. 7.12). This value
+is combined with a representative velocity adjacent to the abutment, VN2 (=Q/AN2), which is
+the average velocity through the opening at normal depth as in previous chapters. It can be
+seen from the figure that the length of dyke needed increases with both Q fP/Q30 and VN2.
+For designing a spur dyke Bradley (1978) suggested the following:
+• Lean towards overdesign rather than underdesign.
+• If the length obtained from the chart is less than 15 m, a spur dyke is not needed.
+
+Fig. 7.12 Chart for determining the approximate length of spur dyke needed. On the inset diagram, the
+stippled area on the toe of the dyke illustrates the part most in need of scour protection.
+(After Bradley, 1978)
+
+Page 222
+
+• If the length obtained from the chart is between 15 m and 30 m, a spur dyke at least 30m
+long should be constructed so that the curvilinear flow around the end of the dyke mer ges
+with the flow in the main channel and straightens before reaching the abutment. Schneible
+(1966) suggested that 45m should be the standard minimum length since this allows some
+damage without reducing effectiveness. Brown and Recinos (1988) reported that short spur
+dykes can cause an increased energy gradient and thus greater erosion or scour, so scour
+potential should be the controlling factor for selecting a spur length.
+• The lengths obtained from Fig 7.12 may also be suitable for skewed crossings.
+• There is no direct relationship between dyke length and the span of the bridge, which is why
+a 30m width of the opening was considered.
+• There is very limited data regarding the performance of spur dykes, so proceed cautiously
+and/or (if possible) undertake model tests when designing dykes for any location.
+The height of a dyke should be at least 0.3 m above the design flood after allowing for the
+contraction of the flow and freeboard, and certainly large enough to avoid overtopping, which
+would normally result in serious damage or destruction unless the dyke is properly armoured
+or constructed from suitably sized stone. With respect to construction, Bradley sugge sted that
+the dykes may be made entirely of rock provided the exposed faces are of stone large enough
+to resist movement by the current. Earth dykes should be compacted to the same standard as
+the road embankment and should be high enough not to be overtopped. If costs have to be
+minimised, then rock armouring is needed only where the scour potential is greatest (Figs
+7.11 and 7.12), provided that the remainder is protected by vegetation, turf and/or by the use
+of geotextiles or similar, and if repairs are conducted after each major flood. If earth dykes are
+faced with rock, it should be well graded, and have an appropriate filter blanket or geotextile
+membrane and riprap protection extending to below scour level (Neill, 1973; Hemphill and
+Bramley, 1989). With non -cohesive material the riprap protection to the toe of the dyke can
+be left on the river bed and ‘launched’ into its final position as the bed is eroded during flood,
+whereas with cohesive material the bank protection should be continued down to the expected
+worst scour level and the excavation refilled (Fig. 8.35). Other suggestions were to keep trees
+as close to the toe of the spur dyke as possible (to reduce transverse flow), to avoid digging
+borrow pits or drainage channels along the bottom of the road embankments, and to put a
+small pipe through the dyke to drain the area trapped between the spur and the road
+embankment.
+Although spur dykes are often used in pairs there may be situations where only one is
+needed, such as where the flow in a wide channel already occurs along one well-defined river
+bank. It is also possible that spur geometries may have to be adjusted to take into account
+local conditions, such as a large
+
+Page 223
+
+bend or meander when the curvature may have to be increased on the inside of the bend and
+reduced on the outside (Neill, 1973). With skewed crossings the spur may be longer on the
+side where the flow becomes trapped, such as the right side of Fig. 3.8 (Richardson et al.,
+1990). Richardson and Simons (1984) advised that the spur dykes should be designed to fit
+the streamlines of the approach flow, especially with skewed crossings, instead of
+automatically being set perpendicular to the embankments.
+American practice generally is to use elliptical spur dykes that are convergent in plan. In
+India and Pakistan the spur dykes tend to be parallel to the opening and straight, except for a
+curved portion at the upstream and downstream ends. Typically the spurs extend 0.75b–1.0b
+upstream and 0.1 b–0.25b downstream of a bridge of opening width b. Possibly straight spur
+dykes are better at producing a strai ght, parallel flow in the opening, which may be
+advantageous if there are piers. Richardson and Simons (1984) provided design guidelines for
+either type.
+For use with the USGS procedure described in Chapter 4, Matthai (1967) presented charts
+for the adjustment factor, kd, relating to straight and elliptical spur dykes used in combination
+with type III openings (Figs. 7.13 and 7.14). It is interesting to note that in Fig. 7.14a for
+normal crossings (i.e. without skew) the value of kd is between 1.0 and 1.4 depending upon
+the conditions and the shape of the dyke, so spur dykes can significantly improve the
+coefficient of discharge and the flow through the o pening. The adjustment factor is higher for
+the elliptical dyke, supporting Bradley’s observation that this is the best shape.
+The elliptical dyke in Fig. 7.13 is basically an extension of the type III abutment. The
+adjustment factor (kd) in Fig. 7.14a varies with the opening ratio (M) and the length of the
+spur dyke LS, which is expressed as LS/b where b is the average width of the opening.
+Diagram a is for ø=0° (i.e. no skew) whereas diagram b is for ø=20° and gives the skew
+adjustment factor ka , which is used in addition to kd . For skew angles between 0° and 20°
+interpolate between the values obtained from diagrams a and b. Thus for a type III opening
+with an elliptical spur dyke the coefficient of discharge, C=C' (kø , kx, k d, ka ), to which may be
+added any other adjustment factor required as a result of deviation from the stand ard
+conditions, as in equation 4.10 and Figs 4.8−4.10. The value of x used to determine kx should
+be measured on the embankment slope as if the dyke did not exist.
+The straight dyke in Fig. 7.13 may be set back from the abutment by a variable distance, bd.
+The adjustment factor kd varies with LS/b and M (Fig. 7.14c), but another factor is needed to
+allow for the variable offset distance bd. This is k b, which is obtained from Fig. 7.14d. Hence
+the coefficient of discharge for the type III opening with straight dykes is C =C' (kø, k x, kd , kb)
+to which may be added any other adjustment factor required as a result of deviation from the
+standard conditions. The value of x used to determine k x should be measured on the
+embankment slope as if the dyke did not exist.
+
+Page 224
+
+Fig. 7.13 Definition sketches of elliptical and straight spur dykes. (After Matthai, 1967. Reproduced
+by permission of US Geological Survey, US Dept of the Interior)
+
+The addition of a spur dyke increases the friction loss and necessitates an alteration to
+equation 4.9, which is used to calculate the discharge explicitly. This involves changing the
+
+last bracket of the denominator from
+
+Page 225
+
+Fig. 7.14 USGS adjustment factors for spur dykes (see the text for details of their use): (a) elliptical
+dykes, no skew; (b) elliptical dykes, 20° skew (for other angles interpolate); (c) straight
+dykes, no skew; (d) adjustment factor for the offset distance, b d, of straight dykes. (After
+Matthai, 1967. Reproduced by permission of US Geological Survey, US Dept of the
+Interior)
+
+Page 226
+
+7.5 Minimum energy bridge waterways
+
+A ‘minimum energy’ waterway is different in most respects from anything considered
+previously. A conventional, subcritical waterway generally consists of a sudden contraction
+followed by a sudden expansion, which results in a significant energy loss. To ov ercome this
+energy loss there is an increase in the upstream water level (the afflux) so that the flow
+accelerates through the opening. A minimum energy waterway achieves the same thing not by
+causing an afflux, but by using three-dimensional streamlining to accelerate the flow and to
+eliminate all energy losses other than friction, which is very small or negligible. With a
+negligible energy loss there is a negligible afflux.
+Minimum energy designs consist of three main sections: the converging inlet trans ition; the
+bridge opening (or throat), which usually has a constant width and a level bed; and the
+diverging outlet transition. Since the plan shape is determined by drawing the flow net for
+two-dimensional irrotational flow, the inlet and outlet transitions are usually curved (Fig.
+7.15a and b). The entire structure is streamlined to eliminate energy losses so it is often
+assumed that the total energy is constant throughout: hence minimum energy waterways are
+also referred to as ‘constant energy’ waterways (Fig. 7.15c).
+The purpose of the narrowing inlet transition or fan is to reduce smoothly the width of the
+channel from its original value (B) to the width of the bridge opening (b). Ideally, to minimise
+the width of the opening, this should also be accompanied by a gradual fall in the elevation of
+the bed. The inlet serves to accelerate the flow, usually (but not necessarily) to the critical
+condition, so that at the design discharge, critical depth is maintained throughout the opening.
+Critical depth (Yc) corresponds to the minimum specific energy that can maintain a given
+discharge, and so is theoretically the most efficient flow condition ( Fig. 7.16). An alternative
+way of expressing this is that at the critical depth the maximum discharge is obtained for the
+available specific energy. Minimum energy waterways are designed to utilise this fact, and in
+appropriate circumstances can result in much smalle r openings than conventional designs.
+Critical depth can be achieved either by a reduction in width alone or by a combination of a
+reduction in width and a downward slope of the river bed as it enters the opening (Fig.
+7.15and c). By depressing or lowering the invert a narrower bridge opening is obtained than
+with a simple width constriction. The opening itself usually has a constant width and a flat
+bed (long culverts can be designed with a slope equal to the friction loss). In the outlet
+transition the channel widens and the bed rises back to its normal downstream width and level.
+Thus some of the novel design concepts usually inherent with minimum energy waterways are
+a constant total energy, negligible afflux, a totally streamlined design that involves a
+depressed bridge opening, and flow at the critical depth throughout the opening.
+
+Page 227
+
+Fig. 7.15 Details of minimum energy waterway in Example 7.4: (a) plan view of inlet fan, throat and
+outlet fan; (b) geometry of inlet fan and throat—general details above the centreline,
+lengths specific to Example 7.4 below; (c) longitudinal centreline profile showing the
+horizontal (constant) total energy line and the depressed invert.
+
+Page 228
+
+Fig. 7.16 Specific energy curves relating to Example 7.4 . Note the vertical nature of the Y-ES curve at
+the critical depth, which can result in flow instability.
+
+The idea of the minimum energy waterways first appeared in Australia in the 1960s and 1970s
+(McKay, 1970, 1978). More or less simultaneously Cottman was puzzling over the problem
+of existing roads with inadequately sized waterways that crossed dry, or almost dry, river beds.
+These structures were prone to flood damage. The provision of adequate openings was
+considered too expensive, so instead attempts were made to increase the capacity of the
+existing openings by streamlining the approach and exit to enable floods to pass with
+minimum afflux, minimum damage and maximum hydraulic efficiency. Ultimately, this
+resulted in three -dimensional streamlining and the minimum energy waterway, which is
+theoretically the optimum design (Cottman, 1981; Apelt, 1981).
+An analogy can be used to illustrate why minimum energy waterways are effective. In pipe
+flow, an orifice plate forms a sudden contraction resulting in a large head loss and a relatively
+low coefficient of discharge. This may be considered equivalent to a conventional bridge
+waterway. A streamlined Venturi meter forms a relatively small obstacle to flow, results in a
+small loss of head, and has a relativel y high coefficient of discharge. This may be considered
+as equivalent to the minimum or constant energy waterway. However, this simple analogy
+does not include the additional advantage of maximising efficiency by inducing critical flow
+at the design discha rge.
+
+Page 229
+
+Although minimum energy waterways and culverts have their advocates, they have never
+been unanimously accepted (Griffiths, 1978). Concerns are frequently raised regarding: the
+wisdom of designing at the critical depth, which is relatively unstable, so that a small change
+in specific energy can result in a significant change in the depth of flow (Fig. 7.16); the
+difficulty of calcula ting longitudinal flow profiles accurately; the possibility of the
+deliberately ‘undersized’ opening being blocked by debris during flood; and problems relating
+to siltation and scour ( Section 7.5.4). In defence of the concept, it is pointed out that while
+minimum energy structures are usually designed to operate at the critical depth because this
+makes the calculations easier (Section 7.5.1) and results in the smallest opening, they can be
+designed to operate subcritically if desired. In addition, successful minimum energy
+waterways have been constructed, and these have passed floods larger than the design flow
+and operated without trouble for decades (Cottman, 1981; Cottman and McKay, 1990).
+Although some minimum energy structures have been only partially successful or
+unsuccessful, this is usually due to a failure to understand and implement fully the design
+concept (e.g. by omitting the streamlined outlet fan). Thus minimum energy waterways are
+not something to be considered without first having consulted the full literature (not just a
+summary) and having decided whether the prevailing conditions are suitable.
+If minimum energy waterways are to be effective they must be designed with total
+commitment to the principles involved, and constructed only where the conditions are suitable,
+success being unlikely otherwise. Cottman and McKay (1990) reported that minimum energy
+designs were suitable for:
+• bridging or culverting relatively wide, shallow subcritical flows;
+• increasing the flow capacity of bridges when the soffits are high enough and the bed can be
+lowered;
+• passing fl ow under fords or floodways;
+• equalising flood levels across causeways;
+• controlling the level of lakes and swamps;
+• enabling limited low -lying areas to be reclaimed (McKay, 1970, 1978).
+Minimum energy waterways are economical, and particularly suited to streams that flow
+intermittently and which are dry between floods.
+Minimum energy waterways are not suited to permanently flowing streams or estuaries,
+where a conventional piled structure would probably be cheaper. Their economical advantage
+is als o doubtful if the abutment height exceeds 6m or when the throat is less than 6m long.
+Additionally, they are not suited to situations where:
+• the flow is naturally deep, fast and well defined;
+• the streams are steep, with wide supercritical flows over bedrock or bouldery beds;
+
+Page 230
+
+• underground services make the lowering of the waterway entrance expensive;
+• ponded water (that cannot be drained) in the lowered parts of the waterway is unacceptable,
+such as in urban areas;
+• a backwater from further downstream drowns the waterway and prevents it from operating
+at the critical depth—if this is likely to be a problem then a good knowledge of the stage -
+discharge curve and flow behaviour at the site is required before considering such a
+structure.
+The need for bridge piers may also cause problems, as described in Section 7.5.3.
+The capacity of an existing bridge opening can be increased by turning it into a minimum
+energy waterway, provided the bed can be lowered and the existing deck is at a suitable level.
+This may lead to a much reduced afflux (or almost zero afflux) while also allowing a larger
+flood to be passed without significant scour or damage to the structure. Cottman and McKay
+(1990) quoted as an example the twin 7.5 m span Newington Bridge, which crossed a
+floodplain. Its capacity was enlarged from 23 m3/s to a design discharge of 141.5 m 3/s (and
+the backwater reduced at all flows) through conversion to a minimum energy waterway. The
+cost involved was about one-sixth of the alternative, which was to add an extra 10 spans.
+However, there are situations where a minimum energy waterway may be the most economic
+option to begin with, namely where large, intermittent flows occur in wide channels and it is
+desirable to construct the smallest crossing possible. McKay (1970) described a situation in
+the Northern Territory of Australia where roads have to cross 8 km (5 mile) wide river valleys,
+which on occasions carry enormous flows at very low velocities (0.15m/s), where any
+economic embankment is likely to be overtopped, and where there is a shortage of stone for
+protection works. The alternative to a conventional crossing was to carry the flow equivalent
+to the height of the embankment through minimum energy culverts without afflux, thus
+minimising the head difference across the embankment so that flow over the roadway could
+occur with relatively little damage.
+
+7.5.1 Equations for critical flow in a rectangular channel
+
+Since minimum energy waterways are normally designed to operate at critical depth at the
+design discharge, it is useful to review the relevant principles and equations pertaining to
+critical flow. Usually rectangular openings are constructed which, because the geometry of a
+rectangle is easy to define, simplifies the equations. When dealing with critical flow it is often
+most convenient to work with specific energy (instead of total energy). The specific energy
+(E S) is the energy calculated above bed level:
+
+Page 231
+
+where Y is the depth of flow and V2/2 g is the velocity head. Now in a rectangular channel the
+critical velocity (VC ) at which the flow becomes critical is given by
+
+V C =(gYC)1/2
+
+(7.7)
+
+where YC is the critical depth of flow corresponding to V C. Substitution of this expression for
+V C and the critical depth (YC) into equation 7.6 results in the equation for critical specific
+energy (ESC):
+
+or YC=0.667ESC
+
+(7.8)
+
+(7.9)
+
+Thus for a rectangular channel a characteristic of critical flow is that the critical velocity head
+equals 0.5YC . The critical depth (YC ) is easily calculated as two-thirds of the critical specific
+energy.
+The design of a minimum energy waterway assumes that there is no loss of energy from
+inlet to outlet and that the total energy (or head) line is horizontal, so this provides a very
+conv enient datum to work from. By calculating the specific energy at any cross-section and
+measuring down from the total energy line the required bed level can be obtained (Fig. 7.15c ).
+This is illustrated in Example 7.4 .
+The total discharge (QC) in a rectangular channel (of width, B) flowing at critical depth is
+
+QC=B YC VC
+
+(7.10)
+
+For the specific case of a minimum energy transition, the channel width must be measured
+along the orthogonals to the streamlines. For example, it is along the curved line 111 in Fig.
+7.15 that the flow must become critical, not along a line at right -angles to the centreline. Thus
+replacing the channel width (B) with the width of the curved orthogonal (W) and using
+equation 7.7 to replace VC gives
+
+QC=WY C (gYC)1/2
+=W(gYC)1/2
+
+and YC=(QC/gW2)1/3
+
+(7.11)
+
+(7.12)
+
+This equation illustrates that for a given value of QC the critical depth is inversely
+proportional to the channel width, so as the approach to the bridge waterway narrows the
+critical depth increases, then decreases again as the channel widens downstream of the
+opening. Equations 7.12 and 7.8 also illustrate that once the inlet fan has accelerated the flow
+to the critical depth with F=1.00, the only way to maintain this condition is either to
+
+keep the channel width (W) constant or to simultaneously narrow the channel while dropping
+the invert to accommodate the increased specific energy and depth of flow. The latter is
+usually adopted because it allows a narrower crossing.
+Equation 7.12 is often written in terms of the discharge per metre width of channel (qC ),
+where
+
+Page 232
+
+From equation 7.9, YC=0.667E SC and g=9.81 m/s2, so:
+
+and ESC=(qC /1.705)2/3
+
+(7.13)
+
+(7.15)
+
+(7.16)
+
+(7.17)
+
+These are the critical flow equations relating the total design discharge (QC ), or the equivalent
+unit discharge (qC), to the corresponding critical depth (YC) and critical specific energy (E SC).
+They are used in Example 7.4 to design a minimum energy waterway.
+
+7.5.2 A more detailed description of a minimum energy waterway
+
+One of the controversial aspects of minimum energy waterways is that they are designed to
+optimise the passage of a particular design flood, whereas most of the floods encountered will
+be of a different magnitude. There is often some concern as to how such a waterway will
+perform under these conditions. If Q<QC then a subcritica l flow will probably be obtained,
+and the actual depth of flow (Y) will be greater than YC. Thus when designing a minimum
+energy waterway it must be remembered that the soffit should be high enough to cope with
+subcritical depths substantially greater than YC. If possible, the soffit level should be above the
+maximum total energy level occurring upstream. If Q>QC then initially it is likely that critical
+flow will be maintained through a greater length of the waterway than at the design discharge.
+This can often be tolerated, but it is possible that the flow might choke (Section 3.3.3). So to
+summarise, in a minimum energy waterway as the discharge increases from zero the depth of
+flow will increase to a maximum subcritical level, after which it will fall to
+
+Page 233
+
+the design critical depth and then start to rise again as the discharge continues to increase.
+The shape of the whole structure is determined by drawing streamlines (Fig. 7.15), the
+general aim being to capture as much of the flow as required and to pass it smoothly through
+the waterway without causing separation of the flow, form drag or anything that will result in
+loss of energy (bridge piers can be a problem; see Section 7.5.3). Apelt (1981) warned that if
+the ratio of length/width of the inlet fan is made too small the flow will no longer be
+controlled by its plan shape and will enter almost as a parallel flow that chokes before it
+reaches the throat. A minimum length/ B of about 0.5 was recommended. Cottman and McKay
+(1990) suggested that the overall length of the transitions needs to be from 1 to 3 times (B—b),
+but also gave the dimensions of a generalised plan that can usually be adopted. Whether or not
+the fans are totally curved in plan or consist of several straight lines is not too important as
+long as the deflection angle between short lengths of straight guidewall is limited to 6°, the
+bed level is calculated accordingly, and the flow net principle is adhered to. The orthogonal
+lines drawn at right angles to the streamli nes can be thought of as contours: the elevation of
+the bed should be constant along these lines. Since it is the length (W) of these lines that
+represents the width of the channel (not the width, B, perpendicular to the centreline), they are
+often assumed to be part of the perimeter of a circle for ease of calculation (Fig. 7.15b).
+Initially the approaching subcritical flow must be spread uniformly across the whole w idth
+of the upstream channel at section 000, where the upstream transition begins, otherwise the
+flow net is invalid. If this does not occur naturally it can be achieved artificially by altering
+the channel, constructing some form of spreading basin, or by splitting the channel with each
+subchannel leading to an individually designed opening. An uneven approach flow or
+conditions not meeting the assumptions will lead to increased energy losses or a reduced flow
+capacity, or sometimes the occurrence of large -amplitude standing waves on the surface of the
+flow (Apelt, 1981).
+The inlet and exit fans can be mirror images of each other in plan, or they can be adjusted
+to suit the requirements of the site so that they are very different. Similarly, although the
+e ntrance to the inlet fan and exit of the outlet fan can be designed with the same invert level,
+at most sites there would be a natural fall of the energy line and bed level from section 000 to
+555. This can be allowed for by designing the waterway according to minimum energy
+principles, then rotating the design about the inlet lip. Over -rotation may lead to supercritical
+flow in part of the waterway. Under -rotation or the failure to allow for friction losses may
+lead to choking. Friction losses are normally very small or negligible, but obviously increase
+with the length of the waterway.
+For both the inlet and outlet fans, starting with the design disharge (QC) the calculations can
+progress using either:
+
+Page 234
+
+• the bed gradient (i.e. E SC, which is the difference between the horizontal total energy line
+and the bed level), which enables YC, qC , and W to be calculated from equations 7.9, 7.16
+and 7.13; or
+• the boundaries of the fans (i.e. the channel width, W, obtained from the flow net), in which
+case qC, E SC (and hence the bed level) and YC can be calculated from equations 7.13, 7.17
+and 7.9.
+The various parts of the waterway will now be considered in more detail.
+
+Section 000 to 111: start of the inlet transition to the lip of the fan
+This part of the inlet transition usually consists of an unlined levelled bed. The bed can be flat
+in the direction of flow, but if a fall is required a gradient of 1:50 is reputedly a good choice
+for bridges with large flows (1:30 for culverts) with a range of 1:15 to 1:100 having worked
+well (Cottman and McKay, 1990).
+The upstream end of the fan should be wide enough to collect all of the flow from the
+channel that has to be funnelled through the waterway. The distribution of the flow across the
+channel should be approximately uniform, and the entrance velocity should be less than 1.0
+m/s. In any case, at 000 the flow must be subcritical at depth Y0 . However, as the channel
+narrows, to maintain continuity of flow the velocity must increase, and the design necessitates
+that critical depth (YC1) is achieved by section 111.
+
+Section 111 to 222: inlet lip to the inlet of the throat
+This section slopes downwards to accelerate the flow, the slope being determined by the
+designer (in conjunction with the width, W) with the aim of keeping the flow at crititical depth
+with F=1.0. However, the practical range of bed gradients is 1:4 to 1:15 with 1:7 being a good
+compromise according to Cottman and McKay (1990). They also suggest that the part of the
+transition near to the opening entrance (perhaps 3–10 m but rarely extending beyond the toe
+of the batter of the roadfill) would normally be concreted.
+Although Cottman and McKay suggested that the shape of the inlet transition could be
+determined purely from a flow net, they also gave a detailed generalised plan with relevant
+dimensions and radii of transitions, as shown in simplified form in Fig. 7.15. This indicates
+that the outer part of the fan is a sector of a circle with an angle of 90° at the centre, changing
+to 45° between section 111 and 222.
+
+Section 222 to 333: the bridge waterway
+This is usually constructed with a horizontal, concrete bed and with a uniform width, b. Again
+the flow is critical with F=1.0.
+
+Page 235
+
+Section 333 to 444: exit of the waterway to the lip of the outlet fan
+The bed of this part of the outlet transition slopes upwards while the width of the channel
+increases, slowing the flow. The objective is to maintain the flow at the critical depth with
+F=1.0 up to the lip of the outlet fan. The design uses basically the same principles as section
+111 to 222. The construction would also be similar to the equivalent part of the inlet.
+
+Section 444 to 555: lip of the outlet fan to the end of the outlet transition
+This is a region of decelerating flow and decreasing Froude number as the channel widens and
+the flow returns to the subcritical condition. The bed would usually be level, or nearly level,
+and constructed of natural material. This can be considered the reverse of the equivalent part
+of the upstream transition.
+An example of the design of a minimum energy waterway is included as Example 7.4. The
+plan dimensions follow Cottman and McKay (1990). They presented a chart to simplify the
+hydraulic design, but this is not used because the equations in Section 7.5.1 provide a better
+illustration of the principles involved.
+
+7.5.3 Bridge piers
+
+Piers can cause a problem with minimum energy waterways (McKay, 1978; Apelt, 1981). Just
+outside the bridge opening the wid th of the channel is W (or B ) while just inside the opening
+the width is W minus the combined width of the piers. In other words, the width of the
+channel is reduced instantaneously from W to b by the piers. This means that there will be an
+instantaneous increase in qC , YC and ESC (equations 7.13, 7.14 and 7.17), which requires an
+instantaneous drop in the level of the bed to maintain critical flow. This is impractical,
+because instantaneous changes in flow can rarely, if ever, be achieved. On the other hand,
+with a single -span waterway W=b and there is no problem.
+There are two possible solutions to the problem of bridge piers. The first is to split the
+approach channel into subchannels, each of which leads to an individually designed minimum
+energy waterway. Thus the piers become ‘islands’ between the various channels. The second
+solution is to introduce the piers gradually from bed level (i.e. the piers are raked in the
+direction of flow) while gradually lowering the bed, as shown in Fig. 7.17. According to
+McKay, piers of constant thickness with a half -round nose and sloping at 45° will effect a
+reasonably smooth transition. This does not work with pile bents, so it is logical to avoid
+converting an existing bridge of this type to a minimum energy waterway, while with new
+construction the designer can decide what type of pier to adopt.
+
+Page 236
+
+Fig. 7.17 Use of 45° raked central piers with minimum energy waterways. The pier is gradually
+introduced to the flow and the invert is lowered to compensate for the change in specific
+energy arising from the sudden reduction in channel width caused by the pier.
+
+7.5.4 Siltation, scour and performance
+
+The question of siltation and scour frequently arises in connection with minimum energy
+waterways. Siltation is perceived as a particular problem when the waterway has a depressed
+invert. However, this is not the case during flood when the velocity through the bridge
+opening is higher than in the inlet transition, so anything that is carried in should be carried
+out, and possibly away (McKay, 1970). It is possible that some siltation may occur on a
+falling stage, but unless the sediment is cohesive, becomes baked hard or covered in
+vegetation, this will normally be removed again when the flow increases. Scour is usually
+assumed to be a problem because velocities can be relatively high, perhaps 5m/s or so in the
+throat of a minimum energy waterway. McKay (1978) argued that if form losses are
+eliminated entirely through streamlining then the system becomes incredibly smooth, so there
+is no large-scale turbulence and hence no scour despite the high velocities.
+Some measure of independent assessment of minimum energy structures was provided by
+Loveless (1984), who used relatively small-scale model tests to compare the performance of a
+standard and minimum energy culvert design, including the effects of sedimentation and scour.
+The standard culvert had wingwalls set at 30° to the centreline and a level bed throughout.
+
+Page 237
+
+The minimum energy design had a depressed waterway, but unfortunately the outlet transition
+had to be truncated slightly, so the design was not ideal. This should be borne in mind when
+interpreting the results.
+At the design discharge (QC) it was found that the afflux of the minimum energy culvert
+was 28% of that for the conventional culvert design. Theoretically the afflux should have been
+zero. Loveless attributed the difference to the truncated outlet fan, and the fact that the theory
+assumes that critical d epth will occur in the control sections rather than showing that it must.
+At Yu/Z=0.4 the minimum energy structure passed 100% more flow than the conventional
+culvert, and at Yu/Z=0.9 it passed 80% more flow (QC corresponded to about Yu/Z=0.73). By
+Yu/Z=1.2 the discharge was about 31% greater than QC and the advantage of the minimum
+energy design had diminished significantly, but it still discharged much more than the
+standard culvert.
+With respect to siltation, Loveless assumed that the worst condition fo r the minimum
+energy culvert would be when the lowered invert had been completely filled with sediment,
+effectively turning it back into a conventional structure. Two types of sediment were used:
+sand and gravel. The sand began to move in the throat at a f low equal to 5% of QC; it was
+substantially cleared at 20% of QC and was completely cleared at 30% of QC . The gravel
+began to move at 30% of QC ; it was substantially cleared at 44% of QC and completely
+cleared at 65% of QC . It was concluded that provided that the sediment is not cohesive, even
+large boulders would be removed from the depressed culvert throat well below the design
+discharge. It was also pointed out that when the discharge is about 66–90% of the design
+value the bed profile of a minimum energy culvert is identical to that which would be
+obtained if the bed was erodible.
+With respect to scour, even with the gravel the conventional culvert produced a deep scour
+hole at flows greater than 45% of the design discharge, QC. In contrast, the minimum energy
+design resulted in no scouring of the gravel below a discharge of 1.18 QC , and relatively slight
+scouring of the sand bed at the design discharge.
+The conclusions drawn by Loveless are worth repeating:
+• A well -designed minimum energy culvert can discharge twice the flow of a standard design
+of the same size.
+• Although siltation may occur in the lowered invert of a minimum energy culvert at
+discharges less than 30% of QC , all non-cohesive sediments will be removed by 65% of QC .
+• Wide three-dimensional inlet and outlet transitions must be provided for minimum energy
+structures to perform well.
+• Minimum energy culverts are less vulnerable to scour problems at the outlet.
+• Theoretically, minimum energy culverts can be designed that will result in zero afflux.
+
+Page 238
+
+From the limited data available it appears that minimum energy waterways are worthy of
+further investigation, and can be used under appropriate conditions to solve quite severe
+flooding problems.
+
+7.6 Channel improvements
+
+Instead of improving the hydraulic efficiency of the bridge waterway, in some situations it
+may be more productive to improve the channel, or to improve both the bridge and channel. It
+should also be remembered that erosion arising from lateral movement of the channel is
+perhaps the greatest cause of structural damage and bridge collapse (Brice, 1984; Trent and
+Brown, 1984). Therefore channel stabilisation, as well as flow improvement, may be the
+objective of channel improvement works (Sections 8.2.2 and 8.9.3). A few typical scenarios
+are described below.
+
+Reduction of abnormal stage
+At sites that experience low Froude numbers, large normal depths or abnormal stages, perhaps
+as a result of a backwater emanating from further downstream, channel improvements may
+result in lower stages and an increased dischar ge (Section 7.2.1). Typical improvements to a
+channel are the removal of bends, to shorten it and increase its gradient, and the removal of
+obstructions to produce a uniform channel with a reduced Manning’s n value. If taken to the
+ultimate the improvement works may result in a straight, artificial channel of uniform section,
+which is effectively a new river channel with an increased conveyance. This may be desirable
+from the hydraulic perspective, but environmental considerations must also be weighed
+carefully. Care must also be taken to optimise the alignment of a new channel and to stabilise
+it: rivers have sometimes displayed a tendency to seek out their old course during flood, while
+the removal of bends can cause degradation (Fig. 8.8).
+
+Improvement to the bridge approach
+Ideally a bridge should be constructed perpendicular t o a stable river channel. However, river
+morphology or economics may not allow this, so something has to be done to optimise a less
+than ideal approach. If the channel meanders, shifts its course regularly or approaches the
+bridge at an angle, river training works can be employed to establish a permanent channel.
+This may be achieved by stabilising the banks using riprap, gabions, or any number of
+proprietary protection systems. Under some circumstances it may be considered appropriate
+to cut through meande rs to create a new channel with the ideal approach. This may affect
+other reaches (Fig. 8.8), so caution is necessary, and environmental factors must also be
+considered.
+
+Dykes can be used to reduce the effects of skew ( Fig 3.8) while groynes (or spurs) can be
+employed to reposition the flow in the channel (Figs 7.18 and 7.19). For example, if a bridge
+is located on a bend it may be necessary to prevent the natural migration of the channel by
+pushing the flow away
+
+Page 239
+
+Fig. 7.18 Use of groynes to control the flow: (a) retardance groynes angled upstream, resulting in
+areas of relatively stationary water in the upstream corners with some siltation; (b) diverter
+groynes angled downstream so that there is flow along the length of the groyne, deflecting
+the current towards the centre of the channel.
+
+Page 240
+
+Fig. 7.19 Groynes on the River Loire, France, with a concrete revetment on the bank. The flow is
+away from the camera. Note the size (the people on the groyne are barely visible) and the
+siltation, especially on the opposite bank.
+
+from the outside of the curve. Groynes can be used in conjunction with, or instead of, spur
+dykes.
+
+Improvement of the bridge opening ratio, M
+The hydraulic performance of a bridge depends to a large extent upon the value of the
+opening ratio, M=b/B. If the flow in the river channel is very wide (B) and shallow while the
+opening is relatively narrow (b), the large contraction will result in poor hydraulic efficiency.
+As an alternative to increasing b it is possible to use river training works to reduce B instead.
+In the extreme, a narrower channel with new artificial banks could be created, but the
+consequences of this would have to be carefully assessed. A less extreme solution may be to
+use groynes to push the flow into the desired part of the channel (Figs 7.18 and 7.19). Novak
+et al. (1990) suggested that longitudinal dykes (training walls) constructed within the river
+channel roughly parallel to, but some distan ce from, the existing bank can be more
+economical than groynes, and more effective if properly positioned.
+
+Control of erosion
+If there is a danger of bank erosion in the vicinity of the bridge, groynes can be used to give
+some degree of protection, eithe r by repositioning the
+
+Page 241
+
+flow in the channel or by encouraging siltation in protected areas (Neill, 1973; Petersen,
+1986). There are also many other protective measures that can be adopted, as listed in Section
+8.9.3. However, since groynes have been mentioned above several times, their use is
+described in more detail below.
+
+7.6.1 Groynes (or spurs)
+
+Groynes may be used to stabilise eroding streambanks in the vicinity of bridges or to
+reposition the flow in the channel. Basically groynes (also called spurs) are long, narrow
+embankments or walls that protrude from the bank into the river channel ( Fig. 7.18). They
+may be used singly, but are normally used in groups because a single groyne can severely
+disturb the flow, resulting in deep scour at its outer end. The type of groyne adopted depends
+upon whether the primary function is to protect the existing bankline (perhaps by reducing
+velocities), to encourage sedimentation, to re -establish a previous stream alignment, to create
+a new stream alignment, or to narrow the channel by controlling the flow (Brown, 1984,
+1985). These functions can be classified as either retardance or flow diversion (or a
+combination of both).
+Retardance groynes should normally be perpendicular to the primary flow direction or
+point upstream so that they create a region of still water that is trapped in the corner of the
+upstream face encouraging siltation (Fig. 7.19). Scour tends to be concentrated around the
+nose of the groyne, so this must be adequately protected. In terms of construction, bank
+protection groynes may be permeable or impermeable, the permeable variety being useful in
+encouraging sedimentation when the river carries a lot of silt. Permeab le groynes can be
+cheaply constructed from a double row of timber piles filled with trees and brushwood or
+stone, or wood and wire fences that collect debris and silt. Permeabilities can be between 35%
+(significant velocity reduction and flow control) and 80% (mild velocity reduction and flow
+control): the greater the permeability the smaller the area and depth of scour downstream.
+Retardance jacks (metal -wire frames or tetrahedrons) may be used in some parts of the world.
+If the groynes are angled in the downstream direction the result will be to deflect or divert
+flow along the groyne towards the centre of the channel, so protection may be required along
+the full length of the upstream face. Groynes used to divert the flow have to be impermeable,
+a stone embankment or solid wooden structure being a typical construction.
+Brown (1985) analysed over one hundred field sites and gave some general guidelines
+regarding the applicability of groynes.
+• Groynes are not well suited to channels less than 46 m wide.
+• They are not well suited to bends with a radius less than 107m.
+• Most groynes are best suited to protecting channels with banks less than 6 m high, and are
+particularly suited to protecting the lower part
+
+Page 242
+
+of the bank from toe scour and in reducing undermining and bank failure.
+• Groynes can be cost effective and economical where irregular channel banks have to be
+protected, especially if other protective measures require significant site preparation.
+• They can be used in rivers with a wide variety of sediment types, but inclusion of the
+sediment type in the design process is critical to achieving effectiveness.
+• Groynes can be a hazard to recreational river use.
+• A common mistake is to provide streambank protection too far upstream and not far enough
+downstream.
+The length of river bank protected by an individual groyne increases on the inside of a bend
+and decreases on the outside, but a typical protected length for an individual groyne that
+projects a distance, P, into the channel is roughly P to 2P both upstream and downstream.
+With groups of four or more groynes the protected length increases. Thus an economic and
+hydraulic decision has to be taken as to whether to use short, closely spaced groynes or longer,
+more widely spaced groynes. Long groynes will project further into the main channel, where
+the flow will be faster, so greater nose protection will be needed. Of course, the groynes
+should never be so long as to cause hydraulic problems on the opposite bank, while the
+passage of boats, ice and logs may also have to be considered. Brown suggested that the
+projected length of impermeable groynes should be less than 15% of the bank full channel
+width, with the equivalent length for permeable groynes being between 15% and 25% for
+permeabilities of <35% and 80% respectively.
+Farraday and Charlton (1983) gave the following equation as an indication of the spacing
+required for a group of groynes:
+
+Page 243
+
+the aim of guiding the flow through the channel while protecting the banks. One suggestion is
+that the tip of the most upstream diverter groyne should be at around 150° to the main flow,
+each subsequent groyne having a smaller angle until the last one is perpendicular to the flow.
+If the design stage is lower than the river bank, the minimum height for the groynes should be
+1.0m below the design stage. If the design stage is above the riverbank then the groynes
+should be built to bank level. If the groyne is intended to be above flood level then the
+freeboard is typically between 0.5m and 1.0m (Brown, 1985). Embankment groynes typically
+have side slopes of 1 in 3 and a crest width of about 2.0–2.5 m.
+
+7.7 Examples
+
+The first three examples use laboratory data so that the calculated and actual result [in
+brackets] can be compared. Example 7.1 shows how easy the charts in Figs 7.5–7.9 are to
+apply if QF is known, and illustrates the typical range of error. Examples 7.2 and 7.3 show
+how the charts can be used even when little is known about the actual stage-discharge
+relationship.
+
+Example 7.1
+
+A model 300mm span rectangular opening has Z=150mm, FN>0.25, QF=26.3 l/s and
+Yu/Z=0.99 (channel flow). What reduction in upstream depth (for the same discharge) and
+increase in discharge (for the same upstream depth) does R85 give?
+From Fig. 7.7b, with Yu/Z=0.99, interpolating for R85, ∆Yu/Z=0.035 (i.e. 3.5%).
+Thus ∆Yu=0.035×150=5.3mm [5.0mm].
+Typical error in ∆Yu/Z is +0.8%, which gives an error in ∆Yu=+0.008× 150=+1.2mm.
+From Fig. 7.8b, with Yu/Z=0.99, interpolating for R85, ∆Q /QF=0.075 (i.e. 7.5%).
+Thus ∆Q=0.075×26.3=1.97l/s [1.76l/s].
+Typical error in ∆Q /QF is +0.8%, which gives an error in ∆Q of +0.008× 26.3=+0.21 l/s.
+
+Example 7.2
+
+A model has a 200mm span arch, Z=100mm, FN>0.25 but QF is unknown, (a) When
+Yu/Z=1.30, what increase in Q is possible for the same stage? (b) When Q=14.10 l/s, what
+increase in Q is possible for the same stage?
+
+Page 244
+
+QF can be calculated from equation 2.8. Assume that Yu=2Z , the velocity head is negligible
+and that Cd=0.57 (from Fig. 7.9 with Yu/Z=2.0).
+Thus: Q2F=0.57 a W [2g(2Z−Z/2) ]1/2 giving Q2F=15.361/s. QF=Q2F/2=7.68 l/s [7.80 l/s].
+(a) If Yu/Z=1.30, with R125 Fig. 7.8a gives ∆Q/QF=0.20 so ∆Q=0.20× 7.68=1.541/s
+[1.481/s].
+(b) If Q=14.101/s then Q/QF=1.83. From Fig 7.5, Yu/Z=1.80.
+From Fig. 7.8a with R125 and Yu/Z=1.80, ∆Q /QF=0.34 so ∆Q=0.34× 7.68=2.611/s
+[2.581/s].
+
+Example 7.3
+
+A model 250mm span rectangular opening has Z=125mm and FN < 0.25 (drowned orifice
+flow). As a result of gauging it is known that Q=19.871/s when Yu=172mm, but nothing else
+is known. When Q=27.62 l/s, what increase in discharge can be achieved using R25 and
+R100?
+Yu/Z=172/125=1.376. From Fig. 7.6 this is equivalent to Q/QF=1.4.
+Thus QF=19.87/1.4=14.191/s [14.251/s].
+When Q=27.621/s, Q/QF=27.62/14.19=1.946. From Fig. 7.6 this gives Yu/Z=1.95.
+Thus Yu=1.95×125=244mm [242mm].
+To calculate ∆H, use equation 2.9: Q=Cd aw[2g∆H]1/2, where Q=27.621/s,
+Z/YU=125/244=0.51 and from Fig. 2.12 the provisional value of Cd is 0.71. Assume the
+velocity head is negligible. Solving gives ∆H=79mm [80mm].
+Thus ∆H/Z=79/125=0.63.
+From Fig. 7.9d the value of Cd is 0.71, so the provisional value is accurate.
+From Fig. 7.8d with ∆H/Z=0.63, R25 gives ∆Q/QF=0.080.
+Thus ∆Q=0.080×14.19=1.141/s [1.15l/s].
+Similarly, R100 gives ∆Q/QF=0.14. Thus ∆Q=0.14×14.19=1.99l/s [1.90l/s].
+
+Example 7.4: minimum energy waterway
+
+Produce an outline design of a minimum energy waterway capable of discharging 27m 3/s
+given that at section 000 the length of the curved section (W0 ) is 60m, the bed level is 100m
+above datum, and the depth of flow is 1.00m. The proposed opening width=4.00m and its
+length is 15.00m. In the absence of site details it is not possible to draw a flow net so the
+geometry of the transitions is taken from Co ttman and McKay (1990), and it is assumed that
+the minimum energy waterway is symmetrical about both
+
+Page 245
+
+axes. Hence only the upstream transition is designed below, the downstream transition being
+the mirror image.
+
+Section 000: start of the inlet fan, WO=60 m
+Assume a 90° sector of a circle with its centre located at the entrance of the opening (222)
+and on the centreline of the bridge waterway ( Fig. 7.15).
+If the length of the sector’s perimeter is W0=60 m then 2πr0/4=60 m and hence r0=38.198m
+(i.e. r0=0.6366W0).
+Thus the chainage of section 000 is 38.198m from section 222 measured along the
+centreline.
+At section 000 the total energy
+
+Page 246
+
+Chainage of section 111 from 222, r1=0.6366 W1=0.6366×15.600= 9.931m.
+
+Intermediate section BBB: start of the transition curve to the bridge waterway
+This section marks the end of the 90° sector and is defined as rB=1.20716, where b is the
+width of the bridge opening. Thus rB=1.20716=1.2071× 4.00=4.828m, so this is the chainage
+of the section measured along the centreline from 222.
+The length of the curved perimeter of the sector WB=2πrB/4=(2π× 4.828/4)=7.584m (i.e.
+0.9486).
+If WB=7.584m then from equation 7.13, qCB=27/7.584=3.560 m3/s per metre.
+From equation 7.17, ESCB=(3.560/1.705)2/3=1.634m.
+Assuming the total energy line is constant at 101.010m then the elevation of the bed
+Z1=(101.010–1.634)=99.376m above datum (i.e. 0.624m below initial bed level).
+From equation 7.9, YCB=0.667×1.634=1.089m.
+From equation 7.7, VCB=(9.81×1.089)1/2=3.268 m/s.
+Check: F B=VCB/(gYCB)1/2=3.2687(9.81×1.089)1/2=1.00 as required.
+Check: Q=WB YCB VCB=7.584×1.089×3.268=26.990 m3/s OK
+
+Intermediate section CCC
+This is the midpoint of the transition curve and is located on the 45° sector. longitudinal
+centreline 0.9676 downstream of section 222, so this distance It is defined by rc=1.5466b. The
+centre of the 45° sector is located on the must be subtracted from rc to obtain the centreline
+chainage. Thus in this case rc=1.5466×4.00=6.186m so the chainage is (6.186–0.967×4.00)
+=2.318m.
+The length of the curved perimeter of the sector, WC=(27πrC /8)=(2π× 6.186/8)=4.858m (i.e.
+1.215b).
+The hydraulic calculations are as above, and are summarised in Table 7.3 .
+
+Section 222: opening entrance
+This is the end of the transition coinciding with the entrance to the waterway and chainage
+0. The waterway is rectangular in section with parallel sides, and the width of the waterway is
+b.
+
+Here b =4.000m, so qc=27/4.00=6.750 m3/s per metre.
+From equation 7.17, ESC2=(6.750/1.705)273=2.503m.
+Assuming the total energy line is constant at 101.010 m then the elevation of the bed
+Z2=(101.010–2.503)=98.507m above datum (i.e. 1.493m below initial bed level).
+
+Table 7.3 Minimum energy waterway design calculations for Example 7.4
+
+Section Chainage
+(m)
+
+Total
+energy,
+H (m)
+
+Specific
+energy,
+ES (m)
+
+Bed
+level, Z
+(m)
+
+Width,
+W (m)
+
+Water
+depth,
+Y (m)
+
+Velocity,
+V (m/s)
+
+Page 247
+
+Froude
+number,
+F
+
+Discharge
+per m
+width, q
+(m3/s per
+m)
+
+000
+AAA
+111
+BBB
+CCC
+222
+333
+
+38.198 101.010
+19.099 101.010
+9.931 101.010
+4.828 101.010
+2.318 101.010
+0 101.010
+−15.000 101.010
+
+1.010 100.000
+60.000
+1.000
+(1.010) 100.000
+30.000 (1.000)
+1.010 100.000
+15.600
+0.673
+1.634
+99.376
+7.584
+1.089
+2.198
+98.812
+4.858
+1.465
+2.503
+98.507 b=4.000
+1.670
+2.503
+98.507 b=4.000
+1.670
+
+0.450
+0.900
+2.569
+3.268
+3.791
+4.047
+4.047
+
+0.450
+0.900
+1.731
+3.560
+5.558
+6.750
+6.750
+
+0.143
+0.287
+1.000
+1.000
+1.000
+1.000
+1.000
+
+Values in brackets are assumed
+
+Page 248
+
+From equation 7.9, YC2=0.667×2.503=1.670m.
+From equation 7.7, VC2=(9.81×1.670) 1/2=4.047 m/s.
+Check: F 2=V C2/(gYC2 )1/2 =4.047/(9.81×1.670)1/2=1.00 as required.
+Check: slope from 111 to 222=(100.000–98.507)79.931=1:6.7, as recommended in Section
+7.5.2.
+
+Section 333: opening exit
+The waterway length is 15m, so this is chainage— 15.000m.
+The hydraulic data are as at section 222.
+
+Check length of transition
+Length/ B≈38/60=0.63. A minimum value of 0.5 was suggested in the text as one ‘rule of
+thumb’.
+
+References
+
+Apelt, C.J. (1981) Hydraulics of minimum energy culverts and bridge waterways, in Proceedings of a
+Conference on Hydraulics in Civil Engineering, Sydney, 1981, pp. 39–43.
+Bradley, J.N. (1978) Hydraulics of Bridge Waterways, 2nd edn, US Department of
+Transportation/Federal Highways Administration, Washington DC.
+Brice, J.C. (1984) Assessment of channel stability at bridge sites, in Transportation Research Record
+950 , Second Bridge Engineering Conference, Vol. 2, Transportation Research Board/National
+Research Council, Washington DC, pp. 163 –171.
+Brown, S.A. (1984) Design guidelines for spur-type flow-control structures, in Transportation
+Research Record 950, Second Bridge Engineering Conference, Vol. 2, Transportation Research
+Board/National Research Council, Washington DC, pp. 193–201.
+Brown, S.A. (1985) Streambank stabilisation measu res for highway stream crossings—executive
+summary. Report no. FHWA/ED-84/099, Federal Highways Administration, McLean, VA.
+Brown, S.A. and Recinos, S. (1988) Effect of spur dikes on bridge backwater: laboratory report.
+Report no. FHWA-RD-88–270, Federal Highways Administration, McLean, VA.
+Chow, V.T. (1981) Open-Channel Hydraulics, International Student Edition, McGraw-Hill, Tokyo.
+Cottman, N.H. (1981) Experiences in the use of minimum and constant energy bridges and culverts, in
+Proceedings of a Conference on Hydraulics in Civil Engineering, Sydney, 1981, pp. 44–48.
+Cottman, N.H. and McKay, G.R. (1990) Bridges and culverts reduced in size and cost by use of
+critical flow transitions. Proceedings of the Institution of Civil Engineers, Part 1, 88, June, 421–437.
+Farraday, R.V. and Charlton, F.G. (1983) Hydraulic Factors in Bridge Design, Hydraulics Research
+Station, Wallingford, England.
+
+Page 249
+
+Formica, G. (1955) Preliminary tests on head losses in channels due to cross -sectional changes.
+L’Energia ellectrica, 32(7), 554–568.
+French, J.L. (1969) Nonenlarged box culvert entrances. Proceedings of the American Society of Civil
+Engineers, Journal of the Hydraulics Division, 95(HY6), 2115 –2137.
+French, R.H. (1986) Open-Channel Hydraulics, International Student Edition, McGraw-Hill,
+Singapore.
+Griffiths, W.T. (1978) Problems Associated with Minimum Energy Design. Workshop on minimum
+energy design of culverts and bridge waterways, Melbourne, December 1978, Australian Road
+Research Board Publication (18pp).
+Hamill, L. (1993) A guide to the hydraulic analysis of single -span arch bridges. Proceedings of the
+Institution of Civil Engineers, Municipal Engineer, 98, March, 1–11.
+Hamill, L. (1997) Improved flow through bridge waterways by entrance rounding. Proceedings of the
+Institution of Civil Engineers, Municipal Engineer, 121, March, 7–21.
+Hamill, L. and McInally, G.A. (1990) The hydraulic performance of two arch bridges during flood.
+Municipal Engineer, 7, October, 241 –256.
+Hemphill, R.W. and Bramley, M.E. (1989) Protection of River and Canal Banks, CIRIA/Butterworths,
+London.
+Highway Research Board, (1970) Scour at bridge waterways. National Cooperative Highways
+Research Program, Synthesis of Highway Practice 5, Highway Research Board, Washington DC.
+Kindsvater, C.E. and Carter, R.W. (1955) Tranquil flow through open -channel constrictions.
+Transactions of the American Society of Civil Engineers, 120, 955–992.
+Kindsvater, C.E., Carter, R.W. and Tracy, H.J. (1953) Computatio n of Peak Discharge at
+Contractions. Circular 284, United States Geological Survey, Washington DC.
+Li, R.M.MacArthur, R., and Cotton, G. (1989) Sizing riprap for the protection of approach
+embankments and spur dikes and limiting the depth of scour at bridge piers and abutments. Report
+no. FHWA-AZ89–260 II, Arizona Department of Transport, Phoenix.
+Loveless, J.H. (1984) A comparison of the performance of standard and novel culvert designs
+including the effects of sedimentation, in Channel and Channel Control Structures (ed.
+K.V.H.Smith), Proceedings of 1st International Conference on Hydraulic Design in Water
+Resources Engineering: Channel and Channel Control Structures, Computational Mechanics Centre,
+Southampton, pp. 183 –193.
+Matthai, H.F. (1967) Measurement of peak discharge at width contractions by indirect methods, in
+Techniques of Water Resource Investigations of the United States Geological Survey, Ch. A4, Book
+3, Applications of Hydraulics, US Government Printing Office, Washington DC.
+Mazumder, S.K. and Ahuja, K.C. (1978) Optimum length of contracting transitions in open channel
+subcritical flow. Journal of the Institution of Engineers (India), Civil Engineering Division, 58,
+March, 218–223.
+McKay, G.R. (1970) Pavement drainage. Proceedings of the 5th Conference, Australian Road
+Research Board, Canberra, 5(4), pp. 305 –326.
+
+Page 250
+
+McKay, G.R. (1978) Design principles of minimum energy waterways. Workshop on minimum
+energy design of culverts and bridge waterways, Melbourne, December 1978, Austra lian Road
+Research Board Publication.
+Neill, C.R. (ed.) (1973) Guide to Bridge Hydraulics, Roads and Transportation Association of Canada,
+University of Toronto Press, Toronto.
+Novak, P., Moffat, A.I.B., Nalluri, C. and Narayanan, R. (1990) Hydraulic Structures, Unwin Hyman,
+London.
+Petersen, M.S. (1986) River Engineering, Prentice-Hall, Englewood Cliffs, NJ.
+Richardson, E.V. and Simons, D.B. (1984) Use of spurs and guidebanks for highway crossings, in
+Transportation Research Record 950, Second Bridge Engineering Conference, Vol. 2,
+Transportation Research Board/National Research Council, Washington DC, pp. 184 –193.
+Richardson, E.V, Simons, D.B. and Julien, P.Y. (1990) Highways in the river environment. Report no
+FHWA -HI-90–016, National Highways Institute/Federal Highways Administration, McLean, VA.
+Ruddock, E. (1979) Arch Bridges and Their Builders, 1735–1835, Cambridge University Press.
+Schneible, D.E. (1966) Field observations on the performance of spur dykes at bridges. ACSE
+Transportation Enginee ring Conference, Philadelphia, PA, 17–21 October 1966.
+Tracy, H.J. and Carter, R.W. (1954) Backwater effects of open channel constrictions. Transactions of
+the American Society of Civil Engineers, separate 415.
+Tracy, H.J. and Carter, R.W. (1955) Backwater effects of open channel constrictions. Transactions of
+the American Society of Civil Engineers, 120 , 993–1018.
+Trent, R.E. and Brown, S.A. (1984) An overview of factors affecting river stability, in Transportation
+Research Record 950, Second Bridge Engineering Conference, Vol. 2, Transportation Research
+Board/National Research Council, Washington DC, pp. 156–163.
+
